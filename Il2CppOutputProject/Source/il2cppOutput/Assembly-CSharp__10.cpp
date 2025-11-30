@@ -8056,7 +8056,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SongSources_TryGetSource_m880A3BE8DE0F2B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ParsedSource_tF0077F2C60D2012F254B1A106DDFF204350D7277* SongSources_GetSourceOrDefault_m5336826C55A909B527F87CF11BCA0AE947F0407E (String_t* ___0_id, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ParsedSource_GetDisplayName_m5630E6277AE349F614F56A3F4DC613D87D2D1239 (ParsedSource_tF0077F2C60D2012F254B1A106DDFF204350D7277* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ParsedSource_get_Sprite_mC57B87E704B325D0AD2C1A2BBD5894080FAF239A_inline (ParsedSource_tF0077F2C60D2012F254B1A106DDFF204350D7277* __this, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PathHelper_get_StreamingAssetsPath_m1E678A0F5F4CBAC204569112C81785B157BF5BB3_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PathHelper_get_PersistentDataPath_mF0CA8F9190A7C72D6D145267FBEC198DAB265034_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CustomContentManager_get_CustomizationDirectory_m72818FE285CA68FB9ECA57FADF3963D5C304D04C (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR StringComparer_t6268F19CA34879176651429C0D8A3D0002BB8E06* StringComparer_get_OrdinalIgnoreCase_m071AA1B1747345CCA058A3879EBDEBBA2EA4B169_inline (const RuntimeMethod* method) ;
 inline void Dictionary_2__ctor_mB70613EB17D0C4472BEC8F4D7595BB4DAC3A7ACE (Dictionary_2_tF5D14A3258C6D24B3D202391BB1CE41FD4E12042* __this, RuntimeObject* ___0_comparer, const RuntimeMethod* method)
@@ -8213,7 +8213,6 @@ inline void List_1_InsertRange_mECEC2881E81D8725CAB12A16162B327EA14041D9 (List_1
 {
 	((  void (*) (List_1_t8B0894B3468521AD9AAA8B1C957DF679D63BB0DD*, int32_t, RuntimeObject*, const RuntimeMethod*))List_1_InsertRange_m386ABA9B2C4950D31E787C87CDEF3D3E103F1B1A_gshared)(__this, ___0_index, ___1_collection, method);
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PathHelper_get_PersistentDataPath_mF0CA8F9190A7C72D6D145267FBEC198DAB265034_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SettingsManager_get_SettingsFile_m30F69B4EF7E0F1D4CE0A120A979A770CC4680C52 (const RuntimeMethod* method) ;
 inline SettingContainer_t46334C4AD12B59AF04B6E9F2D323621360E345D1* JsonConvert_DeserializeObject_TisSettingContainer_t46334C4AD12B59AF04B6E9F2D323621360E345D1_m43AE93C9839B096897FE1B78425E5ED2B8F791A5 (String_t* ___0_value, JsonSerializerSettings_t152F58F4E62A8349D748C945AF1699F84546D3FF* ___1_settings, const RuntimeMethod* method)
 {
@@ -8541,6 +8540,7 @@ inline SacnInterpreter_t4CB55CE7CA45E2172C3EB40346A434B0563B1A9F* MonoSingleton_
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* IPAddress_Parse_mF946F1810061D91C5A1A96FF9968F07138F3CE23 (String_t* ___0_ipString, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Tab_get_Name_m4AA4F3577670A535029B048A88706275A6D5731B_inline (Tab_t6C9197CDA928D949B2050B6DD93DC27E6F747CBD* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PathHelper_get_StreamingAssetsPath_m1E678A0F5F4CBAC204569112C81785B157BF5BB3_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutoGenerationSectionPreset__ctor_m34AFD12486E6A6D9C138197621633B0AB7A53560 (AutoGenerationSectionPreset_t6B4F40B6027BF0AEE0B21887D28474FE03F5D48F* __this, const RuntimeMethod* method) ;
 inline void List_1_Add_m86A579903EFBC75112EFC17D15E4EF584AD5C099_inline (List_1_t120318D356E7023A72627E11E6D9CFC48B99630E* __this, int32_t ___0_item, const RuntimeMethod* method)
 {
@@ -15206,7 +15206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SongSources__cctor_mBED2B15D14E93C0C50D4
 	{
 		il2cpp_codegen_runtime_class_init_inline(PathHelper_t995E851456364CC8376E7CB7ED0BDB851C0EA568_il2cpp_TypeInfo_var);
 		String_t* L_0;
-		L_0 = PathHelper_get_StreamingAssetsPath_m1E678A0F5F4CBAC204569112C81785B157BF5BB3_inline(NULL);
+		L_0 = PathHelper_get_PersistentDataPath_mF0CA8F9190A7C72D6D145267FBEC198DAB265034_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_1;
 		L_1 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_0, _stringLiteralCE23A35A2628159F4561C7D26935D3658D22EA68, NULL);
@@ -29880,7 +29880,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PathHelper_get_StreamingAssetsPath_m1E678A0F5F4CBAC204569112C81785B157BF5BB3_inline (const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PathHelper_get_PersistentDataPath_mF0CA8F9190A7C72D6D145267FBEC198DAB265034_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -29890,7 +29890,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PathHelper_get_Streamin
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(PathHelper_t995E851456364CC8376E7CB7ED0BDB851C0EA568_il2cpp_TypeInfo_var);
-		String_t* L_0 = ((PathHelper_t995E851456364CC8376E7CB7ED0BDB851C0EA568_StaticFields*)il2cpp_codegen_static_fields_for(PathHelper_t995E851456364CC8376E7CB7ED0BDB851C0EA568_il2cpp_TypeInfo_var))->___U3CStreamingAssetsPathU3Ek__BackingField;
+		String_t* L_0 = ((PathHelper_t995E851456364CC8376E7CB7ED0BDB851C0EA568_StaticFields*)il2cpp_codegen_static_fields_for(PathHelper_t995E851456364CC8376E7CB7ED0BDB851C0EA568_il2cpp_TypeInfo_var))->___U3CPersistentDataPathU3Ek__BackingField;
 		return L_0;
 	}
 }
@@ -29969,20 +29969,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void JsonSerializerSettings_set_C
 		__this->___U3CConvertersU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CConvertersU3Ek__BackingField), (void*)L_0);
 		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PathHelper_get_PersistentDataPath_mF0CA8F9190A7C72D6D145267FBEC198DAB265034_inline (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PathHelper_t995E851456364CC8376E7CB7ED0BDB851C0EA568_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(PathHelper_t995E851456364CC8376E7CB7ED0BDB851C0EA568_il2cpp_TypeInfo_var);
-		String_t* L_0 = ((PathHelper_t995E851456364CC8376E7CB7ED0BDB851C0EA568_StaticFields*)il2cpp_codegen_static_fields_for(PathHelper_t995E851456364CC8376E7CB7ED0BDB851C0EA568_il2cpp_TypeInfo_var))->___U3CPersistentDataPathU3Ek__BackingField;
-		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SettingsManager_set_Settings_mA35CF6014E5C261B382280FE09BE185D96A564FE_inline (SettingContainer_t46334C4AD12B59AF04B6E9F2D323621360E345D1* ___0_value, const RuntimeMethod* method) 
@@ -30068,6 +30054,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Tab_get_Name_m4AA4F3577
 {
 	{
 		String_t* L_0 = __this->___U3CNameU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PathHelper_get_StreamingAssetsPath_m1E678A0F5F4CBAC204569112C81785B157BF5BB3_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PathHelper_t995E851456364CC8376E7CB7ED0BDB851C0EA568_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(PathHelper_t995E851456364CC8376E7CB7ED0BDB851C0EA568_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((PathHelper_t995E851456364CC8376E7CB7ED0BDB851C0EA568_StaticFields*)il2cpp_codegen_static_fields_for(PathHelper_t995E851456364CC8376E7CB7ED0BDB851C0EA568_il2cpp_TypeInfo_var))->___U3CStreamingAssetsPathU3Ek__BackingField;
 		return L_0;
 	}
 }
