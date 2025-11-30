@@ -9,7 +9,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          lfs: true   # <--- IMPORTANT
+          lfs: true
 
       - name: Pull LFS files
         run: |
@@ -28,7 +28,7 @@ jobs:
             CODE_SIGN_IDENTITY="" \
             CODE_SIGNING_REQUIRED=NO \
             PROVISIONING_PROFILE_SPECIFIER="" \
-            DEVELOPMENT_TEAM="" \
+            DEVELOPMENT_TEAM="YARC" \
             ENABLE_BITCODE=NO \
             -destination 'generic/platform=iOS'
 
