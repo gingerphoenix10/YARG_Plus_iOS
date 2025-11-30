@@ -34,12 +34,30 @@ jobs:
 
       - name: Export unsigned IPA
         run: |
-          xcodebuild -exportArchive \
-            -archivePath build/archive.xcarchive \
-            -exportPath build/ipa \
-            -exportOptionsPlist exportOptions.plist \
-            CODE_SIGNING_ALLOWED=NO \
-            CODE_SIGNING_REQUIRED=NO \
+          mkdir -p build/ipa
+          
+          APP_PATH=$(find build/archive.xcarchive/Products/Applications -name "*.app" -maxdepth 1 | head -n 1)
+          
+          if [ -z "$APP_PATH" ]; then
+            echo "No .app found in archive"
+            exit 1
+          fi
+
+          APP_NAME=$(basename "$APP_PATH")
+          IPA_NAME="${APP_NAME%.app}.ipa"
+
+          echo "Found app at: $APP_PATH"
+          echo "Creating IPA: $IPA_NAME"
+
+          # Build Payload directory
+          mkdir Payload
+          cp -R "$APP_PATH" Payload/
+
+          # Zip into IPA
+          zip -r "$IPA_NAME" Payload
+          rm -rf Payload
+
+          mv "$IPA_NAME" build/ipa/
 
       - name: Upload IPA
         uses: actions/upload-artifact@v5
