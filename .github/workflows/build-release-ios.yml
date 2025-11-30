@@ -16,14 +16,24 @@ jobs:
             -scheme Unity-iPhone \
             -configuration Release \
             -archivePath build/archive.xcarchive \
-            archive
+            archive \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            PROVISIONING_PROFILE_SPECIFIER="" \
+            DEVELOPMENT_TEAM="" \
+            ENABLE_BITCODE=NO \
+            -destination 'generic/platform=iOS'
 
       - name: Export unsigned IPA
         run: |
           xcodebuild -exportArchive \
             -archivePath build/archive.xcarchive \
             -exportPath build/ipa \
-            -exportOptionsPlist exportOptions.plist
+            -exportOptionsPlist exportOptions.plist \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            PROVISIONING_PROFILE_SPECIFIER=""
 
       - name: Upload IPA
         uses: actions/upload-artifact@v5
