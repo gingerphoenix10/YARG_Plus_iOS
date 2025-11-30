@@ -8,6 +8,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          lfs: true   # <--- IMPORTANT
+
+      - name: Pull LFS files
+        run: |
+          git lfs install
+          git lfs pull
 
       - name: Build Xcode archive
         run: |
