@@ -9,7 +9,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          lfs: true   # <--- IMPORTANT
+          lfs: true
 
       - name: Pull LFS files
         run: |
@@ -28,7 +28,7 @@ jobs:
             CODE_SIGN_IDENTITY="" \
             CODE_SIGNING_REQUIRED=NO \
             PROVISIONING_PROFILE_SPECIFIER="" \
-            DEVELOPMENT_TEAM="" \
+            DEVELOPMENT_TEAM=ABCDE12345 \
             ENABLE_BITCODE=NO \
             -destination 'generic/platform=iOS'
 
@@ -40,7 +40,6 @@ jobs:
             -exportOptionsPlist exportOptions.plist \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
-            PROVISIONING_PROFILE_SPECIFIER=""
 
       - name: Upload IPA
         uses: actions/upload-artifact@v5
