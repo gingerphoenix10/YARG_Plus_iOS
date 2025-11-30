@@ -45,9 +45,11 @@ struct U3CU3Ec__DisplayClass5_0_t7E123D4638F658DCE0F8C787EA32523EDBFC370A;
 struct U3CU3Ec__DisplayClass5_0_tA5DA5FB1135C06FC8FC72E6A1332291289E1737F;
 struct U3CU3Ec__DisplayClass5_0_tC80F65A62EA9E00916AAAC17D31F7B389DC68110;
 
+IL2CPP_EXTERN_C RuntimeClass* BassAsio_t42FA6FD5BB592C9A21D531952867D449E19ADBE2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Bass_t4FC0DA5C1A0B43FD874DE01B8CD8733DFECB7305_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ChannelReferences_tDB6B4451C423016BF15EE90EA9AEFAEC1A201C03_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EarlyInitHelpers_tA67F29CEEF85CD33340F1A46E13686C44F97695A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_2_tB5422B774B20A6FA5E1E2A7456E87A4C47AF1F04_il2cpp_TypeInfo_var;
@@ -63,6 +65,8 @@ IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass5_0_t9CD81A2A727767C72FC60D3E
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass5_0_t9FA763BB9CF4F9F25666A085A5C372146126DF02_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass5_0_tA5DA5FB1135C06FC8FC72E6A1332291289E1737F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass5_0_tC80F65A62EA9E00916AAAC17D31F7B389DC68110_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral1489F923C4DCA729178B3E3233458550D8DDDF29;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C const RuntimeMethod* BassMarshal_PtrToStructure_TisADXLoopTag_t9BF94DAFDF35A436A932F6A67EB9D735F19F4B19_mDCA8C84ECCDAE11FED09DD459B3592E3AF4F59B4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* BassMarshal_PtrToStructure_TisApeBinaryTag_t4293DC7B6E2F203CA459B5433A6953CBB11571A1_mCE6E09D1EF71C9349B92D87DDA279511BFE4DEDF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IJobParallelForExtensions_EarlyJobInit_TisGrayscaleAlphaToRGBAJob_t58C538D9BA0F0A28C5085AC42BD48A2D35534F4F_m514EDE8C8AAEF9DC207662FD7A5D402FDD8D5685_RuntimeMethod_var;
@@ -85,6 +89,7 @@ struct FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvok
 struct FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvoke;;
 
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
 
 IL2CPP_EXTERN_C_BEGIN
@@ -138,6 +143,9 @@ struct BassAlac_t344ECAF69DABD87EBC02DEBDA271507ACA12F61F  : public RuntimeObjec
 {
 };
 struct BassApe_t53CE5263CB4FD16115F6F8797CD6DF74E86A4871  : public RuntimeObject
+{
+};
+struct BassAsio_t42FA6FD5BB592C9A21D531952867D449E19ADBE2  : public RuntimeObject
 {
 };
 struct FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394  : public RuntimeObject
@@ -471,7 +479,20 @@ struct ApeBinaryTag_t4293DC7B6E2F203CA459B5433A6953CBB11571A1_marshaled_com
 	intptr_t ___data;
 	int32_t ___length;
 };
+struct AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81 
+{
+	intptr_t ___name;
+	intptr_t ___driver;
+};
 struct AsioIOFormatType_tC40E6D0C7D0F25049DDB6AB0DFE5B1E5CB274D33 
+{
+	int32_t ___value__;
+};
+struct AsioInitFlags_tB73158519FF90A9412012438ED96805DD3152A89 
+{
+	int32_t ___value__;
+};
+struct AsioSampleFormat_t70E7D59CA850121CA45D4EB00FABBB1BE421C05D 
 {
 	int32_t ___value__;
 };
@@ -600,6 +621,24 @@ struct TagType_t8AA5E879F33242D4AFF1B4D6F2626553294F1ACA
 {
 	int32_t ___value__;
 };
+struct AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76 
+{
+	int32_t ___group;
+	int32_t ___format;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___name;
+};
+struct AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshaled_pinvoke
+{
+	int32_t ___group;
+	int32_t ___format;
+	uint8_t ___name[32];
+};
+struct AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshaled_com
+{
+	int32_t ___group;
+	int32_t ___format;
+	uint8_t ___name[32];
+};
 struct AsioIOFormat_tD7474A0A88A933AF3FC7A971A10E16BA78A0FA73  : public RuntimeObject
 {
 	int32_t ___FormatType;
@@ -614,6 +653,42 @@ struct AsioIOFormat_tD7474A0A88A933AF3FC7A971A10E16BA78A0FA73_marshaled_com
 {
 	int32_t ___FormatType;
 	Il2CppChar* ___Future;
+};
+struct AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80 
+{
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___name;
+	int32_t ___version;
+	int32_t ___inputs;
+	int32_t ___outputs;
+	int32_t ___bufmin;
+	int32_t ___bufmax;
+	int32_t ___bufpref;
+	int32_t ___bufgran;
+	int32_t ___initflags;
+};
+struct AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshaled_pinvoke
+{
+	uint8_t ___name[32];
+	int32_t ___version;
+	int32_t ___inputs;
+	int32_t ___outputs;
+	int32_t ___bufmin;
+	int32_t ___bufmax;
+	int32_t ___bufpref;
+	int32_t ___bufgran;
+	int32_t ___initflags;
+};
+struct AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshaled_com
+{
+	uint8_t ___name[32];
+	int32_t ___version;
+	int32_t ___inputs;
+	int32_t ___outputs;
+	int32_t ___bufmin;
+	int32_t ___bufmax;
+	int32_t ___bufpref;
+	int32_t ___bufgran;
+	int32_t ___initflags;
 };
 struct AsioTransportParameters_tDA6A2A13279547BB4336904015FB8ED6A0DD7DCF  : public RuntimeObject
 {
@@ -761,6 +836,10 @@ struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49
 	__StaticArrayInitTypeSizeU3D59719_t674FC17D3EE93D681DCB198247AB7BFAF02A3D0D ___EDBE902A57A7EEFEF54094B5F47653E4526DA3DB46947577FDD5568C3D7098A5;
 	__StaticArrayInitTypeSizeU3D32_tC3894D25C1E879699FE1C9BAB1BBF2787B405069 ___F57DA057DEA143FEF094459E6B5114BE6339C367FE7AC0938BE0EEFFBFB7CFAC;
 };
+struct BassAsio_t42FA6FD5BB592C9A21D531952867D449E19ADBE2_StaticFields
+{
+	bool ___unicode;
+};
 struct String_t_StaticFields
 {
 	String_t* ___Empty;
@@ -785,6 +864,38 @@ struct Exception_t_StaticFields
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Il2CppChar m_Items[1];
+
+	inline Il2CppChar GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Il2CppChar value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Il2CppChar GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppChar value)
+	{
+		m_Items[index] = value;
+	}
+};
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C  : public RuntimeArray
 {
 	ALIGN_FIELD (8) int32_t m_Items[1];
@@ -860,10 +971,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ADXLoopTag_t9BF94DAFDF35A436A932F6A67EB9D735F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IJobParallelForExtensions_EarlyJobInit_TisGrayscaleToRGBJob_tE364F60DE6C1BC317803FB8C4610BCA9F510AF9F_m243B9E957A2A96B2D1DCD64CA0C60879D34CFC51_gshared (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IJobParallelForExtensions_EarlyJobInit_TisGrayscaleAlphaToRGBAJob_t58C538D9BA0F0A28C5085AC42BD48A2D35534F4F_m514EDE8C8AAEF9DC207662FD7A5D402FDD8D5685_gshared (const RuntimeMethod* method) ;
 
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioChannelInfo_get_Group_mFB2FAFD29C3D34B3C8BCA6F268400998DEAC2931_inline (AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioChannelInfo_get_Format_mC3F7856506DB79D2B38960400F520AC33A0E0D0F_inline (AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_CreateString_mFBC28D2E3EB87D497F7E702E4FFAD65F635E44DF (String_t* __this, CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___0_val, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166 (String_t* __this, String_t* ___0_oldValue, String_t* ___1_newValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5 (String_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioChannelInfo_get_Name_m10ACC6D13B9CCF337D792E349ABEDCCFD1E1EA7B (AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool BassAsio_get_Unicode_m56A52A618F53FF2487B04BCCB0FA440529C62C85_inline (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marshal_Copy_mF7402FFDB520EA1B8D1C32B368DBEE4B13F1BE77 (intptr_t ___0_source, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_destination, int32_t ___2_startIndex, int32_t ___3_length, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Marshal_PtrToStringAnsi_m8DF88D9F22FCF791C538A36C9233B3882F579B4A (intptr_t ___0_ptr, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Marshal_PtrToStringUni_mA30F3D8587F2E51F70DF5F30A3C2910CBDAB6F20 (intptr_t ___0_ptr, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioDeviceInfo_PtrToString_m88F6017B0EF05DBB018F0DFFA924D8EEE390760D (intptr_t ___0_ptr, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioDeviceInfo_get_Name_m6A2A6C054B7CF16AB4C80C4B88C46BC17F85368B (AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioDeviceInfo_get_Driver_m8C63837CD42704A7148B3D8818D9BBA6C21553A8 (AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioDeviceInfo_ToString_m770FBA7427A2105E72CBC5AA7C873F7CAF900C4B (AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_InitFlags_m075360390A7463F305FAEAFFF352F16D1FCE663D_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioInfo_get_Name_m1FA019955F6DF3B2EDA58C805C792CF42C9A7431 (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_DriverVersion_m9152313873CA1C17C73B1A9674D130A25990EC91_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_Inputs_mAF1FDFA238BFEE4EA63A55A4125FAF2D851B7BD3_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_Outputs_m6F2D4DFD8605CECEA94F1FA1D08D66B1B70BA6E7_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_MinBufferLength_m98F88593289F0784497DB00ED5A2D56FF92E76A3_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_MaxBufferLength_mD46479D237699B55D0855CAF10809E579452DED3_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_PreferredBufferLength_mA629C720255483E50E47F24C6BD03D60FB17D2CF_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_BufferLengthGranularity_m5A9D586EFF36009C1A100E464D271EC58D8959CF_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioInfo_ToString_m6BA7433B8288C71D0CE5DBD8A4AA6D31FC24486C (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marshal_Copy_mF7402FFDB520EA1B8D1C32B368DBEE4B13F1BE77 (intptr_t ___0_source, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_destination, int32_t ___2_startIndex, int32_t ___3_length, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Bass_ChannelGetTags_m67C2D1E3D32568905A46EE188B7D9179F93A5E7F (int32_t ___0_Handle, int32_t ___1_Tags, const RuntimeMethod* method) ;
 inline ApeBinaryTag_t4293DC7B6E2F203CA459B5433A6953CBB11571A1* BassMarshal_PtrToStructure_TisApeBinaryTag_t4293DC7B6E2F203CA459B5433A6953CBB11571A1_mCE6E09D1EF71C9349B92D87DDA279511BFE4DEDF (intptr_t ___0_ptr, const RuntimeMethod* method)
 {
@@ -1007,6 +1140,581 @@ IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MP4_StreamCreateFileUser(int32_t, uint
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_aac_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MP4_StreamCreateURL(Il2CppChar*, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshal_pinvoke(const AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76& unmarshaled, AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshaled_pinvoke& marshaled)
+{
+	marshaled.___group = unmarshaled.___group;
+	marshaled.___format = unmarshaled.___format;
+	if (unmarshaled.___name != NULL)
+	{
+		if (32 > (unmarshaled.___name)->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."), NULL);
+		}
+
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(32); i++)
+		{
+			(marshaled.___name)[i] = static_cast<uint8_t>((unmarshaled.___name)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+		}
+	}
+}
+IL2CPP_EXTERN_C void AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshal_pinvoke_back(const AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshaled_pinvoke& marshaled, AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t unmarshaledgroup_temp_0 = 0;
+	unmarshaledgroup_temp_0 = marshaled.___group;
+	unmarshaled.___group = unmarshaledgroup_temp_0;
+	int32_t unmarshaledformat_temp_1 = 0;
+	unmarshaledformat_temp_1 = marshaled.___format;
+	unmarshaled.___format = unmarshaledformat_temp_1;
+	unmarshaled.___name = reinterpret_cast<CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*>((CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, 32));
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___name), (void*)reinterpret_cast<CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*>((CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, 32)));
+	for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(32); i++)
+	{
+		(unmarshaled.___name)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), static_cast<Il2CppChar>((marshaled.___name)[i]));
+	}
+}
+IL2CPP_EXTERN_C void AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshal_pinvoke_cleanup(AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshaled_pinvoke& marshaled)
+{
+}
+IL2CPP_EXTERN_C void AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshal_com(const AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76& unmarshaled, AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshaled_com& marshaled)
+{
+	marshaled.___group = unmarshaled.___group;
+	marshaled.___format = unmarshaled.___format;
+	if (unmarshaled.___name != NULL)
+	{
+		if (32 > (unmarshaled.___name)->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."), NULL);
+		}
+
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(32); i++)
+		{
+			(marshaled.___name)[i] = static_cast<uint8_t>((unmarshaled.___name)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+		}
+	}
+}
+IL2CPP_EXTERN_C void AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshal_com_back(const AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshaled_com& marshaled, AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t unmarshaledgroup_temp_0 = 0;
+	unmarshaledgroup_temp_0 = marshaled.___group;
+	unmarshaled.___group = unmarshaledgroup_temp_0;
+	int32_t unmarshaledformat_temp_1 = 0;
+	unmarshaledformat_temp_1 = marshaled.___format;
+	unmarshaled.___format = unmarshaledformat_temp_1;
+	unmarshaled.___name = reinterpret_cast<CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*>((CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, 32));
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___name), (void*)reinterpret_cast<CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*>((CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, 32)));
+	for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(32); i++)
+	{
+		(unmarshaled.___name)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), static_cast<Il2CppChar>((marshaled.___name)[i]));
+	}
+}
+IL2CPP_EXTERN_C void AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshal_com_cleanup(AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshaled_com& marshaled)
+{
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioChannelInfo_get_Group_mFB2FAFD29C3D34B3C8BCA6F268400998DEAC2931 (AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___group;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioChannelInfo_get_Group_mFB2FAFD29C3D34B3C8BCA6F268400998DEAC2931_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioChannelInfo_get_Group_mFB2FAFD29C3D34B3C8BCA6F268400998DEAC2931_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioChannelInfo_get_Format_mC3F7856506DB79D2B38960400F520AC33A0E0D0F (AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___format;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioChannelInfo_get_Format_mC3F7856506DB79D2B38960400F520AC33A0E0D0F_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioChannelInfo_get_Format_mC3F7856506DB79D2B38960400F520AC33A0E0D0F_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioChannelInfo_get_Name_m10ACC6D13B9CCF337D792E349ABEDCCFD1E1EA7B (AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1489F923C4DCA729178B3E3233458550D8DDDF29);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_0 = __this->___name;
+		String_t* L_1;
+		L_1 = String_CreateString_mFBC28D2E3EB87D497F7E702E4FFAD65F635E44DF(NULL, L_0, NULL);
+		NullCheck(L_1);
+		String_t* L_2;
+		L_2 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_1, _stringLiteral1489F923C4DCA729178B3E3233458550D8DDDF29, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_2, NULL);
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  String_t* AsioChannelInfo_get_Name_m10ACC6D13B9CCF337D792E349ABEDCCFD1E1EA7B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = AsioChannelInfo_get_Name_m10ACC6D13B9CCF337D792E349ABEDCCFD1E1EA7B(_thisAdjusted, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioDeviceInfo_PtrToString_m88F6017B0EF05DBB018F0DFFA924D8EEE390760D (intptr_t ___0_ptr, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0;
+		L_0 = BassAsio_get_Unicode_m56A52A618F53FF2487B04BCCB0FA440529C62C85_inline(NULL);
+		if (L_0)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		intptr_t L_1 = ___0_ptr;
+		bool L_2;
+		L_2 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_1, 0, NULL);
+		if (L_2)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		intptr_t L_3 = ___0_ptr;
+		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		String_t* L_4;
+		L_4 = Marshal_PtrToStringAnsi_m8DF88D9F22FCF791C538A36C9233B3882F579B4A(L_3, NULL);
+		return L_4;
+	}
+
+IL_001b:
+	{
+		return (String_t*)NULL;
+	}
+
+IL_001d:
+	{
+		intptr_t L_5 = ___0_ptr;
+		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		String_t* L_6;
+		L_6 = Marshal_PtrToStringUni_mA30F3D8587F2E51F70DF5F30A3C2910CBDAB6F20(L_5, NULL);
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioDeviceInfo_get_Name_m6A2A6C054B7CF16AB4C80C4B88C46BC17F85368B (AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* __this, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = __this->___name;
+		String_t* L_1;
+		L_1 = AsioDeviceInfo_PtrToString_m88F6017B0EF05DBB018F0DFFA924D8EEE390760D(L_0, NULL);
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  String_t* AsioDeviceInfo_get_Name_m6A2A6C054B7CF16AB4C80C4B88C46BC17F85368B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = AsioDeviceInfo_get_Name_m6A2A6C054B7CF16AB4C80C4B88C46BC17F85368B(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioDeviceInfo_get_Driver_m8C63837CD42704A7148B3D8818D9BBA6C21553A8 (AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* __this, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = __this->___driver;
+		String_t* L_1;
+		L_1 = AsioDeviceInfo_PtrToString_m88F6017B0EF05DBB018F0DFFA924D8EEE390760D(L_0, NULL);
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  String_t* AsioDeviceInfo_get_Driver_m8C63837CD42704A7148B3D8818D9BBA6C21553A8_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = AsioDeviceInfo_get_Driver_m8C63837CD42704A7148B3D8818D9BBA6C21553A8(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioDeviceInfo_ToString_m770FBA7427A2105E72CBC5AA7C873F7CAF900C4B (AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0;
+		L_0 = AsioDeviceInfo_get_Name_m6A2A6C054B7CF16AB4C80C4B88C46BC17F85368B(__this, NULL);
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  String_t* AsioDeviceInfo_ToString_m770FBA7427A2105E72CBC5AA7C873F7CAF900C4B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = AsioDeviceInfo_ToString_m770FBA7427A2105E72CBC5AA7C873F7CAF900C4B(_thisAdjusted, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshal_pinvoke(const AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80& unmarshaled, AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshaled_pinvoke& marshaled)
+{
+	if (unmarshaled.___name != NULL)
+	{
+		if (32 > (unmarshaled.___name)->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."), NULL);
+		}
+
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(32); i++)
+		{
+			(marshaled.___name)[i] = static_cast<uint8_t>((unmarshaled.___name)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+		}
+	}
+	marshaled.___version = unmarshaled.___version;
+	marshaled.___inputs = unmarshaled.___inputs;
+	marshaled.___outputs = unmarshaled.___outputs;
+	marshaled.___bufmin = unmarshaled.___bufmin;
+	marshaled.___bufmax = unmarshaled.___bufmax;
+	marshaled.___bufpref = unmarshaled.___bufpref;
+	marshaled.___bufgran = unmarshaled.___bufgran;
+	marshaled.___initflags = unmarshaled.___initflags;
+}
+IL2CPP_EXTERN_C void AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshal_pinvoke_back(const AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshaled_pinvoke& marshaled, AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.___name = reinterpret_cast<CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*>((CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, 32));
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___name), (void*)reinterpret_cast<CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*>((CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, 32)));
+	for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(32); i++)
+	{
+		(unmarshaled.___name)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), static_cast<Il2CppChar>((marshaled.___name)[i]));
+	}
+	int32_t unmarshaledversion_temp_1 = 0;
+	unmarshaledversion_temp_1 = marshaled.___version;
+	unmarshaled.___version = unmarshaledversion_temp_1;
+	int32_t unmarshaledinputs_temp_2 = 0;
+	unmarshaledinputs_temp_2 = marshaled.___inputs;
+	unmarshaled.___inputs = unmarshaledinputs_temp_2;
+	int32_t unmarshaledoutputs_temp_3 = 0;
+	unmarshaledoutputs_temp_3 = marshaled.___outputs;
+	unmarshaled.___outputs = unmarshaledoutputs_temp_3;
+	int32_t unmarshaledbufmin_temp_4 = 0;
+	unmarshaledbufmin_temp_4 = marshaled.___bufmin;
+	unmarshaled.___bufmin = unmarshaledbufmin_temp_4;
+	int32_t unmarshaledbufmax_temp_5 = 0;
+	unmarshaledbufmax_temp_5 = marshaled.___bufmax;
+	unmarshaled.___bufmax = unmarshaledbufmax_temp_5;
+	int32_t unmarshaledbufpref_temp_6 = 0;
+	unmarshaledbufpref_temp_6 = marshaled.___bufpref;
+	unmarshaled.___bufpref = unmarshaledbufpref_temp_6;
+	int32_t unmarshaledbufgran_temp_7 = 0;
+	unmarshaledbufgran_temp_7 = marshaled.___bufgran;
+	unmarshaled.___bufgran = unmarshaledbufgran_temp_7;
+	int32_t unmarshaledinitflags_temp_8 = 0;
+	unmarshaledinitflags_temp_8 = marshaled.___initflags;
+	unmarshaled.___initflags = unmarshaledinitflags_temp_8;
+}
+IL2CPP_EXTERN_C void AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshal_pinvoke_cleanup(AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshaled_pinvoke& marshaled)
+{
+}
+IL2CPP_EXTERN_C void AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshal_com(const AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80& unmarshaled, AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshaled_com& marshaled)
+{
+	if (unmarshaled.___name != NULL)
+	{
+		if (32 > (unmarshaled.___name)->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."), NULL);
+		}
+
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(32); i++)
+		{
+			(marshaled.___name)[i] = static_cast<uint8_t>((unmarshaled.___name)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+		}
+	}
+	marshaled.___version = unmarshaled.___version;
+	marshaled.___inputs = unmarshaled.___inputs;
+	marshaled.___outputs = unmarshaled.___outputs;
+	marshaled.___bufmin = unmarshaled.___bufmin;
+	marshaled.___bufmax = unmarshaled.___bufmax;
+	marshaled.___bufpref = unmarshaled.___bufpref;
+	marshaled.___bufgran = unmarshaled.___bufgran;
+	marshaled.___initflags = unmarshaled.___initflags;
+}
+IL2CPP_EXTERN_C void AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshal_com_back(const AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshaled_com& marshaled, AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.___name = reinterpret_cast<CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*>((CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, 32));
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___name), (void*)reinterpret_cast<CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*>((CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, 32)));
+	for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(32); i++)
+	{
+		(unmarshaled.___name)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), static_cast<Il2CppChar>((marshaled.___name)[i]));
+	}
+	int32_t unmarshaledversion_temp_1 = 0;
+	unmarshaledversion_temp_1 = marshaled.___version;
+	unmarshaled.___version = unmarshaledversion_temp_1;
+	int32_t unmarshaledinputs_temp_2 = 0;
+	unmarshaledinputs_temp_2 = marshaled.___inputs;
+	unmarshaled.___inputs = unmarshaledinputs_temp_2;
+	int32_t unmarshaledoutputs_temp_3 = 0;
+	unmarshaledoutputs_temp_3 = marshaled.___outputs;
+	unmarshaled.___outputs = unmarshaledoutputs_temp_3;
+	int32_t unmarshaledbufmin_temp_4 = 0;
+	unmarshaledbufmin_temp_4 = marshaled.___bufmin;
+	unmarshaled.___bufmin = unmarshaledbufmin_temp_4;
+	int32_t unmarshaledbufmax_temp_5 = 0;
+	unmarshaledbufmax_temp_5 = marshaled.___bufmax;
+	unmarshaled.___bufmax = unmarshaledbufmax_temp_5;
+	int32_t unmarshaledbufpref_temp_6 = 0;
+	unmarshaledbufpref_temp_6 = marshaled.___bufpref;
+	unmarshaled.___bufpref = unmarshaledbufpref_temp_6;
+	int32_t unmarshaledbufgran_temp_7 = 0;
+	unmarshaledbufgran_temp_7 = marshaled.___bufgran;
+	unmarshaled.___bufgran = unmarshaledbufgran_temp_7;
+	int32_t unmarshaledinitflags_temp_8 = 0;
+	unmarshaledinitflags_temp_8 = marshaled.___initflags;
+	unmarshaled.___initflags = unmarshaledinitflags_temp_8;
+}
+IL2CPP_EXTERN_C void AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshal_com_cleanup(AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshaled_com& marshaled)
+{
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioInfo_get_InitFlags_m075360390A7463F305FAEAFFF352F16D1FCE663D (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___initflags;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioInfo_get_InitFlags_m075360390A7463F305FAEAFFF352F16D1FCE663D_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioInfo_get_InitFlags_m075360390A7463F305FAEAFFF352F16D1FCE663D_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioInfo_get_Name_m1FA019955F6DF3B2EDA58C805C792CF42C9A7431 (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1489F923C4DCA729178B3E3233458550D8DDDF29);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_0 = __this->___name;
+		String_t* L_1;
+		L_1 = String_CreateString_mFBC28D2E3EB87D497F7E702E4FFAD65F635E44DF(NULL, L_0, NULL);
+		NullCheck(L_1);
+		String_t* L_2;
+		L_2 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_1, _stringLiteral1489F923C4DCA729178B3E3233458550D8DDDF29, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_2, NULL);
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  String_t* AsioInfo_get_Name_m1FA019955F6DF3B2EDA58C805C792CF42C9A7431_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = AsioInfo_get_Name_m1FA019955F6DF3B2EDA58C805C792CF42C9A7431(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioInfo_get_DriverVersion_m9152313873CA1C17C73B1A9674D130A25990EC91 (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___version;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioInfo_get_DriverVersion_m9152313873CA1C17C73B1A9674D130A25990EC91_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioInfo_get_DriverVersion_m9152313873CA1C17C73B1A9674D130A25990EC91_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioInfo_get_Inputs_mAF1FDFA238BFEE4EA63A55A4125FAF2D851B7BD3 (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___inputs;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioInfo_get_Inputs_mAF1FDFA238BFEE4EA63A55A4125FAF2D851B7BD3_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioInfo_get_Inputs_mAF1FDFA238BFEE4EA63A55A4125FAF2D851B7BD3_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioInfo_get_Outputs_m6F2D4DFD8605CECEA94F1FA1D08D66B1B70BA6E7 (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___outputs;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioInfo_get_Outputs_m6F2D4DFD8605CECEA94F1FA1D08D66B1B70BA6E7_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioInfo_get_Outputs_m6F2D4DFD8605CECEA94F1FA1D08D66B1B70BA6E7_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioInfo_get_MinBufferLength_m98F88593289F0784497DB00ED5A2D56FF92E76A3 (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___bufmin;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioInfo_get_MinBufferLength_m98F88593289F0784497DB00ED5A2D56FF92E76A3_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioInfo_get_MinBufferLength_m98F88593289F0784497DB00ED5A2D56FF92E76A3_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioInfo_get_MaxBufferLength_mD46479D237699B55D0855CAF10809E579452DED3 (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___bufmax;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioInfo_get_MaxBufferLength_mD46479D237699B55D0855CAF10809E579452DED3_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioInfo_get_MaxBufferLength_mD46479D237699B55D0855CAF10809E579452DED3_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioInfo_get_PreferredBufferLength_mA629C720255483E50E47F24C6BD03D60FB17D2CF (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___bufpref;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioInfo_get_PreferredBufferLength_mA629C720255483E50E47F24C6BD03D60FB17D2CF_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioInfo_get_PreferredBufferLength_mA629C720255483E50E47F24C6BD03D60FB17D2CF_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioInfo_get_BufferLengthGranularity_m5A9D586EFF36009C1A100E464D271EC58D8959CF (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___bufgran;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioInfo_get_BufferLengthGranularity_m5A9D586EFF36009C1A100E464D271EC58D8959CF_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioInfo_get_BufferLengthGranularity_m5A9D586EFF36009C1A100E464D271EC58D8959CF_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioInfo_ToString_m6BA7433B8288C71D0CE5DBD8A4AA6D31FC24486C (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0;
+		L_0 = AsioInfo_get_Name_m1FA019955F6DF3B2EDA58C805C792CF42C9A7431(__this, NULL);
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  String_t* AsioInfo_ToString_m6BA7433B8288C71D0CE5DBD8A4AA6D31FC24486C_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = AsioInfo_ToString_m6BA7433B8288C71D0CE5DBD8A4AA6D31FC24486C(_thisAdjusted, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
 #endif
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -3990,12 +4698,95 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void __JobReflectionRegistrationOutput__12216
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioChannelInfo_get_Group_mFB2FAFD29C3D34B3C8BCA6F268400998DEAC2931_inline (AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___group;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioChannelInfo_get_Format_mC3F7856506DB79D2B38960400F520AC33A0E0D0F_inline (AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___format;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool BassAsio_get_Unicode_m56A52A618F53FF2487B04BCCB0FA440529C62C85_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BassAsio_t42FA6FD5BB592C9A21D531952867D449E19ADBE2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = ((BassAsio_t42FA6FD5BB592C9A21D531952867D449E19ADBE2_StaticFields*)il2cpp_codegen_static_fields_for(BassAsio_t42FA6FD5BB592C9A21D531952867D449E19ADBE2_il2cpp_TypeInfo_var))->___unicode;
+		return L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
 {
 	{
 		intptr_t L_0 = ___0_value1;
 		intptr_t L_1 = ___1_value2;
 		return (bool)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0);
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_InitFlags_m075360390A7463F305FAEAFFF352F16D1FCE663D_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___initflags;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_DriverVersion_m9152313873CA1C17C73B1A9674D130A25990EC91_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___version;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_Inputs_mAF1FDFA238BFEE4EA63A55A4125FAF2D851B7BD3_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___inputs;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_Outputs_m6F2D4DFD8605CECEA94F1FA1D08D66B1B70BA6E7_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___outputs;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_MinBufferLength_m98F88593289F0784497DB00ED5A2D56FF92E76A3_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___bufmin;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_MaxBufferLength_mD46479D237699B55D0855CAF10809E579452DED3_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___bufmax;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_PreferredBufferLength_mA629C720255483E50E47F24C6BD03D60FB17D2CF_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___bufpref;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_BufferLengthGranularity_m5A9D586EFF36009C1A100E464D271EC58D8959CF_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___bufgran;
+		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 

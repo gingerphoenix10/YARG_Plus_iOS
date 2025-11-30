@@ -28546,7 +28546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass4_0_U3CCallbackU3Eb
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CrossPlatformHelper_get_IsDynamicCodeSupported_mEAF86389A5E7443DABE565FA3BFE84040795ECA0 (const RuntimeMethod* method) 
 {
 	{
-		return (bool)1;
+		return (bool)0;
 	}
 }
 #ifdef __clang__
