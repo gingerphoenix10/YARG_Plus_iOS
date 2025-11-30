@@ -75,7 +75,6 @@
 		6EFDFBBD1388F51433119270 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C1439DA92288F74DB18D0AF /* main.mm */; };
 		6F8A8CC81C6BB172A8523107 /* VideoPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = EB1CC5E9B4170C22555C2D0F /* VideoPlayer.mm */; };
 		707AF48FB127A96E75BBBD38 /* UnityView+tvOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F22295C787F3B56F475CE0D /* UnityView+tvOS.mm */; };
-		70CDB82E8FB488B9B2C60FEF /* STB2CSharp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 004036EFAE3FFAB0A30FBC9F /* STB2CSharp.dylib */; };
 		74FD6CCF256F4E8A4D55FFB2 /* Il2CppOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C63B33A2B4E66BC2927EB1FF /* Il2CppOptions.cpp */; };
 		75D613554FE45929CB85740D /* Keyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C543234E59154390162261 /* Keyboard.h */; };
 		763ED5D885EABF761B2FE262 /* LaunchScreen-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6444ABDD2799CC877EBAF7E /* LaunchScreen-iPad.storyboard */; };
@@ -204,7 +203,6 @@
 /* Begin PBXFileReference section */
 		0010222A088A29A4E07F0182 /* Generics__198.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__198.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__198.cpp; sourceTree = SOURCE_ROOT; };
 		003E530B1381B3F0DB372958 /* Generics__120.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__120.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__120.cpp; sourceTree = SOURCE_ROOT; };
-		004036EFAE3FFAB0A30FBC9F /* STB2CSharp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = STB2CSharp.dylib; path = Libraries/Plugins/STB2CSharp/MacOS/STB2CSharp.dylib; sourceTree = SOURCE_ROOT; };
 		004B7ED377C245FA07EA4CA7 /* Unity.TextMeshPro_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Unity.TextMeshPro_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/Unity.TextMeshPro_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		0084A6F53FDC53D8C88D04BC /* mscorlib__14.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib__14.cpp; path = Il2CppOutputProject/Source/il2cppOutput/mscorlib__14.cpp; sourceTree = SOURCE_ROOT; };
 		00AF9325EF5C8CEE6F0D70C2 /* Unity.RenderPipelines.Core.Runtime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.RenderPipelines.Core.Runtime.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.RenderPipelines.Core.Runtime.cpp; sourceTree = SOURCE_ROOT; };
@@ -1161,7 +1159,6 @@
 				00000000008063A1000160D3 /* libiPhone-lib.a in Frameworks */,
 				7F4E05AB2717219200A2CBE4 /* libGameAssembly.a in Frameworks */,
 				9D0A618B21BFE7F30094DC33 /* libiconv.2.tbd in Frameworks */,
-				70CDB82E8FB488B9B2C60FEF /* STB2CSharp.dylib in Frameworks */,
 				01F967D36F74C7C4205C1BD6 /* lib_burst_generated.a in Frameworks */,
 				63ACF7178776C648B96974EB /* baselib.a in Frameworks */,
 				EF06911226D7DA7F580D2014 /* AudioToolbox.framework in Frameworks */,
@@ -1206,14 +1203,6 @@
 				D7246FFFD4BDACFF1F41569D /* InputSystem */,
 			);
 			path = com.unity.inputsystem;
-			sourceTree = "<group>";
-		};
-		0F6B8C3EAD0FEA89EDD5F848 /* STB2CSharp */ = {
-			isa = PBXGroup;
-			children = (
-				6AE0DCF2E72D7510D6DF2AB4 /* MacOS */,
-			);
-			path = STB2CSharp;
 			sourceTree = "<group>";
 		};
 		15E9C8A1C1489D5EB517C7CB /* PluginBase */ = {
@@ -2175,14 +2164,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6AE0DCF2E72D7510D6DF2AB4 /* MacOS */ = {
-			isa = PBXGroup;
-			children = (
-				004036EFAE3FFAB0A30FBC9F /* STB2CSharp.dylib */,
-			);
-			path = MacOS;
-			sourceTree = "<group>";
-		};
 		85BC250D274BFCFE9C8803E1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -2292,7 +2273,6 @@
 		D8A1C7220E80637F000160D3 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				E65BCBDDB23DA191911454C2 /* Plugins */,
 				9AB168A2A8C861DCEA5F064C /* YARG.Core */,
 				0DB64C2E13F03F7FFEA29216 /* com.unity.inputsystem */,
 				EDD56120873895E95A9F955C /* com.unity.services.core */,
@@ -2315,14 +2295,6 @@
 				C31A90FFC7A17A550BF3D358 /* stb_image.h */,
 			);
 			path = STB2CSharp;
-			sourceTree = "<group>";
-		};
-		E65BCBDDB23DA191911454C2 /* Plugins */ = {
-			isa = PBXGroup;
-			children = (
-				0F6B8C3EAD0FEA89EDD5F848 /* STB2CSharp */,
-			);
-			path = Plugins;
 			sourceTree = "<group>";
 		};
 		EDD56120873895E95A9F955C /* com.unity.services.core */ = {
