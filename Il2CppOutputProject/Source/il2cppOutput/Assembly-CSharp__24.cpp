@@ -5018,80 +5018,6 @@ inline void List_1_AddWithResize_m9E7DE92910C9696D32524F8911F09F669DB750BD (List
 {
 	((  void (*) (List_1_t72B3AF720B14C7983589FA260AC7ADB3458F638E*, TOCTrack_tEFCD69B4BED1C62CC1CF7D1F44FDA84D4BE73B74, const RuntimeMethod*))List_1_AddWithResize_m9E7DE92910C9696D32524F8911F09F669DB750BD_gshared)(__this, ___0_item, method);
 }
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamCreate(int32_t, uint32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamCreateEvents(MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*, int32_t, uint32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamEvent(int32_t, int32_t, int32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamEvents(int32_t, int32_t, intptr_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamGetChannel(int32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamGetEvent(int32_t, int32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamGetEvents(int32_t, int32_t, int32_t, MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamGetEventsEx(int32_t, int32_t, int32_t, MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*, int32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamGetFonts(int32_t, intptr_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamGetMark(int32_t, int32_t, int32_t, MidiMarker_tE46F72C28EBE4970F5B5ABC1D90AEDC04C739CFF*);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamGetMarks(int32_t, int32_t, int32_t, MidiMarker_tE46F72C28EBE4970F5B5ABC1D90AEDC04C739CFF*);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamGetPreset(int32_t, int32_t, MidiFont_t96AC6B54B9B2DC9155160C18B5DEE33C6C5589A1*);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamLoadSamples(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamSetFonts(int32_t, MidiFont_t96AC6B54B9B2DC9155160C18B5DEE33C6C5589A1*, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamSetFilter(int32_t, int32_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_ConvertEvents(intptr_t, int32_t, MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*, int32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamCreateFile(int32_t, Il2CppChar*, int64_t, int64_t, uint32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamCreateFileUser(int32_t, uint32_t, FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvoke*, intptr_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamCreateURL(Il2CppChar*, int32_t, uint32_t, Il2CppMethodPointer, intptr_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_InFree(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_InGetDeviceInfo(int32_t, MidiDeviceInfo_t2174848A301EF2C4BD73A0A406A55BF2852CF664*);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_InInit(int32_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_InStart(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_InStop(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontCompact(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontFree(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontGetInfo(int32_t, MidiFontInfo_tAAF63C6059FEA3BB9E42B582357EA299E7EC5B80*);
-IL2CPP_EXTERN_C intptr_t DEFAULT_CALL BASS_MIDI_FontGetPreset(int32_t, int32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontGetPresets(int32_t, int32_t*);
-IL2CPP_EXTERN_C float DEFAULT_CALL BASS_MIDI_FontGetVolume(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontInit(Il2CppChar*, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontInitUser(FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvoke*, intptr_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontLoad(int32_t, int32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontPack(int32_t, Il2CppChar*, Il2CppChar*, uint32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontSetVolume(int32_t, float);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontUnload(int32_t, int32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontUnpack(int32_t, Il2CppChar*, uint32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_GetVersion();
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_ServerInit(int32_t, char*, int32_t, int32_t, int32_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_ServerKick(int32_t, char*);
-IL2CPP_EXTERN_C intptr_t DEFAULT_CALL BASS_Encode_CastGetStats(int32_t, int32_t, char*);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_CastInit(int32_t, char*, char*, char*, char*, char*, char*, char*, char*, int32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_CastSendMeta(int32_t, int32_t, uint8_t*, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_CastSetTitle(int32_t, char*, char*);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_AddChunk(int32_t, char*, intptr_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_GetChannel(int32_t);
-IL2CPP_EXTERN_C int64_t DEFAULT_CALL BASS_Encode_GetCount(int32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_IsActive(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_SetChannel(int32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_SetNotify(int32_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_SetPaused(int32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_Start(int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_StartCA(int32_t, int32_t, int32_t, int32_t, int32_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_StartCAFile(int32_t, int32_t, int32_t, int32_t, int32_t, Il2CppChar*);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_StartLimit(int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_StartUser(int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_Stop(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_StopEx(int32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_Write(int32_t, intptr_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_GetACMFormat(int32_t, intptr_t, int32_t, Il2CppChar*, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_StartACM(int32_t, intptr_t, int32_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_StartACMFile(int32_t, intptr_t, int32_t, Il2CppChar*);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_AAC_GetVersion();
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_AAC_Start(int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_AAC_StartFile(int32_t, Il2CppChar*, int32_t, Il2CppChar*);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_FLAC_GetVersion();
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_FLAC_Start(int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_FLAC_StartFile(int32_t, Il2CppChar*, int32_t, Il2CppChar*);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_MP3_GetVersion();
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_MP3_Start(int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_MP3_StartFile(int32_t, Il2CppChar*, int32_t, Il2CppChar*);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_OGG_GetVersion();
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_OGG_Start(int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_OGG_StartFile(int32_t, Il2CppChar*, int32_t, Il2CppChar*);
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_OPUS_GetVersion();
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_OPUS_Start(int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_OPUS_StartFile(int32_t, Il2CppChar*, int32_t, Il2CppChar*);
@@ -5701,6 +5627,117 @@ IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetEnvelopePos(int32_t, i
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetEnvelope(int32_t, int32_t, MixerNode_tC5BC56CA053E617EB785B34D5BCD3B47B8CFA5B1*, int32_t);
 #endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamCreate(int32_t, uint32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamCreateEvents(MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*, int32_t, uint32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamEvent(int32_t, int32_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamEvents(int32_t, int32_t, intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamGetChannel(int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamGetEvent(int32_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamGetEvents(int32_t, int32_t, int32_t, MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamGetEventsEx(int32_t, int32_t, int32_t, MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamGetFonts(int32_t, intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamGetMark(int32_t, int32_t, int32_t, MidiMarker_tE46F72C28EBE4970F5B5ABC1D90AEDC04C739CFF*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamGetMarks(int32_t, int32_t, int32_t, MidiMarker_tE46F72C28EBE4970F5B5ABC1D90AEDC04C739CFF*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamGetPreset(int32_t, int32_t, MidiFont_t96AC6B54B9B2DC9155160C18B5DEE33C6C5589A1*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamLoadSamples(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamSetFonts(int32_t, MidiFont_t96AC6B54B9B2DC9155160C18B5DEE33C6C5589A1*, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamSetFilter(int32_t, int32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_ConvertEvents(intptr_t, int32_t, MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamCreateFile(int32_t, Il2CppChar*, int64_t, int64_t, uint32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamCreateFileUser(int32_t, uint32_t, FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvoke*, intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamCreateURL(Il2CppChar*, int32_t, uint32_t, Il2CppMethodPointer, intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_InFree(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_InGetDeviceInfo(int32_t, MidiDeviceInfo_t2174848A301EF2C4BD73A0A406A55BF2852CF664*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_InInit(int32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_InStart(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_InStop(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontCompact(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontFree(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontGetInfo(int32_t, MidiFontInfo_tAAF63C6059FEA3BB9E42B582357EA299E7EC5B80*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL BASS_MIDI_FontGetPreset(int32_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontGetPresets(int32_t, int32_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C float DEFAULT_CALL BASS_MIDI_FontGetVolume(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontInit(Il2CppChar*, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontInitUser(FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvoke*, intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontLoad(int32_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontPack(int32_t, Il2CppChar*, Il2CppChar*, uint32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontSetVolume(int32_t, float);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontUnload(int32_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_FontUnpack(int32_t, Il2CppChar*, uint32_t);
+#endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassloud_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Loudness_GetVersion();
 #endif
@@ -5784,6 +5821,117 @@ IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FLAC_StreamCreateFileUser(int32_t, uin
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassflac_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FLAC_StreamCreateURL(Il2CppChar*, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_GetVersion();
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_ServerInit(int32_t, char*, int32_t, int32_t, int32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_ServerKick(int32_t, char*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL BASS_Encode_CastGetStats(int32_t, int32_t, char*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_CastInit(int32_t, char*, char*, char*, char*, char*, char*, char*, char*, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_CastSendMeta(int32_t, int32_t, uint8_t*, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_CastSetTitle(int32_t, char*, char*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_AddChunk(int32_t, char*, intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_GetChannel(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int64_t DEFAULT_CALL BASS_Encode_GetCount(int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_IsActive(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_SetChannel(int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_SetNotify(int32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_SetPaused(int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_Start(int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_StartCA(int32_t, int32_t, int32_t, int32_t, int32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_StartCAFile(int32_t, int32_t, int32_t, int32_t, int32_t, Il2CppChar*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_StartLimit(int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_StartUser(int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_Stop(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_StopEx(int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_Write(int32_t, intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_GetACMFormat(int32_t, intptr_t, int32_t, Il2CppChar*, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_StartACM(int32_t, intptr_t, int32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_StartACMFile(int32_t, intptr_t, int32_t, Il2CppChar*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_aac_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_AAC_GetVersion();
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_aac_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_AAC_Start(int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_aac_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_AAC_StartFile(int32_t, Il2CppChar*, int32_t, Il2CppChar*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_flac_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_FLAC_GetVersion();
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_flac_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_FLAC_Start(int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_flac_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_FLAC_StartFile(int32_t, Il2CppChar*, int32_t, Il2CppChar*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_mp3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_MP3_GetVersion();
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_mp3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_MP3_Start(int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_mp3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_MP3_StartFile(int32_t, Il2CppChar*, int32_t, Il2CppChar*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_ogg_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_OGG_GetVersion();
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_ogg_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_OGG_Start(int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_ogg_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_OGG_StartFile(int32_t, Il2CppChar*, int32_t, Il2CppChar*);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xVideo_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL xVideo_CallbackItemByIndex(int32_t, int32_t);
@@ -23516,14 +23664,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MidiInProcedure_EndInvoke_m6DF6B840C8C72
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_CreateStream_mC355F6D0F416F57789C5D4F46E3847961A45EA99 (int32_t ___0_Channels, uint32_t ___1_Flags, int32_t ___2_Frequency, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(uint32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamCreate", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamCreate)(___0_Channels, ___1_Flags, ___2_Frequency);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Channels, ___1_Flags, ___2_Frequency);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_CreateStream_m43C4A660A8B96F04D28A2B174BFCE7B84610F56C (MidiEventU5BU5D_t60F08E0CDE9065584DB61BB91D5AF3C043C137D2* ___0_Events, int32_t ___1_PulsesPerQuarterNote, uint32_t ___2_Flags, int32_t ___3_Frequency, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*, int32_t, uint32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(int32_t) + sizeof(uint32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamCreateEvents", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B* ____0_Events_marshaled = NULL;
 	if (___0_Events != NULL)
@@ -23531,15 +23701,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_CreateStream_m43C4A660A8B96F
 		____0_Events_marshaled = reinterpret_cast<MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*>((___0_Events)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamCreateEvents)(____0_Events_marshaled, ___1_PulsesPerQuarterNote, ___2_Flags, ___3_Frequency);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____0_Events_marshaled, ___1_PulsesPerQuarterNote, ___2_Flags, ___3_Frequency);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_StreamEvent_m58F350881C455DD451D35B2E4F08376A463227AF (int32_t ___0_Handle, int32_t ___1_Channel, int32_t ___2_Event, int32_t ___3_Parameter, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamEvent", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamEvent)(___0_Handle, ___1_Channel, ___2_Event, ___3_Parameter);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Channel, ___2_Event, ___3_Parameter);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -23561,14 +23748,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_StreamEvent_m3FC09586A0DC0703BF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_StreamEvents_m88C11FFA9B52C4852473262A5586D2A64B3A9D94 (int32_t ___0_Handle, int32_t ___1_Mode, intptr_t ___2_Events, int32_t ___3_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamEvents", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamEvents)(___0_Handle, ___1_Mode, ___2_Events, ___3_Length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Mode, ___2_Events, ___3_Length);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_BASS_MIDI_StreamEvents_mB4AB7230B4F1962E254042C236E21F63F4DBF76C (int32_t ___0_Handle, int32_t ___1_Mode, MidiEventU5BU5D_t60F08E0CDE9065584DB61BB91D5AF3C043C137D2* ___2_Events, int32_t ___3_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamEvents", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B* ____2_Events_marshaled = NULL;
 	if (___2_Events != NULL)
@@ -23576,13 +23785,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_BASS_MIDI_StreamEvents_mB4AB
 		____2_Events_marshaled = reinterpret_cast<MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*>((___2_Events)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamEvents)(___0_Handle, ___1_Mode, ____2_Events_marshaled, ___3_Length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Mode, ____2_Events_marshaled, ___3_Length);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_BASS_MIDI_StreamEvents_m34696B5E80B1417C9483EE067993457C374A0F77 (int32_t ___0_Handle, int32_t ___1_Mode, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___2_Events, int32_t ___3_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, uint8_t*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamEvents", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	uint8_t* ____2_Events_marshaled = NULL;
 	if (___2_Events != NULL)
@@ -23590,7 +23812,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_BASS_MIDI_StreamEvents_m3469
 		____2_Events_marshaled = reinterpret_cast<uint8_t*>((___2_Events)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamEvents)(___0_Handle, ___1_Mode, ____2_Events_marshaled, ___3_Length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Mode, ____2_Events_marshaled, ___3_Length);
+	#endif
 
 	return returnValue;
 }
@@ -23760,22 +23986,57 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_StreamGetChannel_mB3C4261E5C3530BBF5A7F8C535B42D20E79AADBA (int32_t ___0_Handle, int32_t ___1_Channel, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamGetChannel", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamGetChannel)(___0_Handle, ___1_Channel);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Channel);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_StreamGetEvent_m019468A614277B7203A1D8134052EF758D007D88 (int32_t ___0_Handle, int32_t ___1_Channel, int32_t ___2_Event, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamGetEvent", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamGetEvent)(___0_Handle, ___1_Channel, ___2_Event);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Channel, ___2_Event);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_StreamGetEvents_m344AC9A6C2056CF870D62EB6F9F5005925EB3900 (int32_t ___0_Handle, int32_t ___1_Track, int32_t ___2_Filter, MidiEventU5BU5D_t60F08E0CDE9065584DB61BB91D5AF3C043C137D2* ___3_Events, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t, MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamGetEvents", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B* ____3_Events_marshaled = NULL;
 	if (___3_Events != NULL)
@@ -23783,7 +24044,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_StreamGetEvents_m344AC9A6C20
 		____3_Events_marshaled = reinterpret_cast<MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*>((___3_Events)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamGetEvents)(___0_Handle, ___1_Track, ___2_Filter, ____3_Events_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Track, ___2_Filter, ____3_Events_marshaled);
+	#endif
 
 	return returnValue;
 }
@@ -23832,6 +24097,15 @@ IL_0010:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_StreamGetEvents_m74A3A1B838BCE6B408C60D77DADCD25A60870C4E (int32_t ___0_Handle, int32_t ___1_Track, int32_t ___2_Filter, MidiEventU5BU5D_t60F08E0CDE9065584DB61BB91D5AF3C043C137D2* ___3_Events, int32_t ___4_Start, int32_t ___5_Count, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t, MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(void*) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamGetEventsEx", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B* ____3_Events_marshaled = NULL;
 	if (___3_Events != NULL)
@@ -23839,21 +24113,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_StreamGetEvents_m74A3A1B838B
 		____3_Events_marshaled = reinterpret_cast<MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*>((___3_Events)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamGetEventsEx)(___0_Handle, ___1_Track, ___2_Filter, ____3_Events_marshaled, ___4_Start, ___5_Count);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Track, ___2_Filter, ____3_Events_marshaled, ___4_Start, ___5_Count);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_StreamGetFonts_mC4413F5E7CAA6F60A352D2EC517D237D071BAF2D (int32_t ___0_Handle, intptr_t ___1_Fonts, int32_t ___2_Count, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamGetFonts", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamGetFonts)(___0_Handle, ___1_Fonts, ___2_Count);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Fonts, ___2_Count);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_StreamGetFonts_m5480D412C7C13697C4B13D40D5AA7D1C92325805 (int32_t ___0_Handle, MidiFontU5BU5D_t4419253F14520B85161D71400C3DBD0AFB8E600A* ___1_Fonts, int32_t ___2_Count, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, MidiFont_t96AC6B54B9B2DC9155160C18B5DEE33C6C5589A1*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamGetFonts", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	MidiFont_t96AC6B54B9B2DC9155160C18B5DEE33C6C5589A1* ____1_Fonts_marshaled = NULL;
 	if (___1_Fonts != NULL)
@@ -23861,7 +24161,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_StreamGetFonts_m5480D412C7C1
 		____1_Fonts_marshaled = reinterpret_cast<MidiFont_t96AC6B54B9B2DC9155160C18B5DEE33C6C5589A1*>((___1_Fonts)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamGetFonts)(___0_Handle, ____1_Fonts_marshaled, ___2_Count);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Fonts_marshaled, ___2_Count);
+	#endif
 
 	return returnValue;
 }
@@ -23907,6 +24211,15 @@ IL_000d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_BASS_MIDI_StreamGetFonts_mFD66C9BC29AC401480259D5C238BF5B30445AA5B (int32_t ___0_handle, MidiFontExU5BU5D_t292F3511296C046E4E6EAA54CFC00002B821D984* ___1_fonts, int32_t ___2_count, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, MidiFontEx_tA9544CAE9AAF2221B188AFA0DB848EB4AB499257*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamGetFonts", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	MidiFontEx_tA9544CAE9AAF2221B188AFA0DB848EB4AB499257* ____1_fonts_marshaled = NULL;
 	if (___1_fonts != NULL)
@@ -23914,7 +24227,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_BASS_MIDI_StreamGetFonts_mFD
 		____1_fonts_marshaled = reinterpret_cast<MidiFontEx_tA9544CAE9AAF2221B188AFA0DB848EB4AB499257*>((___1_fonts)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamGetFonts)(___0_handle, ____1_fonts_marshaled, ___2_count);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_handle, ____1_fonts_marshaled, ___2_count);
+	#endif
 
 	return returnValue;
 }
@@ -23980,8 +24297,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_StreamGetFontsCount_mB2C4AA6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_StreamGetMark_mEC3402A34A9D80191DB4228D0054F85F2503C4BC (int32_t ___0_Handle, int32_t ___1_Type, int32_t ___2_Index, MidiMarker_tE46F72C28EBE4970F5B5ABC1D90AEDC04C739CFF* ___3_Mark, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t, MidiMarker_tE46F72C28EBE4970F5B5ABC1D90AEDC04C739CFF*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(MidiMarker_tE46F72C28EBE4970F5B5ABC1D90AEDC04C739CFF*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamGetMark", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamGetMark)(___0_Handle, ___1_Type, ___2_Index, ___3_Mark);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Type, ___2_Index, ___3_Mark);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -24002,6 +24332,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MidiMarker_tE46F72C28EBE4970F5B5ABC1D90AEDC04
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_StreamGetMarks_m94158282B3FE5CAD93DD9F5C35CD6964AA0F629F (int32_t ___0_Handle, int32_t ___1_Track, int32_t ___2_Type, MidiMarkerU5BU5D_t2A390AF1577CD07E4A0F4ED46B67803E30B49CCE* ___3_Marks, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t, MidiMarker_tE46F72C28EBE4970F5B5ABC1D90AEDC04C739CFF*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamGetMarks", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	MidiMarker_tE46F72C28EBE4970F5B5ABC1D90AEDC04C739CFF* ____3_Marks_marshaled = NULL;
 	if (___3_Marks != NULL)
@@ -24009,7 +24348,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_StreamGetMarks_m94158282B3FE
 		____3_Marks_marshaled = reinterpret_cast<MidiMarker_tE46F72C28EBE4970F5B5ABC1D90AEDC04C739CFF*>((___3_Marks)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamGetMarks)(___0_Handle, ___1_Track, ___2_Type, ____3_Marks_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Track, ___2_Type, ____3_Marks_marshaled);
+	#endif
 
 	return returnValue;
 }
@@ -24058,22 +24401,57 @@ IL_0010:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_StreamGetPreset_m99E51E89E468329EA45F2687C70EEBD9BB664820 (int32_t ___0_Handle, int32_t ___1_Channel, MidiFont_t96AC6B54B9B2DC9155160C18B5DEE33C6C5589A1* ___2_Font, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, MidiFont_t96AC6B54B9B2DC9155160C18B5DEE33C6C5589A1*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(MidiFont_t96AC6B54B9B2DC9155160C18B5DEE33C6C5589A1*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamGetPreset", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamGetPreset)(___0_Handle, ___1_Channel, ___2_Font);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Channel, ___2_Font);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_StreamLoadSamples_m883A8679EB9D9621DF93FEAE226A1F11BE0E3953 (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamLoadSamples", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamLoadSamples)(___0_Handle);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_StreamSetFonts_mE4AE7FE6BD40FFC33B633173593F9203950D2B36 (int32_t ___0_Handle, MidiFontU5BU5D_t4419253F14520B85161D71400C3DBD0AFB8E600A* ___1_Fonts, int32_t ___2_Count, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, MidiFont_t96AC6B54B9B2DC9155160C18B5DEE33C6C5589A1*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamSetFonts", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	MidiFont_t96AC6B54B9B2DC9155160C18B5DEE33C6C5589A1* ____1_Fonts_marshaled = NULL;
 	if (___1_Fonts != NULL)
@@ -24081,13 +24459,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_StreamSetFonts_mE4AE7FE6BD40
 		____1_Fonts_marshaled = reinterpret_cast<MidiFont_t96AC6B54B9B2DC9155160C18B5DEE33C6C5589A1*>((___1_Fonts)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamSetFonts)(___0_Handle, ____1_Fonts_marshaled, ___2_Count);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Fonts_marshaled, ___2_Count);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_BASS_MIDI_StreamSetFonts_m71D274C99B826587783BCFB1AC8D34AF34C04233 (int32_t ___0_handle, MidiFontExU5BU5D_t292F3511296C046E4E6EAA54CFC00002B821D984* ___1_fonts, int32_t ___2_count, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, MidiFontEx_tA9544CAE9AAF2221B188AFA0DB848EB4AB499257*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamSetFonts", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	MidiFontEx_tA9544CAE9AAF2221B188AFA0DB848EB4AB499257* ____1_fonts_marshaled = NULL;
 	if (___1_fonts != NULL)
@@ -24095,7 +24486,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_BASS_MIDI_StreamSetFonts_m71
 		____1_fonts_marshaled = reinterpret_cast<MidiFontEx_tA9544CAE9AAF2221B188AFA0DB848EB4AB499257*>((___1_fonts)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamSetFonts)(___0_handle, ____1_fonts_marshaled, ___2_count);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_handle, ____1_fonts_marshaled, ___2_count);
+	#endif
 
 	return returnValue;
 }
@@ -24113,17 +24508,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_StreamSetFonts_mF6DA444C3499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_StreamSetFilter_mF9566003C31887B83F180A118D355B1452584270 (int32_t ___0_Handle, bool ___1_Seeking, MidiFilterProcedure_t4A45DE356713893E1DCAB588B566C2E56EC225C2* ___2_Procedure, intptr_t ___3_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + 4 + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamSetFilter", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppMethodPointer ____2_Procedure_marshaled = NULL;
 	____2_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___2_Procedure));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamSetFilter)(___0_Handle, static_cast<int32_t>(___1_Seeking), ____2_Procedure_marshaled, ___3_User);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, static_cast<int32_t>(___1_Seeking), ____2_Procedure_marshaled, ___3_User);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_ConvertEvents_m02905E1435EEAF4B184C391D9F6FBD014176A568 (intptr_t ___0_Data, int32_t ___1_Length, MidiEventU5BU5D_t60F08E0CDE9065584DB61BB91D5AF3C043C137D2* ___2_Events, int32_t ___3_Count, int32_t ___4_Flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t, MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(void*) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_ConvertEvents", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B* ____2_Events_marshaled = NULL;
 	if (___2_Events != NULL)
@@ -24131,13 +24548,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_ConvertEvents_m02905E1435EEA
 		____2_Events_marshaled = reinterpret_cast<MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*>((___2_Events)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_ConvertEvents)(___0_Data, ___1_Length, ____2_Events_marshaled, ___3_Count, ___4_Flags);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Data, ___1_Length, ____2_Events_marshaled, ___3_Count, ___4_Flags);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_ConvertEvents_m1DA5AE361158E1EB07D9DE627B0C3BEE1BE5C3A9 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_Data, int32_t ___1_Length, MidiEventU5BU5D_t60F08E0CDE9065584DB61BB91D5AF3C043C137D2* ___2_Events, int32_t ___3_Count, int32_t ___4_Flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint8_t*, int32_t, MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(int32_t) + sizeof(void*) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_ConvertEvents", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	uint8_t* ____0_Data_marshaled = NULL;
 	if (___0_Data != NULL)
@@ -24151,7 +24581,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_ConvertEvents_m1DA5AE361158E
 		____2_Events_marshaled = reinterpret_cast<MidiEvent_tDB2FDB97E8E946875D0709C52C8BF7AD56167E7B*>((___2_Events)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_ConvertEvents)(____0_Data_marshaled, ___1_Length, ____2_Events_marshaled, ___3_Count, ___4_Flags);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____0_Data_marshaled, ___1_Length, ____2_Events_marshaled, ___3_Count, ___4_Flags);
+	#endif
 
 	return returnValue;
 }
@@ -24327,6 +24761,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BassMidi_set_DefaultFont_mFB2C0C8DE0D5C2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_BASS_MIDI_StreamCreateFile_mFE85D5648F75298304E3E67B3F6D9C39B0EC132C (bool ___0_mem, String_t* ___1_file, int64_t ___2_offset, int64_t ___3_length, uint32_t ___4_flags, int32_t ___5_Frequency, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, int64_t, int64_t, uint32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 4 + sizeof(Il2CppChar*) + sizeof(int64_t) + sizeof(int64_t) + sizeof(uint32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamCreateFile", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____1_file_marshaled = NULL;
 	if (___1_file != NULL)
@@ -24334,15 +24777,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_BASS_MIDI_StreamCreateFile_m
 		____1_file_marshaled = &___1_file->____firstChar;
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamCreateFile)(static_cast<int32_t>(___0_mem), ____1_file_marshaled, ___2_offset, ___3_length, ___4_flags, ___5_Frequency);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(static_cast<int32_t>(___0_mem), ____1_file_marshaled, ___2_offset, ___3_length, ___4_flags, ___5_Frequency);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_BASS_MIDI_StreamCreateFile_m012BC6E69C5B7E3BDB368C4BB16922DE4F86FF09 (bool ___0_mem, intptr_t ___1_file, int64_t ___2_offset, int64_t ___3_length, uint32_t ___4_flags, int32_t ___5_Frequency, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, intptr_t, int64_t, int64_t, uint32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 4 + sizeof(intptr_t) + sizeof(int64_t) + sizeof(int64_t) + sizeof(uint32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamCreateFile", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamCreateFile)(static_cast<int32_t>(___0_mem), ___1_file, ___2_offset, ___3_length, ___4_flags, ___5_Frequency);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(static_cast<int32_t>(___0_mem), ___1_file, ___2_offset, ___3_length, ___4_flags, ___5_Frequency);
+	#endif
 
 	return returnValue;
 }
@@ -24418,6 +24878,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_BASS_MIDI_StreamCreateFileUs
 
 
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t, FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvoke*, intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(uint32_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamCreateFileUser", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvoke ____2_procs_marshaled = {};
 	if (___2_procs != NULL)
@@ -24425,7 +24894,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_BASS_MIDI_StreamCreateFileUs
 		FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshal_pinvoke(*___2_procs, ____2_procs_marshaled);
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamCreateFileUser)(___0_system, ___1_flags, ___2_procs != NULL ? (&____2_procs_marshaled) : NULL, ___3_user, ___4_Frequency);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_system, ___1_flags, ___2_procs != NULL ? (&____2_procs_marshaled) : NULL, ___3_user, ___4_Frequency);
+	#endif
 
 	if (___2_procs != NULL)
 	{
@@ -24480,6 +24953,15 @@ IL_0017:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_BASS_MIDI_StreamCreateURL_m0A674D3D3C82D29D6B66F7F9EB36399D76C1F81B (String_t* ___0_Url, int32_t ___1_Offset, uint32_t ___2_Flags, DownloadProcedure_tA70135ABB7A8ACA234DFC982AB89A6B346C62E67* ___3_Procedure, intptr_t ___4_User, int32_t ___5_Frequency, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (Il2CppChar*, int32_t, uint32_t, Il2CppMethodPointer, intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(uint32_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_StreamCreateURL", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____0_Url_marshaled = NULL;
 	if (___0_Url != NULL)
@@ -24490,7 +24972,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_BASS_MIDI_StreamCreateURL_m0
 	Il2CppMethodPointer ____3_Procedure_marshaled = NULL;
 	____3_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___3_Procedure));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_StreamCreateURL)(____0_Url_marshaled, ___1_Offset, ___2_Flags, ____3_Procedure_marshaled, ___4_User, ___5_Frequency);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____0_Url_marshaled, ___1_Offset, ___2_Flags, ____3_Procedure_marshaled, ___4_User, ___5_Frequency);
+	#endif
 
 	return returnValue;
 }
@@ -24535,16 +25021,42 @@ IL_001f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_InFree_m1318DE5AC47434C67B8220CFE9DF1C9775A94888 (int32_t ___0_Device, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_InFree", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_InFree)(___0_Device);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Device);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_InGetDeviceInfo_mD6B7A269DD6A691C3C8FF900FB81D097FBD3F77C (int32_t ___0_Device, MidiDeviceInfo_t2174848A301EF2C4BD73A0A406A55BF2852CF664* ___1_Info, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, MidiDeviceInfo_t2174848A301EF2C4BD73A0A406A55BF2852CF664*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(MidiDeviceInfo_t2174848A301EF2C4BD73A0A406A55BF2852CF664*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_InGetDeviceInfo", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_InGetDeviceInfo)(___0_Device, ___1_Info);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Device, ___1_Info);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -24607,51 +25119,129 @@ IL_0012:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_InInit_mD59C5B99C4839B2CBBFADF11D5907273ED4A01CD (int32_t ___0_Device, MidiInProcedure_t2EE596A195972C9CB9F2D4B04C32103E8D6D5609* ___1_Procedure, intptr_t ___2_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_InInit", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppMethodPointer ____1_Procedure_marshaled = NULL;
 	____1_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___1_Procedure));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_InInit)(___0_Device, ____1_Procedure_marshaled, ___2_User);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Device, ____1_Procedure_marshaled, ___2_User);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_InStart_mCB11A0FC0408EE34603F06EA92E5A6AED3BB2CB9 (int32_t ___0_Device, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_InStart", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_InStart)(___0_Device);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Device);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_InStop_m4149CC18AF542969573E80FA0D80D1DDFC0CF1C2 (int32_t ___0_Device, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_InStop", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_InStop)(___0_Device);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Device);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_FontCompact_mB4EE770317752186AFE8B000394C91C365C708C5 (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_FontCompact", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_FontCompact)(___0_Handle);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_FontFree_m7CF5347196F8420FF8514724C99099964502F3FE (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_FontFree", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_FontFree)(___0_Handle);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_FontGetInfo_mBFDB90FA39CEB4569CB8566F0F54644CFE9A5834 (int32_t ___0_Handle, MidiFontInfo_tAAF63C6059FEA3BB9E42B582357EA299E7EC5B80* ___1_Info, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, MidiFontInfo_tAAF63C6059FEA3BB9E42B582357EA299E7EC5B80*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(MidiFontInfo_tAAF63C6059FEA3BB9E42B582357EA299E7EC5B80*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_FontGetInfo", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_FontGetInfo)(___0_Handle, ___1_Info);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Info);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -24683,8 +25273,21 @@ IL_0010:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t BassMidi_BASS_MIDI_FontGetPreset_mEAC9B3A1BB71C2B961359194F20ED7623D4E749F (int32_t ___0_handle, int32_t ___1_preset, int32_t ___2_bank, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_FontGetPreset", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_FontGetPreset)(___0_handle, ___1_preset, ___2_bank);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_handle, ___1_preset, ___2_bank);
+	#endif
 
 	return returnValue;
 }
@@ -24711,6 +25314,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BassMidi_FontGetPreset_mDE98D2212AE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_FontGetPresets_m8F242C3E79A2A3492FBFE1F774F502D265CA3EB5 (int32_t ___0_Handle, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_Presets, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_FontGetPresets", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	int32_t* ____1_Presets_marshaled = NULL;
 	if (___1_Presets != NULL)
@@ -24718,7 +25330,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_FontGetPresets_m8F242C3E79A2A34
 		____1_Presets_marshaled = reinterpret_cast<int32_t*>((___1_Presets)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_FontGetPresets)(___0_Handle, ____1_Presets_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Presets_marshaled);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -24774,14 +25390,36 @@ IL_0023:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BassMidi_FontGetVolume_m6734D0AD6E97524889455E4974A5144BC7C182AD (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_FontGetVolume", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	float returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_FontGetVolume)(___0_Handle);
+	#else
+	float returnValue = il2cppPInvokeFunc(___0_Handle);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_BASS_MIDI_FontInit_mA86331FD9E6C9FE898E577F55B09E6240C9833B4 (String_t* ___0_File, int32_t ___1_flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (Il2CppChar*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(Il2CppChar*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_FontInit", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____0_File_marshaled = NULL;
 	if (___0_File != NULL)
@@ -24789,7 +25427,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_BASS_MIDI_FontInit_mA86331FD
 		____0_File_marshaled = &___0_File->____firstChar;
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_FontInit)(____0_File_marshaled, ___1_flags);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____0_File_marshaled, ___1_flags);
+	#endif
 
 	return returnValue;
 }
@@ -24808,6 +25450,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_FontInit_mEBFBF11F605728BEF3
 
 
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvoke*, intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_FontInitUser", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvoke ____0_Procedures_marshaled = {};
 	if (___0_Procedures != NULL)
@@ -24815,7 +25466,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_FontInit_mEBFBF11F605728BEF3
 		FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshal_pinvoke(*___0_Procedures, ____0_Procedures_marshaled);
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_FontInitUser)(___0_Procedures != NULL ? (&____0_Procedures_marshaled) : NULL, ___1_User, ___2_Flags);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Procedures != NULL ? (&____0_Procedures_marshaled) : NULL, ___1_User, ___2_Flags);
+	#endif
 
 	if (___0_Procedures != NULL)
 	{
@@ -24833,14 +25488,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMidi_FontInit_mEBFBF11F605728BEF3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_FontLoad_mBA418ED1BCCF9E3E19D4CFD8C6FE9DC7581182BA (int32_t ___0_Handle, int32_t ___1_Preset, int32_t ___2_Bank, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_FontLoad", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_FontLoad)(___0_Handle, ___1_Preset, ___2_Bank);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Preset, ___2_Bank);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_BASS_MIDI_FontPack_mD682BD615B0F3DE87DE3E3C03F15DF445F149FD4 (int32_t ___0_handle, String_t* ___1_outfile, String_t* ___2_encoder, uint32_t ___3_flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, Il2CppChar*, uint32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(Il2CppChar*) + sizeof(Il2CppChar*) + sizeof(uint32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_FontPack", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____1_outfile_marshaled = NULL;
 	if (___1_outfile != NULL)
@@ -24854,7 +25531,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_BASS_MIDI_FontPack_mD682BD615B0
 		____2_encoder_marshaled = &___2_encoder->____firstChar;
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_FontPack)(___0_handle, ____1_outfile_marshaled, ____2_encoder_marshaled, ___3_flags);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_handle, ____1_outfile_marshaled, ____2_encoder_marshaled, ___3_flags);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -24873,22 +25554,57 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_FontPack_m37D48014517FE9A337613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_FontSetVolume_mD8518840F008C66420FB4E5727A0AA77B5863A08 (int32_t ___0_Handle, float ___1_Volume, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, float);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(float);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_FontSetVolume", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_FontSetVolume)(___0_Handle, ___1_Volume);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Volume);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_FontUnload_m93B7852025BE74F9D6F9778D6E58DCAC1D970FBA (int32_t ___0_Handle, int32_t ___1_Preset, int32_t ___2_Bank, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_FontUnload", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_FontUnload)(___0_Handle, ___1_Preset, ___2_Bank);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Preset, ___2_Bank);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_BASS_MIDI_FontUnpack_mC65D3F8474C191F2414173F44B7FF104EEE1D4FC (int32_t ___0_handle, String_t* ___1_outfile, uint32_t ___2_flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, uint32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmidi_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(Il2CppChar*) + sizeof(uint32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmidi"), "BASS_MIDI_FontUnpack", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____1_outfile_marshaled = NULL;
 	if (___1_outfile != NULL)
@@ -24896,7 +25612,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMidi_BASS_MIDI_FontUnpack_mC65D3F847
 		____1_outfile_marshaled = &___1_outfile->____firstChar;
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_MIDI_FontUnpack)(___0_handle, ____1_outfile_marshaled, ___2_flags);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_handle, ____1_outfile_marshaled, ___2_flags);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -33104,8 +33824,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EncoderProcedure_EndInvoke_m5E1AF23A0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_BASS_Encode_GetVersion_m65F12C5CB1E48B5BEC9123C1E621E265BE424D2F (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 0;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_GetVersion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_GetVersion)();
+	#else
+	int32_t returnValue = il2cppPInvokeFunc();
+	#endif
 
 	return returnValue;
 }
@@ -33267,6 +34000,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BassEnc_set_CastProxy_m84AD35EC37ABF3F89
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_ServerInit_m2228CD958A5FE04BC9E95CB86BD74E2FE6E0DE66 (int32_t ___0_Handle, String_t* ___1_Port, int32_t ___2_Buffer, int32_t ___3_Burst, int32_t ___4_Flags, EncodeClientProcedure_tE7B3C787DBF419E423828F950D3120C91CFC3ED3* ___5_Procedure, intptr_t ___6_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, char*, int32_t, int32_t, int32_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(char*) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_ServerInit", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	char* ____1_Port_marshaled = NULL;
 	____1_Port_marshaled = il2cpp_codegen_marshal_string(___1_Port);
@@ -33274,7 +34016,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_ServerInit_m2228CD958A5FE04BC
 	Il2CppMethodPointer ____5_Procedure_marshaled = NULL;
 	____5_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___5_Procedure));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_ServerInit)(___0_Handle, ____1_Port_marshaled, ___2_Buffer, ___3_Burst, ___4_Flags, ____5_Procedure_marshaled, ___6_User);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Port_marshaled, ___2_Buffer, ___3_Burst, ___4_Flags, ____5_Procedure_marshaled, ___6_User);
+	#endif
 
 	il2cpp_codegen_marshal_free(____1_Port_marshaled);
 	____1_Port_marshaled = NULL;
@@ -33284,11 +34030,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_ServerInit_m2228CD958A5FE04BC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_ServerKick_mE734534AFC09D3D7B780C66E3D0F769A43B97FAC (int32_t ___0_Handle, String_t* ___1_Client, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, char*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(char*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_ServerKick", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	char* ____1_Client_marshaled = NULL;
 	____1_Client_marshaled = il2cpp_codegen_marshal_string(___1_Client);
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_ServerKick)(___0_Handle, ____1_Client_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Client_marshaled);
+	#endif
 
 	il2cpp_codegen_marshal_free(____1_Client_marshaled);
 	____1_Client_marshaled = NULL;
@@ -33298,11 +34057,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_ServerKick_mE734534AFC09D3D7B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t BassEnc_BASS_Encode_CastGetStats_mD49E6B25B709AFC314E9A630B274317650CB21D5 (int32_t ___0_handle, int32_t ___1_type, String_t* ___2_pass, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, char*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(char*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_CastGetStats", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	char* ____2_pass_marshaled = NULL;
 	____2_pass_marshaled = il2cpp_codegen_marshal_string(___2_pass);
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_CastGetStats)(___0_handle, ___1_type, ____2_pass_marshaled);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_handle, ___1_type, ____2_pass_marshaled);
+	#endif
 
 	il2cpp_codegen_marshal_free(____2_pass_marshaled);
 	____2_pass_marshaled = NULL;
@@ -33332,6 +34104,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BassEnc_CastGetStats_m23422CC9F8260
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_CastInit_m41186C2192A9A7D2A34D9B329C20D14D530D71B8 (int32_t ___0_Handle, String_t* ___1_Server, String_t* ___2_Password, String_t* ___3_Content, String_t* ___4_Name, String_t* ___5_Url, String_t* ___6_Genre, String_t* ___7_Description, String_t* ___8_Headers, int32_t ___9_Bitrate, bool ___10_Public, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, char*, char*, char*, char*, char*, char*, char*, char*, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(char*) + sizeof(char*) + sizeof(char*) + sizeof(char*) + sizeof(char*) + sizeof(char*) + sizeof(char*) + sizeof(char*) + sizeof(int32_t) + 4;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_CastInit", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	char* ____1_Server_marshaled = NULL;
 	____1_Server_marshaled = il2cpp_codegen_marshal_string(___1_Server);
@@ -33357,7 +34138,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_CastInit_m41186C2192A9A7D2A34D9B
 	char* ____8_Headers_marshaled = NULL;
 	____8_Headers_marshaled = il2cpp_codegen_marshal_string(___8_Headers);
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_CastInit)(___0_Handle, ____1_Server_marshaled, ____2_Password_marshaled, ____3_Content_marshaled, ____4_Name_marshaled, ____5_Url_marshaled, ____6_Genre_marshaled, ____7_Description_marshaled, ____8_Headers_marshaled, ___9_Bitrate, static_cast<int32_t>(___10_Public));
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Server_marshaled, ____2_Password_marshaled, ____3_Content_marshaled, ____4_Name_marshaled, ____5_Url_marshaled, ____6_Genre_marshaled, ____7_Description_marshaled, ____8_Headers_marshaled, ___9_Bitrate, static_cast<int32_t>(___10_Public));
+	#endif
 
 	il2cpp_codegen_marshal_free(____1_Server_marshaled);
 	____1_Server_marshaled = NULL;
@@ -33388,6 +34173,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_CastInit_m41186C2192A9A7D2A34D9B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_BASS_Encode_CastSendMeta_mE6ADFD0EB944245B2D466FFFDC9CA6465952CD89 (int32_t ___0_handle, int32_t ___1_type, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___2_data, int32_t ___3_length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, uint8_t*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_CastSendMeta", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	uint8_t* ____2_data_marshaled = NULL;
 	if (___2_data != NULL)
@@ -33395,7 +34189,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_BASS_Encode_CastSendMeta_mE6ADFD
 		____2_data_marshaled = reinterpret_cast<uint8_t*>((___2_data)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_CastSendMeta)(___0_handle, ___1_type, ____2_data_marshaled, ___3_length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_handle, ___1_type, ____2_data_marshaled, ___3_length);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -33450,6 +34248,15 @@ IL_000a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_CastSetTitle_m0FFF77F087A73ED561183BE53A59C45374D01CCD (int32_t ___0_Handle, String_t* ___1_Title, String_t* ___2_Url, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, char*, char*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(char*) + sizeof(char*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_CastSetTitle", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	char* ____1_Title_marshaled = NULL;
 	____1_Title_marshaled = il2cpp_codegen_marshal_string(___1_Title);
@@ -33457,7 +34264,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_CastSetTitle_m0FFF77F087A73ED561
 	char* ____2_Url_marshaled = NULL;
 	____2_Url_marshaled = il2cpp_codegen_marshal_string(___2_Url);
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_CastSetTitle)(___0_Handle, ____1_Title_marshaled, ____2_Url_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Title_marshaled, ____2_Url_marshaled);
+	#endif
 
 	il2cpp_codegen_marshal_free(____1_Title_marshaled);
 	____1_Title_marshaled = NULL;
@@ -33470,6 +34281,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_CastSetTitle_m0FFF77F087A73ED561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_CastSetTitle_mB5429403F49A3B0D88BDE9BBC44A6501B9C6A4C4 (int32_t ___0_Handle, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_Title, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___2_Url, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint8_t*, uint8_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_CastSetTitle", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	uint8_t* ____1_Title_marshaled = NULL;
 	if (___1_Title != NULL)
@@ -33483,18 +34303,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_CastSetTitle_mB5429403F49A3B0D88
 		____2_Url_marshaled = reinterpret_cast<uint8_t*>((___2_Url)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_CastSetTitle)(___0_Handle, ____1_Title_marshaled, ____2_Url_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Title_marshaled, ____2_Url_marshaled);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeAddChunk_mD26C4C50D48796ECF1C304D53C44BD22F1CD6283 (int32_t ___0_Handle, String_t* ___1_ID, intptr_t ___2_Buffer, int32_t ___3_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, char*, intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(char*) + sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_AddChunk", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	char* ____1_ID_marshaled = NULL;
 	____1_ID_marshaled = il2cpp_codegen_marshal_string(___1_ID);
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_AddChunk)(___0_Handle, ____1_ID_marshaled, ___2_Buffer, ___3_Length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_ID_marshaled, ___2_Buffer, ___3_Length);
+	#endif
 
 	il2cpp_codegen_marshal_free(____1_ID_marshaled);
 	____1_ID_marshaled = NULL;
@@ -33504,6 +34341,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeAddChunk_mD26C4C50D48796EC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeAddChunk_m08F3A4E2543F14EB1B2B71A0022F811A14543BBB (int32_t ___0_Handle, String_t* ___1_ID, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___2_Buffer, int32_t ___3_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, char*, uint8_t*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(char*) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_AddChunk", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	char* ____1_ID_marshaled = NULL;
 	____1_ID_marshaled = il2cpp_codegen_marshal_string(___1_ID);
@@ -33514,7 +34360,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeAddChunk_m08F3A4E2543F14EB
 		____2_Buffer_marshaled = reinterpret_cast<uint8_t*>((___2_Buffer)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_AddChunk)(___0_Handle, ____1_ID_marshaled, ____2_Buffer_marshaled, ___3_Length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_ID_marshaled, ____2_Buffer_marshaled, ___3_Length);
+	#endif
 
 	il2cpp_codegen_marshal_free(____1_ID_marshaled);
 	____1_ID_marshaled = NULL;
@@ -33524,57 +34374,144 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeAddChunk_m08F3A4E2543F14EB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_EncodeGetChannel_mBEC96B7192110AE0F28FD9E54DAB5F6F87B9B8A5 (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_GetChannel", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_GetChannel)(___0_Handle);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BassEnc_EncodeGetCount_m222D8206E66DA31387FADC5DBD6C2237E7CBF216 (int32_t ___0_Handle, int32_t ___1_Count, const RuntimeMethod* method) 
 {
 	typedef int64_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_GetCount", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int64_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_GetCount)(___0_Handle, ___1_Count);
+	#else
+	int64_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Count);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_EncodeIsActive_m82221754BDB815BDF86AC9B1147EDF9180B7B2D1 (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_IsActive", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_IsActive)(___0_Handle);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeSetChannel_mFF159FD13B726D87B6A0CE1825F5ACB49E249616 (int32_t ___0_Handle, int32_t ___1_Channel, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_SetChannel", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_SetChannel)(___0_Handle, ___1_Channel);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Channel);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeSetNotify_m1D2A021E699E5A2552AA7E82E55BC776AF43E43F (int32_t ___0_Handle, EncodeNotifyProcedure_tCD681F4ECD8CB26F3CB7D6EAE99CD7A4AFB99F53* ___1_Procedure, intptr_t ___2_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_SetNotify", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppMethodPointer ____1_Procedure_marshaled = NULL;
 	____1_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___1_Procedure));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_SetNotify)(___0_Handle, ____1_Procedure_marshaled, ___2_User);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Procedure_marshaled, ___2_User);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeSetPaused_m40F0F8ADC88C82488807BF99100358F5F2F3DA17 (int32_t ___0_Handle, bool ___1_Paused, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + 4;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_SetPaused", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_SetPaused)(___0_Handle, static_cast<int32_t>(___1_Paused));
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, static_cast<int32_t>(___1_Paused));
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_BASS_Encode_Start_mF14D4E5C954CFC1E8735F7D28FEAA5C33742ED85 (int32_t ___0_handle, String_t* ___1_cmdline, int32_t ___2_flags, EncodeProcedure_t88B84CEE25DF85D0542D5777EC8C0BADFBFCD1E0* ___3_proc, intptr_t ___4_user, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_Start", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____1_cmdline_marshaled = NULL;
 	if (___1_cmdline != NULL)
@@ -33585,7 +34522,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_BASS_Encode_Start_mF14D4E5C95
 	Il2CppMethodPointer ____3_proc_marshaled = NULL;
 	____3_proc_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___3_proc));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_Start)(___0_handle, ____1_cmdline_marshaled, ___2_flags, ____3_proc_marshaled, ___4_user);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_handle, ____1_cmdline_marshaled, ___2_flags, ____3_proc_marshaled, ___4_user);
+	#endif
 
 	return returnValue;
 }
@@ -33605,17 +34546,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_EncodeStart_m3AD576A033CEE18F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_EncodeStartCA_m83C6D12E5ADC8839070AA5F0F5E987B900ED142A (int32_t ___0_Handle, int32_t ___1_ftype, int32_t ___2_atype, int32_t ___3_Flags, int32_t ___4_Bitrate, EncodeProcedureEx_t43CD464D93DB6BC6E3B2596B0AE52AAAB42D7573* ___5_Procedure, intptr_t ___6_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t, int32_t, int32_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_StartCA", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppMethodPointer ____5_Procedure_marshaled = NULL;
 	____5_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___5_Procedure));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_StartCA)(___0_Handle, ___1_ftype, ___2_atype, ___3_Flags, ___4_Bitrate, ____5_Procedure_marshaled, ___6_User);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_ftype, ___2_atype, ___3_Flags, ___4_Bitrate, ____5_Procedure_marshaled, ___6_User);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_BASS_Encode_StartCAFile_mF90D40FA1B622ADA169F404F2009A99C849DBD1B (int32_t ___0_Handle, int32_t ___1_ftype, int32_t ___2_atype, int32_t ___3_flags, int32_t ___4_bitrate, String_t* ___5_filename, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t, int32_t, int32_t, Il2CppChar*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(Il2CppChar*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_StartCAFile", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____5_filename_marshaled = NULL;
 	if (___5_filename != NULL)
@@ -33623,7 +34586,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_BASS_Encode_StartCAFile_mF90D
 		____5_filename_marshaled = &___5_filename->____firstChar;
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_StartCAFile)(___0_Handle, ___1_ftype, ___2_atype, ___3_flags, ___4_bitrate, ____5_filename_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_ftype, ___2_atype, ___3_flags, ___4_bitrate, ____5_filename_marshaled);
+	#endif
 
 	return returnValue;
 }
@@ -33644,6 +34611,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_EncodeStartCA_mF3775104528B1F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_BASS_Encode_StartLimit_mA6DFB7A484F62272437A32AF4860DB507324C252 (int32_t ___0_handle, String_t* ___1_cmdline, int32_t ___2_flags, EncodeProcedure_t88B84CEE25DF85D0542D5777EC8C0BADFBFCD1E0* ___3_proc, intptr_t ___4_user, int32_t ___5_limit, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(void*) + sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_StartLimit", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____1_cmdline_marshaled = NULL;
 	if (___1_cmdline != NULL)
@@ -33654,7 +34630,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_BASS_Encode_StartLimit_mA6DFB
 	Il2CppMethodPointer ____3_proc_marshaled = NULL;
 	____3_proc_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___3_proc));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_StartLimit)(___0_handle, ____1_cmdline_marshaled, ___2_flags, ____3_proc_marshaled, ___4_user, ___5_limit);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_handle, ____1_cmdline_marshaled, ___2_flags, ____3_proc_marshaled, ___4_user, ___5_limit);
+	#endif
 
 	return returnValue;
 }
@@ -33675,6 +34655,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_EncodeStart_mD27C73B02DE9C4A8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_BASS_Encode_StartUser_m0906035A5845C06F95B79ADAED7523AB6EF8B461 (int32_t ___0_handle, String_t* ___1_filename, int32_t ___2_flags, EncoderProcedure_tE86519DA0F1E26FE99B7BCE7A2342E32F311F11E* ___3_proc, intptr_t ___4_user, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_StartUser", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____1_filename_marshaled = NULL;
 	if (___1_filename != NULL)
@@ -33685,7 +34674,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_BASS_Encode_StartUser_m090603
 	Il2CppMethodPointer ____3_proc_marshaled = NULL;
 	____3_proc_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___3_proc));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_StartUser)(___0_handle, ____1_filename_marshaled, ___2_flags, ____3_proc_marshaled, ___4_user);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_handle, ____1_filename_marshaled, ___2_flags, ____3_proc_marshaled, ___4_user);
+	#endif
 
 	return returnValue;
 }
@@ -33723,30 +34716,78 @@ IL_0015:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeStop_m3DE1A87B4F5A59F860FE21787A43270B95C2478A (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_Stop", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_Stop)(___0_Handle);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeStop_m2BE396556D7FB412666C579B91D174B0FBB7DC62 (int32_t ___0_Handle, bool ___1_Queue, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + 4;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_StopEx", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_StopEx)(___0_Handle, static_cast<int32_t>(___1_Queue));
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, static_cast<int32_t>(___1_Queue));
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeWrite_mD5EE23E42495AF6C5134AC036789B8EA039B0DD7 (int32_t ___0_Handle, intptr_t ___1_Buffer, int32_t ___2_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_Write", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_Write)(___0_Handle, ___1_Buffer, ___2_Length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Buffer, ___2_Length);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeWrite_m02E4282C48BCF73D82AEF242876C31583D455F57 (int32_t ___0_Handle, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_Buffer, int32_t ___2_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint8_t*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_Write", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	uint8_t* ____1_Buffer_marshaled = NULL;
 	if (___1_Buffer != NULL)
@@ -33754,13 +34795,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeWrite_m02E4282C48BCF73D82A
 		____1_Buffer_marshaled = reinterpret_cast<uint8_t*>((___1_Buffer)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_Write)(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeWrite_mDC9D46650372E3FBBC5D731C9D1CE1855753B84A (int32_t ___0_Handle, Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* ___1_Buffer, int32_t ___2_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int16_t*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_Write", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	int16_t* ____1_Buffer_marshaled = NULL;
 	if (___1_Buffer != NULL)
@@ -33768,13 +34822,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeWrite_mDC9D46650372E3FBBC5
 		____1_Buffer_marshaled = reinterpret_cast<int16_t*>((___1_Buffer)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_Write)(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeWrite_m0179D6FF013D7AFA4737B3BDF4100ADA2121EDBD (int32_t ___0_Handle, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_Buffer, int32_t ___2_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_Write", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	int32_t* ____1_Buffer_marshaled = NULL;
 	if (___1_Buffer != NULL)
@@ -33782,13 +34849,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeWrite_m0179D6FF013D7AFA473
 		____1_Buffer_marshaled = reinterpret_cast<int32_t*>((___1_Buffer)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_Write)(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeWrite_mE1617A68AE14D38AAEB936881AD3E0653E307211 (int32_t ___0_Handle, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_Buffer, int32_t ___2_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, float*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_Write", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	float* ____1_Buffer_marshaled = NULL;
 	if (___1_Buffer != NULL)
@@ -33796,7 +34876,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassEnc_EncodeWrite_mE1617A68AE14D38AAEB
 		____1_Buffer_marshaled = reinterpret_cast<float*>((___1_Buffer)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_Write)(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -33848,6 +34932,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BassEnc_set_ACMLoad_m5F20FB87A489CA93D4B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_BASS_Encode_GetACMFormat_m7C05A3B62BABA45F73E9E56290CCF2801CCC502E (int32_t ___0_handle, intptr_t ___1_form, int32_t ___2_formlen, String_t* ___3_title, int32_t ___4_flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, intptr_t, int32_t, Il2CppChar*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(intptr_t) + sizeof(int32_t) + sizeof(Il2CppChar*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_GetACMFormat", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____3_title_marshaled = NULL;
 	if (___3_title != NULL)
@@ -33855,7 +34948,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_BASS_Encode_GetACMFormat_m7C0
 		____3_title_marshaled = &___3_title->____firstChar;
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_GetACMFormat)(___0_handle, ___1_form, ___2_formlen, ____3_title_marshaled, ___4_flags);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_handle, ___1_form, ___2_formlen, ____3_title_marshaled, ___4_flags);
+	#endif
 
 	return returnValue;
 }
@@ -33881,17 +34978,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_GetACMFormat_m8C7ABA4CD5D8914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_EncodeStartACM_m4C92D7630263F98A2BCB4A516FF124E84354516F (int32_t ___0_Handle, intptr_t ___1_Format, int32_t ___2_Flags, EncodeProcedure_t88B84CEE25DF85D0542D5777EC8C0BADFBFCD1E0* ___3_Procedure, intptr_t ___4_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, intptr_t, int32_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(intptr_t) + sizeof(int32_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_StartACM", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppMethodPointer ____3_Procedure_marshaled = NULL;
 	____3_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___3_Procedure));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_StartACM)(___0_Handle, ___1_Format, ___2_Flags, ____3_Procedure_marshaled, ___4_User);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Format, ___2_Flags, ____3_Procedure_marshaled, ___4_User);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_BASS_Encode_StartACMFile_mC9204012599B06C828B511FAC67E9E4238AF667D (int32_t ___0_handle, intptr_t ___1_form, int32_t ___2_flags, String_t* ___3_filename, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, intptr_t, int32_t, Il2CppChar*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(intptr_t) + sizeof(int32_t) + sizeof(Il2CppChar*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc"), "BASS_Encode_StartACMFile", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____3_filename_marshaled = NULL;
 	if (___3_filename != NULL)
@@ -33899,7 +35018,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_BASS_Encode_StartACMFile_mC92
 		____3_filename_marshaled = &___3_filename->____firstChar;
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_StartACMFile)(___0_handle, ___1_form, ___2_flags, ____3_filename_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_handle, ___1_form, ___2_flags, ____3_filename_marshaled);
+	#endif
 
 	return returnValue;
 }
@@ -33926,8 +35049,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_EncodeStartACM_m331C5FF0B8092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Acc_BASS_Encode_AAC_GetVersion_m173D5EC57B77720F86BCE1C9D31BCDCCF19FABF1 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_aac_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 0;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc_aac"), "BASS_Encode_AAC_GetVersion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_aac_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_AAC_GetVersion)();
+	#else
+	int32_t returnValue = il2cppPInvokeFunc();
+	#endif
 
 	return returnValue;
 }
@@ -33951,6 +35087,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Version_tE426DB5655D0F22920AE16A2AA9AB7781B82
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Acc_BASS_Encode_AAC_Start_mA20D1D8D7624DF4CB4B531DD71C483BCE8EF2767 (int32_t ___0_Handle, String_t* ___1_Options, int32_t ___2_Flags, EncodeProcedure_t88B84CEE25DF85D0542D5777EC8C0BADFBFCD1E0* ___3_Procedure, intptr_t ___4_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_aac_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc_aac"), "BASS_Encode_AAC_Start", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____1_Options_marshaled = NULL;
 	if (___1_Options != NULL)
@@ -33961,7 +35106,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Acc_BASS_Encode_AAC_Start_mA2
 	Il2CppMethodPointer ____3_Procedure_marshaled = NULL;
 	____3_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___3_Procedure));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_aac_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_AAC_Start)(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_Procedure_marshaled, ___4_User);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_Procedure_marshaled, ___4_User);
+	#endif
 
 	return returnValue;
 }
@@ -33981,6 +35130,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Acc_Start_mCBA1CE65FFE4588161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Acc_BASS_Encode_AAC_StartFile_mFF2E6F0CAD8915B39CF8EEACC0217118929949C8 (int32_t ___0_Handle, String_t* ___1_Options, int32_t ___2_Flags, String_t* ___3_FileName, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, int32_t, Il2CppChar*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_aac_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(Il2CppChar*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc_aac"), "BASS_Encode_AAC_StartFile", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____1_Options_marshaled = NULL;
 	if (___1_Options != NULL)
@@ -33994,7 +35152,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Acc_BASS_Encode_AAC_StartFile
 		____3_FileName_marshaled = &___3_FileName->____firstChar;
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_aac_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_AAC_StartFile)(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_FileName_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_FileName_marshaled);
+	#endif
 
 	return returnValue;
 }
@@ -34258,8 +35420,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Acc_CharsToInt_m90CA92FE995B2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Flac_BASS_Encode_FLAC_GetVersion_m214E656D31B0525FCA82E88EAE11E21E8A7EB813 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_flac_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 0;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc_flac"), "BASS_Encode_FLAC_GetVersion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_flac_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_FLAC_GetVersion)();
+	#else
+	int32_t returnValue = il2cppPInvokeFunc();
+	#endif
 
 	return returnValue;
 }
@@ -34283,6 +35458,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Version_tE426DB5655D0F22920AE16A2AA9AB7781B82
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Flac_BASS_Encode_FLAC_Start_mB1B1E6C6ADEFF240CAF6E311309946F0C339F50D (int32_t ___0_Handle, String_t* ___1_Options, int32_t ___2_Flags, EncodeProcedureEx_t43CD464D93DB6BC6E3B2596B0AE52AAAB42D7573* ___3_ProcedureEx, intptr_t ___4_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_flac_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc_flac"), "BASS_Encode_FLAC_Start", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____1_Options_marshaled = NULL;
 	if (___1_Options != NULL)
@@ -34293,7 +35477,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Flac_BASS_Encode_FLAC_Start_m
 	Il2CppMethodPointer ____3_ProcedureEx_marshaled = NULL;
 	____3_ProcedureEx_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___3_ProcedureEx));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_flac_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_FLAC_Start)(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_ProcedureEx_marshaled, ___4_User);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_ProcedureEx_marshaled, ___4_User);
+	#endif
 
 	return returnValue;
 }
@@ -34313,6 +35501,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Flac_Start_m4E52297ABF9C39187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Flac_BASS_Encode_FLAC_StartFile_mE766B5370BF221EE220C6B0BEB4EE9284A998B2C (int32_t ___0_Handle, String_t* ___1_Options, int32_t ___2_Flags, String_t* ___3_FileName, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, int32_t, Il2CppChar*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_flac_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(Il2CppChar*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc_flac"), "BASS_Encode_FLAC_StartFile", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____1_Options_marshaled = NULL;
 	if (___1_Options != NULL)
@@ -34326,7 +35523,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Flac_BASS_Encode_FLAC_StartFi
 		____3_FileName_marshaled = &___3_FileName->____firstChar;
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_flac_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_FLAC_StartFile)(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_FileName_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_FileName_marshaled);
+	#endif
 
 	return returnValue;
 }
@@ -34353,8 +35554,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Flac_Start_m2B82B8432FFCB8963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Mp3_BASS_Encode_MP3_GetVersion_mF083FED064D5840ADE1FB3AD3F5A9D80407B260E (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_mp3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 0;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc_mp3"), "BASS_Encode_MP3_GetVersion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_mp3_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_MP3_GetVersion)();
+	#else
+	int32_t returnValue = il2cppPInvokeFunc();
+	#endif
 
 	return returnValue;
 }
@@ -34378,6 +35592,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Version_tE426DB5655D0F22920AE16A2AA9AB7781B82
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Mp3_BASS_Encode_MP3_Start_mB27CE2BB92E61F05989C0D87EC4FEA10CE655B6A (int32_t ___0_Handle, String_t* ___1_Options, int32_t ___2_Flags, EncodeProcedureEx_t43CD464D93DB6BC6E3B2596B0AE52AAAB42D7573* ___3_ProcedureEx, intptr_t ___4_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_mp3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc_mp3"), "BASS_Encode_MP3_Start", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____1_Options_marshaled = NULL;
 	if (___1_Options != NULL)
@@ -34388,7 +35611,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Mp3_BASS_Encode_MP3_Start_mB2
 	Il2CppMethodPointer ____3_ProcedureEx_marshaled = NULL;
 	____3_ProcedureEx_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___3_ProcedureEx));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_mp3_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_MP3_Start)(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_ProcedureEx_marshaled, ___4_User);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_ProcedureEx_marshaled, ___4_User);
+	#endif
 
 	return returnValue;
 }
@@ -34408,6 +35635,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Mp3_Start_mFAFA95A1D9A00CA97F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Mp3_BASS_Encode_MP3_StartFile_m10E6A125BC790447F60845796579B34D239EF8EC (int32_t ___0_Handle, String_t* ___1_Options, int32_t ___2_Flags, String_t* ___3_FileName, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, int32_t, Il2CppChar*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_mp3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(Il2CppChar*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc_mp3"), "BASS_Encode_MP3_StartFile", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____1_Options_marshaled = NULL;
 	if (___1_Options != NULL)
@@ -34421,7 +35657,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Mp3_BASS_Encode_MP3_StartFile
 		____3_FileName_marshaled = &___3_FileName->____firstChar;
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_mp3_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_MP3_StartFile)(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_FileName_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_FileName_marshaled);
+	#endif
 
 	return returnValue;
 }
@@ -34448,8 +35688,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Mp3_Start_mCFB04384051ADF6104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Ogg_BASS_Encode_OGG_GetVersion_m3A26E849DBFAE3BE11154D7A8587CA2AB29E546C (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_ogg_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 0;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc_ogg"), "BASS_Encode_OGG_GetVersion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_ogg_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_OGG_GetVersion)();
+	#else
+	int32_t returnValue = il2cppPInvokeFunc();
+	#endif
 
 	return returnValue;
 }
@@ -34473,6 +35726,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Version_tE426DB5655D0F22920AE16A2AA9AB7781B82
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Ogg_BASS_Encode_OGG_Start_m61A13470AC94AB3244D2C9C304336BE72AA91FE2 (int32_t ___0_Handle, String_t* ___1_Options, int32_t ___2_Flags, EncodeProcedure_t88B84CEE25DF85D0542D5777EC8C0BADFBFCD1E0* ___3_Procedure, intptr_t ___4_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_ogg_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc_ogg"), "BASS_Encode_OGG_Start", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____1_Options_marshaled = NULL;
 	if (___1_Options != NULL)
@@ -34483,7 +35745,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Ogg_BASS_Encode_OGG_Start_m61
 	Il2CppMethodPointer ____3_Procedure_marshaled = NULL;
 	____3_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___3_Procedure));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_ogg_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_OGG_Start)(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_Procedure_marshaled, ___4_User);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_Procedure_marshaled, ___4_User);
+	#endif
 
 	return returnValue;
 }
@@ -34503,6 +35769,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Ogg_Start_m7A174C6EC0C2BC52BE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Ogg_BASS_Encode_OGG_StartFile_m3DE5A7EF4F3B42624B905F6D61482D4660DB50FC (int32_t ___0_Handle, String_t* ___1_Options, int32_t ___2_Flags, String_t* ___3_FileName, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, int32_t, Il2CppChar*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_ogg_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(Il2CppChar*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc_ogg"), "BASS_Encode_OGG_StartFile", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____1_Options_marshaled = NULL;
 	if (___1_Options != NULL)
@@ -34516,7 +35791,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Ogg_BASS_Encode_OGG_StartFile
 		____3_FileName_marshaled = &___3_FileName->____firstChar;
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_ogg_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_OGG_StartFile)(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_FileName_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_FileName_marshaled);
+	#endif
 
 	return returnValue;
 }
