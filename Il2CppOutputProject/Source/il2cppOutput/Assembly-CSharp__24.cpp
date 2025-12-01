@@ -5018,6 +5018,53 @@ inline void List_1_AddWithResize_m9E7DE92910C9696D32524F8911F09F669DB750BD (List
 {
 	((  void (*) (List_1_t72B3AF720B14C7983589FA260AC7ADB3458F638E*, TOCTrack_tEFCD69B4BED1C62CC1CF7D1F44FDA84D4BE73B74, const RuntimeMethod*))List_1_AddWithResize_m9E7DE92910C9696D32524F8911F09F669DB750BD_gshared)(__this, ___0_item, method);
 }
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_OPUS_StreamCreateFile(int32_t, Il2CppChar*, int64_t, int64_t, uint32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_OPUS_StreamCreateFileUser(int32_t, uint32_t, FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvoke*, intptr_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_OPUS_StreamCreateURL(Il2CppChar*, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_GetVersion();
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamCreate(int32_t, uint32_t, int32_t*);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamGetAvailable(int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamReset(int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamResetEx(int32_t, int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamGetSource(int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamGetSplits(int32_t, int32_t*, int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_StreamCreate(int32_t, int32_t, uint32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_StreamAddChannel(int32_t, int32_t, uint32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_StreamAddChannelEx(int32_t, int32_t, uint32_t, int64_t, int64_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelRemove(int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_StreamGetChannels(int32_t, int32_t*, int32_t);
+IL2CPP_EXTERN_C uint32_t DEFAULT_CALL BASS_Mixer_ChannelFlags(int32_t, uint32_t, uint32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetData(int32_t, intptr_t, int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetLevel(int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetLevelEx(int32_t, float*, float, int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetMatrix(int32_t, SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4*);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetMixer(int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetMatrix(int32_t, SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4*);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetMatrixEx(int32_t, SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4*, float);
+IL2CPP_EXTERN_C int64_t DEFAULT_CALL BASS_Mixer_ChannelGetPosition(int32_t, int32_t);
+IL2CPP_EXTERN_C int64_t DEFAULT_CALL BASS_Mixer_ChannelGetPositionEx(int32_t, int32_t, int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetPosition(int32_t, int64_t, int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetSync(int32_t, int32_t, int64_t, Il2CppMethodPointer, intptr_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelRemoveSync(int32_t, int32_t);
+IL2CPP_EXTERN_C int64_t DEFAULT_CALL BASS_Mixer_ChannelGetEnvelopePos(int32_t, int32_t, float*);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetEnvelopePos(int32_t, int32_t, int64_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetEnvelope(int32_t, int32_t, MixerNode_tC5BC56CA053E617EB785B34D5BCD3B47B8CFA5B1*, int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_GetVersion();
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_TempoCreate(int32_t, uint32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_TempoGetSource(int32_t);
+IL2CPP_EXTERN_C float DEFAULT_CALL BASS_FX_TempoGetRateRatio(int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_ReverseCreate(int32_t, float, uint32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_ReverseGetSource(int32_t);
+IL2CPP_EXTERN_C float DEFAULT_CALL BASS_FX_BPM_DecodeGet(int32_t, double, double, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_CallbackSet(int32_t, Il2CppMethodPointer, double, int32_t, uint32_t, intptr_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_CallbackReset(int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_Free(int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatDecodeGet(int32_t, double, double, uint32_t, Il2CppMethodPointer, intptr_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatCallbackSet(int32_t, Il2CppMethodPointer, intptr_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatCallbackReset(int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatSetParameters(int32_t, float, float, float);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatGetParameters(int32_t, float*, float*, float*);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatFree(int32_t);
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_basszxtune_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_ZXTUNE_StreamCreateFile(int32_t, Il2CppChar*, int64_t, int64_t, uint32_t);
 #endif
@@ -5513,15 +5560,6 @@ IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_SFX_PluginStop(int32_t);
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_sfx_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_SFX_WMP_GetPluginW(int32_t, BassSfxPluginInfo_t8FBFF4FC64EAC9637DDA2C9442F09EA713F27BE2*);
 #endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassopus_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_OPUS_StreamCreateFile(int32_t, Il2CppChar*, int64_t, int64_t, uint32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassopus_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_OPUS_StreamCreateFileUser(int32_t, uint32_t, FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvoke*, intptr_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassopus_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_OPUS_StreamCreateURL(Il2CppChar*, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
-#endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_ofr_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_OFR_StreamCreateFile(int32_t, Il2CppChar*, int64_t, int64_t, uint32_t);
 #endif
@@ -5539,90 +5577,6 @@ IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MPC_StreamCreateFileUser(int32_t, uint
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_mpc_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MPC_StreamCreateURL(Il2CppChar*, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_GetVersion();
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamCreate(int32_t, uint32_t, int32_t*);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamGetAvailable(int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamReset(int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamResetEx(int32_t, int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamGetSource(int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamGetSplits(int32_t, int32_t*, int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_StreamCreate(int32_t, int32_t, uint32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_StreamAddChannel(int32_t, int32_t, uint32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_StreamAddChannelEx(int32_t, int32_t, uint32_t, int64_t, int64_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelRemove(int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_StreamGetChannels(int32_t, int32_t*, int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C uint32_t DEFAULT_CALL BASS_Mixer_ChannelFlags(int32_t, uint32_t, uint32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetData(int32_t, intptr_t, int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetLevel(int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetLevelEx(int32_t, float*, float, int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetMatrix(int32_t, SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4*);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetMixer(int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetMatrix(int32_t, SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4*);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetMatrixEx(int32_t, SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4*, float);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int64_t DEFAULT_CALL BASS_Mixer_ChannelGetPosition(int32_t, int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int64_t DEFAULT_CALL BASS_Mixer_ChannelGetPositionEx(int32_t, int32_t, int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetPosition(int32_t, int64_t, int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetSync(int32_t, int32_t, int64_t, Il2CppMethodPointer, intptr_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelRemoveSync(int32_t, int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int64_t DEFAULT_CALL BASS_Mixer_ChannelGetEnvelopePos(int32_t, int32_t, float*);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetEnvelopePos(int32_t, int32_t, int64_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetEnvelope(int32_t, int32_t, MixerNode_tC5BC56CA053E617EB785B34D5BCD3B47B8CFA5B1*, int32_t);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamCreate(int32_t, uint32_t, int32_t);
@@ -5761,54 +5715,6 @@ IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_HLS_StreamCreateFile(int32_t, Il2CppCh
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_basshls_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_HLS_StreamCreateURL(Il2CppChar*, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_GetVersion();
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_TempoCreate(int32_t, uint32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_TempoGetSource(int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
-IL2CPP_EXTERN_C float DEFAULT_CALL BASS_FX_TempoGetRateRatio(int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_ReverseCreate(int32_t, float, uint32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_ReverseGetSource(int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
-IL2CPP_EXTERN_C float DEFAULT_CALL BASS_FX_BPM_DecodeGet(int32_t, double, double, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_CallbackSet(int32_t, Il2CppMethodPointer, double, int32_t, uint32_t, intptr_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_CallbackReset(int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_Free(int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatDecodeGet(int32_t, double, double, uint32_t, Il2CppMethodPointer, intptr_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatCallbackSet(int32_t, Il2CppMethodPointer, intptr_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatCallbackReset(int32_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatSetParameters(int32_t, float, float, float);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatGetParameters(int32_t, float*, float*, float*);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatFree(int32_t);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassflac_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FLAC_StreamCreateFile(int32_t, Il2CppChar*, int64_t, int64_t, uint32_t);
@@ -21196,15 +21102,6 @@ IL2CPP_EXTERN_C  String_t* BassSfxPluginInfo_ToString_m2127AA90A0B2956055A851A1C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassOpus_BASS_OPUS_StreamCreateFile_m2F20DAB55903FC4CCBDB981DD68F9AC5F2EED6EB (bool ___0_mem, String_t* ___1_file, int64_t ___2_offset, int64_t ___3_length, uint32_t ___4_flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, int64_t, int64_t, uint32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassopus_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = 4 + sizeof(Il2CppChar*) + sizeof(int64_t) + sizeof(int64_t) + sizeof(uint32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassopus"), "BASS_OPUS_StreamCreateFile", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	Il2CppChar* ____1_file_marshaled = NULL;
 	if (___1_file != NULL)
@@ -21212,32 +21109,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassOpus_BASS_OPUS_StreamCreateFile_m
 		____1_file_marshaled = &___1_file->____firstChar;
 	}
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassopus_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_OPUS_StreamCreateFile)(static_cast<int32_t>(___0_mem), ____1_file_marshaled, ___2_offset, ___3_length, ___4_flags);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(static_cast<int32_t>(___0_mem), ____1_file_marshaled, ___2_offset, ___3_length, ___4_flags);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassOpus_BASS_OPUS_StreamCreateFile_m5B8980B270585602E3E73C0C7803104487F8E080 (bool ___0_mem, intptr_t ___1_file, int64_t ___2_offset, int64_t ___3_length, uint32_t ___4_flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, intptr_t, int64_t, int64_t, uint32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassopus_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = 4 + sizeof(intptr_t) + sizeof(int64_t) + sizeof(int64_t) + sizeof(uint32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassopus"), "BASS_OPUS_StreamCreateFile", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassopus_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_OPUS_StreamCreateFile)(static_cast<int32_t>(___0_mem), ___1_file, ___2_offset, ___3_length, ___4_flags);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(static_cast<int32_t>(___0_mem), ___1_file, ___2_offset, ___3_length, ___4_flags);
-	#endif
 
 	return returnValue;
 }
@@ -21307,15 +21187,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassOpus_BASS_OPUS_StreamCreateFileUs
 
 
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t, FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvoke*, intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassopus_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(uint32_t) + sizeof(void*) + sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassopus"), "BASS_OPUS_StreamCreateFileUser", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvoke ____2_procs_marshaled = {};
 	if (___2_procs != NULL)
@@ -21323,11 +21194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassOpus_BASS_OPUS_StreamCreateFileUs
 		FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshal_pinvoke(*___2_procs, ____2_procs_marshaled);
 	}
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassopus_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_OPUS_StreamCreateFileUser)(___0_system, ___1_flags, ___2_procs != NULL ? (&____2_procs_marshaled) : NULL, ___3_user);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_system, ___1_flags, ___2_procs != NULL ? (&____2_procs_marshaled) : NULL, ___3_user);
-	#endif
 
 	if (___2_procs != NULL)
 	{
@@ -21381,15 +21248,6 @@ IL_0015:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassOpus_BASS_OPUS_StreamCreateURL_m8E6EF0908E67E108E06A8456177E858550766DB7 (String_t* ___0_Url, int32_t ___1_Offset, uint32_t ___2_Flags, DownloadProcedure_tA70135ABB7A8ACA234DFC982AB89A6B346C62E67* ___3_Procedure, intptr_t ___4_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (Il2CppChar*, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassopus_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(uint32_t) + sizeof(void*) + sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassopus"), "BASS_OPUS_StreamCreateURL", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	Il2CppChar* ____0_Url_marshaled = NULL;
 	if (___0_Url != NULL)
@@ -21400,11 +21258,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassOpus_BASS_OPUS_StreamCreateURL_m8
 	Il2CppMethodPointer ____3_Procedure_marshaled = NULL;
 	____3_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___3_Procedure));
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassopus_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_OPUS_StreamCreateURL)(____0_Url_marshaled, ___1_Offset, ___2_Flags, ____3_Procedure_marshaled, ___4_User);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(____0_Url_marshaled, ___1_Offset, ___2_Flags, ____3_Procedure_marshaled, ___4_User);
-	#endif
 
 	return returnValue;
 }
@@ -22057,21 +21911,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass5_0_U3CCreateStr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_BASS_Mixer_GetVersion_m5F087024320867E71845D408795796ED6520F3B1 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_GetVersion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_GetVersion)();
-	#else
-	int32_t returnValue = il2cppPInvokeFunc();
-	#endif
 
 	return returnValue;
 }
@@ -22095,15 +21936,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Version_tE426DB5655D0F22920AE16A2AA9AB7781B82
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_CreateSplitStream_mAA507C93749C05753E790759377DB45895089BE7 (int32_t ___0_Channel, uint32_t ___1_Flags, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___2_ChannelMap, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t, int32_t*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(uint32_t) + sizeof(void*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Split_StreamCreate", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	int32_t* ____2_ChannelMap_marshaled = NULL;
 	if (___2_ChannelMap != NULL)
@@ -22111,110 +21943,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_CreateSplitStream_mAA507C9374
 		____2_ChannelMap_marshaled = reinterpret_cast<int32_t*>((___2_ChannelMap)->GetAddressAtUnchecked(0));
 	}
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Split_StreamCreate)(___0_Channel, ___1_Flags, ____2_ChannelMap_marshaled);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Channel, ___1_Flags, ____2_ChannelMap_marshaled);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_SplitStreamGetAvailable_m75F0C51C8ECA4D4649689E647A93FCBE0F6C09D9 (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Split_StreamGetAvailable", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Split_StreamGetAvailable)(___0_Handle);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_SplitStreamReset_m8CB9EE53B8EA75A7F62F75A3E38148613474251E (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Split_StreamReset", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Split_StreamReset)(___0_Handle);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_SplitStreamReset_m80134F75BCF1FFD671CD61249F6E187E44398839 (int32_t ___0_Handle, int32_t ___1_Offset, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Split_StreamResetEx", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Split_StreamResetEx)(___0_Handle, ___1_Offset);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Offset);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_SplitStreamGetSource_mEC4A438CECEBB3BEDC6F1C95A3962E93D8F181A3 (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Split_StreamGetSource", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Split_StreamGetSource)(___0_Handle);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_BASS_Split_StreamGetSplits_m4926D7DDF837C0AB948CF1B5AB5A4759DD45F3EB (int32_t ___0_handle, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_array, int32_t ___2_length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t*, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Split_StreamGetSplits", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	int32_t* ____1_array_marshaled = NULL;
 	if (___1_array != NULL)
@@ -22222,11 +21989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_BASS_Split_StreamGetSplits_m4
 		____1_array_marshaled = reinterpret_cast<int32_t*>((___1_array)->GetAddressAtUnchecked(0));
 	}
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Split_StreamGetSplits)(___0_handle, ____1_array_marshaled, ___2_length);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_handle, ____1_array_marshaled, ___2_length);
-	#endif
 
 	return returnValue;
 }
@@ -22285,99 +22048,38 @@ IL_0025:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_CreateMixerStream_m862B8022944B398041788708B423262ACB40377E (int32_t ___0_Frequency, int32_t ___1_Channels, uint32_t ___2_Flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, uint32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(uint32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_StreamCreate", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_StreamCreate)(___0_Frequency, ___1_Channels, ___2_Flags);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Frequency, ___1_Channels, ___2_Flags);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_MixerAddChannel_m249619C7B327269AF718C42E4447C6975C81E811 (int32_t ___0_Handle, int32_t ___1_Channel, uint32_t ___2_Flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, uint32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(uint32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_StreamAddChannel", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_StreamAddChannel)(___0_Handle, ___1_Channel, ___2_Flags);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Channel, ___2_Flags);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_MixerAddChannel_mC2D3D8F95874F31CE7C0542B66BA67C4A3BE5355 (int32_t ___0_Handle, int32_t ___1_Channel, uint32_t ___2_Flags, int64_t ___3_Start, int64_t ___4_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, uint32_t, int64_t, int64_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(uint32_t) + sizeof(int64_t) + sizeof(int64_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_StreamAddChannelEx", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_StreamAddChannelEx)(___0_Handle, ___1_Channel, ___2_Flags, ___3_Start, ___4_Length);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Channel, ___2_Flags, ___3_Start, ___4_Length);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_MixerRemoveChannel_m1432C1E88E20641C2618FA2ED0FF4780DE91C52C (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelRemove", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelRemove)(___0_Handle);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_BASS_Mixer_StreamGetChannels_m0F8F31D0D39AFBA52E99CFC097756112C71D14D1 (int32_t ___0_Handle, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_Channels, int32_t ___2_Count, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t*, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_StreamGetChannels", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	int32_t* ____1_Channels_marshaled = NULL;
 	if (___1_Channels != NULL)
@@ -22385,11 +22087,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_BASS_Mixer_StreamGetChannels_
 		____1_Channels_marshaled = reinterpret_cast<int32_t*>((___1_Channels)->GetAddressAtUnchecked(0));
 	}
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_StreamGetChannels)(___0_Handle, ____1_Channels_marshaled, ___2_Count);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Channels_marshaled, ___2_Count);
-	#endif
 
 	return returnValue;
 }
@@ -22528,21 +22226,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BassMix_set_MixerPositionEx_mD93C3C0BA6B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t BassMix_ChannelFlags_m8D96367BC56E29D0D3EF7002C7F2DAF33A5260CC (int32_t ___0_Handle, uint32_t ___1_Flags, uint32_t ___2_Mask, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t, uint32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(uint32_t) + sizeof(uint32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelFlags", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	uint32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelFlags)(___0_Handle, ___1_Flags, ___2_Mask);
-	#else
-	uint32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Flags, ___2_Mask);
-	#endif
 
 	return returnValue;
 }
@@ -22591,36 +22276,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_ChannelRemoveFlag_m95E4321C57823
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_m4F95E20E9A51EA0706BAC63C585B0EA0DCFEEBE4 (int32_t ___0_Handle, intptr_t ___1_Buffer, int32_t ___2_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, intptr_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(intptr_t) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetData)(___0_Handle, ___1_Buffer, ___2_Length);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Buffer, ___2_Length);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_m3252F09B5B6C2643E90EA992CA15E1AE67595719 (int32_t ___0_Handle, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_Buffer, int32_t ___2_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint8_t*, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	uint8_t* ____1_Buffer_marshaled = NULL;
 	if (___1_Buffer != NULL)
@@ -22628,26 +22291,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_m3252F09B5B6C2
 		____1_Buffer_marshaled = reinterpret_cast<uint8_t*>((___1_Buffer)->GetAddressAtUnchecked(0));
 	}
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetData)(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_mC3A5ADBC3EE7EF1FD3BF2F598BCE094F67EF8B78 (int32_t ___0_Handle, Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* ___1_Buffer, int32_t ___2_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int16_t*, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	int16_t* ____1_Buffer_marshaled = NULL;
 	if (___1_Buffer != NULL)
@@ -22655,26 +22305,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_mC3A5ADBC3EE7E
 		____1_Buffer_marshaled = reinterpret_cast<int16_t*>((___1_Buffer)->GetAddressAtUnchecked(0));
 	}
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetData)(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_m0A34852B1D538A4995E816FE51AEE2CCE4DDAB31 (int32_t ___0_Handle, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_Buffer, int32_t ___2_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t*, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	int32_t* ____1_Buffer_marshaled = NULL;
 	if (___1_Buffer != NULL)
@@ -22682,26 +22319,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_m0A34852B1D538
 		____1_Buffer_marshaled = reinterpret_cast<int32_t*>((___1_Buffer)->GetAddressAtUnchecked(0));
 	}
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetData)(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_mA372AE2236F2998E702846EA62926C56A62FE63E (int32_t ___0_Handle, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_Buffer, int32_t ___2_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, float*, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	float* ____1_Buffer_marshaled = NULL;
 	if (___1_Buffer != NULL)
@@ -22709,47 +22333,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_mA372AE2236F29
 		____1_Buffer_marshaled = reinterpret_cast<float*>((___1_Buffer)->GetAddressAtUnchecked(0));
 	}
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetData)(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetLevel_mEC438480D12998D04E71BA993ECE936F4A290A08 (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetLevel", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetLevel)(___0_Handle);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetLevel_mC98190924CAF118303C259FE5BB4D828BD9CE4BB (int32_t ___0_Handle, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_Levels, float ___2_Length, int32_t ___3_Flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, float*, float, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(float) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetLevelEx", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	float* ____1_Levels_marshaled = NULL;
 	if (___1_Levels != NULL)
@@ -22757,11 +22355,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetLevel_mC98190924CAF
 		____1_Levels_marshaled = reinterpret_cast<float*>((___1_Levels)->GetAddressAtUnchecked(0));
 	}
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetLevelEx)(___0_Handle, ____1_Levels_marshaled, ___2_Length, ___3_Flags);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Levels_marshaled, ___2_Length, ___3_Flags);
-	#endif
 
 	return returnValue;
 }
@@ -22778,21 +22372,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_ChannelGetMatrix_m2ABA0AE15BF07D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetMixer_m2FAA3636F9CF349D60698827C1A16C8E260EB1D0 (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetMixer", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetMixer)(___0_Handle);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
-	#endif
 
 	return returnValue;
 }
@@ -22819,87 +22400,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_ChannelSetMatrix_mE0981DE83EDA5C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BassMix_ChannelGetPosition_m78AB357499DCC9048EA857D2EDF20F14C28D5400 (int32_t ___0_Handle, int32_t ___1_Mode, const RuntimeMethod* method) 
 {
 	typedef int64_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetPosition", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int64_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetPosition)(___0_Handle, ___1_Mode);
-	#else
-	int64_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Mode);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BassMix_ChannelGetPosition_m5C62281507FF476C112EBB7B0A1762C930EFF4C9 (int32_t ___0_Handle, int32_t ___1_Mode, int32_t ___2_Delay, const RuntimeMethod* method) 
 {
 	typedef int64_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetPositionEx", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int64_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetPositionEx)(___0_Handle, ___1_Mode, ___2_Delay);
-	#else
-	int64_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Mode, ___2_Delay);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_ChannelSetPosition_m2A87C1111B32442D6637919226FE97E5F18B16A1 (int32_t ___0_Handle, int64_t ___1_Position, int32_t ___2_Mode, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int64_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(int64_t) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelSetPosition", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelSetPosition)(___0_Handle, ___1_Position, ___2_Mode);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Position, ___2_Mode);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_BASS_Mixer_ChannelSetSync_mD5B5A56829D41BAC957BF28AF5D8781275BA1D70 (int32_t ___0_Handle, int32_t ___1_Type, int64_t ___2_Parameter, SyncProcedure_t9D3998EC49163B3DD7885E7024FE918EBC919505* ___3_Procedure, intptr_t ___4_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int64_t, Il2CppMethodPointer, intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int64_t) + sizeof(void*) + sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelSetSync", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	Il2CppMethodPointer ____3_Procedure_marshaled = NULL;
 	____3_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___3_Procedure));
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelSetSync)(___0_Handle, ___1_Type, ___2_Parameter, ____3_Procedure_marshaled, ___4_User);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Type, ___2_Parameter, ____3_Procedure_marshaled, ___4_User);
-	#endif
 
 	return returnValue;
 }
@@ -22986,24 +22515,11 @@ IL_0050:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_BASS_Mixer_ChannelSetSync_m533C57DA212154C4E916967CED1EDC932B6A3FA9 (int32_t ___0_Handle, int32_t ___1_Type, int64_t ___2_Parameter, SyncProcedureEx_tA6949C4BD08BA902D137E8BD68DEBFB02257DDDD* ___3_Procedure, intptr_t ___4_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int64_t, Il2CppMethodPointer, intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int64_t) + sizeof(void*) + sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelSetSync", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	Il2CppMethodPointer ____3_Procedure_marshaled = NULL;
 	____3_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___3_Procedure));
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelSetSync)(___0_Handle, ___1_Type, ___2_Parameter, ____3_Procedure_marshaled, ___4_User);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Type, ___2_Parameter, ____3_Procedure_marshaled, ___4_User);
-	#endif
 
 	return returnValue;
 }
@@ -23090,21 +22606,8 @@ IL_0056:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_BASS_Mixer_ChannelRemoveSync_m390907655DC813B68BFD7A5366E2C7ED2785A69B (int32_t ___0_Handle, int32_t ___1_Sync, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelRemoveSync", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelRemoveSync)(___0_Handle, ___1_Sync);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Sync);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -23147,57 +22650,22 @@ IL_0011:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BassMix_ChannelGetEnvelopePosition_m66B83742B725FCE173C8C6963E955B980A801BA5 (int32_t ___0_Handle, int32_t ___1_Type, float* ___2_Value, const RuntimeMethod* method) 
 {
 	typedef int64_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, float*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(float*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetEnvelopePos", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int64_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetEnvelopePos)(___0_Handle, ___1_Type, ___2_Value);
-	#else
-	int64_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Type, ___2_Value);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_ChannelSetEnvelopePosition_m39A4A013CB1C2D2769D47999CF4C1E50EBFD0443 (int32_t ___0_Handle, int32_t ___1_Type, int64_t ___2_Position, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int64_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int64_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelSetEnvelopePos", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelSetEnvelopePos)(___0_Handle, ___1_Type, ___2_Position);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Type, ___2_Position);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_BASS_Mixer_ChannelSetEnvelope_m7B79F143EF3A8ADB1B9AA59C219383C98C8A71C9 (int32_t ___0_Handle, int32_t ___1_Type, MixerNodeU5BU5D_tF73109ADD4A2ABC9468FE5505424EBF860509EC9* ___2_Nodes, int32_t ___3_Count, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, MixerNode_tC5BC56CA053E617EB785B34D5BCD3B47B8CFA5B1*, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelSetEnvelope", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	MixerNode_tC5BC56CA053E617EB785B34D5BCD3B47B8CFA5B1* ____2_Nodes_marshaled = NULL;
 	if (___2_Nodes != NULL)
@@ -23205,11 +22673,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_BASS_Mixer_ChannelSetEnvelope_m7
 		____2_Nodes_marshaled = reinterpret_cast<MixerNode_tC5BC56CA053E617EB785B34D5BCD3B47B8CFA5B1*>((___2_Nodes)->GetAddressAtUnchecked(0));
 	}
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelSetEnvelope)(___0_Handle, ___1_Type, ____2_Nodes_marshaled, ___3_Count);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Type, ____2_Nodes_marshaled, ___3_Count);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -26416,21 +25880,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass5_0_U3CCreateStr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassFx_BASS_FX_GetVersion_m06BC008EED579CE699995DEF07338D3A87FEC356 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_GetVersion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_GetVersion)();
-	#else
-	int32_t returnValue = il2cppPInvokeFunc();
-	#endif
 
 	return returnValue;
 }
@@ -26454,327 +25905,132 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Version_tE426DB5655D0F22920AE16A2AA9AB7781B82
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassFx_TempoCreate_m5DD4D4A99DA166CC97BA40A4A81C21B2849440EE (int32_t ___0_Channel, uint32_t ___1_Flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(uint32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_TempoCreate", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_TempoCreate)(___0_Channel, ___1_Flags);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Channel, ___1_Flags);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassFx_TempoGetSource_mCB2B6DF95AAB7E86DFED0696D18F202FABB81145 (int32_t ___0_Channel, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_TempoGetSource", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_TempoGetSource)(___0_Channel);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Channel);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BassFx_TempoGetRateRatio_m3E29E46257E17990E03748F349D170CA68903EFB (int32_t ___0_Channel, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_TempoGetRateRatio", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	float returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_TempoGetRateRatio)(___0_Channel);
-	#else
-	float returnValue = il2cppPInvokeFunc(___0_Channel);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassFx_ReverseCreate_mDD76BF3FB8992485E20355340D533B56649E7654 (int32_t ___0_Channel, float ___1_DecodingBlockLength, uint32_t ___2_Flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, float, uint32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(float) + sizeof(uint32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_ReverseCreate", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_ReverseCreate)(___0_Channel, ___1_DecodingBlockLength, ___2_Flags);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Channel, ___1_DecodingBlockLength, ___2_Flags);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassFx_ReverseGetSource_m1C1A391F21E1EF39B4A8ED0332536883A48C47B1 (int32_t ___0_Channel, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_ReverseGetSource", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_ReverseGetSource)(___0_Channel);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Channel);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BassFx_BPMDecodeGet_m997E5AE49E7DC45B23FD6DAFE9DD2014F7682E86 (int32_t ___0_Channel, double ___1_StartSec, double ___2_EndSec, int32_t ___3_MinMaxBPM, uint32_t ___4_Flags, BPMProgressProcedure_t63CC02A5F28DB08C8706D0FBE61BD6452850775B* ___5_Procedure, intptr_t ___6_User, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (int32_t, double, double, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(double) + sizeof(double) + sizeof(int32_t) + sizeof(uint32_t) + sizeof(void*) + sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_DecodeGet", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	Il2CppMethodPointer ____5_Procedure_marshaled = NULL;
 	____5_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___5_Procedure));
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	float returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_DecodeGet)(___0_Channel, ___1_StartSec, ___2_EndSec, ___3_MinMaxBPM, ___4_Flags, ____5_Procedure_marshaled, ___6_User);
-	#else
-	float returnValue = il2cppPInvokeFunc(___0_Channel, ___1_StartSec, ___2_EndSec, ___3_MinMaxBPM, ___4_Flags, ____5_Procedure_marshaled, ___6_User);
-	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMCallbackSet_mD9D265E34E6F0630A50F27E460DDA64B898583D5 (int32_t ___0_Handle, BPMProcedure_t65F91A7D92599E3A89A3F2D744490C256993DB6B* ___1_Procedure, double ___2_Period, int32_t ___3_MinMaxBPM, uint32_t ___4_Flags, intptr_t ___5_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppMethodPointer, double, int32_t, uint32_t, intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(double) + sizeof(int32_t) + sizeof(uint32_t) + sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_CallbackSet", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	Il2CppMethodPointer ____1_Procedure_marshaled = NULL;
 	____1_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___1_Procedure));
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_CallbackSet)(___0_Handle, ____1_Procedure_marshaled, ___2_Period, ___3_MinMaxBPM, ___4_Flags, ___5_User);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Procedure_marshaled, ___2_Period, ___3_MinMaxBPM, ___4_Flags, ___5_User);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMCallbackReset_mAD06E8C4FD08871C75C4B6B8EF85AC737B2ED7DA (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_CallbackReset", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_CallbackReset)(___0_Handle);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMFree_m198E4CEC19764362D8980B8175FCFEF27297C12C (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_Free", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_Free)(___0_Handle);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMBeatDecodeGet_mBF73D2C9AF9F6FDD345F131C4BFEB28C33C69E6B (int32_t ___0_Channel, double ___1_StartSec, double ___2_EndSec, uint32_t ___3_Flags, BPMBeatProcedure_t028C2D01C9CF6CE240D398D94EC434B2FC68B589* ___4_Procedure, intptr_t ___5_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, double, double, uint32_t, Il2CppMethodPointer, intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(double) + sizeof(double) + sizeof(uint32_t) + sizeof(void*) + sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_BeatDecodeGet", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	Il2CppMethodPointer ____4_Procedure_marshaled = NULL;
 	____4_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___4_Procedure));
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_BeatDecodeGet)(___0_Channel, ___1_StartSec, ___2_EndSec, ___3_Flags, ____4_Procedure_marshaled, ___5_User);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Channel, ___1_StartSec, ___2_EndSec, ___3_Flags, ____4_Procedure_marshaled, ___5_User);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMBeatCallbackSet_m5247C242FE1DEF763F7A132DD8836C1644C1D8A1 (int32_t ___0_Handle, BPMBeatProcedure_t028C2D01C9CF6CE240D398D94EC434B2FC68B589* ___1_Procedure, intptr_t ___2_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppMethodPointer, intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_BeatCallbackSet", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
 	Il2CppMethodPointer ____1_Procedure_marshaled = NULL;
 	____1_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___1_Procedure));
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_BeatCallbackSet)(___0_Handle, ____1_Procedure_marshaled, ___2_User);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Procedure_marshaled, ___2_User);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMBeatCallbackReset_mF0E3849D61859CAF7002E0BFF8AF57F75C5BD0C4 (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_BeatCallbackReset", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_BeatCallbackReset)(___0_Handle);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMBeatSetParameters_m375E4FDA93E5E9B629A0A3E1CFB0DA1C197A69A7 (int32_t ___0_Handle, float ___1_Bandwidth, float ___2_CenterFreq, float ___3_Beat_rTime, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, float, float, float);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(float) + sizeof(float) + sizeof(float);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_BeatSetParameters", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_BeatSetParameters)(___0_Handle, ___1_Bandwidth, ___2_CenterFreq, ___3_Beat_rTime);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Bandwidth, ___2_CenterFreq, ___3_Beat_rTime);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMBeatGetParameters_mCE284975168854B47AC6B108DD93758C29FF50EF (int32_t ___0_Handle, float* ___1_Bandwidth, float* ___2_CenterFreq, float* ___3_Beat_rTime, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, float*, float*, float*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(float*) + sizeof(float*) + sizeof(float*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_BeatGetParameters", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_BeatGetParameters)(___0_Handle, ___1_Bandwidth, ___2_CenterFreq, ___3_Beat_rTime);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Bandwidth, ___2_CenterFreq, ___3_Beat_rTime);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMBeatFree_m6A0A39282B488851F0265682D9F17D765B279B33 (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_BeatFree", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
 
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_BeatFree)(___0_Handle);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
-	#endif
 
 	return static_cast<bool>(returnValue);
 }
