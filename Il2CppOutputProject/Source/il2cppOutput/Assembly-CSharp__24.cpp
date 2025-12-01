@@ -5018,9 +5018,6 @@ inline void List_1_AddWithResize_m9E7DE92910C9696D32524F8911F09F669DB750BD (List
 {
 	((  void (*) (List_1_t72B3AF720B14C7983589FA260AC7ADB3458F638E*, TOCTrack_tEFCD69B4BED1C62CC1CF7D1F44FDA84D4BE73B74, const RuntimeMethod*))List_1_AddWithResize_m9E7DE92910C9696D32524F8911F09F669DB750BD_gshared)(__this, ___0_item, method);
 }
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_OPUS_GetVersion();
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_OPUS_Start(int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_OPUS_StartFile(int32_t, Il2CppChar*, int32_t, Il2CppChar*);
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_basszxtune_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_ZXTUNE_StreamCreateFile(int32_t, Il2CppChar*, int64_t, int64_t, uint32_t);
 #endif
@@ -5932,6 +5929,15 @@ IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_OGG_Start(int32_t, Il2CppChar*,
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_ogg_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_OGG_StartFile(int32_t, Il2CppChar*, int32_t, Il2CppChar*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_opus_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_OPUS_GetVersion();
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_opus_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_OPUS_Start(int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_opus_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Encode_OPUS_StartFile(int32_t, Il2CppChar*, int32_t, Il2CppChar*);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xVideo_INTERNAL
 IL2CPP_EXTERN_C char* DEFAULT_CALL xVideo_CallbackItemByIndex(int32_t, int32_t);
@@ -35822,8 +35828,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Ogg_Start_mF67195EAAFD2775841
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Opus_BASS_Encode_OPUS_GetVersion_m093154C67D4133F02497D37EFE6CB4CF339B047F (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_opus_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 0;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc_opus"), "BASS_Encode_OPUS_GetVersion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_opus_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_OPUS_GetVersion)();
+	#else
+	int32_t returnValue = il2cppPInvokeFunc();
+	#endif
 
 	return returnValue;
 }
@@ -35847,6 +35866,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Version_tE426DB5655D0F22920AE16A2AA9AB7781B82
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Opus_BASS_Encode_OPUS_Start_mD881DF643B34471B030150F150FC783859DC18B2 (int32_t ___0_Handle, String_t* ___1_Options, int32_t ___2_Flags, EncodeProcedure_t88B84CEE25DF85D0542D5777EC8C0BADFBFCD1E0* ___3_Procedure, intptr_t ___4_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, int32_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_opus_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc_opus"), "BASS_Encode_OPUS_Start", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____1_Options_marshaled = NULL;
 	if (___1_Options != NULL)
@@ -35857,7 +35885,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Opus_BASS_Encode_OPUS_Start_m
 	Il2CppMethodPointer ____3_Procedure_marshaled = NULL;
 	____3_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___3_Procedure));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_opus_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_OPUS_Start)(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_Procedure_marshaled, ___4_User);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_Procedure_marshaled, ___4_User);
+	#endif
 
 	return returnValue;
 }
@@ -35877,6 +35909,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Opus_Start_mE7EA0DFE02FE9630D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Opus_BASS_Encode_OPUS_StartFile_m07EAE9286F3EAADD9C4F68BE4F8662630F6F04F8 (int32_t ___0_Handle, String_t* ___1_Options, int32_t ___2_Flags, String_t* ___3_FileName, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, int32_t, Il2CppChar*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassenc_opus_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(Il2CppChar*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassenc_opus"), "BASS_Encode_OPUS_StartFile", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____1_Options_marshaled = NULL;
 	if (___1_Options != NULL)
@@ -35890,7 +35931,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Opus_BASS_Encode_OPUS_StartFi
 		____3_FileName_marshaled = &___3_FileName->____firstChar;
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassenc_opus_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Encode_OPUS_StartFile)(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_FileName_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Options_marshaled, ___2_Flags, ____3_FileName_marshaled);
+	#endif
 
 	return returnValue;
 }
