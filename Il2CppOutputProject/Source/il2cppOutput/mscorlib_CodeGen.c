@@ -11037,7 +11037,6 @@ extern void Path_IsDirectorySeparator_m584EAD6F69A5557CE15C6281B148474D2FC99430 
 extern void Path_GetPathRoot_m31AA9272864F572DEC78EC2595D2A5ABFEF5651C (void);
 extern void Path_GetTempPath_mA919EEA03E4CDC7C85A73771EBCF90F48A74B856 (void);
 extern void Path_get_temp_path_m20CE5DF7F08E6F2E61AAB41A8FEC867911A01CE8 (void);
-extern void Path_HasExtension_m998C7AFDD12FB2D32178654CD04B1807D03D719C (void);
 extern void Path_IsPathRooted_mC05ED8AD72A87608716C0DEC1C230EE6E6CA70E1 (void);
 extern void Path_IsPathRooted_m0AAA41017FBDDFD52AFC56508EFB5A4195E89C43 (void);
 extern void Path_GetInvalidPathChars_m27820354D43C5A699E25FF20509465396D927732 (void);
@@ -11144,7 +11143,7 @@ extern void FileSystemName_MatchPattern_mB8ABD704DB2D7B1050B87CEFED828141274DE1B
 extern void FileSystemName__cctor_m306CEEC577DB3B7813696282439F256BCF815CDC (void);
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m52370B9D7DEAF095B34C6AE27338067A3A1CF886 (void);
 extern void ThrowStub_ThrowNotSupportedException_m02C318CA8F5812C025CBEDEA07A5DE5D0FDBB25F (void);
-static Il2CppMethodPointer s_methodPointers[13199] = 
+static Il2CppMethodPointer s_methodPointers[13198] = 
 {
 	Interop_ThrowExceptionForIoErrno_mD1F1F0FA4F261F7541137053F29DC244D32DA714,
 	Interop_CheckIo_mCEB71E59B76B8B3B533398E029C7CC55500FE958,
@@ -24200,7 +24199,6 @@ static Il2CppMethodPointer s_methodPointers[13199] =
 	Path_GetPathRoot_m31AA9272864F572DEC78EC2595D2A5ABFEF5651C,
 	Path_GetTempPath_mA919EEA03E4CDC7C85A73771EBCF90F48A74B856,
 	Path_get_temp_path_m20CE5DF7F08E6F2E61AAB41A8FEC867911A01CE8,
-	Path_HasExtension_m998C7AFDD12FB2D32178654CD04B1807D03D719C,
 	Path_IsPathRooted_mC05ED8AD72A87608716C0DEC1C230EE6E6CA70E1,
 	Path_IsPathRooted_m0AAA41017FBDDFD52AFC56508EFB5A4195E89C43,
 	Path_GetInvalidPathChars_m27820354D43C5A699E25FF20509465396D927732,
@@ -26295,7 +26293,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[973] =
 	{ 0x0600322E, U3CU3CReadAsyncU3Eg__FinishReadAsyncU7C44_0U3Ed_MoveNext_m6FC0EF7F617D06511C1735FA80403EBA956DF0AE_AdjustorThunk },
 	{ 0x0600322F, U3CU3CReadAsyncU3Eg__FinishReadAsyncU7C44_0U3Ed_SetStateMachine_m7AAEF38DA7DBA96DF8C6E5FD244D2A8013192513_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[13199] = 
+static const int32_t s_InvokerIndices[13198] = 
 {
 	27321,
 	26704,
@@ -39351,7 +39349,6 @@ static const int32_t s_InvokerIndices[13199] =
 	34551,
 	36531,
 	36531,
-	34002,
 	33980,
 	34002,
 	36531,
@@ -39853,7 +39850,7 @@ static const Il2CppTokenRangePair s_rgctxIndices[350] =
 	{ 0x06002E52, { 2672, 4 } },
 	{ 0x06002E53, { 2676, 5 } },
 	{ 0x06002F90, { 2972, 2 } },
-	{ 0x06003338, { 2974, 3 } },
+	{ 0x06003337, { 2974, 3 } },
 };
 extern const uint32_t g_rgctx_SafeHandleCache_1_t4B3F3C8B3323A2A02E76D4FA7FC806086F4A0E77;
 extern const uint32_t g_rgctx_T_t925CCF30732BBB569A9FD55CD005C2FB847A8AA8;
@@ -45894,7 +45891,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 const Il2CppCodeGenModule g_mscorlib_CodeGenModule = 
 {
 	"mscorlib.dll",
-	13199,
+	13198,
 	s_methodPointers,
 	973,
 	s_adjustorThunks,

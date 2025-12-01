@@ -297,7 +297,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* Path_GetExtension_m6FEAA9E14451BFD210B9D1AE
 IL2CPP_EXTERN_C const RuntimeMethod* Path_GetFileName_mB1A8CE314EE250B06E3D33142315E2BD3A75D1D6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Path_GetPathRoot_m31AA9272864F572DEC78EC2595D2A5ABFEF5651C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Path_GetRelativePath_m5D53810B4FFB6C845E383939117E220FFD80737A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Path_HasExtension_m998C7AFDD12FB2D32178654CD04B1807D03D719C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Path_InsecureGetFullPath_mCBBBAC7EEC4D096AE9CFDDD36C29F2EBD85948F3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Path_IsPathRooted_m0AAA41017FBDDFD52AFC56508EFB5A4195E89C43_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Path_Validate_m1D9EA20556CA4DBA21A46E686219F317D0A49D51_RuntimeMethod_var;
@@ -6630,87 +6629,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_get_temp_path_m20CE5DF7F08E6F2
 	typedef String_t* (*Path_get_temp_path_m20CE5DF7F08E6F2E61AAB41A8FEC867911A01CE8_ftn) ();
 	using namespace il2cpp::icalls;
 	return ((Path_get_temp_path_m20CE5DF7F08E6F2E61AAB41A8FEC867911A01CE8_ftn)mscorlib::System::IO::Path::get_temp_path) ();
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Path_HasExtension_m998C7AFDD12FB2D32178654CD04B1807D03D719C (String_t* ___0_path, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	{
-		String_t* L_0 = ___0_path;
-		if (!L_0)
-		{
-			goto IL_0010;
-		}
-	}
-	{
-		String_t* L_1 = ___0_path;
-		NullCheck(L_1);
-		String_t* L_2;
-		L_2 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_1, NULL);
-		NullCheck(L_2);
-		int32_t L_3;
-		L_3 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_2, NULL);
-		if (L_3)
-		{
-			goto IL_0012;
-		}
-	}
-
-IL_0010:
-	{
-		return (bool)0;
-	}
-
-IL_0012:
-	{
-		String_t* L_4 = ___0_path;
-		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
-		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_5 = ((Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_StaticFields*)il2cpp_codegen_static_fields_for(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var))->___InvalidPathChars;
-		NullCheck(L_4);
-		int32_t L_6;
-		L_6 = String_IndexOfAny_mC7AA4AE42B38667BDB9B214AA6230F322306CFF6(L_4, L_5, NULL);
-		if ((((int32_t)L_6) == ((int32_t)(-1))))
-		{
-			goto IL_002b;
-		}
-	}
-	{
-		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_7 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
-		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_7, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralD36F2A1E2D9C14B427558FDF2106B8A8B2702189)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Path_HasExtension_m998C7AFDD12FB2D32178654CD04B1807D03D719C_RuntimeMethod_var)));
-	}
-
-IL_002b:
-	{
-		String_t* L_8 = ___0_path;
-		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
-		int32_t L_9;
-		L_9 = Path_findExtension_m6B521914CAD3E7A4F1DCBA78914B99D4452C0C4C(L_8, NULL);
-		V_0 = L_9;
-		int32_t L_10 = V_0;
-		if ((((int32_t)0) > ((int32_t)L_10)))
-		{
-			goto IL_0042;
-		}
-	}
-	{
-		int32_t L_11 = V_0;
-		String_t* L_12 = ___0_path;
-		NullCheck(L_12);
-		int32_t L_13;
-		L_13 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_12, NULL);
-		return (bool)((((int32_t)L_11) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_13, 1))))? 1 : 0);
-	}
-
-IL_0042:
-	{
-		return (bool)0;
-	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Path_IsPathRooted_mC05ED8AD72A87608716C0DEC1C230EE6E6CA70E1 (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_path, const RuntimeMethod* method) 
 {
