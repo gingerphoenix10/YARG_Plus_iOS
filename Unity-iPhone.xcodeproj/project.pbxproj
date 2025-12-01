@@ -112,7 +112,6 @@
 		ABDDC050A0AE51C5BEEC1AD4 /* Vector3.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF8AA0F87DF629F3B65CCB8 /* Vector3.h */; };
 		AC59092CA77C69D6ED97B183 /* AppDelegateListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 5201A0F3E84F5492ABC002BC /* AppDelegateListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC6B94F04710CA18194BE4B6 /* OnDemandResources.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCB9B0D9A6CEA2857C0AA9FA /* OnDemandResources.mm */; };
-		AF2786F2943EBE0A756F21CC /* NSUserDefaults.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B6D2D12B065A216EB6E1F /* NSUserDefaults.mm */; };
 		AF5B5F9861B63525EA0C92F2 /* stb_image.h in Headers */ = {isa = PBXBuildFile; fileRef = C31A90FFC7A17A550BF3D358 /* stb_image.h */; };
 		B37DE0B08E88F1C42C102846 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B50E73877FB889638FD57FF /* main.mm */; };
 		B4803D92C92548EDBE937189 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A0CFE2BB95B47C721D5218 /* AVKit.framework */; };
@@ -541,7 +540,6 @@
 		5CD686E6F117088D833EDF99 /* GenericMethods__48.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods__48.cpp; path = Il2CppOutputProject/Source/il2cppOutput/GenericMethods__48.cpp; sourceTree = SOURCE_ROOT; };
 		5CE747857641C3A4C4FD32A4 /* System.Xml__13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.Xml__13.cpp; path = Il2CppOutputProject/Source/il2cppOutput/System.Xml__13.cpp; sourceTree = SOURCE_ROOT; };
 		5D0E35CAADD8155085A01C93 /* OrientationSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OrientationSupport.h; path = Classes/UI/OrientationSupport.h; sourceTree = SOURCE_ROOT; };
-		5D2B6D2D12B065A216EB6E1F /* NSUserDefaults.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = NSUserDefaults.mm; path = Libraries/com.unity.services.core/Runtime/Device/UserIdProviders/NSUserDefaults.mm; sourceTree = SOURCE_ROOT; };
 		5DA19F34DDD85A0A04F12705 /* Unity.XR.Interaction.Toolkit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.XR.Interaction.Toolkit.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.XR.Interaction.Toolkit.cpp; sourceTree = SOURCE_ROOT; };
 		5DF3CF4AA8DAE57B9801AD77 /* Generics__256.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__256.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__256.cpp; sourceTree = SOURCE_ROOT; };
 		5E6EECA05C59F494EE5D3F45 /* System.Runtime.Serialization_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = System.Runtime.Serialization_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/System.Runtime.Serialization_CodeGen.c; sourceTree = SOURCE_ROOT; };
@@ -1349,22 +1347,6 @@
 				EB1CC5E9B4170C22555C2D0F /* VideoPlayer.mm */,
 			);
 			path = Unity;
-			sourceTree = "<group>";
-		};
-		3C85E63663639261B15967D6 /* Runtime */ = {
-			isa = PBXGroup;
-			children = (
-				B1D503123E4E35EC4E8CA9E9 /* Device */,
-			);
-			path = Runtime;
-			sourceTree = "<group>";
-		};
-		3EAD9489F626B5A5A0405FB4 /* UserIdProviders */ = {
-			isa = PBXGroup;
-			children = (
-				5D2B6D2D12B065A216EB6E1F /* NSUserDefaults.mm */,
-			);
-			path = UserIdProviders;
 			sourceTree = "<group>";
 		};
 		45C76ABEC14C6E10C9CFC809 /* il2cppOutput */ = {
@@ -2291,14 +2273,6 @@
 			path = MainApp;
 			sourceTree = SOURCE_ROOT;
 		};
-		B1D503123E4E35EC4E8CA9E9 /* Device */ = {
-			isa = PBXGroup;
-			children = (
-				3EAD9489F626B5A5A0405FB4 /* UserIdProviders */,
-			);
-			path = Device;
-			sourceTree = "<group>";
-		};
 		B80800168253FA1C8428C39A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -2323,7 +2297,6 @@
 			children = (
 				9AB168A2A8C861DCEA5F064C /* YARG.Core */,
 				0DB64C2E13F03F7FFEA29216 /* com.unity.inputsystem */,
-				EDD56120873895E95A9F955C /* com.unity.services.core */,
 				C63B33A2B4E66BC2927EB1FF /* Il2CppOptions.cpp */,
 				46631CE85DA24538DC1E6004 /* RegisterFeatures.cpp */,
 				BB36EE442773C18BA750DC92 /* RegisterFeatures.h */,
@@ -2343,14 +2316,6 @@
 				C31A90FFC7A17A550BF3D358 /* stb_image.h */,
 			);
 			path = STB2CSharp;
-			sourceTree = "<group>";
-		};
-		EDD56120873895E95A9F955C /* com.unity.services.core */ = {
-			isa = PBXGroup;
-			children = (
-				3C85E63663639261B15967D6 /* Runtime */,
-			);
-			path = com.unity.services.core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2624,7 +2589,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF2786F2943EBE0A756F21CC /* NSUserDefaults.mm in Sources */,
 				030A68812E193A334BDD7087 /* iOSStepCounter.mm in Sources */,
 				60A5DC8CA1A74F7005270994 /* STB2CSharp.cpp in Sources */,
 				9BA70426A90DB33FFDF35A71 /* lib_burst_generated.cpp in Sources */,
