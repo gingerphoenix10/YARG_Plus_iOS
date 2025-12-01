@@ -28,8 +28,12 @@
     <string>0</string>
     <key>LSRequiresIPhoneOS</key>
     <true />
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true />
     <key>NSMicrophoneUsageDescription</key>
     <string>Used for singing. How can you sing without a microphone?</string>
+    <key>UIFileSharingEnabled</key>
+    <true />
     <key>UILaunchStoryboardName</key>
     <string>LaunchScreen-iPhone</string>
     <key>UILaunchStoryboardName~ipad</key>
@@ -64,9 +68,5 @@
     <true />
     <key>Unity_LoadingActivityIndicatorStyle</key>
     <integer>-1</integer>
-    <key>UIFileSharingEnabled</key>
-    <true/>
-    <key>LSSupportsOpeningDocumentsInPlace</key>
-    <true/>
   </dict>
 </plist>
