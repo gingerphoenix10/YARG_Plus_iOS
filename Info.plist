@@ -64,5 +64,9 @@
     <true />
     <key>Unity_LoadingActivityIndicatorStyle</key>
     <integer>-1</integer>
+    <key>UIFileSharingEnabled</key>
+    <true/>
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true/>
   </dict>
 </plist>

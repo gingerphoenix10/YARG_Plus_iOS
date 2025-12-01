@@ -893,7 +893,6 @@ IL2CPP_EXTERN_C RuntimeClass* Action_1_t4414C3834C89528BC1FFED02AF03FCCC04D1EFED
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t9E7CA3158D4E2EA9498860CDF23E8EEAB48AB5A1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_2_t8E07914D7090FF200FE84404EEEFAF3CE183C9F3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArrayPool_1_t3CE8332C9DFE03FF160AB0CE0FF17DF7792E0E4B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AudioHelpers_t069BCA86A67DFA9285813C70C6FB42549880AE4A_il2cpp_TypeInfo_var;
@@ -3966,6 +3965,10 @@ struct FiveFretGuitarColors_t3193ACD9C091E056BABF642DB20C00A4AB292492  : public 
 	Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661 ___Metal;
 	Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661 ___MetalStarPower;
 	Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661 ___Miss;
+};
+struct SpecialFolder_t56F21A2E102C08B76C0E40C5CA63A8E9E674E6FD 
+{
+	int32_t ___value__;
 };
 struct MeterColor_tC39571B47F8226EA1016B95ED49F343E60E7A43F 
 {
@@ -9598,7 +9601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_set_url_m02AC2BB229F9441257D62F9ACFD96D09F51B4F14 (VideoPlayer_t48EA4A8117B822BC59590150DED9AD46C62F65D3* __this, String_t* ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Environment_GetFolderPath_m8D283450E7FCF2F2CAFFF157D599C3EBA212B58C (int32_t ___0_folder, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* SngFileStream_get_Name_m3C7F6F6321E35CF5824961A0A0146D3AC1CFE67B_inline (SngFileStream_t96DCE789AAC41832E0B09832521F321F43A585DC* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE (String_t* ___0_path1, String_t* ___1_path2, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* File_OpenWrite_m5DD7E6EDB15631A97328297A58E9395B47CFB6AB (String_t* ___0_path, const RuntimeMethod* method) ;
@@ -15165,7 +15168,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__10_MoveNext_m58C00572E0DA7
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AbstractSetting_1_get_Value_m994A84A478CF2183E36F7AECF10881A48695825C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AssetBundle_LoadAssetAsync_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m4F9601887CC6E8BEA97D8AD120551C2DCF41520A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncUniTaskVoidMethodBuilder_AwaitUnsafeOnCompleted_TisAssetBundleRequestAwaiter_tD9235718037E71454DF34C1E3CAB7CA06448EF45_TisU3CStartU3Ed__10_t001AE9F014B7C1A506F276D5E5046CA3B2189BD6_m3FEB712ADEBFA383A670267DEDC75B7863424163_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BackgroundManager_OnVideoPrepared_m2CBE4054A6596CDEA3EF08A396CB9FE4118D2A10_RuntimeMethod_var);
@@ -15250,20 +15252,20 @@ IL_0034_1:
 			auto __finallyBlock = il2cpp::utils::Finally([&]
 			{
 
-FINALLY_0342_1:
+FINALLY_0343_1:
 				{
 					{
 						int32_t L_10 = V_0;
 						if ((((int32_t)L_10) >= ((int32_t)0)))
 						{
-							goto IL_0359_1;
+							goto IL_035a_1;
 						}
 					}
 					{
 						BackgroundResult_t4563463947CBD2709FC2FA6DF3943352EF2E21AC* L_11 = __this->___U3CresultU3E5__2;
 						if (!L_11)
 						{
-							goto IL_0359_1;
+							goto IL_035a_1;
 						}
 					}
 					{
@@ -15272,7 +15274,7 @@ FINALLY_0342_1:
 						InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_12);
 					}
 
-IL_0359_1:
+IL_035a_1:
 					{
 						return;
 					}
@@ -15295,7 +15297,7 @@ IL_0359_1:
 					}
 				}
 				{
-					goto IL_037a;
+					goto IL_037b;
 				}
 
 IL_0048_2:
@@ -15348,16 +15350,16 @@ IL_0048_2:
 						}
 						case 2:
 						{
-							goto IL_0332_2;
+							goto IL_0333_2;
 						}
 						case 3:
 						{
-							goto IL_02e1_2;
+							goto IL_02e2_2;
 						}
 					}
 				}
 				{
-					goto IL_0332_2;
+					goto IL_0333_2;
 				}
 
 IL_00b1_2:
@@ -15401,7 +15403,7 @@ IL_00b1_2:
 					#endif
 					AsyncUniTaskVoidMethodBuilder_t07713E215840254DDAB42066E85E685C31D31F6B* L_41 = (AsyncUniTaskVoidMethodBuilder_t07713E215840254DDAB42066E85E685C31D31F6B*)(&__this->___U3CU3Et__builder);
 					AsyncUniTaskVoidMethodBuilder_AwaitUnsafeOnCompleted_TisAssetBundleRequestAwaiter_tD9235718037E71454DF34C1E3CAB7CA06448EF45_TisU3CStartU3Ed__10_t001AE9F014B7C1A506F276D5E5046CA3B2189BD6_m3FEB712ADEBFA383A670267DEDC75B7863424163_inline(L_41, (&V_7), __this, AsyncUniTaskVoidMethodBuilder_AwaitUnsafeOnCompleted_TisAssetBundleRequestAwaiter_tD9235718037E71454DF34C1E3CAB7CA06448EF45_TisU3CStartU3Ed__10_t001AE9F014B7C1A506F276D5E5046CA3B2189BD6_m3FEB712ADEBFA383A670267DEDC75B7863424163_RuntimeMethod_var);
-					goto IL_0394;
+					goto IL_0395;
 				}
 
 IL_0117_2:
@@ -15521,7 +15523,7 @@ IL_018c_2:
 					GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_79;
 					L_79 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_78, NULL);
 					Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_79, NULL);
-					goto IL_0332_2;
+					goto IL_0333_2;
 				}
 
 IL_01dc_2:
@@ -15549,7 +15551,7 @@ IL_01dc_2:
 					}
 				}
 				{
-					goto IL_0293_2;
+					goto IL_0294_2;
 				}
 
 IL_0208_2:
@@ -15563,15 +15565,14 @@ IL_0208_2:
 					L_89 = VirtualFuncInvoker0< String_t* >::Invoke(39, L_88);
 					NullCheck(L_87);
 					VideoPlayer_set_url_m02AC2BB229F9441257D62F9ACFD96D09F51B4F14(L_87, L_89, NULL);
-					goto IL_0293_2;
+					goto IL_0294_2;
 				}
 
 IL_021c_2:
 				{
 					BackgroundManager_t01B46582C6D3C950D8B3E98B1A364526ED4337E4* L_90 = V_1;
-					il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 					String_t* L_91;
-					L_91 = Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399(NULL);
+					L_91 = Environment_GetFolderPath_m8D283450E7FCF2F2CAFFF157D599C3EBA212B58C(5, NULL);
 					SngFileStream_t96DCE789AAC41832E0B09832521F321F43A585DC* L_92 = V_14;
 					NullCheck(L_92);
 					String_t* L_93;
@@ -15593,20 +15594,20 @@ IL_021c_2:
 					auto __finallyBlock = il2cpp::utils::Finally([&]
 					{
 
-FINALLY_0283_2:
+FINALLY_0284_2:
 						{
 							{
 								int32_t L_98 = V_0;
 								if ((((int32_t)L_98) >= ((int32_t)0)))
 								{
-									goto IL_0292_2;
+									goto IL_0293_2;
 								}
 							}
 							{
 								FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_99 = V_16;
 								if (!L_99)
 								{
-									goto IL_0292_2;
+									goto IL_0293_2;
 								}
 							}
 							{
@@ -15615,7 +15616,7 @@ FINALLY_0283_2:
 								InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_100);
 							}
 
-IL_0292_2:
+IL_0293_2:
 							{
 								return;
 							}
@@ -15647,7 +15648,7 @@ IL_0292_2:
 						String_t* L_112 = L_111->___VIDEO_PATH;
 						NullCheck(L_110);
 						VideoPlayer_set_url_m02AC2BB229F9441257D62F9ACFD96D09F51B4F14(L_110, L_112, NULL);
-						goto IL_0293_2;
+						goto IL_0294_2;
 					}
 					catch(Il2CppExceptionWrapper& e)
 					{
@@ -15655,7 +15656,7 @@ IL_0292_2:
 					}
 				}
 
-IL_0293_2:
+IL_0294_2:
 				{
 					BackgroundManager_t01B46582C6D3C950D8B3E98B1A364526ED4337E4* L_113 = V_1;
 					NullCheck(L_113);
@@ -15686,10 +15687,10 @@ IL_0293_2:
 					BackgroundManager_t01B46582C6D3C950D8B3E98B1A364526ED4337E4* L_125 = V_1;
 					NullCheck(L_125);
 					Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_125, (bool)1, NULL);
-					goto IL_0332_2;
+					goto IL_0333_2;
 				}
 
-IL_02e1_2:
+IL_02e2_2:
 				{
 					BackgroundManager_t01B46582C6D3C950D8B3E98B1A364526ED4337E4* L_126 = V_1;
 					NullCheck(L_126);
@@ -15720,13 +15721,13 @@ IL_02e1_2:
 					GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_136, (bool)1, NULL);
 				}
 
-IL_0332_2:
+IL_0333_2:
 				{
 					__this->___U3CbundleU3E5__3 = (AssetBundle_tB38418819A49060CD738CB21541649340F082943*)NULL;
 					Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CbundleU3E5__3), (void*)(AssetBundle_tB38418819A49060CD738CB21541649340F082943*)NULL);
 					__this->___U3CshaderBundleU3E5__4 = (AssetBundle_tB38418819A49060CD738CB21541649340F082943*)NULL;
 					Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CshaderBundleU3E5__4), (void*)(AssetBundle_tB38418819A49060CD738CB21541649340F082943*)NULL);
-					goto IL_037a;
+					goto IL_037b;
 				}
 			}
 			catch(Il2CppExceptionWrapper& e)
@@ -15740,12 +15741,12 @@ IL_0332_2:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_035a;
+			goto CATCH_035b;
 		}
 		throw e;
 	}
 
-CATCH_035a:
+CATCH_035b:
 	{
 		Exception_t* L_137 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
 		V_17 = L_137;
@@ -15756,10 +15757,10 @@ CATCH_035a:
 		Exception_t* L_139 = V_17;
 		AsyncUniTaskVoidMethodBuilder_SetException_m7492DE9DAE6EEC3DA2D1792A7B937F6CF61C6EB5_inline(L_138, L_139, NULL);
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
-		goto IL_0394;
+		goto IL_0395;
 	}
 
-IL_037a:
+IL_037b:
 	{
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CresultU3E5__2 = (BackgroundResult_t4563463947CBD2709FC2FA6DF3943352EF2E21AC*)NULL;
@@ -15768,7 +15769,7 @@ IL_037a:
 		AsyncUniTaskVoidMethodBuilder_SetResult_m12336C298D2F8CED07AAB85C3DD67815E8343947_inline(L_140, NULL);
 	}
 
-IL_0394:
+IL_0395:
 	{
 		return;
 	}
