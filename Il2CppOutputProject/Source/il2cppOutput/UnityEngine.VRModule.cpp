@@ -82,10 +82,6 @@ struct ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E
 	void* ___begin;
 	int32_t ___length;
 };
-struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
-{
-	float ___m_value;
-};
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
 {
 	union
@@ -336,14 +332,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSettings_get_isDeviceActive_m0C8A5F7EC
 	_il2cpp_icall_func = (XRSettings_get_isDeviceActive_m0C8A5F7EC76EF392020137915E4DD8E75EBDD6B8_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRSettings::get_isDeviceActive()");
 	bool icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSettings_set_eyeTextureResolutionScale_m92F1029D68F387D9B0C2DB35DFAB2FD82C64A30B (float ___0_value, const RuntimeMethod* method) 
-{
-	typedef void (*XRSettings_set_eyeTextureResolutionScale_m92F1029D68F387D9B0C2DB35DFAB2FD82C64A30B_ftn) (float);
-	static XRSettings_set_eyeTextureResolutionScale_m92F1029D68F387D9B0C2DB35DFAB2FD82C64A30B_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (XRSettings_set_eyeTextureResolutionScale_m92F1029D68F387D9B0C2DB35DFAB2FD82C64A30B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRSettings::set_eyeTextureResolutionScale(System.Single)");
-	_il2cpp_icall_func(___0_value);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRSettings_get_eyeTextureWidth_m3B18AF3F3382398E2A818B2B01AA1FE90FEB3AAF (const RuntimeMethod* method) 
 {

@@ -8666,6 +8666,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Environment_get_IsRunningOnWindows_mD7AC
 		return (bool)((((int32_t)L_0) < ((int32_t)4))? 1 : 0);
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Environment_GetLogicalDrivesInternal_m3B9D647E453C3200F1E9964B514DEEA9A578D83B (const RuntimeMethod* method) 
+{
+	typedef StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* (*Environment_GetLogicalDrivesInternal_m3B9D647E453C3200F1E9964B514DEEA9A578D83B_ftn) ();
+	using namespace il2cpp::icalls;
+	return ((Environment_GetLogicalDrivesInternal_m3B9D647E453C3200F1E9964B514DEEA9A578D83B_ftn)mscorlib::System::Environment::GetLogicalDrivesInternal) ();
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Environment_GetEnvironmentVariableNames_m0DC4484262CA31356AB264D3C8A5F505E27014EB (const RuntimeMethod* method) 
 {
 	typedef StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* (*Environment_GetEnvironmentVariableNames_m0DC4484262CA31356AB264D3C8A5F505E27014EB_ftn) ();

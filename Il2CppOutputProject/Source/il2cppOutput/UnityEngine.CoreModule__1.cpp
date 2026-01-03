@@ -9729,15 +9729,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Screen_get_fullScreen_m9B3B4F9FB4B6FD6E1
 	bool icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_fullScreenMode_m40A9C69CA281862F187DDF599A4EDB1ADFA0381C (const RuntimeMethod* method) 
-{
-	typedef int32_t (*Screen_get_fullScreenMode_m40A9C69CA281862F187DDF599A4EDB1ADFA0381C_ftn) ();
-	static Screen_get_fullScreenMode_m40A9C69CA281862F187DDF599A4EDB1ADFA0381C_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Screen_get_fullScreenMode_m40A9C69CA281862F187DDF599A4EDB1ADFA0381C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Screen::get_fullScreenMode()");
-	int32_t icallRetVal = _il2cpp_icall_func();
-	return icallRetVal;
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_set_fullScreenMode_mCD8EB58CC0CAFADAE51888E8FCDCE4527A2E0839 (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (*Screen_set_fullScreenMode_mCD8EB58CC0CAFADAE51888E8FCDCE4527A2E0839_ftn) (int32_t);

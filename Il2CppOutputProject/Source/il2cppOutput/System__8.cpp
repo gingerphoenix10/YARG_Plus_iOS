@@ -29388,22 +29388,6 @@ IL_001c:
 		return L_4;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebClient_CancelAsync_mF73C9195F97D3430E137002024473A942183B3EB (WebClient_tDAF482E6631A91D5FDF2138E6932A323B913F268* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebClient_tDAF482E6631A91D5FDF2138E6932A323B913F268_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		WebRequest_t89050438AE9A5AA9221ECAE223584127F7C1294B* L_0 = __this->____webRequest;
-		__this->____canceled = (bool)1;
-		il2cpp_codegen_runtime_class_init_inline(WebClient_tDAF482E6631A91D5FDF2138E6932A323B913F268_il2cpp_TypeInfo_var);
-		WebClient_AbortRequest_m652530531E5B0A59673D2DF7BB4AC4613879F776(L_0, NULL);
-		return;
-	}
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebClient_PostProgressChanged_m16D99F791C7FFF91C961C84545F4B4A267DBAE95 (WebClient_tDAF482E6631A91D5FDF2138E6932A323B913F268* __this, AsyncOperation_t8544B75B787DAFE823AD7A7CEFEDC4AD1CB29217* ___0_asyncOp, ProgressData_t1F3811B736C88415412A94F03AB8FE615640F96F* ___1_progress, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

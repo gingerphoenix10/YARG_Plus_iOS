@@ -1169,6 +1169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Canvas_get_referencePixelsPerUnit_Injec
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_referencePixelsPerUnit_Injected_m5D5C7B8A579AB2DF7BC87CBD0EC35F34DA1D29C1 (intptr_t ___0__unity_self, float ___1_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Canvas_get_overridePixelPerfect_Injected_m287D75A2AC9830CF9A41FCDAA62F7CA0FDB90704 (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_overridePixelPerfect_Injected_m80F020B247CC1CAADD038C70A6B4ACE81E87B225 (intptr_t ___0__unity_self, bool ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Canvas_get_vertexColorAlwaysGammaSpace_Injected_m9852E733B04A1231AD0182E67A1F7036C3C663C4 (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Canvas_get_pixelPerfect_Injected_mF71B536C4D6158E5EC32789DD73CF329A90DBD5E (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Canvas_get_planeDistance_Injected_m2CB22EDA4A768EC43592787962BCC7EC10CE6E9F (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_planeDistance_Injected_m8E8EABB45CCFFFF7B7E617F4A5B515A2557964EC (intptr_t ___0__unity_self, float ___1_value, const RuntimeMethod* method) ;
@@ -5118,6 +5119,41 @@ IL_000f:
 		return;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Canvas_get_vertexColorAlwaysGammaSpace_m91260494D371AD94329E0B9F1C8C3D0E85A7AFAB (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_MarshalNotNull_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m02F2FBBF27B6D8F93799544684E5875AF80983C6_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t G_B2_0;
+	memset((&G_B2_0), 0, sizeof(G_B2_0));
+	intptr_t G_B1_0;
+	memset((&G_B1_0), 0, sizeof(G_B1_0));
+	{
+		intptr_t L_0;
+		L_0 = MarshalledUnityObject_MarshalNotNull_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m02F2FBBF27B6D8F93799544684E5875AF80983C6_inline(__this, MarshalledUnityObject_MarshalNotNull_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m02F2FBBF27B6D8F93799544684E5875AF80983C6_RuntimeMethod_var);
+		intptr_t L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000f;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		ThrowHelper_ThrowNullReferenceException_mA9C7629D32240EE0218631933DAC647668CA63CF(__this, NULL);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_000f:
+	{
+		bool L_2;
+		L_2 = Canvas_get_vertexColorAlwaysGammaSpace_Injected_m9852E733B04A1231AD0182E67A1F7036C3C663C4(G_B2_0, NULL);
+		return L_2;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Canvas_get_pixelPerfect_mFD997D340F57D87C0307F92A9AA1155EF3DF7E75 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6375,6 +6411,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_overridePixelPerfect_Injected
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Canvas_set_overridePixelPerfect_Injected_m80F020B247CC1CAADD038C70A6B4ACE81E87B225_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::set_overridePixelPerfect_Injected(System.IntPtr,System.Boolean)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Canvas_get_vertexColorAlwaysGammaSpace_Injected_m9852E733B04A1231AD0182E67A1F7036C3C663C4 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
+{
+	typedef bool (*Canvas_get_vertexColorAlwaysGammaSpace_Injected_m9852E733B04A1231AD0182E67A1F7036C3C663C4_ftn) (intptr_t);
+	static Canvas_get_vertexColorAlwaysGammaSpace_Injected_m9852E733B04A1231AD0182E67A1F7036C3C663C4_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Canvas_get_vertexColorAlwaysGammaSpace_Injected_m9852E733B04A1231AD0182E67A1F7036C3C663C4_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::get_vertexColorAlwaysGammaSpace_Injected(System.IntPtr)");
+	bool icallRetVal = _il2cpp_icall_func(___0__unity_self);
+	return icallRetVal;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Canvas_get_pixelPerfect_Injected_mF71B536C4D6158E5EC32789DD73CF329A90DBD5E (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {

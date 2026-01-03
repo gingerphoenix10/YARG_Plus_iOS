@@ -1814,6 +1814,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Application
 
+		//System.Boolean UnityEngine.Application::HasUserAuthorization(UnityEngine.UserAuthorization)
+		void Register_UnityEngine_Application_HasUserAuthorization();
+		Register_UnityEngine_Application_HasUserAuthorization();
+
 		//System.Boolean UnityEngine.Application::get_isBatchMode()
 		void Register_UnityEngine_Application_get_isBatchMode();
 		Register_UnityEngine_Application_get_isBatchMode();
@@ -1837,6 +1841,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.Application::get_unityVersionVer()
 		void Register_UnityEngine_Application_get_unityVersionVer();
 		Register_UnityEngine_Application_get_unityVersionVer();
+
+		//System.IntPtr UnityEngine.Application::RequestUserAuthorization_Injected(UnityEngine.UserAuthorization)
+		void Register_UnityEngine_Application_RequestUserAuthorization_Injected();
+		Register_UnityEngine_Application_RequestUserAuthorization_Injected();
 
 		//System.Void UnityEngine.Application::OpenURL_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
 		void Register_UnityEngine_Application_OpenURL_Injected();
@@ -2921,6 +2929,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Canvas::get_pixelPerfect_Injected(System.IntPtr)
 		void Register_UnityEngine_Canvas_get_pixelPerfect_Injected();
 		Register_UnityEngine_Canvas_get_pixelPerfect_Injected();
+
+		//System.Boolean UnityEngine.Canvas::get_vertexColorAlwaysGammaSpace_Injected(System.IntPtr)
+		void Register_UnityEngine_Canvas_get_vertexColorAlwaysGammaSpace_Injected();
+		Register_UnityEngine_Canvas_get_vertexColorAlwaysGammaSpace_Injected();
 
 		//System.Int32 UnityEngine.Canvas::get_renderOrder_Injected(System.IntPtr)
 		void Register_UnityEngine_Canvas_get_renderOrder_Injected();
@@ -4919,6 +4931,14 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_HumanTrait_GetBoneIndexFromMono();
 
 	//End Registrations for type : UnityEngine.HumanTrait
+
+	//Start Registrations for type : UnityEngine.ImageConversion
+
+		//System.Boolean UnityEngine.ImageConversion::LoadImage_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&,System.Boolean)
+		void Register_UnityEngine_ImageConversion_LoadImage_Injected();
+		Register_UnityEngine_ImageConversion_LoadImage_Injected();
+
+	//End Registrations for type : UnityEngine.ImageConversion
 
 	//Start Registrations for type : UnityEngine.Input
 
@@ -7994,6 +8014,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.PlayerPrefs
 
+		//System.Boolean UnityEngine.PlayerPrefs::TrySetSetString_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_PlayerPrefs_TrySetSetString_Injected();
+		Register_UnityEngine_PlayerPrefs_TrySetSetString_Injected();
+
 		//System.Void UnityEngine.PlayerPrefs::GetString_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Bindings.ManagedSpanWrapper&)
 		void Register_UnityEngine_PlayerPrefs_GetString_Injected();
 		Register_UnityEngine_PlayerPrefs_GetString_Injected();
@@ -10182,10 +10206,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Screen_set_sleepTimeout();
 		Register_UnityEngine_Screen_set_sleepTimeout();
 
-		//UnityEngine.FullScreenMode UnityEngine.Screen::get_fullScreenMode()
-		void Register_UnityEngine_Screen_get_fullScreenMode();
-		Register_UnityEngine_Screen_get_fullScreenMode();
-
 		//UnityEngine.ScreenOrientation UnityEngine.Screen::GetScreenOrientation()
 		void Register_UnityEngine_Screen_GetScreenOrientation();
 		Register_UnityEngine_Screen_GetScreenOrientation();
@@ -10515,6 +10535,14 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Shader_GetPropertyTextureDimension_Injected();
 
 	//End Registrations for type : UnityEngine.Shader
+
+	//Start Registrations for type : UnityEngine.ShaderVariantCollection
+
+		//System.Void UnityEngine.ShaderVariantCollection::Internal_Create(UnityEngine.ShaderVariantCollection)
+		void Register_UnityEngine_ShaderVariantCollection_Internal_Create();
+		Register_UnityEngine_ShaderVariantCollection_Internal_Create();
+
+	//End Registrations for type : UnityEngine.ShaderVariantCollection
 
 	//Start Registrations for type : UnityEngine.SkinnedMeshRenderer
 
@@ -12957,10 +12985,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.XR.XRSettings::get_loadedDeviceName_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
 		void Register_UnityEngine_XR_XRSettings_get_loadedDeviceName_Injected();
 		Register_UnityEngine_XR_XRSettings_get_loadedDeviceName_Injected();
-
-		//System.Void UnityEngine.XR.XRSettings::set_eyeTextureResolutionScale(System.Single)
-		void Register_UnityEngine_XR_XRSettings_set_eyeTextureResolutionScale();
-		Register_UnityEngine_XR_XRSettings_set_eyeTextureResolutionScale();
 
 	//End Registrations for type : UnityEngine.XR.XRSettings
 

@@ -4160,6 +4160,7 @@ struct YargProfile_t90BB83F3C0FCD25442E39DFE35671EF21BAC73B4  : public RuntimeOb
 	Guid_t ___HighwayPreset;
 	Guid_t ___RockMeterPreset;
 	uint8_t ___CurrentInstrument;
+	uint8_t ___PreferredInstrument;
 	uint8_t ___CurrentDifficulty;
 	uint8_t ___DifficultyFallback;
 	uint8_t ____harmonyIndex;

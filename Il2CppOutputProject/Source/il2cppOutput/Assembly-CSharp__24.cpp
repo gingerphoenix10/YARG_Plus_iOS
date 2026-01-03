@@ -433,16 +433,13 @@ IL2CPP_EXTERN_C String_t* _stringLiteral3613E3EC814B3246C226F47879C7AB575DCBB871
 IL2CPP_EXTERN_C String_t* _stringLiteral3763B1F73CF1C10C8D7A2E68C29500D64A6318D3;
 IL2CPP_EXTERN_C String_t* _stringLiteral382F6F5AE2C35C1C50B89F9EFF06948C9C7C6570;
 IL2CPP_EXTERN_C String_t* _stringLiteral38960D29EB0892D7CA438F5CFA68D0C4275F7A66;
-IL2CPP_EXTERN_C String_t* _stringLiteral3C22F7267317A26694F1F81041A8984D0E09A296;
 IL2CPP_EXTERN_C String_t* _stringLiteral3C2B31F46E79EBA2CDDFC1F36C35BBB5C452638F;
 IL2CPP_EXTERN_C String_t* _stringLiteral3D172C13F64F378D123F5F9EAD24088B6CB20390;
 IL2CPP_EXTERN_C String_t* _stringLiteral3E612A7D26CF6CA99909634D44E3E8586012379F;
 IL2CPP_EXTERN_C String_t* _stringLiteral4108EA3AB8BFF50AB9B672F161CF6C5E1A952358;
 IL2CPP_EXTERN_C String_t* _stringLiteral41104D104E8A24F072E02C1F6B3134E0A2F95170;
 IL2CPP_EXTERN_C String_t* _stringLiteral4253CADEFDD0688ECCE32EF44D7962DD3DC92C57;
-IL2CPP_EXTERN_C String_t* _stringLiteral44B6875E7EE8FB23B8B949A0D52B9A2F3D849B84;
 IL2CPP_EXTERN_C String_t* _stringLiteral457E6A3AEA50A4A6C993A9468EFD6094B8BE171E;
-IL2CPP_EXTERN_C String_t* _stringLiteral45862AC31D4C4BF11B0BA4AB86B72B9035D2E4C8;
 IL2CPP_EXTERN_C String_t* _stringLiteral483A18113D7D1830224E3C40DFC0010B646F0C18;
 IL2CPP_EXTERN_C String_t* _stringLiteral48A8651CDA7D60662B36C34BA583F75B1395BAB0;
 IL2CPP_EXTERN_C String_t* _stringLiteral49A7EA21ECB328D154FA2262BB41626D795F4D90;
@@ -482,15 +479,12 @@ IL2CPP_EXTERN_C String_t* _stringLiteral716AA173DB0D5D7B74519B334B1043E1E4198489
 IL2CPP_EXTERN_C String_t* _stringLiteral74AC75E38A5A9F362F8F496C80E5A9D2403FC4DA;
 IL2CPP_EXTERN_C String_t* _stringLiteral7614665D96D65D3FFF1D91F435111C6729D753C9;
 IL2CPP_EXTERN_C String_t* _stringLiteral763506E62B2F01B5A3FFDC83A408DD95076B6F02;
-IL2CPP_EXTERN_C String_t* _stringLiteral7716DBD851D11A9D14E180FE24D8B0E240477E1D;
 IL2CPP_EXTERN_C String_t* _stringLiteral790496351EEEE3A7A05EDEDF6F778160F5DD00DE;
 IL2CPP_EXTERN_C String_t* _stringLiteral79A2984B068D628F03B58968F1E1A0D726BD7A2D;
 IL2CPP_EXTERN_C String_t* _stringLiteral7AAF4A0BBFFF6A5985DEBF09B8E795D20F6F4E24;
-IL2CPP_EXTERN_C String_t* _stringLiteral7AE0895343E4D97E546C7A5F04E775FAF4CA9EBD;
 IL2CPP_EXTERN_C String_t* _stringLiteral7B59AA870DE842F38807D1E4C7C039A8AEE05156;
 IL2CPP_EXTERN_C String_t* _stringLiteral7B96BDCC1EDA1E1BA1A68162F50C44E201C3655F;
 IL2CPP_EXTERN_C String_t* _stringLiteral7BD94214C5F1FD200D5DBDAE67A0164057E9E9C9;
-IL2CPP_EXTERN_C String_t* _stringLiteral7BFBFB54B8901155A0D3672E03A67379509230A2;
 IL2CPP_EXTERN_C String_t* _stringLiteral7C5CE1A73E3D3882A7AE5BF2B9FDA866FC935CFD;
 IL2CPP_EXTERN_C String_t* _stringLiteral7D28C7A1A26A38C166E146F978030E8EA3D0485C;
 IL2CPP_EXTERN_C String_t* _stringLiteral7D4AB29AC499EFF1F63EEE057068C18B43F8741F;
@@ -527,7 +521,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralA440D55D01D9CD9D04E5BBC2D58E7E9A3D2B641E
 IL2CPP_EXTERN_C String_t* _stringLiteralA44A39671D4B7FA8FBE50D795EAB52248D5C5469;
 IL2CPP_EXTERN_C String_t* _stringLiteralA46B7E83978907BF371D4FD270BC35CC71014C5E;
 IL2CPP_EXTERN_C String_t* _stringLiteralA8A3DD69001985C64C03CED9DF19EB43748F7283;
-IL2CPP_EXTERN_C String_t* _stringLiteralA901446FE073D5B91CE3AD7F0B6F4F0E1A38012B;
 IL2CPP_EXTERN_C String_t* _stringLiteralA9C67F60BC14F32DFAD744B7A03BC2A6271A3A6A;
 IL2CPP_EXTERN_C String_t* _stringLiteralAAF789D8C76EED63A0D27316AC5C78E7C0C1145D;
 IL2CPP_EXTERN_C String_t* _stringLiteralAB3A1370A94AF91691B015BC4D0C7077B71E2B74;
@@ -588,7 +581,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralEE7062D95D29941FEE9FA14518F6FF2F1F3C304A
 IL2CPP_EXTERN_C String_t* _stringLiteralEE940C67032A57A7F2901F6E51E17EC7A35D4281;
 IL2CPP_EXTERN_C String_t* _stringLiteralEE9A2486DFCA3999244C35D5D7B9653D8EAE5ED8;
 IL2CPP_EXTERN_C String_t* _stringLiteralEEF373BE82B18399E309D0B4B933E4B67E64BF0B;
-IL2CPP_EXTERN_C String_t* _stringLiteralEFACE06DF0CEFC624D1E469F0F46AC0C2346B700;
 IL2CPP_EXTERN_C String_t* _stringLiteralF165DAD21D276A630E1B83763FED6C10EE205348;
 IL2CPP_EXTERN_C String_t* _stringLiteralF3515DEF3EA1B6FCF3F6D0F91034EBBD9EE5865E;
 IL2CPP_EXTERN_C String_t* _stringLiteralF377D74179161D2A4F5EA36B0DB0BD50C62E9CA6;
@@ -694,9 +686,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mCA0F0A183988A51EF5F8D38439D16C9848B4103B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CGetModuleNamesU3Ed__11_System_Collections_IEnumerator_Reset_mF151BA916EFABF4097EFAD8DA53C14BCF4D8EC1B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CPluginInfoGetModuleNamesU3Ed__33_System_Collections_IEnumerator_Reset_mB21F94A949FC42AB068649F926FBE6EF37135FF2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CReadUsingLookupTableU3Ed__12_System_Collections_IEnumerator_Reset_mDC50E16296DF2EF669D9A4208DDB9056C94931B8_RuntimeMethod_var;
@@ -4285,8 +4275,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m39C71A39758E2B4A04F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mCD8F7DBA6DFC07E93E55D674787E53E3588BE58D_gshared (Func_2_tB5422B774B20A6FA5E1E2A7456E87A4C47AF1F04* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Effect_1_OnPreset_m9E5A15B93390FB170E526741B8CE0A4C0B06C280_gshared (Effect_1_t6BBD13D1531C45F10E444876B049BF46DE556C29* __this, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_gshared_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_gshared_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_gshared (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMarshal_SizeOf_TisTOC_t6DA4D7DA1D9639CAA8168800A73FE6C6D20E32B6_m11C62BA04C306D733C328038D3F466F1DFB0274F_gshared (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mCA0F0A183988A51EF5F8D38439D16C9848B4103B_gshared (List_1_t72B3AF720B14C7983589FA260AC7ADB3458F638E* __this, int32_t ___0_capacity, const RuntimeMethod* method) ;
@@ -4879,17 +4867,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_BASS_Encode_GetACMFormat_m7C0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_BASS_Encode_StartACMFile_mC9204012599B06C828B511FAC67E9E4238AF667D (int32_t ___0_handle, intptr_t ___1_form, int32_t ___2_flags, String_t* ___3_filename, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Acc_BASS_Encode_AAC_GetVersion_m173D5EC57B77720F86BCE1C9D31BCDCCF19FABF1 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Acc_BASS_Encode_AAC_Start_mA20D1D8D7624DF4CB4B531DD71C483BCE8EF2767 (int32_t ___0_Handle, String_t* ___1_Options, int32_t ___2_Flags, EncodeProcedure_t88B84CEE25DF85D0542D5777EC8C0BADFBFCD1E0* ___3_Procedure, intptr_t ___4_User, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Acc_CharsToInt_m90CA92FE995B2B01FCB1863CFD2B9D1185D29E21 (String_t* ___0_chars, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 BassEnc_Acc_GetArgValueInt_mAACCA6F638A8D46E3DCEBFADFBC2148238592CB7 (String_t* ___0_Cmd, String_t* ___1_Arg, const RuntimeMethod* method) ;
-inline int32_t Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method)
-{
-	return ((  int32_t (*) (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28*, const RuntimeMethod*))Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_gshared_inline)(__this, method);
-}
-inline bool Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method)
-{
-	return ((  bool (*) (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28*, const RuntimeMethod*))Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_gshared_inline)(__this, method);
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_EncodeStartCA_mF3775104528B1F7ECBECBE3CCD95C79765ED0F15 (int32_t ___0_Handle, int32_t ___1_ftype, int32_t ___2_atype, int32_t ___3_Flags, int32_t ___4_Bitrate, String_t* ___5_Filename, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Acc_BASS_Encode_AAC_StartFile_mFF2E6F0CAD8915B39CF8EEACC0217118929949C8 (int32_t ___0_Handle, String_t* ___1_Options, int32_t ___2_Flags, String_t* ___3_FileName, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_IndexOf_m490810CB7ADA9230AC0F8D78E213A8EFED129F55 (String_t* __this, String_t* ___0_value, int32_t ___1_comparisonType, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) ;
@@ -5010,6 +4988,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassAsio_ChannelGetInfo_mF01B1B5BAF735FE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BassAsio_BASS_ASIO_ChannelGetLevel_mCCE93BDF4FD95581BF1244173A95E2F7267889CE (bool ___0_input, int32_t ___1_channel, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BassAsio_BASS_ASIO_ChannelGetVolume_m8762CABABDF1E2EF93858DF9D4A0ABC21C3939C0 (bool ___0_input, int32_t ___1_channel, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassAsio_BASS_ASIO_ChannelSetVolume_m14A8A6E7C7DD80184F86BC1C071055849BAA46D8 (bool ___0_input, int32_t ___1_channel, float ___2_volume, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioChannelInfo_get_Group_mFB2FAFD29C3D34B3C8BCA6F268400998DEAC2931_inline (AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioChannelInfo_get_Format_mC3F7856506DB79D2B38960400F520AC33A0E0D0F_inline (AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioChannelInfo_get_Name_m10ACC6D13B9CCF337D792E349ABEDCCFD1E1EA7B (AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioDeviceInfo_PtrToString_m88F6017B0EF05DBB018F0DFFA924D8EEE390760D (intptr_t ___0_ptr, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioDeviceInfo_get_Name_m6A2A6C054B7CF16AB4C80C4B88C46BC17F85368B (AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioDeviceInfo_get_Driver_m8C63837CD42704A7148B3D8818D9BBA6C21553A8 (AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioDeviceInfo_ToString_m770FBA7427A2105E72CBC5AA7C873F7CAF900C4B (AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_InitFlags_m075360390A7463F305FAEAFFF352F16D1FCE663D_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioInfo_get_Name_m1FA019955F6DF3B2EDA58C805C792CF42C9A7431 (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_DriverVersion_m9152313873CA1C17C73B1A9674D130A25990EC91_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_Inputs_mAF1FDFA238BFEE4EA63A55A4125FAF2D851B7BD3_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_Outputs_m6F2D4DFD8605CECEA94F1FA1D08D66B1B70BA6E7_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_MinBufferLength_m98F88593289F0784497DB00ED5A2D56FF92E76A3_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_MaxBufferLength_mD46479D237699B55D0855CAF10809E579452DED3_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_PreferredBufferLength_mA629C720255483E50E47F24C6BD03D60FB17D2CF_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_BufferLengthGranularity_m5A9D586EFF36009C1A100E464D271EC58D8959CF_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioInfo_ToString_m6BA7433B8288C71D0CE5DBD8A4AA6D31FC24486C (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) ;
 inline void List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method)
 {
 	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8_gshared)(__this, ___0_item, method);
@@ -5018,53 +5013,6 @@ inline void List_1_AddWithResize_m9E7DE92910C9696D32524F8911F09F669DB750BD (List
 {
 	((  void (*) (List_1_t72B3AF720B14C7983589FA260AC7ADB3458F638E*, TOCTrack_tEFCD69B4BED1C62CC1CF7D1F44FDA84D4BE73B74, const RuntimeMethod*))List_1_AddWithResize_m9E7DE92910C9696D32524F8911F09F669DB750BD_gshared)(__this, ___0_item, method);
 }
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_OPUS_StreamCreateFile(int32_t, Il2CppChar*, int64_t, int64_t, uint32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_OPUS_StreamCreateFileUser(int32_t, uint32_t, FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvoke*, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_OPUS_StreamCreateURL(Il2CppChar*, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_GetVersion();
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamCreate(int32_t, uint32_t, int32_t*);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamGetAvailable(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamReset(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamResetEx(int32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamGetSource(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamGetSplits(int32_t, int32_t*, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_StreamCreate(int32_t, int32_t, uint32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_StreamAddChannel(int32_t, int32_t, uint32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_StreamAddChannelEx(int32_t, int32_t, uint32_t, int64_t, int64_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelRemove(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_StreamGetChannels(int32_t, int32_t*, int32_t);
-IL2CPP_EXTERN_C uint32_t DEFAULT_CALL BASS_Mixer_ChannelFlags(int32_t, uint32_t, uint32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetData(int32_t, intptr_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetLevel(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetLevelEx(int32_t, float*, float, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetMatrix(int32_t, SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4*);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetMixer(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetMatrix(int32_t, SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4*);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetMatrixEx(int32_t, SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4*, float);
-IL2CPP_EXTERN_C int64_t DEFAULT_CALL BASS_Mixer_ChannelGetPosition(int32_t, int32_t);
-IL2CPP_EXTERN_C int64_t DEFAULT_CALL BASS_Mixer_ChannelGetPositionEx(int32_t, int32_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetPosition(int32_t, int64_t, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetSync(int32_t, int32_t, int64_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelRemoveSync(int32_t, int32_t);
-IL2CPP_EXTERN_C int64_t DEFAULT_CALL BASS_Mixer_ChannelGetEnvelopePos(int32_t, int32_t, float*);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetEnvelopePos(int32_t, int32_t, int64_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetEnvelope(int32_t, int32_t, MixerNode_tC5BC56CA053E617EB785B34D5BCD3B47B8CFA5B1*, int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_GetVersion();
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_TempoCreate(int32_t, uint32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_TempoGetSource(int32_t);
-IL2CPP_EXTERN_C float DEFAULT_CALL BASS_FX_TempoGetRateRatio(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_ReverseCreate(int32_t, float, uint32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_ReverseGetSource(int32_t);
-IL2CPP_EXTERN_C float DEFAULT_CALL BASS_FX_BPM_DecodeGet(int32_t, double, double, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_CallbackSet(int32_t, Il2CppMethodPointer, double, int32_t, uint32_t, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_CallbackReset(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_Free(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatDecodeGet(int32_t, double, double, uint32_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatCallbackSet(int32_t, Il2CppMethodPointer, intptr_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatCallbackReset(int32_t);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatSetParameters(int32_t, float, float, float);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatGetParameters(int32_t, float*, float*, float*);
-IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatFree(int32_t);
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_basszxtune_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_ZXTUNE_StreamCreateFile(int32_t, Il2CppChar*, int64_t, int64_t, uint32_t);
 #endif
@@ -5560,6 +5508,15 @@ IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_SFX_PluginStop(int32_t);
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_sfx_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_SFX_WMP_GetPluginW(int32_t, BassSfxPluginInfo_t8FBFF4FC64EAC9637DDA2C9442F09EA713F27BE2*);
 #endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassopus_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_OPUS_StreamCreateFile(int32_t, Il2CppChar*, int64_t, int64_t, uint32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassopus_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_OPUS_StreamCreateFileUser(int32_t, uint32_t, FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvoke*, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassopus_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_OPUS_StreamCreateURL(Il2CppChar*, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
+#endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_ofr_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_OFR_StreamCreateFile(int32_t, Il2CppChar*, int64_t, int64_t, uint32_t);
 #endif
@@ -5577,6 +5534,90 @@ IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MPC_StreamCreateFileUser(int32_t, uint
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_mpc_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MPC_StreamCreateURL(Il2CppChar*, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_GetVersion();
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamCreate(int32_t, uint32_t, int32_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamGetAvailable(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamReset(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamResetEx(int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamGetSource(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Split_StreamGetSplits(int32_t, int32_t*, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_StreamCreate(int32_t, int32_t, uint32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_StreamAddChannel(int32_t, int32_t, uint32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_StreamAddChannelEx(int32_t, int32_t, uint32_t, int64_t, int64_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelRemove(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_StreamGetChannels(int32_t, int32_t*, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C uint32_t DEFAULT_CALL BASS_Mixer_ChannelFlags(int32_t, uint32_t, uint32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetData(int32_t, intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetLevel(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetLevelEx(int32_t, float*, float, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetMatrix(int32_t, SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelGetMixer(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetMatrix(int32_t, SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetMatrixEx(int32_t, SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4*, float);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int64_t DEFAULT_CALL BASS_Mixer_ChannelGetPosition(int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int64_t DEFAULT_CALL BASS_Mixer_ChannelGetPositionEx(int32_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetPosition(int32_t, int64_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetSync(int32_t, int32_t, int64_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelRemoveSync(int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int64_t DEFAULT_CALL BASS_Mixer_ChannelGetEnvelopePos(int32_t, int32_t, float*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetEnvelopePos(int32_t, int32_t, int64_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_Mixer_ChannelSetEnvelope(int32_t, int32_t, MixerNode_tC5BC56CA053E617EB785B34D5BCD3B47B8CFA5B1*, int32_t);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmidi_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_MIDI_StreamCreate(int32_t, uint32_t, int32_t);
@@ -5715,6 +5756,54 @@ IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_HLS_StreamCreateFile(int32_t, Il2CppCh
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_basshls_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_HLS_StreamCreateURL(Il2CppChar*, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_GetVersion();
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_TempoCreate(int32_t, uint32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_TempoGetSource(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
+IL2CPP_EXTERN_C float DEFAULT_CALL BASS_FX_TempoGetRateRatio(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_ReverseCreate(int32_t, float, uint32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_ReverseGetSource(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
+IL2CPP_EXTERN_C float DEFAULT_CALL BASS_FX_BPM_DecodeGet(int32_t, double, double, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_CallbackSet(int32_t, Il2CppMethodPointer, double, int32_t, uint32_t, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_CallbackReset(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_Free(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatDecodeGet(int32_t, double, double, uint32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatCallbackSet(int32_t, Il2CppMethodPointer, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatCallbackReset(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatSetParameters(int32_t, float, float, float);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatGetParameters(int32_t, float*, float*, float*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FX_BPM_BeatFree(int32_t);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassflac_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL BASS_FLAC_StreamCreateFile(int32_t, Il2CppChar*, int64_t, int64_t, uint32_t);
@@ -21102,6 +21191,15 @@ IL2CPP_EXTERN_C  String_t* BassSfxPluginInfo_ToString_m2127AA90A0B2956055A851A1C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassOpus_BASS_OPUS_StreamCreateFile_m2F20DAB55903FC4CCBDB981DD68F9AC5F2EED6EB (bool ___0_mem, String_t* ___1_file, int64_t ___2_offset, int64_t ___3_length, uint32_t ___4_flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppChar*, int64_t, int64_t, uint32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassopus_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 4 + sizeof(Il2CppChar*) + sizeof(int64_t) + sizeof(int64_t) + sizeof(uint32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassopus"), "BASS_OPUS_StreamCreateFile", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____1_file_marshaled = NULL;
 	if (___1_file != NULL)
@@ -21109,15 +21207,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassOpus_BASS_OPUS_StreamCreateFile_m
 		____1_file_marshaled = &___1_file->____firstChar;
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassopus_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_OPUS_StreamCreateFile)(static_cast<int32_t>(___0_mem), ____1_file_marshaled, ___2_offset, ___3_length, ___4_flags);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(static_cast<int32_t>(___0_mem), ____1_file_marshaled, ___2_offset, ___3_length, ___4_flags);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassOpus_BASS_OPUS_StreamCreateFile_m5B8980B270585602E3E73C0C7803104487F8E080 (bool ___0_mem, intptr_t ___1_file, int64_t ___2_offset, int64_t ___3_length, uint32_t ___4_flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, intptr_t, int64_t, int64_t, uint32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassopus_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 4 + sizeof(intptr_t) + sizeof(int64_t) + sizeof(int64_t) + sizeof(uint32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassopus"), "BASS_OPUS_StreamCreateFile", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassopus_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_OPUS_StreamCreateFile)(static_cast<int32_t>(___0_mem), ___1_file, ___2_offset, ___3_length, ___4_flags);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(static_cast<int32_t>(___0_mem), ___1_file, ___2_offset, ___3_length, ___4_flags);
+	#endif
 
 	return returnValue;
 }
@@ -21187,6 +21302,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassOpus_BASS_OPUS_StreamCreateFileUs
 
 
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t, FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvoke*, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassopus_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(uint32_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassopus"), "BASS_OPUS_StreamCreateFileUser", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshaled_pinvoke ____2_procs_marshaled = {};
 	if (___2_procs != NULL)
@@ -21194,7 +21318,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassOpus_BASS_OPUS_StreamCreateFileUs
 		FileProcedures_t352E67AA15FD3C9A26B0E6FD8E7C3A6B88B2B394_marshal_pinvoke(*___2_procs, ____2_procs_marshaled);
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassopus_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_OPUS_StreamCreateFileUser)(___0_system, ___1_flags, ___2_procs != NULL ? (&____2_procs_marshaled) : NULL, ___3_user);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_system, ___1_flags, ___2_procs != NULL ? (&____2_procs_marshaled) : NULL, ___3_user);
+	#endif
 
 	if (___2_procs != NULL)
 	{
@@ -21248,6 +21376,15 @@ IL_0015:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassOpus_BASS_OPUS_StreamCreateURL_m8E6EF0908E67E108E06A8456177E858550766DB7 (String_t* ___0_Url, int32_t ___1_Offset, uint32_t ___2_Flags, DownloadProcedure_tA70135ABB7A8ACA234DFC982AB89A6B346C62E67* ___3_Procedure, intptr_t ___4_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (Il2CppChar*, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassopus_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(uint32_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassopus"), "BASS_OPUS_StreamCreateURL", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppChar* ____0_Url_marshaled = NULL;
 	if (___0_Url != NULL)
@@ -21258,7 +21395,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassOpus_BASS_OPUS_StreamCreateURL_m8
 	Il2CppMethodPointer ____3_Procedure_marshaled = NULL;
 	____3_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___3_Procedure));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassopus_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_OPUS_StreamCreateURL)(____0_Url_marshaled, ___1_Offset, ___2_Flags, ____3_Procedure_marshaled, ___4_User);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____0_Url_marshaled, ___1_Offset, ___2_Flags, ____3_Procedure_marshaled, ___4_User);
+	#endif
 
 	return returnValue;
 }
@@ -21911,8 +22052,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass5_0_U3CCreateStr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_BASS_Mixer_GetVersion_m5F087024320867E71845D408795796ED6520F3B1 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 0;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_GetVersion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_GetVersion)();
+	#else
+	int32_t returnValue = il2cppPInvokeFunc();
+	#endif
 
 	return returnValue;
 }
@@ -21936,6 +22090,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Version_tE426DB5655D0F22920AE16A2AA9AB7781B82
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_CreateSplitStream_mAA507C93749C05753E790759377DB45895089BE7 (int32_t ___0_Channel, uint32_t ___1_Flags, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___2_ChannelMap, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t, int32_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(uint32_t) + sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Split_StreamCreate", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	int32_t* ____2_ChannelMap_marshaled = NULL;
 	if (___2_ChannelMap != NULL)
@@ -21943,45 +22106,110 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_CreateSplitStream_mAA507C9374
 		____2_ChannelMap_marshaled = reinterpret_cast<int32_t*>((___2_ChannelMap)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Split_StreamCreate)(___0_Channel, ___1_Flags, ____2_ChannelMap_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Channel, ___1_Flags, ____2_ChannelMap_marshaled);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_SplitStreamGetAvailable_m75F0C51C8ECA4D4649689E647A93FCBE0F6C09D9 (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Split_StreamGetAvailable", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Split_StreamGetAvailable)(___0_Handle);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_SplitStreamReset_m8CB9EE53B8EA75A7F62F75A3E38148613474251E (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Split_StreamReset", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Split_StreamReset)(___0_Handle);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_SplitStreamReset_m80134F75BCF1FFD671CD61249F6E187E44398839 (int32_t ___0_Handle, int32_t ___1_Offset, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Split_StreamResetEx", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Split_StreamResetEx)(___0_Handle, ___1_Offset);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Offset);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_SplitStreamGetSource_mEC4A438CECEBB3BEDC6F1C95A3962E93D8F181A3 (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Split_StreamGetSource", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Split_StreamGetSource)(___0_Handle);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_BASS_Split_StreamGetSplits_m4926D7DDF837C0AB948CF1B5AB5A4759DD45F3EB (int32_t ___0_handle, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_array, int32_t ___2_length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Split_StreamGetSplits", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	int32_t* ____1_array_marshaled = NULL;
 	if (___1_array != NULL)
@@ -21989,7 +22217,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_BASS_Split_StreamGetSplits_m4
 		____1_array_marshaled = reinterpret_cast<int32_t*>((___1_array)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Split_StreamGetSplits)(___0_handle, ____1_array_marshaled, ___2_length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_handle, ____1_array_marshaled, ___2_length);
+	#endif
 
 	return returnValue;
 }
@@ -22048,38 +22280,99 @@ IL_0025:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_CreateMixerStream_m862B8022944B398041788708B423262ACB40377E (int32_t ___0_Frequency, int32_t ___1_Channels, uint32_t ___2_Flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, uint32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(uint32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_StreamCreate", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_StreamCreate)(___0_Frequency, ___1_Channels, ___2_Flags);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Frequency, ___1_Channels, ___2_Flags);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_MixerAddChannel_m249619C7B327269AF718C42E4447C6975C81E811 (int32_t ___0_Handle, int32_t ___1_Channel, uint32_t ___2_Flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, uint32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(uint32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_StreamAddChannel", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_StreamAddChannel)(___0_Handle, ___1_Channel, ___2_Flags);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Channel, ___2_Flags);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_MixerAddChannel_mC2D3D8F95874F31CE7C0542B66BA67C4A3BE5355 (int32_t ___0_Handle, int32_t ___1_Channel, uint32_t ___2_Flags, int64_t ___3_Start, int64_t ___4_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, uint32_t, int64_t, int64_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(uint32_t) + sizeof(int64_t) + sizeof(int64_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_StreamAddChannelEx", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_StreamAddChannelEx)(___0_Handle, ___1_Channel, ___2_Flags, ___3_Start, ___4_Length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Channel, ___2_Flags, ___3_Start, ___4_Length);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_MixerRemoveChannel_m1432C1E88E20641C2618FA2ED0FF4780DE91C52C (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelRemove", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelRemove)(___0_Handle);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_BASS_Mixer_StreamGetChannels_m0F8F31D0D39AFBA52E99CFC097756112C71D14D1 (int32_t ___0_Handle, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_Channels, int32_t ___2_Count, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_StreamGetChannels", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	int32_t* ____1_Channels_marshaled = NULL;
 	if (___1_Channels != NULL)
@@ -22087,7 +22380,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_BASS_Mixer_StreamGetChannels_
 		____1_Channels_marshaled = reinterpret_cast<int32_t*>((___1_Channels)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_StreamGetChannels)(___0_Handle, ____1_Channels_marshaled, ___2_Count);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Channels_marshaled, ___2_Count);
+	#endif
 
 	return returnValue;
 }
@@ -22226,8 +22523,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BassMix_set_MixerPositionEx_mD93C3C0BA6B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t BassMix_ChannelFlags_m8D96367BC56E29D0D3EF7002C7F2DAF33A5260CC (int32_t ___0_Handle, uint32_t ___1_Flags, uint32_t ___2_Mask, const RuntimeMethod* method) 
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t, uint32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(uint32_t) + sizeof(uint32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelFlags", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	uint32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelFlags)(___0_Handle, ___1_Flags, ___2_Mask);
+	#else
+	uint32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Flags, ___2_Mask);
+	#endif
 
 	return returnValue;
 }
@@ -22276,14 +22586,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_ChannelRemoveFlag_m95E4321C57823
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_m4F95E20E9A51EA0706BAC63C585B0EA0DCFEEBE4 (int32_t ___0_Handle, intptr_t ___1_Buffer, int32_t ___2_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetData)(___0_Handle, ___1_Buffer, ___2_Length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Buffer, ___2_Length);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_m3252F09B5B6C2643E90EA992CA15E1AE67595719 (int32_t ___0_Handle, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_Buffer, int32_t ___2_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint8_t*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	uint8_t* ____1_Buffer_marshaled = NULL;
 	if (___1_Buffer != NULL)
@@ -22291,13 +22623,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_m3252F09B5B6C2
 		____1_Buffer_marshaled = reinterpret_cast<uint8_t*>((___1_Buffer)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetData)(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_mC3A5ADBC3EE7EF1FD3BF2F598BCE094F67EF8B78 (int32_t ___0_Handle, Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* ___1_Buffer, int32_t ___2_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int16_t*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	int16_t* ____1_Buffer_marshaled = NULL;
 	if (___1_Buffer != NULL)
@@ -22305,13 +22650,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_mC3A5ADBC3EE7E
 		____1_Buffer_marshaled = reinterpret_cast<int16_t*>((___1_Buffer)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetData)(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_m0A34852B1D538A4995E816FE51AEE2CCE4DDAB31 (int32_t ___0_Handle, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_Buffer, int32_t ___2_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	int32_t* ____1_Buffer_marshaled = NULL;
 	if (___1_Buffer != NULL)
@@ -22319,13 +22677,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_m0A34852B1D538
 		____1_Buffer_marshaled = reinterpret_cast<int32_t*>((___1_Buffer)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetData)(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_mA372AE2236F2998E702846EA62926C56A62FE63E (int32_t ___0_Handle, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_Buffer, int32_t ___2_Length, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, float*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetData", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	float* ____1_Buffer_marshaled = NULL;
 	if (___1_Buffer != NULL)
@@ -22333,21 +22704,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetData_mA372AE2236F29
 		____1_Buffer_marshaled = reinterpret_cast<float*>((___1_Buffer)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetData)(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Buffer_marshaled, ___2_Length);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetLevel_mEC438480D12998D04E71BA993ECE936F4A290A08 (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetLevel", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetLevel)(___0_Handle);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetLevel_mC98190924CAF118303C259FE5BB4D828BD9CE4BB (int32_t ___0_Handle, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_Levels, float ___2_Length, int32_t ___3_Flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, float*, float, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(float) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetLevelEx", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	float* ____1_Levels_marshaled = NULL;
 	if (___1_Levels != NULL)
@@ -22355,7 +22752,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetLevel_mC98190924CAF
 		____1_Levels_marshaled = reinterpret_cast<float*>((___1_Levels)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetLevelEx)(___0_Handle, ____1_Levels_marshaled, ___2_Length, ___3_Flags);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Levels_marshaled, ___2_Length, ___3_Flags);
+	#endif
 
 	return returnValue;
 }
@@ -22372,8 +22773,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_ChannelGetMatrix_m2ABA0AE15BF07D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_ChannelGetMixer_m2FAA3636F9CF349D60698827C1A16C8E260EB1D0 (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetMixer", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetMixer)(___0_Handle);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
+	#endif
 
 	return returnValue;
 }
@@ -22400,35 +22814,87 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_ChannelSetMatrix_mE0981DE83EDA5C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BassMix_ChannelGetPosition_m78AB357499DCC9048EA857D2EDF20F14C28D5400 (int32_t ___0_Handle, int32_t ___1_Mode, const RuntimeMethod* method) 
 {
 	typedef int64_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetPosition", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int64_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetPosition)(___0_Handle, ___1_Mode);
+	#else
+	int64_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Mode);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BassMix_ChannelGetPosition_m5C62281507FF476C112EBB7B0A1762C930EFF4C9 (int32_t ___0_Handle, int32_t ___1_Mode, int32_t ___2_Delay, const RuntimeMethod* method) 
 {
 	typedef int64_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetPositionEx", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int64_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetPositionEx)(___0_Handle, ___1_Mode, ___2_Delay);
+	#else
+	int64_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Mode, ___2_Delay);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_ChannelSetPosition_m2A87C1111B32442D6637919226FE97E5F18B16A1 (int32_t ___0_Handle, int64_t ___1_Position, int32_t ___2_Mode, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int64_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int64_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelSetPosition", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelSetPosition)(___0_Handle, ___1_Position, ___2_Mode);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Position, ___2_Mode);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_BASS_Mixer_ChannelSetSync_mD5B5A56829D41BAC957BF28AF5D8781275BA1D70 (int32_t ___0_Handle, int32_t ___1_Type, int64_t ___2_Parameter, SyncProcedure_t9D3998EC49163B3DD7885E7024FE918EBC919505* ___3_Procedure, intptr_t ___4_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int64_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int64_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelSetSync", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppMethodPointer ____3_Procedure_marshaled = NULL;
 	____3_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___3_Procedure));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelSetSync)(___0_Handle, ___1_Type, ___2_Parameter, ____3_Procedure_marshaled, ___4_User);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Type, ___2_Parameter, ____3_Procedure_marshaled, ___4_User);
+	#endif
 
 	return returnValue;
 }
@@ -22515,11 +22981,24 @@ IL_0050:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassMix_BASS_Mixer_ChannelSetSync_m533C57DA212154C4E916967CED1EDC932B6A3FA9 (int32_t ___0_Handle, int32_t ___1_Type, int64_t ___2_Parameter, SyncProcedureEx_tA6949C4BD08BA902D137E8BD68DEBFB02257DDDD* ___3_Procedure, intptr_t ___4_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int64_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int64_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelSetSync", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppMethodPointer ____3_Procedure_marshaled = NULL;
 	____3_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___3_Procedure));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelSetSync)(___0_Handle, ___1_Type, ___2_Parameter, ____3_Procedure_marshaled, ___4_User);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Type, ___2_Parameter, ____3_Procedure_marshaled, ___4_User);
+	#endif
 
 	return returnValue;
 }
@@ -22606,8 +23085,21 @@ IL_0056:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_BASS_Mixer_ChannelRemoveSync_m390907655DC813B68BFD7A5366E2C7ED2785A69B (int32_t ___0_Handle, int32_t ___1_Sync, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelRemoveSync", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelRemoveSync)(___0_Handle, ___1_Sync);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Sync);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -22650,22 +23142,57 @@ IL_0011:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BassMix_ChannelGetEnvelopePosition_m66B83742B725FCE173C8C6963E955B980A801BA5 (int32_t ___0_Handle, int32_t ___1_Type, float* ___2_Value, const RuntimeMethod* method) 
 {
 	typedef int64_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, float*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(float*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelGetEnvelopePos", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int64_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelGetEnvelopePos)(___0_Handle, ___1_Type, ___2_Value);
+	#else
+	int64_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Type, ___2_Value);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_ChannelSetEnvelopePosition_m39A4A013CB1C2D2769D47999CF4C1E50EBFD0443 (int32_t ___0_Handle, int32_t ___1_Type, int64_t ___2_Position, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int64_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int64_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelSetEnvelopePos", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelSetEnvelopePos)(___0_Handle, ___1_Type, ___2_Position);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Type, ___2_Position);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_BASS_Mixer_ChannelSetEnvelope_m7B79F143EF3A8ADB1B9AA59C219383C98C8A71C9 (int32_t ___0_Handle, int32_t ___1_Type, MixerNodeU5BU5D_tF73109ADD4A2ABC9468FE5505424EBF860509EC9* ___2_Nodes, int32_t ___3_Count, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, MixerNode_tC5BC56CA053E617EB785B34D5BCD3B47B8CFA5B1*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bassmix_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bassmix"), "BASS_Mixer_ChannelSetEnvelope", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	MixerNode_tC5BC56CA053E617EB785B34D5BCD3B47B8CFA5B1* ____2_Nodes_marshaled = NULL;
 	if (___2_Nodes != NULL)
@@ -22673,7 +23200,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassMix_BASS_Mixer_ChannelSetEnvelope_m7
 		____2_Nodes_marshaled = reinterpret_cast<MixerNode_tC5BC56CA053E617EB785B34D5BCD3B47B8CFA5B1*>((___2_Nodes)->GetAddressAtUnchecked(0));
 	}
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bassmix_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_Mixer_ChannelSetEnvelope)(___0_Handle, ___1_Type, ____2_Nodes_marshaled, ___3_Count);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Type, ____2_Nodes_marshaled, ___3_Count);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -25880,8 +26411,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass5_0_U3CCreateStr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassFx_BASS_FX_GetVersion_m06BC008EED579CE699995DEF07338D3A87FEC356 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 0;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_GetVersion", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_GetVersion)();
+	#else
+	int32_t returnValue = il2cppPInvokeFunc();
+	#endif
 
 	return returnValue;
 }
@@ -25905,132 +26449,327 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Version_tE426DB5655D0F22920AE16A2AA9AB7781B82
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassFx_TempoCreate_m5DD4D4A99DA166CC97BA40A4A81C21B2849440EE (int32_t ___0_Channel, uint32_t ___1_Flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(uint32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_TempoCreate", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_TempoCreate)(___0_Channel, ___1_Flags);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Channel, ___1_Flags);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassFx_TempoGetSource_mCB2B6DF95AAB7E86DFED0696D18F202FABB81145 (int32_t ___0_Channel, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_TempoGetSource", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_TempoGetSource)(___0_Channel);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Channel);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BassFx_TempoGetRateRatio_m3E29E46257E17990E03748F349D170CA68903EFB (int32_t ___0_Channel, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_TempoGetRateRatio", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	float returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_TempoGetRateRatio)(___0_Channel);
+	#else
+	float returnValue = il2cppPInvokeFunc(___0_Channel);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassFx_ReverseCreate_mDD76BF3FB8992485E20355340D533B56649E7654 (int32_t ___0_Channel, float ___1_DecodingBlockLength, uint32_t ___2_Flags, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, float, uint32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(float) + sizeof(uint32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_ReverseCreate", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_ReverseCreate)(___0_Channel, ___1_DecodingBlockLength, ___2_Flags);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Channel, ___1_DecodingBlockLength, ___2_Flags);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassFx_ReverseGetSource_m1C1A391F21E1EF39B4A8ED0332536883A48C47B1 (int32_t ___0_Channel, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_ReverseGetSource", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_ReverseGetSource)(___0_Channel);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Channel);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BassFx_BPMDecodeGet_m997E5AE49E7DC45B23FD6DAFE9DD2014F7682E86 (int32_t ___0_Channel, double ___1_StartSec, double ___2_EndSec, int32_t ___3_MinMaxBPM, uint32_t ___4_Flags, BPMProgressProcedure_t63CC02A5F28DB08C8706D0FBE61BD6452850775B* ___5_Procedure, intptr_t ___6_User, const RuntimeMethod* method) 
 {
 	typedef float (DEFAULT_CALL *PInvokeFunc) (int32_t, double, double, int32_t, uint32_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(double) + sizeof(double) + sizeof(int32_t) + sizeof(uint32_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_DecodeGet", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppMethodPointer ____5_Procedure_marshaled = NULL;
 	____5_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___5_Procedure));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	float returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_DecodeGet)(___0_Channel, ___1_StartSec, ___2_EndSec, ___3_MinMaxBPM, ___4_Flags, ____5_Procedure_marshaled, ___6_User);
+	#else
+	float returnValue = il2cppPInvokeFunc(___0_Channel, ___1_StartSec, ___2_EndSec, ___3_MinMaxBPM, ___4_Flags, ____5_Procedure_marshaled, ___6_User);
+	#endif
 
 	return returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMCallbackSet_mD9D265E34E6F0630A50F27E460DDA64B898583D5 (int32_t ___0_Handle, BPMProcedure_t65F91A7D92599E3A89A3F2D744490C256993DB6B* ___1_Procedure, double ___2_Period, int32_t ___3_MinMaxBPM, uint32_t ___4_Flags, intptr_t ___5_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppMethodPointer, double, int32_t, uint32_t, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(double) + sizeof(int32_t) + sizeof(uint32_t) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_CallbackSet", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppMethodPointer ____1_Procedure_marshaled = NULL;
 	____1_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___1_Procedure));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_CallbackSet)(___0_Handle, ____1_Procedure_marshaled, ___2_Period, ___3_MinMaxBPM, ___4_Flags, ___5_User);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Procedure_marshaled, ___2_Period, ___3_MinMaxBPM, ___4_Flags, ___5_User);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMCallbackReset_mAD06E8C4FD08871C75C4B6B8EF85AC737B2ED7DA (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_CallbackReset", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_CallbackReset)(___0_Handle);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMFree_m198E4CEC19764362D8980B8175FCFEF27297C12C (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_Free", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_Free)(___0_Handle);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMBeatDecodeGet_mBF73D2C9AF9F6FDD345F131C4BFEB28C33C69E6B (int32_t ___0_Channel, double ___1_StartSec, double ___2_EndSec, uint32_t ___3_Flags, BPMBeatProcedure_t028C2D01C9CF6CE240D398D94EC434B2FC68B589* ___4_Procedure, intptr_t ___5_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, double, double, uint32_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(double) + sizeof(double) + sizeof(uint32_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_BeatDecodeGet", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppMethodPointer ____4_Procedure_marshaled = NULL;
 	____4_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___4_Procedure));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_BeatDecodeGet)(___0_Channel, ___1_StartSec, ___2_EndSec, ___3_Flags, ____4_Procedure_marshaled, ___5_User);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Channel, ___1_StartSec, ___2_EndSec, ___3_Flags, ____4_Procedure_marshaled, ___5_User);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMBeatCallbackSet_m5247C242FE1DEF763F7A132DD8836C1644C1D8A1 (int32_t ___0_Handle, BPMBeatProcedure_t028C2D01C9CF6CE240D398D94EC434B2FC68B589* ___1_Procedure, intptr_t ___2_User, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, Il2CppMethodPointer, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(void*) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_BeatCallbackSet", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	Il2CppMethodPointer ____1_Procedure_marshaled = NULL;
 	____1_Procedure_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___1_Procedure));
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_BeatCallbackSet)(___0_Handle, ____1_Procedure_marshaled, ___2_User);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ____1_Procedure_marshaled, ___2_User);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMBeatCallbackReset_mF0E3849D61859CAF7002E0BFF8AF57F75C5BD0C4 (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_BeatCallbackReset", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_BeatCallbackReset)(___0_Handle);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMBeatSetParameters_m375E4FDA93E5E9B629A0A3E1CFB0DA1C197A69A7 (int32_t ___0_Handle, float ___1_Bandwidth, float ___2_CenterFreq, float ___3_Beat_rTime, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, float, float, float);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(float) + sizeof(float) + sizeof(float);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_BeatSetParameters", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_BeatSetParameters)(___0_Handle, ___1_Bandwidth, ___2_CenterFreq, ___3_Beat_rTime);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Bandwidth, ___2_CenterFreq, ___3_Beat_rTime);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMBeatGetParameters_mCE284975168854B47AC6B108DD93758C29FF50EF (int32_t ___0_Handle, float* ___1_Bandwidth, float* ___2_CenterFreq, float* ___3_Beat_rTime, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, float*, float*, float*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(float*) + sizeof(float*) + sizeof(float*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_BeatGetParameters", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_BeatGetParameters)(___0_Handle, ___1_Bandwidth, ___2_CenterFreq, ___3_Beat_rTime);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle, ___1_Bandwidth, ___2_CenterFreq, ___3_Beat_rTime);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BassFx_BPMBeatFree_m6A0A39282B488851F0265682D9F17D765B279B33 (int32_t ___0_Handle, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_bass_fx_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("bass_fx"), "BASS_FX_BPM_BeatFree", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_bass_fx_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(BASS_FX_BPM_BeatFree)(___0_Handle);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_Handle);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -34424,141 +35163,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Acc_BASS_Encode_AAC_StartFile
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BassEnc_Acc_Start_mCC036ED045EA358AB19B0DA5C7AB331CB626A66E (int32_t ___0_Handle, String_t* ___1_Options, int32_t ___2_Flags, String_t* ___3_FileName, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3C22F7267317A26694F1F81041A8984D0E09A296);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral44B6875E7EE8FB23B8B949A0D52B9A2F3D849B84);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral45862AC31D4C4BF11B0BA4AB86B72B9035D2E4C8);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7716DBD851D11A9D14E180FE24D8B0E240477E1D);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7AE0895343E4D97E546C7A5F04E775FAF4CA9EBD);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7BFBFB54B8901155A0D3672E03A67379509230A2);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA901446FE073D5B91CE3AD7F0B6F4F0E1A38012B);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEFACE06DF0CEFC624D1E469F0F46AC0C2346B700);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	int32_t V_2 = 0;
-	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 V_3;
-	memset((&V_3), 0, sizeof(V_3));
-	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 V_4;
-	memset((&V_4), 0, sizeof(V_4));
-	int32_t V_5 = 0;
-	String_t* G_B9_0 = NULL;
-	{
-		int32_t L_0;
-		L_0 = BassEnc_Acc_CharsToInt_m90CA92FE995B2B01FCB1863CFD2B9D1185D29E21(_stringLiteral3C22F7267317A26694F1F81041A8984D0E09A296, NULL);
-		V_0 = L_0;
+		int32_t L_0 = ___0_Handle;
 		String_t* L_1 = ___1_Options;
-		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_2;
-		L_2 = BassEnc_Acc_GetArgValueInt_mAACCA6F638A8D46E3DCEBFADFBC2148238592CB7(L_1, _stringLiteralEFACE06DF0CEFC624D1E469F0F46AC0C2346B700, NULL);
-		V_1 = L_2;
-		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_3 = V_1;
-		V_4 = L_3;
-		V_5 = 5;
+		int32_t L_2 = ___2_Flags;
+		String_t* L_3 = ___3_FileName;
 		int32_t L_4;
-		L_4 = Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_inline((&V_4), Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_RuntimeMethod_var);
-		int32_t L_5 = V_5;
-		bool L_6;
-		L_6 = Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_inline((&V_4), Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_RuntimeMethod_var);
-		if (((int32_t)(((((int32_t)L_4) == ((int32_t)L_5))? 1 : 0)&(int32_t)L_6)))
-		{
-			goto IL_00a2;
-		}
-	}
-	{
-		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_7 = V_1;
-		V_4 = L_7;
-		V_5 = ((int32_t)23);
-		int32_t L_8;
-		L_8 = Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_inline((&V_4), Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_RuntimeMethod_var);
-		int32_t L_9 = V_5;
-		bool L_10;
-		L_10 = Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_inline((&V_4), Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_RuntimeMethod_var);
-		if (((int32_t)(((((int32_t)L_8) == ((int32_t)L_9))? 1 : 0)&(int32_t)L_10)))
-		{
-			goto IL_009b;
-		}
-	}
-	{
-		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_11 = V_1;
-		V_4 = L_11;
-		V_5 = ((int32_t)29);
-		int32_t L_12;
-		L_12 = Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_inline((&V_4), Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_RuntimeMethod_var);
-		int32_t L_13 = V_5;
-		bool L_14;
-		L_14 = Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_inline((&V_4), Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_RuntimeMethod_var);
-		if (((int32_t)(((((int32_t)L_12) == ((int32_t)L_13))? 1 : 0)&(int32_t)L_14)))
-		{
-			goto IL_0094;
-		}
-	}
-	{
-		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_15 = V_1;
-		V_4 = L_15;
-		V_5 = ((int32_t)39);
-		int32_t L_16;
-		L_16 = Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_inline((&V_4), Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_RuntimeMethod_var);
-		int32_t L_17 = V_5;
-		bool L_18;
-		L_18 = Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_inline((&V_4), Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_RuntimeMethod_var);
-		if (((int32_t)(((((int32_t)L_16) == ((int32_t)L_17))? 1 : 0)&(int32_t)L_18)))
-		{
-			goto IL_008d;
-		}
-	}
-	{
-		G_B9_0 = _stringLiteral44B6875E7EE8FB23B8B949A0D52B9A2F3D849B84;
-		goto IL_00a7;
-	}
-
-IL_008d:
-	{
-		G_B9_0 = _stringLiteral7716DBD851D11A9D14E180FE24D8B0E240477E1D;
-		goto IL_00a7;
-	}
-
-IL_0094:
-	{
-		G_B9_0 = _stringLiteralA901446FE073D5B91CE3AD7F0B6F4F0E1A38012B;
-		goto IL_00a7;
-	}
-
-IL_009b:
-	{
-		G_B9_0 = _stringLiteral45862AC31D4C4BF11B0BA4AB86B72B9035D2E4C8;
-		goto IL_00a7;
-	}
-
-IL_00a2:
-	{
-		G_B9_0 = _stringLiteral7BFBFB54B8901155A0D3672E03A67379509230A2;
-	}
-
-IL_00a7:
-	{
-		int32_t L_19;
-		L_19 = BassEnc_Acc_CharsToInt_m90CA92FE995B2B01FCB1863CFD2B9D1185D29E21(G_B9_0, NULL);
-		V_2 = L_19;
-		String_t* L_20 = ___1_Options;
-		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_21;
-		L_21 = BassEnc_Acc_GetArgValueInt_mAACCA6F638A8D46E3DCEBFADFBC2148238592CB7(L_20, _stringLiteral7AE0895343E4D97E546C7A5F04E775FAF4CA9EBD, NULL);
-		V_3 = L_21;
-		int32_t L_22 = ___0_Handle;
-		int32_t L_23 = V_0;
-		int32_t L_24 = V_2;
-		int32_t L_25 = ___2_Flags;
-		int32_t L_26;
-		L_26 = Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_inline((&V_3), Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_RuntimeMethod_var);
-		String_t* L_27 = ___3_FileName;
-		int32_t L_28;
-		L_28 = BassEnc_EncodeStartCA_mF3775104528B1F7ECBECBE3CCD95C79765ED0F15(L_22, L_23, L_24, L_25, L_26, L_27, NULL);
-		return L_28;
+		L_4 = BassEnc_Acc_BASS_Encode_AAC_StartFile_mFF2E6F0CAD8915B39CF8EEACC0217118929949C8(L_0, L_1, ((int32_t)((int32_t)L_2|((int32_t)-2147483648LL))), L_3, NULL);
+		return L_4;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 BassEnc_Acc_GetArgValueInt_mAACCA6F638A8D46E3DCEBFADFBC2148238592CB7 (String_t* ___0_Cmd, String_t* ___1_Arg, const RuntimeMethod* method) 
@@ -42030,6 +42642,581 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsioChannelControls__ctor_m7AB8EE14B569D
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshal_pinvoke(const AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76& unmarshaled, AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshaled_pinvoke& marshaled)
+{
+	marshaled.___group = unmarshaled.___group;
+	marshaled.___format = unmarshaled.___format;
+	if (unmarshaled.___name != NULL)
+	{
+		if (32 > (unmarshaled.___name)->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."), NULL);
+		}
+
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(32); i++)
+		{
+			(marshaled.___name)[i] = static_cast<uint8_t>((unmarshaled.___name)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+		}
+	}
+}
+IL2CPP_EXTERN_C void AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshal_pinvoke_back(const AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshaled_pinvoke& marshaled, AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t unmarshaledgroup_temp_0 = 0;
+	unmarshaledgroup_temp_0 = marshaled.___group;
+	unmarshaled.___group = unmarshaledgroup_temp_0;
+	int32_t unmarshaledformat_temp_1 = 0;
+	unmarshaledformat_temp_1 = marshaled.___format;
+	unmarshaled.___format = unmarshaledformat_temp_1;
+	unmarshaled.___name = reinterpret_cast<CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*>((CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, 32));
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___name), (void*)reinterpret_cast<CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*>((CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, 32)));
+	for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(32); i++)
+	{
+		(unmarshaled.___name)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), static_cast<Il2CppChar>((marshaled.___name)[i]));
+	}
+}
+IL2CPP_EXTERN_C void AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshal_pinvoke_cleanup(AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshaled_pinvoke& marshaled)
+{
+}
+IL2CPP_EXTERN_C void AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshal_com(const AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76& unmarshaled, AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshaled_com& marshaled)
+{
+	marshaled.___group = unmarshaled.___group;
+	marshaled.___format = unmarshaled.___format;
+	if (unmarshaled.___name != NULL)
+	{
+		if (32 > (unmarshaled.___name)->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."), NULL);
+		}
+
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(32); i++)
+		{
+			(marshaled.___name)[i] = static_cast<uint8_t>((unmarshaled.___name)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+		}
+	}
+}
+IL2CPP_EXTERN_C void AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshal_com_back(const AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshaled_com& marshaled, AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t unmarshaledgroup_temp_0 = 0;
+	unmarshaledgroup_temp_0 = marshaled.___group;
+	unmarshaled.___group = unmarshaledgroup_temp_0;
+	int32_t unmarshaledformat_temp_1 = 0;
+	unmarshaledformat_temp_1 = marshaled.___format;
+	unmarshaled.___format = unmarshaledformat_temp_1;
+	unmarshaled.___name = reinterpret_cast<CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*>((CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, 32));
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___name), (void*)reinterpret_cast<CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*>((CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, 32)));
+	for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(32); i++)
+	{
+		(unmarshaled.___name)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), static_cast<Il2CppChar>((marshaled.___name)[i]));
+	}
+}
+IL2CPP_EXTERN_C void AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshal_com_cleanup(AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76_marshaled_com& marshaled)
+{
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioChannelInfo_get_Group_mFB2FAFD29C3D34B3C8BCA6F268400998DEAC2931 (AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___group;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioChannelInfo_get_Group_mFB2FAFD29C3D34B3C8BCA6F268400998DEAC2931_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioChannelInfo_get_Group_mFB2FAFD29C3D34B3C8BCA6F268400998DEAC2931_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioChannelInfo_get_Format_mC3F7856506DB79D2B38960400F520AC33A0E0D0F (AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___format;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioChannelInfo_get_Format_mC3F7856506DB79D2B38960400F520AC33A0E0D0F_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioChannelInfo_get_Format_mC3F7856506DB79D2B38960400F520AC33A0E0D0F_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioChannelInfo_get_Name_m10ACC6D13B9CCF337D792E349ABEDCCFD1E1EA7B (AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1489F923C4DCA729178B3E3233458550D8DDDF29);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_0 = __this->___name;
+		String_t* L_1;
+		L_1 = String_CreateString_mFBC28D2E3EB87D497F7E702E4FFAD65F635E44DF(NULL, L_0, NULL);
+		NullCheck(L_1);
+		String_t* L_2;
+		L_2 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_1, _stringLiteral1489F923C4DCA729178B3E3233458550D8DDDF29, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_2, NULL);
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  String_t* AsioChannelInfo_get_Name_m10ACC6D13B9CCF337D792E349ABEDCCFD1E1EA7B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = AsioChannelInfo_get_Name_m10ACC6D13B9CCF337D792E349ABEDCCFD1E1EA7B(_thisAdjusted, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioDeviceInfo_PtrToString_m88F6017B0EF05DBB018F0DFFA924D8EEE390760D (intptr_t ___0_ptr, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0;
+		L_0 = BassAsio_get_Unicode_m56A52A618F53FF2487B04BCCB0FA440529C62C85_inline(NULL);
+		if (L_0)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		intptr_t L_1 = ___0_ptr;
+		bool L_2;
+		L_2 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_1, 0, NULL);
+		if (L_2)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		intptr_t L_3 = ___0_ptr;
+		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		String_t* L_4;
+		L_4 = Marshal_PtrToStringAnsi_m8DF88D9F22FCF791C538A36C9233B3882F579B4A(L_3, NULL);
+		return L_4;
+	}
+
+IL_001b:
+	{
+		return (String_t*)NULL;
+	}
+
+IL_001d:
+	{
+		intptr_t L_5 = ___0_ptr;
+		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		String_t* L_6;
+		L_6 = Marshal_PtrToStringUni_mA30F3D8587F2E51F70DF5F30A3C2910CBDAB6F20(L_5, NULL);
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioDeviceInfo_get_Name_m6A2A6C054B7CF16AB4C80C4B88C46BC17F85368B (AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* __this, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = __this->___name;
+		String_t* L_1;
+		L_1 = AsioDeviceInfo_PtrToString_m88F6017B0EF05DBB018F0DFFA924D8EEE390760D(L_0, NULL);
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  String_t* AsioDeviceInfo_get_Name_m6A2A6C054B7CF16AB4C80C4B88C46BC17F85368B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = AsioDeviceInfo_get_Name_m6A2A6C054B7CF16AB4C80C4B88C46BC17F85368B(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioDeviceInfo_get_Driver_m8C63837CD42704A7148B3D8818D9BBA6C21553A8 (AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* __this, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = __this->___driver;
+		String_t* L_1;
+		L_1 = AsioDeviceInfo_PtrToString_m88F6017B0EF05DBB018F0DFFA924D8EEE390760D(L_0, NULL);
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  String_t* AsioDeviceInfo_get_Driver_m8C63837CD42704A7148B3D8818D9BBA6C21553A8_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = AsioDeviceInfo_get_Driver_m8C63837CD42704A7148B3D8818D9BBA6C21553A8(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioDeviceInfo_ToString_m770FBA7427A2105E72CBC5AA7C873F7CAF900C4B (AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0;
+		L_0 = AsioDeviceInfo_get_Name_m6A2A6C054B7CF16AB4C80C4B88C46BC17F85368B(__this, NULL);
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  String_t* AsioDeviceInfo_ToString_m770FBA7427A2105E72CBC5AA7C873F7CAF900C4B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioDeviceInfo_t6A3A7D71BEBC6A42AFE52EF890E37AAEC03BEE81*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = AsioDeviceInfo_ToString_m770FBA7427A2105E72CBC5AA7C873F7CAF900C4B(_thisAdjusted, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshal_pinvoke(const AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80& unmarshaled, AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshaled_pinvoke& marshaled)
+{
+	if (unmarshaled.___name != NULL)
+	{
+		if (32 > (unmarshaled.___name)->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."), NULL);
+		}
+
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(32); i++)
+		{
+			(marshaled.___name)[i] = static_cast<uint8_t>((unmarshaled.___name)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+		}
+	}
+	marshaled.___version = unmarshaled.___version;
+	marshaled.___inputs = unmarshaled.___inputs;
+	marshaled.___outputs = unmarshaled.___outputs;
+	marshaled.___bufmin = unmarshaled.___bufmin;
+	marshaled.___bufmax = unmarshaled.___bufmax;
+	marshaled.___bufpref = unmarshaled.___bufpref;
+	marshaled.___bufgran = unmarshaled.___bufgran;
+	marshaled.___initflags = unmarshaled.___initflags;
+}
+IL2CPP_EXTERN_C void AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshal_pinvoke_back(const AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshaled_pinvoke& marshaled, AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.___name = reinterpret_cast<CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*>((CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, 32));
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___name), (void*)reinterpret_cast<CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*>((CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, 32)));
+	for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(32); i++)
+	{
+		(unmarshaled.___name)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), static_cast<Il2CppChar>((marshaled.___name)[i]));
+	}
+	int32_t unmarshaledversion_temp_1 = 0;
+	unmarshaledversion_temp_1 = marshaled.___version;
+	unmarshaled.___version = unmarshaledversion_temp_1;
+	int32_t unmarshaledinputs_temp_2 = 0;
+	unmarshaledinputs_temp_2 = marshaled.___inputs;
+	unmarshaled.___inputs = unmarshaledinputs_temp_2;
+	int32_t unmarshaledoutputs_temp_3 = 0;
+	unmarshaledoutputs_temp_3 = marshaled.___outputs;
+	unmarshaled.___outputs = unmarshaledoutputs_temp_3;
+	int32_t unmarshaledbufmin_temp_4 = 0;
+	unmarshaledbufmin_temp_4 = marshaled.___bufmin;
+	unmarshaled.___bufmin = unmarshaledbufmin_temp_4;
+	int32_t unmarshaledbufmax_temp_5 = 0;
+	unmarshaledbufmax_temp_5 = marshaled.___bufmax;
+	unmarshaled.___bufmax = unmarshaledbufmax_temp_5;
+	int32_t unmarshaledbufpref_temp_6 = 0;
+	unmarshaledbufpref_temp_6 = marshaled.___bufpref;
+	unmarshaled.___bufpref = unmarshaledbufpref_temp_6;
+	int32_t unmarshaledbufgran_temp_7 = 0;
+	unmarshaledbufgran_temp_7 = marshaled.___bufgran;
+	unmarshaled.___bufgran = unmarshaledbufgran_temp_7;
+	int32_t unmarshaledinitflags_temp_8 = 0;
+	unmarshaledinitflags_temp_8 = marshaled.___initflags;
+	unmarshaled.___initflags = unmarshaledinitflags_temp_8;
+}
+IL2CPP_EXTERN_C void AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshal_pinvoke_cleanup(AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshaled_pinvoke& marshaled)
+{
+}
+IL2CPP_EXTERN_C void AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshal_com(const AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80& unmarshaled, AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshaled_com& marshaled)
+{
+	if (unmarshaled.___name != NULL)
+	{
+		if (32 > (unmarshaled.___name)->max_length)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_argument_exception("", "Type could not be marshaled because the length of an embedded array instance does not match the declared length in the layout."), NULL);
+		}
+
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(32); i++)
+		{
+			(marshaled.___name)[i] = static_cast<uint8_t>((unmarshaled.___name)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+		}
+	}
+	marshaled.___version = unmarshaled.___version;
+	marshaled.___inputs = unmarshaled.___inputs;
+	marshaled.___outputs = unmarshaled.___outputs;
+	marshaled.___bufmin = unmarshaled.___bufmin;
+	marshaled.___bufmax = unmarshaled.___bufmax;
+	marshaled.___bufpref = unmarshaled.___bufpref;
+	marshaled.___bufgran = unmarshaled.___bufgran;
+	marshaled.___initflags = unmarshaled.___initflags;
+}
+IL2CPP_EXTERN_C void AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshal_com_back(const AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshaled_com& marshaled, AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.___name = reinterpret_cast<CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*>((CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, 32));
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___name), (void*)reinterpret_cast<CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*>((CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, 32)));
+	for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(32); i++)
+	{
+		(unmarshaled.___name)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), static_cast<Il2CppChar>((marshaled.___name)[i]));
+	}
+	int32_t unmarshaledversion_temp_1 = 0;
+	unmarshaledversion_temp_1 = marshaled.___version;
+	unmarshaled.___version = unmarshaledversion_temp_1;
+	int32_t unmarshaledinputs_temp_2 = 0;
+	unmarshaledinputs_temp_2 = marshaled.___inputs;
+	unmarshaled.___inputs = unmarshaledinputs_temp_2;
+	int32_t unmarshaledoutputs_temp_3 = 0;
+	unmarshaledoutputs_temp_3 = marshaled.___outputs;
+	unmarshaled.___outputs = unmarshaledoutputs_temp_3;
+	int32_t unmarshaledbufmin_temp_4 = 0;
+	unmarshaledbufmin_temp_4 = marshaled.___bufmin;
+	unmarshaled.___bufmin = unmarshaledbufmin_temp_4;
+	int32_t unmarshaledbufmax_temp_5 = 0;
+	unmarshaledbufmax_temp_5 = marshaled.___bufmax;
+	unmarshaled.___bufmax = unmarshaledbufmax_temp_5;
+	int32_t unmarshaledbufpref_temp_6 = 0;
+	unmarshaledbufpref_temp_6 = marshaled.___bufpref;
+	unmarshaled.___bufpref = unmarshaledbufpref_temp_6;
+	int32_t unmarshaledbufgran_temp_7 = 0;
+	unmarshaledbufgran_temp_7 = marshaled.___bufgran;
+	unmarshaled.___bufgran = unmarshaledbufgran_temp_7;
+	int32_t unmarshaledinitflags_temp_8 = 0;
+	unmarshaledinitflags_temp_8 = marshaled.___initflags;
+	unmarshaled.___initflags = unmarshaledinitflags_temp_8;
+}
+IL2CPP_EXTERN_C void AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshal_com_cleanup(AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80_marshaled_com& marshaled)
+{
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioInfo_get_InitFlags_m075360390A7463F305FAEAFFF352F16D1FCE663D (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___initflags;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioInfo_get_InitFlags_m075360390A7463F305FAEAFFF352F16D1FCE663D_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioInfo_get_InitFlags_m075360390A7463F305FAEAFFF352F16D1FCE663D_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioInfo_get_Name_m1FA019955F6DF3B2EDA58C805C792CF42C9A7431 (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1489F923C4DCA729178B3E3233458550D8DDDF29);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_0 = __this->___name;
+		String_t* L_1;
+		L_1 = String_CreateString_mFBC28D2E3EB87D497F7E702E4FFAD65F635E44DF(NULL, L_0, NULL);
+		NullCheck(L_1);
+		String_t* L_2;
+		L_2 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_1, _stringLiteral1489F923C4DCA729178B3E3233458550D8DDDF29, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_2, NULL);
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  String_t* AsioInfo_get_Name_m1FA019955F6DF3B2EDA58C805C792CF42C9A7431_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = AsioInfo_get_Name_m1FA019955F6DF3B2EDA58C805C792CF42C9A7431(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioInfo_get_DriverVersion_m9152313873CA1C17C73B1A9674D130A25990EC91 (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___version;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioInfo_get_DriverVersion_m9152313873CA1C17C73B1A9674D130A25990EC91_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioInfo_get_DriverVersion_m9152313873CA1C17C73B1A9674D130A25990EC91_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioInfo_get_Inputs_mAF1FDFA238BFEE4EA63A55A4125FAF2D851B7BD3 (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___inputs;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioInfo_get_Inputs_mAF1FDFA238BFEE4EA63A55A4125FAF2D851B7BD3_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioInfo_get_Inputs_mAF1FDFA238BFEE4EA63A55A4125FAF2D851B7BD3_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioInfo_get_Outputs_m6F2D4DFD8605CECEA94F1FA1D08D66B1B70BA6E7 (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___outputs;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioInfo_get_Outputs_m6F2D4DFD8605CECEA94F1FA1D08D66B1B70BA6E7_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioInfo_get_Outputs_m6F2D4DFD8605CECEA94F1FA1D08D66B1B70BA6E7_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioInfo_get_MinBufferLength_m98F88593289F0784497DB00ED5A2D56FF92E76A3 (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___bufmin;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioInfo_get_MinBufferLength_m98F88593289F0784497DB00ED5A2D56FF92E76A3_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioInfo_get_MinBufferLength_m98F88593289F0784497DB00ED5A2D56FF92E76A3_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioInfo_get_MaxBufferLength_mD46479D237699B55D0855CAF10809E579452DED3 (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___bufmax;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioInfo_get_MaxBufferLength_mD46479D237699B55D0855CAF10809E579452DED3_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioInfo_get_MaxBufferLength_mD46479D237699B55D0855CAF10809E579452DED3_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioInfo_get_PreferredBufferLength_mA629C720255483E50E47F24C6BD03D60FB17D2CF (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___bufpref;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioInfo_get_PreferredBufferLength_mA629C720255483E50E47F24C6BD03D60FB17D2CF_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioInfo_get_PreferredBufferLength_mA629C720255483E50E47F24C6BD03D60FB17D2CF_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsioInfo_get_BufferLengthGranularity_m5A9D586EFF36009C1A100E464D271EC58D8959CF (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___bufgran;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t AsioInfo_get_BufferLengthGranularity_m5A9D586EFF36009C1A100E464D271EC58D8959CF_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = AsioInfo_get_BufferLengthGranularity_m5A9D586EFF36009C1A100E464D271EC58D8959CF_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AsioInfo_ToString_m6BA7433B8288C71D0CE5DBD8A4AA6D31FC24486C (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0;
+		L_0 = AsioInfo_get_Name_m1FA019955F6DF3B2EDA58C805C792CF42C9A7431(__this, NULL);
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  String_t* AsioInfo_ToString_m6BA7433B8288C71D0CE5DBD8A4AA6D31FC24486C_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = AsioInfo_ToString_m6BA7433B8288C71D0CE5DBD8A4AA6D31FC24486C(_thisAdjusted, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
 {
 	{
@@ -42392,6 +43579,76 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool BassAsio_get_Unicode_m56A52A
 		return L_0;
 	}
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioChannelInfo_get_Group_mFB2FAFD29C3D34B3C8BCA6F268400998DEAC2931_inline (AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___group;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioChannelInfo_get_Format_mC3F7856506DB79D2B38960400F520AC33A0E0D0F_inline (AsioChannelInfo_t3535187CEB2C5FE1FDCBC1DB0C04F6F2B5049B76* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___format;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_InitFlags_m075360390A7463F305FAEAFFF352F16D1FCE663D_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___initflags;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_DriverVersion_m9152313873CA1C17C73B1A9674D130A25990EC91_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___version;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_Inputs_mAF1FDFA238BFEE4EA63A55A4125FAF2D851B7BD3_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___inputs;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_Outputs_m6F2D4DFD8605CECEA94F1FA1D08D66B1B70BA6E7_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___outputs;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_MinBufferLength_m98F88593289F0784497DB00ED5A2D56FF92E76A3_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___bufmin;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_MaxBufferLength_mD46479D237699B55D0855CAF10809E579452DED3_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___bufmax;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_PreferredBufferLength_mA629C720255483E50E47F24C6BD03D60FB17D2CF_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___bufpref;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AsioInfo_get_BufferLengthGranularity_m5A9D586EFF36009C1A100E464D271EC58D8959CF_inline (AsioInfo_tC04ADFDA16D00006D8CA068AFB7900DB9232EA80* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___bufgran;
+		return L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Effect_1_get_Parameters_m29BE3B85C415BEA62A92713C446E7472218889E9_gshared_inline (Effect_1_t6BBD13D1531C45F10E444876B049BF46DE556C29* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42447,20 +43704,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Enumerator_get_Current_mB
 {
 	{
 		int32_t L_0 = __this->____current;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_gshared_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method) 
-{
-	{
-		int32_t L_0 = __this->___value;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_gshared_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method) 
-{
-	{
-		bool L_0 = __this->___hasValue;
 		return L_0;
 	}
 }

@@ -47,6 +47,7 @@
     <type fullname="YARG.Menu.Settings.Visuals.DMXChannelsSettingVisual" preserve="all" />
     <type fullname="YARG.Menu.Settings.Visuals.DropdownSettingVisual" preserve="all" />
     <type fullname="YARG.Menu.Settings.Visuals.DurationSettingVisual" preserve="all" />
+    <type fullname="YARG.Menu.Settings.Visuals.FileInfoSettingVisual" preserve="all" />
     <type fullname="YARG.Menu.Settings.Visuals.HitWindowSettingVisual" preserve="all" />
     <type fullname="YARG.Menu.Settings.Visuals.IntSettingVisual" preserve="all" />
     <type fullname="YARG.Menu.Settings.Visuals.IPv4SettingVisual" preserve="all" />
@@ -66,6 +67,7 @@
   <assembly fullname="Coffee.SoftMaskForUGUI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Coffee.UISoftMask.SoftMask" preserve="all" />
     <type fullname="Coffee.UISoftMask.SoftMaskable" preserve="all" />
+    <type fullname="Coffee.UISoftMaskInternal.MinMax01" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />

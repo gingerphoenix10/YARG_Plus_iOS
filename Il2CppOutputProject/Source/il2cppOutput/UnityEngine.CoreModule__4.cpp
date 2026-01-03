@@ -243,7 +243,6 @@ struct AssertionException_t13955C5225033D3A79D633A04E4D86E8FD0CC372;
 struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C;
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA;
 struct BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339;
-struct BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0;
 struct Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235;
 struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3;
 struct Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B;
@@ -332,6 +331,7 @@ struct SendOrPostCallback_t5C292A12062F24027A98492F52ECFE9802AA6F0E;
 struct SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37;
 struct SerializeField_t18B4EDCAA7D3D570AAB8A5CCBF29B2CEA7A3CA9C;
 struct SerializeReference_tBB7456E44C2BCDD1097858562D8E75FEC7EE6A98;
+struct ShaderVariantCollection_t7F7C10B25DA462ABA9188FB1B77A81C0FF761C17;
 struct StackFrame_tB901270D6679ED5D24D872C25D4AD053F22F3443;
 struct StackTrace_t7C150C7C14136F985311A83A93524B1019F70853;
 struct Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043;
@@ -386,7 +386,6 @@ IL2CPP_EXTERN_C RuntimeClass* Assert_tDC16963451AC4364803739B73A4477ADCB365863_i
 IL2CPP_EXTERN_C RuntimeClass* AssertionException_t13955C5225033D3A79D633A04E4D86E8FD0CC372_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Awaitable_t690337FEC1C411606E233EA36A41337B931C23CB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CachedInvokableCall_1_t2FC1002B91116AD8AB2525F411DC8061D81F80B3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CachedInvokableCall_1_t40C751523D07EED492FFA70277C6D93DC35A66E9_il2cpp_TypeInfo_var;
@@ -535,7 +534,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral4D7C648ADF1B49BE3588555CFF414954674E8191
 IL2CPP_EXTERN_C String_t* _stringLiteral4DA40F86FA6B66D1B6831F82ADF65BBE193ABB05;
 IL2CPP_EXTERN_C String_t* _stringLiteral4EBC86E0EACFCA522AEB82874860D0E248D782A5;
 IL2CPP_EXTERN_C String_t* _stringLiteral4FEEB8D75A2FD285E0FC86F7E4104FA3A7AA777D;
-IL2CPP_EXTERN_C String_t* _stringLiteral5142E124215CDEFF7DD7ADE1AAB0D7DC38336E8F;
 IL2CPP_EXTERN_C String_t* _stringLiteral537DC478F57E765ABB71C8854958007E241C0842;
 IL2CPP_EXTERN_C String_t* _stringLiteral55AA1B195D5120564E8695CBFB7EA94B52F7EC06;
 IL2CPP_EXTERN_C String_t* _stringLiteral58F46FBD68F0190A63C4EAC56FD4BB83F61C1596;
@@ -4280,6 +4278,9 @@ struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinv
 struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 {
 };
+struct ShaderVariantCollection_t7F7C10B25DA462ABA9188FB1B77A81C0FF761C17  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
 struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
 {
 	RuntimeObject* ___m_additionalContext;
@@ -4352,27 +4353,6 @@ struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDeleg
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
 	String_t* ____paramName;
-};
-struct BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0  : public AnalyticsEventBase_t4CB926589E315DB970B0140489C698A8D4A40753
-{
-	int32_t ___maxBRGInstance;
-	int32_t ___maxMeshCount;
-	int32_t ___maxMaterialCount;
-	int32_t ___maxDrawCommandBatch;
-};
-struct BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0_marshaled_pinvoke : public AnalyticsEventBase_t4CB926589E315DB970B0140489C698A8D4A40753_marshaled_pinvoke
-{
-	int32_t ___maxBRGInstance;
-	int32_t ___maxMeshCount;
-	int32_t ___maxMaterialCount;
-	int32_t ___maxDrawCommandBatch;
-};
-struct BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0_marshaled_com : public AnalyticsEventBase_t4CB926589E315DB970B0140489C698A8D4A40753_marshaled_com
-{
-	int32_t ___maxBRGInstance;
-	int32_t ___maxMeshCount;
-	int32_t ___maxMaterialCount;
-	int32_t ___maxDrawCommandBatch;
 };
 struct BlittableListWrapper_tE39AB35B42449CFD1FDCBB7DC4F0D1A1EA2312C4 
 {
@@ -5760,6 +5740,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShader_SetShaderKeywords_Injected
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShader_SetShaderKeywords_m5620E3441AC6639E2C17ADDB5A175248F4594C31 (ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_names, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShader_SetIntArray_m71448ED688440FA478F165393409E352608E285B (ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* __this, int32_t ___0_nameID, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_values, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShader_SetConstantComputeBuffer_m167A0FEE6FC030E774EA70552BC6FEDB7D390232 (ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* __this, int32_t ___0_nameID, ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* ___1_buffer, int32_t ___2_offset, int32_t ___3_size, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShaderVariantCollection_Internal_Create_m5FED03C98FBB07F1360D052875AD52D0D7F12AB1 (ShaderVariantCollection_t7F7C10B25DA462ABA9188FB1B77A81C0FF761C17* ___0_svc, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SystemInfo_GetBatteryLevel_m93AEC5FBFE971336EBFD6B901F14DA4114CCFBB9 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetBatteryStatus_mB906BD924D97BFF625145092359725E1F024C471 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SystemInfo_GetOperatingSystem_m03DA0E31D9925BE604EC7841D7C3540D953F9720 (const RuntimeMethod* method) ;
@@ -6612,8 +6593,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AssertionMessageUtil_GetMessage_m5A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, RuntimeObject* ___3_arg2, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AssertionMessageUtil_GetMessage_m0785AB2BEBDA81CFE63F87428268C91D63685EB3 (String_t* ___0_failureMessage, String_t* ___1_expected, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Boolean_ToString_m6646C8026B1DF381A1EE8CD13549175E9703CC63 (bool* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnalyticsEventBase__ctor_m21A87ECFBEF557381DCD16B735E82680E8D14471 (AnalyticsEventBase_t4CB926589E315DB970B0140489C698A8D4A40753* __this, String_t* ___0_eventName, int32_t ___1_eventVersion, int32_t ___2_sendEventOptions, String_t* ___3_eventPrefix, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BatchRenderGroupUsageAnalytic__ctor_m4009A84B987597583C066E2F5ABAEFAC9874D2C6 (BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar* String_GetRawStringData_m87BC50B7B314C055E27A28032D1003D42FDE411D (String_t* __this, const RuntimeMethod* method) ;
 inline void ReadOnlySpan_1__ctor_m0152E50B40750679B83FF9F30CA539FFBB98EEE8_inline (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1* __this, Il2CppChar* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method)
 {
@@ -14898,6 +14877,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShader_SetShaderKeywords_Injected
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShaderVariantCollection_Internal_Create_m5FED03C98FBB07F1360D052875AD52D0D7F12AB1 (ShaderVariantCollection_t7F7C10B25DA462ABA9188FB1B77A81C0FF761C17* ___0_svc, const RuntimeMethod* method) 
+{
+	typedef void (*ShaderVariantCollection_Internal_Create_m5FED03C98FBB07F1360D052875AD52D0D7F12AB1_ftn) (ShaderVariantCollection_t7F7C10B25DA462ABA9188FB1B77A81C0FF761C17*);
+	static ShaderVariantCollection_Internal_Create_m5FED03C98FBB07F1360D052875AD52D0D7F12AB1_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (ShaderVariantCollection_Internal_Create_m5FED03C98FBB07F1360D052875AD52D0D7F12AB1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ShaderVariantCollection::Internal_Create(UnityEngine.ShaderVariantCollection)");
+	_il2cpp_icall_func(___0_svc);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShaderVariantCollection__ctor_m4A65106908ABD0E6DC019AF8344E5905B5E7CE3C (ShaderVariantCollection_t7F7C10B25DA462ABA9188FB1B77A81C0FF761C17* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object__ctor_m2149FA40CEC8D82AC20D3508AB40C0D8EFEF68E6(__this, NULL);
+		ShaderVariantCollection_Internal_Create_m5FED03C98FBB07F1360D052875AD52D0D7F12AB1(__this, NULL);
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -37157,136 +37167,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnalyticsEventBase__ctor_m21A87ECFBEF557
 		__this->___eventPrefix = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___eventPrefix), (void*)L_3);
 		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C void BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0_marshal_pinvoke(const BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0& unmarshaled, BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0_marshaled_pinvoke& marshaled)
-{
-	marshaled.___maxBRGInstance = unmarshaled.___maxBRGInstance;
-	marshaled.___maxMeshCount = unmarshaled.___maxMeshCount;
-	marshaled.___maxMaterialCount = unmarshaled.___maxMaterialCount;
-	marshaled.___maxDrawCommandBatch = unmarshaled.___maxDrawCommandBatch;
-	marshaled.___eventName = il2cpp_codegen_marshal_string(unmarshaled.___eventName);
-	marshaled.___eventVersion = unmarshaled.___eventVersion;
-	marshaled.___eventPrefix = il2cpp_codegen_marshal_string(unmarshaled.___eventPrefix);
-	marshaled.___sendEventOptions = unmarshaled.___sendEventOptions;
-}
-IL2CPP_EXTERN_C void BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0_marshal_pinvoke_back(const BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0_marshaled_pinvoke& marshaled, BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0& unmarshaled)
-{
-	int32_t unmarshaledmaxBRGInstance_temp_0 = 0;
-	unmarshaledmaxBRGInstance_temp_0 = marshaled.___maxBRGInstance;
-	unmarshaled.___maxBRGInstance = unmarshaledmaxBRGInstance_temp_0;
-	int32_t unmarshaledmaxMeshCount_temp_1 = 0;
-	unmarshaledmaxMeshCount_temp_1 = marshaled.___maxMeshCount;
-	unmarshaled.___maxMeshCount = unmarshaledmaxMeshCount_temp_1;
-	int32_t unmarshaledmaxMaterialCount_temp_2 = 0;
-	unmarshaledmaxMaterialCount_temp_2 = marshaled.___maxMaterialCount;
-	unmarshaled.___maxMaterialCount = unmarshaledmaxMaterialCount_temp_2;
-	int32_t unmarshaledmaxDrawCommandBatch_temp_3 = 0;
-	unmarshaledmaxDrawCommandBatch_temp_3 = marshaled.___maxDrawCommandBatch;
-	unmarshaled.___maxDrawCommandBatch = unmarshaledmaxDrawCommandBatch_temp_3;
-	unmarshaled.___eventName = il2cpp_codegen_marshal_string_result(marshaled.___eventName);
-	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___eventName), (void*)il2cpp_codegen_marshal_string_result(marshaled.___eventName));
-	int32_t unmarshaledeventVersion_temp_5 = 0;
-	unmarshaledeventVersion_temp_5 = marshaled.___eventVersion;
-	unmarshaled.___eventVersion = unmarshaledeventVersion_temp_5;
-	unmarshaled.___eventPrefix = il2cpp_codegen_marshal_string_result(marshaled.___eventPrefix);
-	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___eventPrefix), (void*)il2cpp_codegen_marshal_string_result(marshaled.___eventPrefix));
-	int32_t unmarshaledsendEventOptions_temp_7 = 0;
-	unmarshaledsendEventOptions_temp_7 = marshaled.___sendEventOptions;
-	unmarshaled.___sendEventOptions = unmarshaledsendEventOptions_temp_7;
-}
-IL2CPP_EXTERN_C void BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0_marshal_pinvoke_cleanup(BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0_marshaled_pinvoke& marshaled)
-{
-	il2cpp_codegen_marshal_free(marshaled.___eventName);
-	marshaled.___eventName = NULL;
-	il2cpp_codegen_marshal_free(marshaled.___eventPrefix);
-	marshaled.___eventPrefix = NULL;
-}
-IL2CPP_EXTERN_C void BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0_marshal_com(const BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0& unmarshaled, BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0_marshaled_com& marshaled)
-{
-	marshaled.___maxBRGInstance = unmarshaled.___maxBRGInstance;
-	marshaled.___maxMeshCount = unmarshaled.___maxMeshCount;
-	marshaled.___maxMaterialCount = unmarshaled.___maxMaterialCount;
-	marshaled.___maxDrawCommandBatch = unmarshaled.___maxDrawCommandBatch;
-	marshaled.___eventName = il2cpp_codegen_marshal_bstring(unmarshaled.___eventName);
-	marshaled.___eventVersion = unmarshaled.___eventVersion;
-	marshaled.___eventPrefix = il2cpp_codegen_marshal_bstring(unmarshaled.___eventPrefix);
-	marshaled.___sendEventOptions = unmarshaled.___sendEventOptions;
-}
-IL2CPP_EXTERN_C void BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0_marshal_com_back(const BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0_marshaled_com& marshaled, BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0& unmarshaled)
-{
-	int32_t unmarshaledmaxBRGInstance_temp_0 = 0;
-	unmarshaledmaxBRGInstance_temp_0 = marshaled.___maxBRGInstance;
-	unmarshaled.___maxBRGInstance = unmarshaledmaxBRGInstance_temp_0;
-	int32_t unmarshaledmaxMeshCount_temp_1 = 0;
-	unmarshaledmaxMeshCount_temp_1 = marshaled.___maxMeshCount;
-	unmarshaled.___maxMeshCount = unmarshaledmaxMeshCount_temp_1;
-	int32_t unmarshaledmaxMaterialCount_temp_2 = 0;
-	unmarshaledmaxMaterialCount_temp_2 = marshaled.___maxMaterialCount;
-	unmarshaled.___maxMaterialCount = unmarshaledmaxMaterialCount_temp_2;
-	int32_t unmarshaledmaxDrawCommandBatch_temp_3 = 0;
-	unmarshaledmaxDrawCommandBatch_temp_3 = marshaled.___maxDrawCommandBatch;
-	unmarshaled.___maxDrawCommandBatch = unmarshaledmaxDrawCommandBatch_temp_3;
-	unmarshaled.___eventName = il2cpp_codegen_marshal_bstring_result(marshaled.___eventName);
-	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___eventName), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___eventName));
-	int32_t unmarshaledeventVersion_temp_5 = 0;
-	unmarshaledeventVersion_temp_5 = marshaled.___eventVersion;
-	unmarshaled.___eventVersion = unmarshaledeventVersion_temp_5;
-	unmarshaled.___eventPrefix = il2cpp_codegen_marshal_bstring_result(marshaled.___eventPrefix);
-	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___eventPrefix), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___eventPrefix));
-	int32_t unmarshaledsendEventOptions_temp_7 = 0;
-	unmarshaledsendEventOptions_temp_7 = marshaled.___sendEventOptions;
-	unmarshaled.___sendEventOptions = unmarshaledsendEventOptions_temp_7;
-}
-IL2CPP_EXTERN_C void BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0_marshal_com_cleanup(BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0_marshaled_com& marshaled)
-{
-	il2cpp_codegen_marshal_free_bstring(marshaled.___eventName);
-	marshaled.___eventName = NULL;
-	il2cpp_codegen_marshal_free_bstring(marshaled.___eventPrefix);
-	marshaled.___eventPrefix = NULL;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BatchRenderGroupUsageAnalytic__ctor_m4009A84B987597583C066E2F5ABAEFAC9874D2C6 (BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5142E124215CDEFF7DD7ADE1AAB0D7DC38336E8F);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		AnalyticsEventBase__ctor_m21A87ECFBEF557381DCD16B735E82680E8D14471(__this, _stringLiteral5142E124215CDEFF7DD7ADE1AAB0D7DC38336E8F, 1, 0, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
-		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0* BatchRenderGroupUsageAnalytic_CreateBatchRenderGroupUsageAnalytic_m7C6E687F9EC8930C2F7E561AFE841D8CBF05F83D (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0* V_0 = NULL;
-	{
-		BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0* L_0 = (BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0*)il2cpp_codegen_object_new(BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0_il2cpp_TypeInfo_var);
-		BatchRenderGroupUsageAnalytic__ctor_m4009A84B987597583C066E2F5ABAEFAC9874D2C6(L_0, NULL);
-		V_0 = L_0;
-		goto IL_0009;
-	}
-
-IL_0009:
-	{
-		BatchRenderGroupUsageAnalytic_t6D5E722DE5F343060AC71D2192D6D478BC8DA8B0* L_1 = V_0;
-		return L_1;
 	}
 }
 #ifdef __clang__
