@@ -11771,32 +11771,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventCallback_2_Invoke_mCE47D10654E53F98
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventComparer_1__cctor_mD87F116F1792303323145C80EF9671C53FE6216C_gshared (const RuntimeMethod* method) 
 {
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45287));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45288));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45299));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45300));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45289));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45301));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		U3CU3Ec_t21BB284950BC133F10617BDDA5B64490A4232839* L_0 = ((U3CU3Ec_t21BB284950BC133F10617BDDA5B64490A4232839_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CU3E9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45290));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45302));
 		SearchComparison_2_t78AD1FB3D82EF89CC1991B7E7845D0D57ABF33DE* L_1 = (SearchComparison_2_t78AD1FB3D82EF89CC1991B7E7845D0D57ABF33DE*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		SearchComparison_2__ctor_m257D31F1B7D8C36FE0FA5AC3D1F4594EE603FAFF(L_1, (RuntimeObject*)L_0, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45290));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45302));
 		((EventComparer_1_t62F08899EF868C27311F4F86C2AE753EF5AF46E0_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___CompareTime = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((EventComparer_1_t62F08899EF868C27311F4F86C2AE753EF5AF46E0_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___CompareTime), (void*)L_1);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45291));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45303));
 		U3CU3Ec_t21BB284950BC133F10617BDDA5B64490A4232839* L_2 = ((U3CU3Ec_t21BB284950BC133F10617BDDA5B64490A4232839_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CU3E9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45292));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45304));
 		SearchComparison_2_t6DAE8B9A2A2B1A7C3D0C7CAC88FDC3A036766EAE* L_3 = (SearchComparison_2_t6DAE8B9A2A2B1A7C3D0C7CAC88FDC3A036766EAE*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		SearchComparison_2__ctor_m09057EAF3C5A607FA4D387263A382711B63C4212(L_3, (RuntimeObject*)L_2, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45292));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45304));
 		((EventComparer_1_t62F08899EF868C27311F4F86C2AE753EF5AF46E0_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___CompareTick = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((EventComparer_1_t62F08899EF868C27311F4F86C2AE753EF5AF46E0_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___CompareTick), (void*)L_3);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45293));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45305));
 		U3CU3Ec_t21BB284950BC133F10617BDDA5B64490A4232839* L_4 = ((U3CU3Ec_t21BB284950BC133F10617BDDA5B64490A4232839_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___U3CU3E9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45294));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45306));
 		SearchComparison_2_t4416E06B748476CA0CA7EB105DB0247CB26793B0* L_5 = (SearchComparison_2_t4416E06B748476CA0CA7EB105DB0247CB26793B0*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 11));
 		SearchComparison_2__ctor_m662778FCA5A1DF40CB865DA0E5171628C64E00B5(L_5, (RuntimeObject*)L_4, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 10)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45294));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45306));
 		((EventComparer_1_t62F08899EF868C27311F4F86C2AE753EF5AF46E0_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___CompareEvent = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&((EventComparer_1_t62F08899EF868C27311F4F86C2AE753EF5AF46E0_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___CompareEvent), (void*)L_5);
 		return;

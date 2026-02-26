@@ -16449,19 +16449,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoonSongLoader_AddNoteToList_TisRuntimeO
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_notes), (&___1_note));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_8));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46018));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46019));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46030));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46031));
 	RuntimeObject* G_B3_0 = NULL;
 	RuntimeObject* G_B6_0 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46020));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46021));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46032));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46033));
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = ___0_notes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46022));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46034));
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_inline(L_0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46022));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46034));
 		if ((((int32_t)L_1) > ((int32_t)0)))
 		{
 			goto IL_0015;
@@ -16478,29 +16478,29 @@ IL_0015:
 	{
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_3 = ___0_notes;
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_4 = L_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46023));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46035));
 		NullCheck(L_4);
 		int32_t L_5;
 		L_5 = List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_inline(L_4, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46023));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46024));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46035));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46036));
 		NullCheck(L_4);
 		RuntimeObject* L_6;
 		L_6 = List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38(L_4, ((int32_t)il2cpp_codegen_subtract(L_5, 1)), il2cpp_rgctx_method(method->rgctx_data, 3));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46024));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46036));
 		G_B3_0 = L_6;
 	}
 
 IL_0023:
 	{
 		V_0 = G_B3_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46025));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46037));
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_7 = ___0_notes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46026));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46038));
 		NullCheck(L_7);
 		int32_t L_8;
 		L_8 = List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_inline(L_7, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46026));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46038));
 		if ((((int32_t)L_8) > ((int32_t)1)))
 		{
 			goto IL_0038;
@@ -16517,26 +16517,26 @@ IL_0038:
 	{
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_10 = ___0_notes;
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_11 = L_10;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46027));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46039));
 		NullCheck(L_11);
 		int32_t L_12;
 		L_12 = List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_inline(L_11, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46027));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46028));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46039));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46040));
 		NullCheck(L_11);
 		RuntimeObject* L_13;
 		L_13 = List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38(L_11, ((int32_t)il2cpp_codegen_subtract(L_12, 2)), il2cpp_rgctx_method(method->rgctx_data, 3));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46028));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46040));
 		G_B6_0 = L_13;
 	}
 
 IL_0046:
 	{
 		V_1 = G_B6_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46029));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46041));
 		RuntimeObject* L_14 = V_0;
 		V_3 = (bool)((!(((RuntimeObject*)(RuntimeObject*)L_14) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46030));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46042));
 		bool L_15 = V_3;
 		if (!L_15)
 		{
@@ -16544,22 +16544,22 @@ IL_0046:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46031));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46032));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46043));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46044));
 		RuntimeObject* L_16 = ___1_note;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46033));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46045));
 		NullCheck((ChartEvent_t1726C5E4C63B6A6E25DAD787C8D84CBA4086ABA5*)L_16);
 		uint32_t L_17;
 		L_17 = ChartEvent_get_Tick_mDD78A479BDDA60326AF23CB94AC49BABB787E465_inline((ChartEvent_t1726C5E4C63B6A6E25DAD787C8D84CBA4086ABA5*)L_16, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46033));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46045));
 		RuntimeObject* L_18 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46034));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46046));
 		NullCheck((ChartEvent_t1726C5E4C63B6A6E25DAD787C8D84CBA4086ABA5*)L_18);
 		uint32_t L_19;
 		L_19 = ChartEvent_get_Tick_mDD78A479BDDA60326AF23CB94AC49BABB787E465_inline((ChartEvent_t1726C5E4C63B6A6E25DAD787C8D84CBA4086ABA5*)L_18, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46034));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46046));
 		V_4 = (bool)((((int32_t)L_17) == ((int32_t)L_19))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46035));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46047));
 		bool L_20 = V_4;
 		if (!L_20)
 		{
@@ -16567,43 +16567,43 @@ IL_0046:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46036));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46037));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46048));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46049));
 		RuntimeObject* L_21 = ___1_note;
 		RuntimeObject* L_22 = V_1;
 		NullCheck(L_21);
 		((Note_1_t67647519063B22BDD0806E5F07A85462F3411B25*)L_21)->___PreviousNote = L_22;
 		Il2CppCodeGenWriteBarrier((void**)(&((Note_1_t67647519063B22BDD0806E5F07A85462F3411B25*)L_21)->___PreviousNote), (void*)L_22);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46038));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46050));
 		RuntimeObject* L_23 = V_0;
 		RuntimeObject* L_24 = ___1_note;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46039));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46051));
 		NullCheck((Note_1_t67647519063B22BDD0806E5F07A85462F3411B25*)L_23);
 		VirtualActionInvoker1< RuntimeObject* >::Invoke(8, (Note_1_t67647519063B22BDD0806E5F07A85462F3411B25*)L_23, L_24);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46039));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46040));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46051));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46052));
 		goto IL_0167;
 	}
 
 IL_0095:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46041));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46053));
 		RuntimeObject* L_25 = ___1_note;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46042));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46054));
 		NullCheck((ChartEvent_t1726C5E4C63B6A6E25DAD787C8D84CBA4086ABA5*)L_25);
 		uint32_t L_26;
 		L_26 = ChartEvent_get_Tick_mDD78A479BDDA60326AF23CB94AC49BABB787E465_inline((ChartEvent_t1726C5E4C63B6A6E25DAD787C8D84CBA4086ABA5*)L_25, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46042));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46054));
 		RuntimeObject* L_27 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46043));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46055));
 		NullCheck((ChartEvent_t1726C5E4C63B6A6E25DAD787C8D84CBA4086ABA5*)L_27);
 		uint32_t L_28;
 		L_28 = ChartEvent_get_Tick_mDD78A479BDDA60326AF23CB94AC49BABB787E465_inline((ChartEvent_t1726C5E4C63B6A6E25DAD787C8D84CBA4086ABA5*)L_27, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46043));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46055));
 		ParseSettings_tCD780B8CDEBBCAE1E2AF8B20E895F1C64EFA1C12* L_29 = (ParseSettings_tCD780B8CDEBBCAE1E2AF8B20E895F1C64EFA1C12*)(&__this->____settings);
 		int64_t L_30 = L_29->___NoteSnapThreshold;
 		V_5 = (bool)((((int32_t)((((int64_t)((int64_t)(uint64_t)((uint32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_26, (int32_t)L_28))))) > ((int64_t)L_30))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46044));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46056));
 		bool L_31 = V_5;
 		if (!L_31)
 		{
@@ -16611,48 +16611,48 @@ IL_0095:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46045));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46046));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46057));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46058));
 		RuntimeObject* L_32 = ___1_note;
 		RuntimeObject* L_33 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46047));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46059));
 		NullCheck((Note_1_t67647519063B22BDD0806E5F07A85462F3411B25*)L_32);
 		Note_1_CopyValuesFrom_m88DBDC8A20A9C6B0561CD283A46A58E64F8C5CB2((Note_1_t67647519063B22BDD0806E5F07A85462F3411B25*)L_32, L_33, il2cpp_rgctx_method(method->rgctx_data, 6));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46047));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46048));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46059));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46060));
 		RuntimeObject* L_34 = ___1_note;
 		RuntimeObject* L_35 = V_1;
 		NullCheck(L_34);
 		((Note_1_t67647519063B22BDD0806E5F07A85462F3411B25*)L_34)->___PreviousNote = L_35;
 		Il2CppCodeGenWriteBarrier((void**)(&((Note_1_t67647519063B22BDD0806E5F07A85462F3411B25*)L_34)->___PreviousNote), (void*)L_35);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46049));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46061));
 		RuntimeObject* L_36 = V_0;
 		RuntimeObject* L_37 = ___1_note;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46050));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46062));
 		NullCheck((Note_1_t67647519063B22BDD0806E5F07A85462F3411B25*)L_36);
 		VirtualActionInvoker1< RuntimeObject* >::Invoke(8, (Note_1_t67647519063B22BDD0806E5F07A85462F3411B25*)L_36, L_37);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46050));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46051));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46062));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46063));
 		goto IL_0167;
 	}
 
 IL_00ec:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46052));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46064));
 	}
 
 IL_00ed:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46053));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46065));
 		RuntimeObject* L_38 = V_0;
 		V_1 = L_38;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46054));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46066));
 		RuntimeObject* L_39 = ___1_note;
 		V_0 = L_39;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46055));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46067));
 		RuntimeObject* L_40 = V_1;
 		V_6 = (bool)((!(((RuntimeObject*)(RuntimeObject*)L_40) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46056));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46068));
 		bool L_41 = V_6;
 		if (!L_41)
 		{
@@ -16660,26 +16660,26 @@ IL_00ed:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46057));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46058));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46069));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46070));
 		RuntimeObject* L_42 = V_1;
 		RuntimeObject* L_43 = V_0;
 		NullCheck(L_42);
 		((Note_1_t67647519063B22BDD0806E5F07A85462F3411B25*)L_42)->___NextNote = L_43;
 		Il2CppCodeGenWriteBarrier((void**)(&((Note_1_t67647519063B22BDD0806E5F07A85462F3411B25*)L_42)->___NextNote), (void*)L_43);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46059));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46060));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46071));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46072));
 		RuntimeObject* L_44 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46061));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46073));
 		NullCheck((Note_1_t67647519063B22BDD0806E5F07A85462F3411B25*)L_44);
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_45;
 		L_45 = Note_1_get_ChildNotes_m26E963C983F37173F463B4D7169D64151AE6EBC5_inline((Note_1_t67647519063B22BDD0806E5F07A85462F3411B25*)L_44, il2cpp_rgctx_method(method->rgctx_data, 7));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46061));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46062));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46073));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46074));
 		NullCheck(L_45);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_46;
 		L_46 = List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC(L_45, il2cpp_rgctx_method(method->rgctx_data, 8));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46062));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46074));
 		V_7 = L_46;
 	}
 	{
@@ -16689,10 +16689,10 @@ IL_00ed:
 FINALLY_0143:
 			{
 				STORE_TRY_ID(methodExecutionContext, -1);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46069));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46070));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46081));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46082));
 				Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419((&V_7), il2cpp_rgctx_method(method->rgctx_data, 13));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46070));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46082));
 				return;
 			}
 		});
@@ -16700,19 +16700,19 @@ FINALLY_0143:
 		{
 			STORE_TRY_ID(methodExecutionContext, 0);
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46063));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46075));
 				goto IL_0138_1;
 			}
 
 IL_0122_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46064));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46065));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46076));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46077));
 				RuntimeObject* L_47;
 				L_47 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_7), il2cpp_rgctx_method(method->rgctx_data, 10));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46065));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46077));
 				V_8 = L_47;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46066));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46078));
 				RuntimeObject* L_48 = V_8;
 				RuntimeObject* L_49 = V_0;
 				NullCheck(L_48);
@@ -16722,11 +16722,11 @@ IL_0122_1:
 
 IL_0138_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46067));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46068));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46079));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46080));
 				bool L_50;
 				L_50 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_7), il2cpp_rgctx_method(method->rgctx_data, 12));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46068));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46080));
 				if (L_50)
 				{
 					goto IL_0122_1;
@@ -16744,29 +16744,29 @@ IL_0138_1:
 
 IL_0152:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46071));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46083));
 		RuntimeObject* L_51 = V_0;
 		RuntimeObject* L_52 = V_1;
 		NullCheck(L_51);
 		((Note_1_t67647519063B22BDD0806E5F07A85462F3411B25*)L_51)->___PreviousNote = L_52;
 		Il2CppCodeGenWriteBarrier((void**)(&((Note_1_t67647519063B22BDD0806E5F07A85462F3411B25*)L_51)->___PreviousNote), (void*)L_52);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46072));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46084));
 	}
 
 IL_015f:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46073));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46085));
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_53 = ___0_notes;
 		RuntimeObject* L_54 = ___1_note;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46074));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46086));
 		NullCheck(L_53);
 		List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_inline(L_53, L_54, il2cpp_rgctx_method(method->rgctx_data, 14));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46074));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46086));
 	}
 
 IL_0167:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46075));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 46087));
 		return;
 	}
 }
@@ -16815,51 +16815,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_moonChart), (&___1_difficulty), (&___2_createNote), (&___3_processText));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_5), (&V_6), (&V_7), (&V_11));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45760));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45761));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45772));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45773));
 	int32_t G_B17_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45762));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45763));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45774));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45775));
 		MoonChart_t175B3F45CF9D9B321A9DE31238E22A8089E42111* L_0 = ___0_moonChart;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45764));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45776));
 		NullCheck(L_0);
 		List_1_t936CA1939C881BBED7276271039B2269DB4DABD2* L_1;
 		L_1 = MoonChart_get_notes_mC3B477F31D708B944C89CF0162E4E65EF361B52E_inline(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45764));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45765));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45776));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45777));
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = List_1_get_Count_m0C4AF7D1E80EE9B5628DF0C43C09ECDFF6CC9EAB_inline(L_1, List_1_get_Count_m0C4AF7D1E80EE9B5628DF0C43C09ECDFF6CC9EAB_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45765));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45766));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45777));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45778));
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_3 = (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 0));
 		List_1__ctor_m76CBBC3E2F0583F5AD30CE592CEA1225C06A0428(L_3, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45766));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45778));
 		V_0 = L_3;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45767));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45779));
 		V_1 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45768));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45780));
 		V_2 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45769));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45770));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45781));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45782));
 		Dictionary_2_t7BB86CADD4AAE5ECD1859534411604B3EA02C8C4* L_4 = (Dictionary_2_t7BB86CADD4AAE5ECD1859534411604B3EA02C8C4*)il2cpp_codegen_object_new(Dictionary_2_t7BB86CADD4AAE5ECD1859534411604B3EA02C8C4_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m6E5D112E907533E8F59112054AD19035A5C2BCEB(L_4, Dictionary_2__ctor_m6E5D112E907533E8F59112054AD19035A5C2BCEB_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45770));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45782));
 		V_3 = L_4;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45771));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45772));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45783));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45784));
 		MoonChart_t175B3F45CF9D9B321A9DE31238E22A8089E42111* L_5 = ___0_moonChart;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45773));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45785));
 		NullCheck(L_5);
 		List_1_t936CA1939C881BBED7276271039B2269DB4DABD2* L_6;
 		L_6 = MoonChart_get_notes_mC3B477F31D708B944C89CF0162E4E65EF361B52E_inline(L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45773));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45774));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45785));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45786));
 		NullCheck(L_6);
 		Enumerator_tC4537229A9957D643A4704D81610DE45F38CE0F7 L_7;
 		L_7 = List_1_GetEnumerator_m17BF4B809F86D32F842B507BED19B14F99E9D873(L_6, List_1_GetEnumerator_m17BF4B809F86D32F842B507BED19B14F99E9D873_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45774));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45786));
 		V_4 = L_7;
 	}
 	{
@@ -16869,10 +16869,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9
 FINALLY_0128:
 			{
 				STORE_TRY_ID(methodExecutionContext, -1);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45826));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45827));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45838));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45839));
 				Enumerator_Dispose_m83D5518D349AB039C4B85524C9E744FB55F61E9E((&V_4), Enumerator_Dispose_m83D5518D349AB039C4B85524C9E744FB55F61E9E_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45827));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45839));
 				return;
 			}
 		});
@@ -16880,41 +16880,41 @@ FINALLY_0128:
 		{
 			STORE_TRY_ID(methodExecutionContext, 0);
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45775));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45787));
 				goto IL_011a_1;
 			}
 
 IL_002f_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45776));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45777));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45788));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45789));
 				MoonNote_t4655EA1C8952CB5FE1B3D449473F1E65CE661839* L_8;
 				L_8 = Enumerator_get_Current_m2B4F11372BB767AE3DFE3CD2AE5BCAFBDFBC3D6E_inline((&V_4), Enumerator_get_Current_m2B4F11372BB767AE3DFE3CD2AE5BCAFBDFBC3D6E_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45777));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45789));
 				V_5 = L_8;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45778));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45779));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45790));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45791));
 				goto IL_0077_1;
 			}
 
 IL_003b_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45780));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45781));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45792));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45793));
 				MoonChart_t175B3F45CF9D9B321A9DE31238E22A8089E42111* L_9 = ___0_moonChart;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45782));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45794));
 				NullCheck(L_9);
 				List_1_t2C34EAFFB77A344D157884F5948A191E05E6D6A7* L_10;
 				L_10 = MoonChart_get_specialPhrases_m134DADB4903CDFA9DF1CF4FBFC7787B368B1C66D_inline(L_9, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45782));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45794));
 				int32_t L_11 = V_1;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45783));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45795));
 				NullCheck(L_10);
 				MoonPhrase_t5CF22EE94C13CEB195601A4F2B43607A6CED4984* L_12;
 				L_12 = List_1_get_Item_mD43B3FF4072A12A7A1AF4536806170B2D0BC5133(L_10, L_11, List_1_get_Item_mD43B3FF4072A12A7A1AF4536806170B2D0BC5133_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45783));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45795));
 				V_7 = L_12;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45784));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45796));
 				MoonPhrase_t5CF22EE94C13CEB195601A4F2B43607A6CED4984* L_13 = V_7;
 				NullCheck(L_13);
 				uint32_t L_14 = ((MoonObject_tE63EDFD22F0EC356C60B6FA878598B458B62DA95*)L_13)->___tick;
@@ -16922,7 +16922,7 @@ IL_003b_1:
 				NullCheck(L_15);
 				uint32_t L_16 = ((MoonObject_tE63EDFD22F0EC356C60B6FA878598B458B62DA95*)L_15)->___tick;
 				V_8 = (bool)((!(((uint32_t)L_14) <= ((uint32_t)L_16)))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45785));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45797));
 				bool L_17 = V_8;
 				if (!L_17)
 				{
@@ -16930,45 +16930,45 @@ IL_003b_1:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45786));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45798));
 				goto IL_008b_1;
 			}
 
 IL_0062_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45787));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45799));
 				Dictionary_2_t7BB86CADD4AAE5ECD1859534411604B3EA02C8C4* L_18 = V_3;
 				MoonPhrase_t5CF22EE94C13CEB195601A4F2B43607A6CED4984* L_19 = V_7;
 				NullCheck(L_19);
 				int32_t L_20 = L_19->___type;
 				MoonPhrase_t5CF22EE94C13CEB195601A4F2B43607A6CED4984* L_21 = V_7;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45788));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45800));
 				NullCheck(L_18);
 				Dictionary_2_set_Item_m65B1445E985E5EB5770549983A01E4076D783FA2(L_18, L_20, L_21, Dictionary_2_set_Item_m65B1445E985E5EB5770549983A01E4076D783FA2_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45788));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45789));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45800));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45801));
 				int32_t L_22 = V_1;
 				V_1 = ((int32_t)il2cpp_codegen_add(L_22, 1));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45790));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45802));
 			}
 
 IL_0077_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45791));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45803));
 				int32_t L_23 = V_1;
 				MoonChart_t175B3F45CF9D9B321A9DE31238E22A8089E42111* L_24 = ___0_moonChart;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45792));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45804));
 				NullCheck(L_24);
 				List_1_t2C34EAFFB77A344D157884F5948A191E05E6D6A7* L_25;
 				L_25 = MoonChart_get_specialPhrases_m134DADB4903CDFA9DF1CF4FBFC7787B368B1C66D_inline(L_24, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45792));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45793));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45804));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45805));
 				NullCheck(L_25);
 				int32_t L_26;
 				L_26 = List_1_get_Count_m07038BE67FE882F6A2762CFDF58857C1564E143D_inline(L_25, List_1_get_Count_m07038BE67FE882F6A2762CFDF58857C1564E143D_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45793));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45805));
 				V_9 = (bool)((((int32_t)L_23) < ((int32_t)L_26))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45794));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45806));
 				bool L_27 = V_9;
 				if (L_27)
 				{
@@ -16978,10 +16978,10 @@ IL_0077_1:
 
 IL_008b_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45795));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45807));
 				ProcessTextDelegate_tBF61D91E087621DC363BCB43295F969F4C52D9D5* L_28 = ___3_processText;
 				V_10 = (bool)((!(((RuntimeObject*)(ProcessTextDelegate_tBF61D91E087621DC363BCB43295F969F4C52D9D5*)L_28) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45796));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45808));
 				bool L_29 = V_10;
 				if (!L_29)
 				{
@@ -16989,29 +16989,29 @@ IL_008b_1:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45797));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45798));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45809));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45810));
 				goto IL_00cf_1;
 			}
 
 IL_0099_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45799));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45800));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45811));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45812));
 				MoonChart_t175B3F45CF9D9B321A9DE31238E22A8089E42111* L_30 = ___0_moonChart;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45801));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45813));
 				NullCheck(L_30);
 				List_1_tFC331879CF401E0D9DADA126B2ED8D3FB3C75A6C* L_31;
 				L_31 = MoonChart_get_events_m9F573A5E94E9C37120916EC3B0CC117E18A6D1D8_inline(L_30, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45801));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45813));
 				int32_t L_32 = V_2;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45802));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45814));
 				NullCheck(L_31);
 				MoonText_tC5D296604AFA6DDE7BC2D89BDFA0996F1265833E* L_33;
 				L_33 = List_1_get_Item_mC7562A9E1E74430C762EEF5BA61E90A7018A1E3F(L_31, L_32, List_1_get_Item_mC7562A9E1E74430C762EEF5BA61E90A7018A1E3F_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45802));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45814));
 				V_11 = L_33;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45803));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45815));
 				MoonText_tC5D296604AFA6DDE7BC2D89BDFA0996F1265833E* L_34 = V_11;
 				NullCheck(L_34);
 				uint32_t L_35 = ((MoonObject_tE63EDFD22F0EC356C60B6FA878598B458B62DA95*)L_34)->___tick;
@@ -17019,7 +17019,7 @@ IL_0099_1:
 				NullCheck(L_36);
 				uint32_t L_37 = ((MoonObject_tE63EDFD22F0EC356C60B6FA878598B458B62DA95*)L_36)->___tick;
 				V_12 = (bool)((!(((uint32_t)L_35) <= ((uint32_t)L_37)))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45804));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45816));
 				bool L_38 = V_12;
 				if (!L_38)
 				{
@@ -17027,42 +17027,42 @@ IL_0099_1:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45805));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45817));
 				goto IL_00e3_1;
 			}
 
 IL_00c0_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45806));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45818));
 				ProcessTextDelegate_tBF61D91E087621DC363BCB43295F969F4C52D9D5* L_39 = ___3_processText;
 				MoonText_tC5D296604AFA6DDE7BC2D89BDFA0996F1265833E* L_40 = V_11;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45807));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45819));
 				NullCheck(L_39);
 				ProcessTextDelegate_Invoke_m41C038B45DBE9FE4D504BB1FD8A0967A0EE79882_inline(L_39, L_40, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45807));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45808));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45819));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45820));
 				int32_t L_41 = V_2;
 				V_2 = ((int32_t)il2cpp_codegen_add(L_41, 1));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45809));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45821));
 			}
 
 IL_00cf_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45810));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45822));
 				int32_t L_42 = V_2;
 				MoonChart_t175B3F45CF9D9B321A9DE31238E22A8089E42111* L_43 = ___0_moonChart;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45811));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45823));
 				NullCheck(L_43);
 				List_1_tFC331879CF401E0D9DADA126B2ED8D3FB3C75A6C* L_44;
 				L_44 = MoonChart_get_events_m9F573A5E94E9C37120916EC3B0CC117E18A6D1D8_inline(L_43, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45811));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45812));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45823));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45824));
 				NullCheck(L_44);
 				int32_t L_45;
 				L_45 = List_1_get_Count_m6DCBAB291FA987B0A05EEBFE8008D7701506C1D8_inline(L_44, List_1_get_Count_m6DCBAB291FA987B0A05EEBFE8008D7701506C1D8_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45812));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45824));
 				V_13 = (bool)((((int32_t)L_42) < ((int32_t)L_45))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45813));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45825));
 				bool L_46 = V_13;
 				if (L_46)
 				{
@@ -17072,12 +17072,12 @@ IL_00cf_1:
 
 IL_00e3_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45814));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45826));
 			}
 
 IL_00e4_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45815));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45827));
 				uint8_t L_47 = ___1_difficulty;
 				if ((((int32_t)L_47) == ((int32_t)5)))
 				{
@@ -17100,7 +17100,7 @@ IL_00fa_1:
 IL_00fb_1:
 			{
 				V_14 = (bool)G_B17_0;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45816));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45828));
 				bool L_50 = V_14;
 				if (!L_50)
 				{
@@ -17108,39 +17108,39 @@ IL_00fb_1:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45817));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45818));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45829));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45830));
 				goto IL_011a_1;
 			}
 
 IL_0104_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45819));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45831));
 				CreateNoteDelegate_1_t7C7B0792FCEB77CDD45355EB24121905A90D623C* L_51 = ___2_createNote;
 				MoonNote_t4655EA1C8952CB5FE1B3D449473F1E65CE661839* L_52 = V_5;
 				Dictionary_2_t7BB86CADD4AAE5ECD1859534411604B3EA02C8C4* L_53 = V_3;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45820));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45832));
 				NullCheck(L_51);
 				RuntimeObject* L_54;
 				L_54 = CreateNoteDelegate_1_Invoke_m745D3908E7AE90838C9E11A9B9743EB9D3FBC6A8_inline(L_51, L_52, L_53, il2cpp_rgctx_method(method->rgctx_data, 3));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45820));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45832));
 				V_6 = L_54;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45821));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45833));
 				List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_55 = V_0;
 				RuntimeObject* L_56 = V_6;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45822));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45834));
 				MoonSongLoader_AddNoteToList_TisRuntimeObject_mAED20D8EC91AEC9682600C30C0275E5085F056B1(__this, L_55, L_56, il2cpp_rgctx_method(method->rgctx_data, 5));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45822));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45823));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45834));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45835));
 			}
 
 IL_011a_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45824));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45825));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45836));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45837));
 				bool L_57;
 				L_57 = Enumerator_MoveNext_m88BE22858F86A0FC17E22A9D7005384E0A927584((&V_4), Enumerator_MoveNext_m88BE22858F86A0FC17E22A9D7005384E0A927584_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45825));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45837));
 				if (L_57)
 				{
 					goto IL_002f_1;
@@ -17158,13 +17158,13 @@ IL_011a_1:
 
 IL_0137:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45828));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45840));
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_58 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45829));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45841));
 		NullCheck(L_58);
 		List_1_TrimExcess_mCE60BB9032C2BB07A9AC08FE1C61A79CBE88140F(L_58, il2cpp_rgctx_method(method->rgctx_data, 6));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45829));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45830));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45841));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45842));
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_59 = V_0;
 		V_15 = L_59;
 		goto IL_0143;
@@ -17172,7 +17172,7 @@ IL_0137:
 
 IL_0143:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45831));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45843));
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_60 = V_15;
 		return L_60;
 	}
@@ -17197,94 +17197,94 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InstrumentDifficulty_1_t87F7FB90C4A1E31B2DCD0
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_instrument), (&___1_difficulty), (&___2_createNote), (&___3_processText));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45736));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45737));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45748));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45749));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45738));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45739));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45750));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45751));
 		uint8_t L_0 = ___0_instrument;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45740));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45752));
 		uint8_t L_1;
 		L_1 = ChartEnumExtensions_ToNativeGameMode_mE0F1ABEA04DC9D10514D4AF2D2060FEE6CC52BDA(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45740));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45752));
 		__this->____currentMode = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45741));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45753));
 		uint8_t L_2 = ___0_instrument;
 		__this->____currentInstrument = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45742));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45754));
 		uint8_t L_3 = ___1_difficulty;
 		__this->____currentDifficulty = L_3;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45743));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45755));
 		uint8_t L_4 = __this->____currentMode;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45744));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45756));
 		il2cpp_codegen_runtime_class_init_inline(MoonSongLoader_tCDBB3253E6E4CCAD63DFF13AB15CA3DF33CC451E_il2cpp_TypeInfo_var);
 		int32_t L_5;
 		L_5 = MoonSongLoader_YargGameModeToMoonGameMode_mAC9A06C1E0D603C192D5D76ED7D1C2470DF6A67C(L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45744));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45756));
 		__this->____currentMoonMode = L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45745));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45757));
 		uint8_t L_6 = __this->____currentInstrument;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45746));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45758));
 		int32_t L_7;
 		L_7 = MoonSongLoader_YargInstrumentToMoonInstrument_m6CE1DFDB1AEF7DCAE8CC6C1BDA0F1E0A675FB8B0(L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45746));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45758));
 		__this->____currentMoonInstrument = L_7;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45747));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45759));
 		uint8_t L_8 = __this->____currentDifficulty;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45748));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45760));
 		int32_t L_9;
 		L_9 = MoonSongLoader_YargDifficultyToMoonDifficulty_mFA7A5A3D6073D5955A6403B06D15C000F35FCAE6(L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45748));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45760));
 		__this->____currentMoonDifficulty = L_9;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45749));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45761));
 		uint8_t L_10 = ___0_instrument;
 		uint8_t L_11 = ___1_difficulty;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45750));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45762));
 		MoonChart_t175B3F45CF9D9B321A9DE31238E22A8089E42111* L_12;
 		L_12 = MoonSongLoader_GetMoonChart_m0770710F570A15ABAC82929295659527ADDBF5A1(__this, L_10, L_11, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45750));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45762));
 		V_0 = L_12;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45751));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45763));
 		MoonChart_t175B3F45CF9D9B321A9DE31238E22A8089E42111* L_13 = V_0;
 		uint8_t L_14 = ___1_difficulty;
 		CreateNoteDelegate_1_t7C7B0792FCEB77CDD45355EB24121905A90D623C* L_15 = ___2_createNote;
 		ProcessTextDelegate_tBF61D91E087621DC363BCB43295F969F4C52D9D5* L_16 = ___3_processText;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45752));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45764));
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_17;
 		L_17 = MoonSongLoader_GetNotes_TisRuntimeObject_m7AF590A4BC8439C9DA005AF6DCDCB1D40B6D4632(__this, L_13, L_14, L_15, L_16, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45752));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45764));
 		V_1 = L_17;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45753));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45765));
 		MoonChart_t175B3F45CF9D9B321A9DE31238E22A8089E42111* L_18 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45754));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45766));
 		List_1_t312DDD39479528ECFFDD73810BCB43CE1C328728* L_19;
 		L_19 = MoonSongLoader_GetPhrases_mABC1F603445ADEA1005FB12FE63004F46D53748A(__this, L_18, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45754));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45766));
 		V_2 = L_19;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45755));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45767));
 		MoonChart_t175B3F45CF9D9B321A9DE31238E22A8089E42111* L_20 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45756));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45768));
 		List_1_t00DA3F9A22A41062C9940E654AF6669EBC40F136* L_21;
 		L_21 = MoonSongLoader_GetTextEvents_m3478608969E812AA15AFD92CBEAEBED3FA21F8B3(__this, L_20, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45756));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45768));
 		V_3 = L_21;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45757));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45769));
 		uint8_t L_22 = ___0_instrument;
 		uint8_t L_23 = ___1_difficulty;
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_24 = V_1;
 		List_1_t312DDD39479528ECFFDD73810BCB43CE1C328728* L_25 = V_2;
 		List_1_t00DA3F9A22A41062C9940E654AF6669EBC40F136* L_26 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45758));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45770));
 		InstrumentDifficulty_1_t87F7FB90C4A1E31B2DCD01808DA865B75134C1BD* L_27 = (InstrumentDifficulty_1_t87F7FB90C4A1E31B2DCD01808DA865B75134C1BD*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 3));
 		InstrumentDifficulty_1__ctor_m06B182AA75B866BC2F06DFC7553C327A88C7BD0A(L_27, L_22, L_23, L_24, L_25, L_26, il2cpp_rgctx_method(method->rgctx_data, 4));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45758));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45770));
 		V_4 = L_27;
 		goto IL_0081;
 	}
 
 IL_0081:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45759));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 45771));
 		InstrumentDifficulty_1_t87F7FB90C4A1E31B2DCD01808DA865B75134C1BD* L_28 = V_4;
 		return L_28;
 	}
@@ -37211,10 +37211,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t ChartEvent_get_Tick_mDD7
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ChartEvent_get_Tick_mDD78A479BDDA60326AF23CB94AC49BABB787E465_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 44846));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 44847));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 44858));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 44859));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 44848));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 44860));
 		uint32_t L_0 = __this->___U3CTickU3Ek__BackingField;
 		return L_0;
 	}
@@ -38766,10 +38766,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tA239CB83DE5615F348BB0507E
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 49512));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 49513));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 49524));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 49525));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 49514));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 49526));
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->____childNotes;
 		return L_0;
 	}
