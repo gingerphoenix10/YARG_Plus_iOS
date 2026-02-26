@@ -1,0 +1,79 @@
+{
+  "name": "Trance",
+
+  "subgenres": {
+    "Anthem Trance": {},
+
+    "Balearic Trance": {
+      "substitutions": {
+        "balearic": [ "ibiza" ]
+      }
+    },
+
+    "Dream Trance": {},
+
+    "Electro Trance": {
+      "substitutions": {
+        "electro ": [ "electro", "electro-" ]
+      }
+    },
+
+    "Emotional Trance": {},
+
+    "Energetic Trance": {},
+
+    "Epic Trance": {},
+
+    "Euphoric Trance": {},
+
+    "Fusion Trance": {},
+
+    "Goa Trance": {},
+
+    "Hard Trance": {},
+
+    "Melodic Trance": {
+      "substitutions": {
+        "melodic ": [ "melo", "melo-" ]
+      }
+    },
+
+    "Neo Trance": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Neo Trance Dance": {
+      "substitutions": {
+        "neo ": [ "neo", "neo-" ],
+        "trance ": [ "trance", "trance-" ]
+      }
+    },
+
+    "Progressive Trance": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ]
+      }
+    },
+
+    "Psychedelic Trance": {
+      "substitutions": {
+        "psychedelic": [ "psychadelic", "psych", "psyche", "psy" ],
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Psycore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Symphonic Trance": {},
+
+    "Uplifting Trance": {},
+
+    "Vocal Trance": {}
+  }
+}

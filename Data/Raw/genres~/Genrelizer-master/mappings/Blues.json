@@ -1,0 +1,95 @@
+{
+  "name": "Blues",
+
+  "subgenres": {
+    "12-Bar Blues": {
+      "substitutions": {
+        "12-": [ "12", "12 ", "twelve", "twelve ", "twelve-" ]
+      }
+    },
+
+    "Acoustic Blues": {},
+
+    "Blues Rock": {
+      "substitutions": {
+        "blues ": [ "blues", "blues-" ]
+      }
+    },
+
+    "Blues Shred": {
+      "substitutions": {
+        "blues shred": [ "shred blues" ]
+      }
+    },
+
+    "Chicago Blues": {},
+
+    "Classic Blues": {},
+
+    "Contemporary Blues": {},
+
+    "Country Blues": {
+      "substitutions": {
+        "country ": [ "country-" ]
+      }
+    },
+
+    "Delta Blues": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Desert Blues": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Electric Blues": {
+      "substitutions": {
+        "electric": [ "'lectric" ]
+      }
+    },
+
+    "Electronic Blues": {},
+
+    "Folk Blues": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Jump Blues": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Punk Blues": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Soul Blues": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Swamp Blues": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Talking Blues": {},
+
+    "Texas Blues": {
+      "substitutions": {
+        "texas": [ "tejas", "tx" ]
+      }
+    }
+  }
+}

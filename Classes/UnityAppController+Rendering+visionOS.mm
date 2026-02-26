@@ -100,7 +100,10 @@ extern bool _didResignActive;
         [_UnityAppController destroyDisplayLink];
 
         // Manually call repaintDisplayLink to kick off dispatched repaint loop
-        [_UnityAppController repaintDisplayLink];
+        // Skip this step if the engine is not loaded yet. In a delayed load scenario (like wait for managed debugger),
+        // repaintDisplayLink is called during normal engine load
+        if (_UnityAppController.engineLoadState == kUnityEngineLoadStateAppReady)
+            [_UnityAppController repaintDisplayLink];
     }
 }
 

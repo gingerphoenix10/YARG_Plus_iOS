@@ -1,0 +1,109 @@
+{
+  "name": "Electronic Rock",
+
+  "substitutions": {
+    " ": [ "" ]
+  },
+
+  "subgenres": {
+    "8-Bit Rock": {
+      "substitutions": {
+        "8": [ "eight" ],
+        "-": [ "", " " ]
+      }
+    },
+
+    "Bit Metal": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Bit Rock": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Chiptune Metal": {
+      "substitutions": {
+        "chiptune": [ "chip tune", "chip-tune" ],
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Chiptune Rock": {
+      "substitutions": {
+        "chiptune": [ "chip tune", "chip-tune" ]
+      }
+    },
+
+    "Crossbreed": {
+      "substitutions": {
+        "cross": [ "cross ", "cross-" ]
+      }
+    },
+
+    "Electro-Rock": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Electronic Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Instrumental Synth Metal": {},
+
+    "Krautrock": {
+      "substitutions": {
+        "krautrock": [ "kraut rock", "kraut-rock", "krosmische musik" ]
+      }
+    },
+
+    "MIDI Rock": {},
+
+    "MIDI Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "MIDI Shred": {
+      "suffixes": [ " metal" ]
+    },
+
+    "MIDI Thrash": {
+      "suffixes": [ " metal" ]
+    },
+
+    "Robot Rock": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Synth Metal": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Synth Shred": {},
+
+    "Synthrock": {
+      "substitutions": {
+        "synth": [ "synth ", "synth-" ]
+      }
+    },
+
+    "Techno Metal": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    }
+  }
+}

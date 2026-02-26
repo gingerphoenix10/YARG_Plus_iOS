@@ -1,0 +1,50 @@
+{
+  "name": "Djent",
+
+  "substitutions": {
+    "djent": [ "meshuggah" ]
+  },
+
+  "suffixes": [ " metal" ],
+
+  "subgenres": {
+    "Ambient Djent": {
+      "substitutions": {
+        "ambient": [ "amb", "amb.", "amb'" ]
+      }
+    },
+
+    "Blackened Djent": {},
+
+    "Death Thall": {},
+
+    "Djent Pop": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Djentcore": {
+      "substitutions": {
+        "djent": [ "djent ", "djent-" ]
+      }
+    },
+
+    "Electronic Djent": {},
+
+    "Instrumental Djent": {},
+
+    "Pop Djent": {},
+
+    "Progressive Djent": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ],
+        "djent": [ "metal djent", "djent metal" ]
+      }
+    },
+
+    "Rap Djent": {},
+
+    "Thall": {}
+  }
+}

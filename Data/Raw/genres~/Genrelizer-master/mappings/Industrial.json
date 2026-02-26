@@ -1,0 +1,68 @@
+{
+  "name": "Industrial",
+
+  "subgenres": {
+    "Aggrotech": {
+      "substitutions": {
+        "aggro": [ "aggro ", "aggro-" ],
+        "tech": [ "tek" ]
+      }
+    },
+
+    "Death Pop": {
+      "substitutions": {
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Electro-Industrial": {
+      "substitutions": {
+        "-": [ " ", "" ]
+      }
+    },
+    
+		"Industrial Black Metal": {},
+
+		"Industrial Death Metal": {},
+
+    "Industrial Electronica": {},
+
+    "Industrial Hardcore": {
+      "substitutions": {
+        "core": [ "-core", " core" ]
+      }
+    },
+
+    "Industrial Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Industrial Pop": {},
+
+    "Industrial Rock": {},
+
+    "Industrial Techno": {},
+
+    "Martial Industrial": {
+      "substitutions": {
+        " ": [ "-" ]
+      }
+    },
+
+    "Neue Deutsche Härte": {
+      "substitutions": {
+        "neue deutsche härte": [ "neue deutsche harte", "new german hardness", "ndh" ]
+      }
+    },
+
+    "Post-Industrial": {
+      "substitutions": {
+        "-": [ " ", "" ]
+      }
+    },
+
+    "Symphonic Industrial": {}
+  }
+}

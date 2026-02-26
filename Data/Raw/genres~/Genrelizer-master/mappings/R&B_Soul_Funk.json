@@ -1,0 +1,307 @@
+{
+  "name": "R&B/Soul/Funk",
+
+  "substitutions": {
+    "r&b/soul/funk": [
+      "funk rnb soul",
+      "funk r&b soul",
+      "funk/rnb/soul",
+      "funk/r&b/soul",
+      "funkrnbsoul",
+      "funkr&bsoul",
+
+      "funk soul rnb",
+      "funk soul r&b",
+      "funk/soul/rnb",
+      "funk/soul/r&b",
+      "funksoulrnb",
+      "funksoulr&b",
+
+      "rnb funk soul",
+      "r&b funk soul",
+      "rnb/funk/soul",
+      "r&b/funk/soul",
+      "rnbfunksoul",
+      "r&bfunksoul",
+
+      "rnb soul funk",
+      "r&b soul funk",
+      "rnb/soul/funk",
+      "rnbsoulfunk",
+      "r&bsoulfunk",
+      "rbsoulfunk",
+
+      "soul funk rnb",
+      "soul funk r&b",
+      "soul/funk/rnb",
+      "soul/funk/r&b",
+      "soulfunkrnb",
+      "soulfunkr&b",
+
+      "soul rnb funk",
+      "soul r&b funk",
+      "soul/rnb/funk",
+      "soul/r&b/funk",
+      "soulrnbfunk",
+      "soulr&bfunk"
+    ]
+  },
+
+  "subgenres": {
+    "Alternative R&B": {
+      "substitutions": {
+        "alternative": [ 
+          "alt", 
+          "alt.", 
+          "alt'", 
+          "altern", 
+          "altern.", 
+          "altern'", 
+          "alternate" 
+        ],
+        "r&b": [
+          "rhythm and blues",
+          "rhythm & blues",
+          "rhythm n blues",
+          "rhythm 'n' blues",
+          "rhythm 'n blues",
+          "rhythm n' blues",
+          "rhythm'n'blues",
+          "rnb",
+          "r.n.b",
+          "r.n.b.",
+          "r'n'b"
+        ]
+      }
+    },
+
+    "Boogie": {},
+
+    "Brown-Eyed Soul": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Blue-Eyed Soul": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "British R&B": {
+      "substitutions": {
+        "r&b": [
+          "rhythm and blues",
+          "rhythm & blues",
+          "rhythm n blues",
+          "rhythm 'n' blues",
+          "rhythm 'n blues",
+          "rhythm n' blues",
+          "rhythm'n'blues",
+          "rnb",
+          "r.n.b",
+          "r.n.b.",
+          "r'n'b"
+        ]
+      }
+    },
+
+    "Chicago Soul": {},
+
+    "Contemporary R&B": {
+      "substitutions": {
+        "r&b": [
+          "rhythm and blues",
+          "rhythm & blues",
+          "rhythm n blues",
+          "rhythm 'n' blues",
+          "rhythm 'n blues",
+          "rhythm n' blues",
+          "rhythm'n'blues",
+          "rnb",
+          "r.n.b",
+          "r.n.b.",
+          "r'n'b"
+        ]
+      }
+    },
+
+    "Dark Wave R&B": {
+      "substitutions": {
+        "dark ": [ "dark", "dark-" ],
+        "r&b": [
+          "rhythm and blues",
+          "rhythm & blues",
+          "rhythm n blues",
+          "rhythm 'n' blues",
+          "rhythm 'n blues",
+          "rhythm n' blues",
+          "rhythm'n'blues",
+          "rnb",
+          "r.n.b",
+          "r.n.b.",
+          "r'n'b"
+        ]
+      }
+    },
+
+    "Emergency Funk": {},
+
+    "FM Funk" : {
+      "substitutions": {
+        "fm": [ "fm synth", "fm synthesis", "frequency modulation", "frequency modulation synthesis" ]
+      }
+    },
+
+    "Free Funk": {
+      "substitutions": {
+        "free": [ "freeform" ]
+      }
+    },
+
+    "Funk": {},
+
+    "Funk Rock": {
+      "substitutions": {
+        " rock": [ "rock", "-rock" ]
+      }
+    },
+
+    "Go-Go": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Jazz Funk": {
+      "substitutions": {
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Memphis Soul": {},
+
+    "Motown": {},
+
+    "Neo Soul": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "New Orleans R&B": {
+      "substitutions": {
+        "r&b": [
+          "rhythm and blues",
+          "rhythm & blues",
+          "rhythm n blues",
+          "rhythm 'n' blues",
+          "rhythm 'n blues",
+          "rhythm n' blues",
+          "rhythm'n'blues",
+          "rnb",
+          "r.n.b",
+          "r.n.b.",
+          "r'n'b"
+        ]
+      }
+    },
+
+    "Northern Soul": {},
+
+    "P-Funk": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Porn Groove": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Pop R&B": {
+      "substitutions": {
+        "pop ": [ "pop-" ],
+        "r&b": [
+          "rhythm and blues",
+          "rhythm & blues",
+          "rhythm n blues",
+          "rhythm 'n' blues",
+          "rhythm 'n blues",
+          "rhythm n' blues",
+          "rhythm'n'blues",
+          "rnb",
+          "r.n.b",
+          "r.n.b.",
+          "r'n'b"
+        ]
+      }
+    },
+
+    "Pop Soul": {
+      "substitutions": {
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Progressive Funk": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ]
+      }
+    },
+
+    "Quiet Storm": {},
+
+    "Rhythm & Blues": {
+      "substitutions": {
+        "rhythm & blues": [
+          "rhythm and blues",
+          "rhythm n blues",
+          "rhythm 'n' blues",
+          "rhythm 'n blues",
+          "rhythm n' blues",
+          "rhythm'n'blues",
+          "rnb",
+          "r&b",
+          "r & b",
+          "r.n.b",
+          "r.n.b.",
+          "r'n'b"
+        ]
+      }
+    },
+
+    "Slow Jam": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Smooth Soul": {},
+
+    "Soul": {},
+
+    "Soul Funk": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Soul Rock": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Southern Soul": {},
+
+    "Synth Funk": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    }
+  }
+}

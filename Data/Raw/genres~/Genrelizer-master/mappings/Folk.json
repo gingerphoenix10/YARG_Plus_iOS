@@ -1,0 +1,166 @@
+{
+  "name": "Folk",
+
+  "suffixes": [ " music" ],
+
+  "subgenres": {
+    "Acoustic Folk": {},
+
+    "American Folk": {
+      "suffixes": [ " music" ]
+    },
+
+    "American Roots": {},
+
+    "Americana": {},
+
+    "Apocalyptic Folk": {},
+
+    "Appalachian": {
+      "suffixes": [ " music" ]
+    },
+
+    "Appalachian Folk": {
+      "suffixes": [ " music" ]
+    },
+
+    "Ballade": {},
+
+    "Cajun": {
+      "suffixes": [ " music" ]
+    },
+
+    "Canso": {
+      "substitutions": {
+        "so": [ "son", "zo", "zon" ]
+      }
+    },
+
+    "Celtic Folk": {},
+
+    "Contra": {},
+
+    "Country Folk": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Dance-Folk": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Dark Folk": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Estampie": {},
+
+    "Filk": {},
+
+    "Folk Pop": {
+      "substitutions": {
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Folk Revival": {},
+
+    "Folk Rock": {
+      "substitutions": {
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Folktronica": {},
+
+    "Geisslerlieder": {
+      "substitutions": {
+        "geisslerlieder": [ "flagellant", "flagellant song" ]
+      }
+    },
+
+    "Indie Folk": {
+      "substitutions": {
+        "ie": [ "y", "ependent" ],
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Jug Band": {
+      "substitutions": {
+        " band": [ "-band", "band", "" ]
+      }
+    },
+
+    "Lai": {},
+
+    "Medieval": {},
+
+    "Murderfolk": {
+      "substitutions": {
+        "folk": [ " folk", "-folk" ]
+      }
+    },
+
+    "Neofolk": {
+      "substitutions": {
+        "neo": [ "neo-", "neo " ]
+      }
+    },
+
+    "Neo-Medieval": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Planctus": {},
+
+    "Progressive Folk": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ]
+      }
+    },
+
+    "Railroad": {
+      "substitutions": {
+        "rail": [ "rail-", "rail "]
+      },
+      "suffixes": [ " song", " music" ]
+    },
+
+    "Rondeau": {
+      "suffixes": [ "x" ]
+    },
+
+    "Sea Shanty": {
+      "substitutions": {
+        "sea ": [ "" ],
+        "y": [ "ies" ]
+      }
+    },
+
+    "Swamp Pop": {},
+
+    "Traditional Celtic": {
+      "substitutions": {
+        "traditional ": [ "trad ", "trad. ", "trad-" ]
+      }
+    },
+
+    "Traditional Folk": {
+      "substitutions": {
+        "traditional ": [ "trad ", "trad. ", "trad-" ]
+      }
+    },
+
+    "Trecento Madrigal": {},
+
+    "Virelai": {}
+  }
+}

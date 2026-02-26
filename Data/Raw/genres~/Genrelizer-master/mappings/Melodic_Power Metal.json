@@ -1,0 +1,116 @@
+{
+  "name": "Melodic/Power Metal",
+
+  "substitutions": {
+    "melodic/power metal": [
+      "power/melodic metal",
+      "powermelodicmetal",
+      "melodic/powermetal",
+      "melodic/power-metal",
+      "melodicpowermetal"
+    ]
+  },
+
+  "subgenres": {
+    "Blackened Power Metal": {
+      "substitutions": {
+        "power ": [ "power", "power-" ]
+      }
+    },
+
+    "Epic Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Epic Pagan Metal": {},
+
+    "Epic Power Metal": {
+      "substitutions": {
+        "power ": [ "power", "power-" ]
+      }
+    },
+
+    "Extreme Power Metal": {
+      "substitutions": {
+        "extreme": [ "xtreme", "x-treme" ],
+        "power ": [ "power", "power-" ]
+      }
+    },
+    
+    "Intense Symphonic Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Japanese Power Metal": {
+      "substitutions": {
+        "power ": [ "power", "power-" ]
+      }
+    },
+
+    "Melodic Folk Metal": {},
+
+    "Melodic Metal": {},
+
+    "Melodic Pagan Metal": {},
+
+    "Melodic Power Metal": {
+      "substitutions": {
+        "power ": [ "power", "power-" ]
+      }
+    },
+
+    "Neoclassical Metal": {
+      "substitutions": {
+        "neo": [ "neo ", "neo-" ],
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Neoclassical Power Metal": {
+      "substitutions": {
+        "neo": [ "neo ", "neo-" ],
+        "power ": [ "power", "power-" ]
+      }
+    },
+
+    "Pirate Metal": {},
+
+    "Power Metal": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Progressive Power Metal": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ],
+        "power ": [ "power", "power-" ]
+      }
+    },
+
+    "Symphonic Folk Metal": {},
+
+    "Symphonic Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Symphonic Neoclassical Metal": {
+      "substitutions": {
+        "neo": [ "neo ", "neo-" ],
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Symphonic Power Metal": {
+      "substitutions": {
+        "power ": [ "power", "power-" ]
+      }
+    }
+  }
+}

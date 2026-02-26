@@ -1,0 +1,362 @@
+{
+  "name": "Hip-Hop/Rap",
+
+  "substitutions": {
+    "hip-hop/rap": [
+      "hip hop rap",
+      "hip-hop rap",
+      "hiphop rap",
+      "hip hop/rap",
+      "hiphop/rap",
+      "hiphoprap",
+      "rap hip hop",
+      "rap hip-hop",
+      "rap hiphop",
+      "rap/hip hop",
+      "rap/hip-hop",
+      "rap/hiphop",
+      "raphiphop"
+    ]
+  },
+
+  "subgenres": {
+    "Abstract Hip-Hop": {
+      "substitutions": {
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Alternative Hip-Hop": {
+      "substitutions": {
+        "hip-hop": [ "hip hop", "hiphop" ],
+        "alternative ": [ "alt", "alt ", "alt-", "alt. ", "alt.-", "alt' ", "alt'-", "altern ", "altern. ", "altern' ", "alternate" ]
+      }
+    },
+
+    "Alternative Rap": {
+      "substitutions": {
+        "alternative ": [ "alt", "alt ", "alt-", "alt. ", "alt.-", "alt' ", "alt'-", "altern ", "altern. ", "altern' ", "alternate" ]
+      }
+    },
+
+    "Austrialian Hip-Hop": {
+      "substitutions": {
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "British Hip-Hop": {
+      "substitutions": {
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Celtic Hip-Hop": {
+      "substitutions": {
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Chip-Hop": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Cloud Rap": {},
+
+    "Conscious Hip-Hop": {
+      "substitutions": {
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Country Rap": {},
+
+    "Crunk": {},
+
+    "Djent Rap": {},
+
+    "Dirty Rap": {},
+
+    "East Coast Hip-Hop": {
+      "substitutions": {
+        "east ": [ "east", "east-" ],
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Electro-Hop": {
+      "substitutions": {
+        "-": [ " ", "" ]
+      }
+    },
+
+    "Experimental Hip-Hop": {
+      "substitutions": {
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Experimental Rap": {},
+
+    "French Hip-Hop": {
+      "substitutions": {
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Funk Rap": {},
+
+    "Gangsta Rap": {
+      "substitutions": {
+        "gangsta": [ "gangster" ]
+      }
+    },
+
+    "Ghettotech": {
+      "substitutions": {
+        "tech": [ " tech", "-tech" ]
+      }
+    },
+
+    "Golden Age Hip-Hop": {
+      "substitutions": {
+        "golden age": [ "golden-age" ],
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "G-Funk": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Hardcore Hip-Hop": {
+      "substitutions": {
+        "hardcore": [ "hard core", "hard-core" ],
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Hardcore Rap": {
+      "substitutions": {
+        "hardcore": [ "hard core", "hard-core" ]
+      }
+    },
+
+    "Hip-Hop": {
+      "substitutions": {
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Hip-Hop Soul": {
+      "substitutions": {
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Hip-House": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Hipster-Hop": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Horrorcore": {
+      "substitutions": {
+        "horrorcore": [ "horror core", "horror-core" ]
+      },
+      "suffixes": [ "hip hop", "hip-hop", "hiphop" ]
+    },
+
+    "Hyphy": {},
+
+    "Indie Hip-Hop": {
+      "substitutions": {
+        "ie": [ "y", "y-", "ependent", "ependent-" ],
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Indie Rap": {
+      "substitutions": {
+        "ie": [ "y", "ependent" ],
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Industrial Hip-Hop": {
+      "substitutions": {
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Industrial Rap": {},
+
+    "Instrumental Hip-Hop": {
+      "substitutions": {
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Jazz Rap": {},
+
+    "Left-Field Hip-Hop": {
+      "substitutions": {
+        "left-field": [ "leftfield, left field" ],
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Lo-Fi Beats": {
+      "substitutions": {
+        "lo": [ "low" ],
+        "-": [ "", " " ],
+        "fi": [ "fidelity" ],
+        "beats": [ "beat" ]
+      }
+    },
+
+    "Lo-Fi Hip-Hop": {
+      "substitutions": {
+        "lo": [ "low" ],
+        "-fi": [ "fi", " fi" ],
+        "fi": [ "fidelity" ],
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Mafioso Rap": {},
+
+    "Miami Bass": {},
+
+    "Nederhop": {
+      "substitutions": {
+        "hop": [ " hop", "-hop" ]
+      }
+    },
+
+    "Nerdcore Hip-Hop": {
+      "substitutions": {
+        "core": [ " core", "-core" ],
+        " hip-hop": [ " hiphop", " hip hop", "" ]
+      }
+    },
+
+    "Oldschool Hip-Hop": {
+      "substitutions": {
+        "old": [ "old ", "old-" ],
+        "hip-hop": [ "hiphop", "hip hop" ]
+      }
+    },
+
+    "Oldschool Rap": {
+      "substitutions": {
+        "old": [ "old ", "old-" ]
+      }
+    },
+
+    "Political Hip-Hop": {
+      "substitutions": {
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Pop Rap": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Progressive Hip-Hop": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ],
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Progressive Rap": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ]
+      }
+    },
+
+    "Rap": {},
+
+    "Rapcore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Rap Metal": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Rap Rock": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Reggae Hip-Hop": {
+      "substitutions": {
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Scat Rap": {},
+
+    "Southern Hip-Hop": {
+      "substitutions": {
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Southern Rap": {},
+
+    "Stoner Rap": {},
+
+    "Swing-Hop": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Trip-Hop": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Underground Hip-Hop": {
+      "substitutions": {
+        "hip-hop": [ "hip hop", "hiphop" ],
+        "underground": [ "under ground", "under-ground" ]
+      }
+    },
+
+    "Underground Rap": {
+      "substitutions": {
+        "underground": [ "under ground", "under-ground" ]
+      }
+    },
+
+    "West Coast Hip-Hop": {
+      "substitutions": {
+        "west ": [ "west", "west-" ],
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    }
+  }
+}

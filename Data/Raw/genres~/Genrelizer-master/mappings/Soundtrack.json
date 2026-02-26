@@ -1,0 +1,127 @@
+{
+  "name": "Soundtrack",
+
+  "substitutions": {
+    "soundtrack": [ "sound-track", "sound track", "ost" ]
+  },
+
+  "subgenres": {
+    "Backing Music": {
+      "substitutions": {
+        "ing": [ "ground" ],
+        " music": [ "" ]
+      }
+    },
+
+    "Cartoon": {
+      "suffixes": [ "s", " music" ]
+    },
+
+    "Fanfare": {},
+
+    "Incidental Music": {
+      "substitutions": {
+        " music": [ "" ]
+      }
+    },
+
+    "Jingle": {},
+
+    "Leitmotif": {},
+
+    "Musical": {},
+
+    "Score": {
+      "prefixes": [ "original " ]
+    },
+
+    "Show Tune": {
+      "substitutions": {
+        " ": [ "", "-" ],
+        "tune": [ "tunes" ]
+      }
+    },
+
+    "Spy": {
+      "suffixes": [ " music", " theme" ]
+    },
+
+    "Sting": {},
+
+    "Symphonic VGM": {
+      "substitutions": {
+        "vgm": [
+          "video game",
+          "video-game",
+          "videogame",
+          "vg",
+          "vg music",
+          "vgmusic",
+          "video game music",
+          "video game ost",
+          "video-game ost",
+          "videogame ost",
+          "vg ost",
+          "game",
+          "game cover",
+          "game music",
+          "game ost",
+          "game soundtrack",
+          "game sound track",
+          "game sound-track",
+          "video game soundtrack",
+          "video-game soundtrack",
+          "videogame soundtrack",
+          "video game sound track",
+          "video-game sound track",
+          "videogame sound track",
+          "video game sound-track",
+          "video-game sound-track",
+          "videogame sound-track"
+        ]
+      }
+    },
+
+    "Theatrical": {},
+
+    "Theme Song": {
+      "substitutions": {
+        " song": [ " music", "" ]
+      }
+    },
+
+    "Video Game Music": {
+      "substitutions": {
+        "video game music": [
+          "video game",
+          "video-game",
+          "videogame",
+          "vg",
+          "vg music",
+          "vgmusic",
+          "vgm",
+          "video game ost",
+          "video-game ost",
+          "videogame ost",
+          "vg ost",
+          "game",
+          "game cover",
+          "game music",
+          "game ost",
+          "game soundtrack",
+          "game sound track",
+          "game sound-track",
+          "video game soundtrack",
+          "video-game soundtrack",
+          "videogame soundtrack",
+          "video game sound track",
+          "video-game sound track",
+          "videogame sound track",
+          "video game sound-track",
+          "video-game sound-track",
+          "videogame sound-track"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "J-Rock",
+
+  "substitutions": {
+    "j": [ "japan", "japanese" ],
+    "-": [ "", " " ]
+  },
+
+  "subgenres": {
+    "J-Metal": {
+      "substitutions": {
+        "j": [ "japan", "japanese" ],
+        "-": [ "", " " ]
+      }
+    },
+
+    "J-Punk": {
+      "substitutions": {
+        "j": [ "japan", "japanese" ],
+        "-": [ "", " " ]
+      }
+    },
+
+    "Kawaii Death Metal": {},
+
+    "Kawaii Deathcore": {},
+
+    "Kawaii Future Rock": {},
+
+    "Kawaii Metal": {},
+
+    "Progressive J-Metal": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ],
+        "j": [ "japan", "japanese" ],
+        "-metal": [ "metal", " metal" ]
+      }
+    },
+
+    "Progressive J-Rock": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ],
+        "j": [ "japan", "japanese" ],
+        "-rock": [ "rock", " rock" ]
+      }
+    },
+
+    "Visual Kei": {}
+  }
+}

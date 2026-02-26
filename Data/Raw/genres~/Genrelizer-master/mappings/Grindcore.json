@@ -1,0 +1,127 @@
+{
+  "name": "Grindcore",
+
+  "substitutions": {
+    "core": [ " core", "-core", "" ]
+  },
+
+  "subgenres": {
+    "Avant-Garde Grindcore": {
+			"substitutions": {
+				"-garde ": [ "garde ", " garde ", "" ],
+        "core": [ " core", "-core", "" ]
+			}
+		},
+
+    "Blackened Deathgrind": {
+      "substitutions": {
+        "grind": [ " grind", "-grind" ]
+      }
+    },
+
+    "Blackened Grindcore": {
+			"substitutions": {
+        "core": [ " core", "-core", "" ]
+			}
+		},
+
+    "Crustgrind": {
+      "substitutions": {
+        "grind": [ " grind", "-grind" ]
+      }
+    },
+
+    "Cybergrind": {
+      "substitutions": {
+        "grind": [ " grind", "-grind" ]
+      }
+    },
+
+    "Deathgrind": {
+      "substitutions": {
+        "grind": [ " grind", "-grind" ]
+      }
+    },
+
+    "Disco Deathgrind": {
+      "substitutions": {
+        "disco ": [ "disco-" ],
+        "grind": [ " grind", "-grind" ]
+      }
+    },
+
+    "Experimental Deathgrind": {
+      "substitutions": {
+        "grind": [ " grind", "-grind" ]
+      }
+    },
+
+    "Electrogrind": {
+      "substitutions": {
+        "grind": [ " grind", "-grind" ]
+      }
+    },
+
+    "Goregrind": {
+      "substitutions": {
+        "grind": [ " grind", "-grind" ]
+      }
+    },
+
+    "Mathgrind": {
+      "substitutions": {
+        "grind": [ " grind", "-grind" ]
+      }
+    },
+
+    "Noisegrind": {
+      "substitutions": {
+        "grind": [ " grind", "-grind" ]
+      }
+    },
+
+    "Queercore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Porngore": {
+      "substitutions": {
+        "gore": [ " gore", "-gore" ]
+      }
+    },
+
+    "Pornogrind": {
+      "substitutions": {
+        "grind": [ " grind", "-grind" ]
+      }
+    },
+
+    "Postgrind": {
+      "substitutions": {
+        "post": [ " ", "post-" ]
+      },
+      "suffixes": [ "core", " core", "-core" ]
+    },
+
+    "Powercore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Powerviolence": {
+      "substitutions": {
+        "violence": [ " violence", "-violence" ]
+      }
+    },
+
+    "Progressive Grindcore": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ],
+        "core": [ " core", "-core", "" ]
+      }
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "name": "House",
+
+  "subgenres": {
+    "Acid House": {},
+
+    "Ambient House": {
+      "substitutions": {
+        "ambient": [ "amb", "amb'", "amb." ]
+      }
+    },
+
+    "Balearic House": {
+      "substitutions": {
+        "balearic": [ "ibiza", "ibizan" ]
+      }
+    },
+
+    "Bass House": {},
+
+    "Booty House": {},
+
+    "Bounce House": {},
+
+    "Chicago House": {},
+
+    "Complextro": {},
+
+    "Deep House": {},
+
+    "Disco House": {},
+
+    "Dream House": {},
+
+    "Electro House": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Ethnic House": {},
+
+    "Euro House": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Filter House": {},
+
+    "French House": {},
+
+    "Funky House": {},
+
+    "Future Bounce": {},
+
+    "Future Funk": {},
+
+    "Future House": {},
+
+    "Garage House": {},
+
+    "Ghetto House": {},
+
+    "Hard Bass": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Hard House": {},
+
+    "Indie House": {
+      "substitutions": {
+        "ie": [ "y", "ependent" ],
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Italo House": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Melbourne Bounce": {},
+
+    "Microhouse": {
+      "substitutions": {
+        "micro": [ "micro ", "micro-" ]
+      }
+    },
+
+    "Minimal House": {},
+
+    "Neo House": {
+      "substitutions": {
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Outsider House": {},
+
+    "Progressive House": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ]
+      }
+    },
+
+    "Pumping House": {
+      "substitutions": {
+        "pumping": [ "bumping" ]
+      }
+    },
+
+    "Russian Hard Bass": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Speedhouse": {
+      "substitutions": {
+        "speed": [ "speed ", "speed-" ]
+      }
+    },
+
+    "Super House": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Symphonic Complextro": {},
+
+    "Tech House": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Tribal House": {},
+
+    "Tropical House": {
+      "substitutions": {
+        "tropical": [ "trop", "trop.", "trop'" ],
+        " ": [ "-" ]
+      }
+    },
+
+    "World House": {}
+  }
+}

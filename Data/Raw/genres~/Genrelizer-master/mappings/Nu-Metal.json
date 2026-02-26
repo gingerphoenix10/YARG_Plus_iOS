@@ -1,0 +1,44 @@
+{
+  "name": "Nu-Metal",
+
+  "substitutions": {
+    "nu": [ "nü" ],
+    "-": [ "", " " ]
+  },
+
+  "subgenres": {
+    "Crunkcore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Industrial Nu-Metal": {
+      "substitutions": {
+        "nu": [ "nü" ],
+        "-": [ "", " " ]
+      }
+    },
+
+    "Mallcore": {
+      "substitutions": {
+        "core": [ "-core", " core" ]
+      }
+    },
+
+    "Nu-Core": {
+      "substitutions": {
+        "nu": [ "nü" ],
+        "-": [ "", " " ]
+      }
+    },
+
+    "Nu-Metalcore": {
+      "substitutions": {
+        "nu": [ "nü" ],
+        "-metal": [ "metal", " metal" ],
+        "core": [ "-core", " core" ]
+      }
+    }
+  }
+}

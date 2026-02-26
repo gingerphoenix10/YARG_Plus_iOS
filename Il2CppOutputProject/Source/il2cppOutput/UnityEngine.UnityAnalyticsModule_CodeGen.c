@@ -13,7 +13,6 @@ extern void RemoteSettings_RemoteSettingsUpdateCompleted_m56713308E00B18BF0E5FAD
 extern void UpdatedEventHandler__ctor_mB914409481F8FDC738B4EDB1DBB4883F743F863A (void);
 extern void UpdatedEventHandler_Invoke_m4D496F648FD908A8537A35C4A94CBB44294D6D50 (void);
 extern void RemoteConfigSettings_RemoteConfigSettingsUpdated_mA71E7C6CDAF5D349BF0B4880A4D54DF2365EB948 (void);
-extern void ContinuousEvent__ctor_m4D17724B72E6ACB92E66082474565F77D567B19C (void);
 extern void AnalyticsSessionInfo_CallSessionStateChanged_m6C3C7DD13064E37D7C3AE9411355BCEF77C4664B (void);
 extern void AnalyticsSessionInfo_CallIdentityTokenChanged_m1AD21A1840BCB9CB222455F609DBBF7B7B380911 (void);
 extern void SessionStateChanged__ctor_m8E04BB6766439BA455F9C808171BD791230496D8 (void);
@@ -28,7 +27,7 @@ extern void Analytics_RegisterEvent_m37FA6A8FB5105EF3D38AA5F2C0CE6AFFF98677A8 (v
 extern void Analytics_SendEvent_m173A6E9EA5B13374C565BB088C3178AD044B9F29 (void);
 extern void Analytics_RegisterEventWithLimit_Injected_m7865E719A06081BCEE159002407113A6CF030AEC (void);
 extern void Analytics_SendEventWithLimit_Injected_mB24459CF7DD8EA6934293C4F12AA601E484F05C6 (void);
-static Il2CppMethodPointer s_methodPointers[21] = 
+static Il2CppMethodPointer s_methodPointers[20] = 
 {
 	RemoteSettings_RemoteSettingsUpdated_m6202CCC0AF33D44838BB46977D075E54FD5EC069,
 	RemoteSettings_RemoteSettingsBeforeFetchFromServer_m677DED4CFA8C9E498227A3E939242974DF8FA35C,
@@ -36,7 +35,6 @@ static Il2CppMethodPointer s_methodPointers[21] =
 	UpdatedEventHandler__ctor_mB914409481F8FDC738B4EDB1DBB4883F743F863A,
 	UpdatedEventHandler_Invoke_m4D496F648FD908A8537A35C4A94CBB44294D6D50,
 	RemoteConfigSettings_RemoteConfigSettingsUpdated_mA71E7C6CDAF5D349BF0B4880A4D54DF2365EB948,
-	ContinuousEvent__ctor_m4D17724B72E6ACB92E66082474565F77D567B19C,
 	AnalyticsSessionInfo_CallSessionStateChanged_m6C3C7DD13064E37D7C3AE9411355BCEF77C4664B,
 	AnalyticsSessionInfo_CallIdentityTokenChanged_m1AD21A1840BCB9CB222455F609DBBF7B7B380911,
 	SessionStateChanged__ctor_m8E04BB6766439BA455F9C808171BD791230496D8,
@@ -52,35 +50,34 @@ static Il2CppMethodPointer s_methodPointers[21] =
 	Analytics_RegisterEventWithLimit_Injected_m7865E719A06081BCEE159002407113A6CF030AEC,
 	Analytics_SendEventWithLimit_Injected_mB24459CF7DD8EA6934293C4F12AA601E484F05C6,
 };
-static const int32_t s_InvokerIndices[21] = 
+static const int32_t s_InvokerIndices[20] = 
 {
-	35263,
-	36734,
-	29150,
-	9139,
-	23115,
-	31866,
-	23115,
-	27242,
-	35280,
-	9139,
-	2985,
-	9139,
-	17806,
-	36575,
-	23818,
-	26581,
-	25039,
-	23996,
-	26581,
-	23815,
-	26420,
+	42015,
+	43624,
+	34459,
+	10675,
+	27492,
+	37958,
+	32182,
+	42032,
+	10675,
+	3407,
+	10675,
+	21195,
+	43435,
+	28294,
+	31447,
+	29615,
+	28485,
+	31447,
+	28291,
+	31246,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_UnityAnalyticsModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_UnityAnalyticsModule_CodeGenModule = 
 {
 	"UnityEngine.UnityAnalyticsModule.dll",
-	21,
+	20,
 	s_methodPointers,
 	0,
 	NULL,

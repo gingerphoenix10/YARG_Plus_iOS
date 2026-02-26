@@ -28,6 +28,14 @@ typedef struct objc_object*     MTLCommandQueueRef;
 typedef struct objc_object*     MTLCommandEncoderRef;
 #endif
 
+// if this is set, then variables that there were moved from UnityDisplaySurfaceMTL to swapchain
+//   will be still updated when acquiring drawable.
+// NOTE: in this case we assume that all the UnityViewSwapchain pointers passed to unity players are coming from UnityDisplaySurfaceMTL
+// if this is set UnityDisplaySurfaceBase still has removed variables, but they are no longer updated
+#if !defined(UNITY_DISPLAY_SURFACE_MTL_BACKWARD_COMPATIBILITY) && UNITY_TRAMPOLINE_IN_USE
+    #define UNITY_DISPLAY_SURFACE_MTL_BACKWARD_COMPATIBILITY 1
+#endif
+
 // unity internal native render buffer struct (the one you acquire in C# with RenderBuffer.GetNativeRenderBufferPtr())
 struct RenderSurfaceBase;
 typedef struct RenderSurfaceBase* UnityRenderBufferHandle;
@@ -72,17 +80,11 @@ typedef struct UnityDisplaySurfaceBase
     UnityRenderBufferHandle unityDepthBuffer;
 
     UnityRenderBufferHandle systemColorBuffer;
-    UnityRenderBufferHandle systemDepthBuffer;
-
-    void*               cvTextureCache;         // CVMetalTextureCacheRef
-    void*               cvTextureCacheTexture;  // CVMetalTextureRef
-    void*               cvPixelBuffer;          // CVPixelBufferRef
 
     unsigned            targetW, targetH;
     unsigned            systemW, systemH;
 
     int                 msaaSamples;
-    int                 useCVTextureCache;      // [bool]
     int                 srgb;                   // [bool]
     int                 wideColor;              // [bool]
     int                 hdr;                    // [bool]
@@ -91,6 +93,16 @@ typedef struct UnityDisplaySurfaceBase
     int                 memorylessDepth;        // [bool]
 
     int                 api;                    // [UnityRenderingAPI]
+
+    // these are no longer supported, we keep them only to avoid breaking compilation
+#if UNITY_DISPLAY_SURFACE_MTL_BACKWARD_COMPATIBILITY
+    UnityRenderBufferHandle systemDepthBuffer   __attribute__((deprecated));
+    int                 useCVTextureCache       __attribute__((deprecated));
+    void*               cvTextureCache          __attribute__((deprecated));
+    void*               cvTextureCacheTexture   __attribute__((deprecated));
+    void*               cvPixelBuffer           __attribute__((deprecated));
+#endif
+
 } UnityDisplaySurfaceBase;
 
 typedef struct UnityViewSwapchain
@@ -123,18 +135,13 @@ typedef struct UnityViewSwapchain
     #define kUnityNumOffscreenSurfaces 1
 #endif
 
-// if this is set, then variables that there were moved from UnityDisplaySurfaceMTL to swapchain
-//   will be still updated when acquiring drawable.
-// NOTE: in this case we assume that all the UnityViewSwapchain pointers passed to unity players are coming from UnityDisplaySurfaceMTL
-#if !defined(UNITY_DISPLAY_SURFACE_MTL_BACKWARD_COMPATIBILITY) && UNITY_TRAMPOLINE_IN_USE
-    #define UNITY_DISPLAY_SURFACE_MTL_BACKWARD_COMPATIBILITY 1
-#endif
-
 // Metal display surface
 START_STRUCT(UnityDisplaySurfaceMTL, UnityDisplaySurfaceBase)
 UnityViewSwapchain                  swapchain;
 OBJC_OBJECT_PTR MTLDeviceRef        device;
 
+UnityRenderBufferHandle             targetColorRB;
+UnityRenderBufferHandle             targetAAColorRB;
 
 OBJC_OBJECT_PTR MTLTextureRef       drawableProxyRT[kUnityNumOffscreenSurfaces];
 UnityRenderBufferHandle             drawableProxyRS[kUnityNumOffscreenSurfaces];
@@ -144,12 +151,6 @@ int                                 proxySwaps;         // Counts times proxy RT
 int                                 proxyReady;         // [bool] Proxy RT has swapped since last present; frame ended
 int                                 calledPresentDrawable; // Tracks presenting for editor.
 int                                 vsync;              // Is vsync enabled or not
-
-OBJC_OBJECT_PTR MTLTextureRef       targetColorRT;
-OBJC_OBJECT_PTR MTLTextureRef       targetAAColorRT;
-
-OBJC_OBJECT_PTR MTLTextureRef       depthRB;
-OBJC_OBJECT_PTR MTLTextureRef       stencilRB;
 
 unsigned                            colorFormat;        // [MTLPixelFormat]
 unsigned                            depthFormat;        // [MTLPixelFormat]
@@ -166,6 +167,13 @@ OBJC_OBJECT_PTR MTLTextureRef       drawableTex     __attribute__((deprecated));
 // these are no longer used, and should have never been used before - we still keep them around but they stay zero-inited
 OBJC_OBJECT_PTR MTLTextureRef       systemColorRB __attribute__((deprecated));
 int                                 drawableProxyNeedsClear[kUnityNumOffscreenSurfaces] __attribute__((deprecated));
+
+// these we removed in favor of RTs managed inside player library, we now have renderbuffers instead
+OBJC_OBJECT_PTR MTLTextureRef       targetColorRT   __attribute__((deprecated));
+OBJC_OBJECT_PTR MTLTextureRef       targetAAColorRT __attribute__((deprecated));
+
+OBJC_OBJECT_PTR MTLTextureRef       depthRB         __attribute__((deprecated));
+OBJC_OBJECT_PTR MTLTextureRef       stencilRB       __attribute__((deprecated));
 #endif
 
 END_STRUCT(UnityDisplaySurfaceMTL)
@@ -198,7 +206,11 @@ typedef struct RenderingSurfaceParams
 
     // unity setup
     int disableDepthAndStencil;
-    int useCVTextureCache;
+
+    // no longer supported
+#if UNITY_DISPLAY_SURFACE_MTL_BACKWARD_COMPATIBILITY
+    int useCVTextureCache   __attribute__((deprecated));
+#endif
 } RenderingSurfaceParams;
 
 #ifdef __cplusplus
@@ -217,17 +229,12 @@ extern "C" {
 void InitRenderingMTL(void);
 
 void CreateSystemRenderingSurfaceMTL(UnityDisplaySurfaceMTL* surface);
-void DestroySystemRenderingSurfaceMTL(UnityDisplaySurfaceMTL* surface);
-void CreateRenderingSurfaceMTL(UnityDisplaySurfaceMTL* surface);
-void DestroyRenderingSurfaceMTL(UnityDisplaySurfaceMTL* surface);
-void CreateSharedDepthbufferMTL(UnityDisplaySurfaceMTL* surface);
-void DestroySharedDepthbufferMTL(UnityDisplaySurfaceMTL* surface);
 void CreateUnityRenderBuffersMTL(UnityDisplaySurfaceMTL* surface);
 void DestroyUnityRenderBuffersMTL(UnityDisplaySurfaceMTL* surface);
 void StartFrameRenderingMTL(UnityDisplaySurfaceMTL* surface);
 void EndFrameRenderingMTL(UnityDisplaySurfaceMTL* surface);
-void PreparePresentMTL(UnityDisplaySurfaceMTL* surface);
-void PresentMTL(UnityDisplaySurfaceMTL* surface);
+void PreparePresentMTL(UnityDisplaySurfaceMTL* surface, MTLCommandBufferRef cb);
+void PresentMTL(UnityDisplaySurfaceMTL* surface, MTLCommandBufferRef cb);
 
 // Acquires CAMetalDrawable resource for the surface and returns the drawable texture
 // AcquireDrawableMTL is deprecated and not used from unity side anymore
@@ -252,12 +259,7 @@ extern "C" {
 
 void InitRenderingNULL(void);
 void CreateSystemRenderingSurfaceNULL(UnityDisplaySurfaceBase* surface);
-void CreateRenderingSurfaceNULL(UnityDisplaySurfaceBase* surface);
-void DestroyRenderingSurfaceNULL(UnityDisplaySurfaceBase* surface);
-void CreateSharedDepthbufferNULL(UnityDisplaySurfaceBase* surface);
-void DestroySharedDepthbufferNULL(UnityDisplaySurfaceBase* surface);
 void CreateUnityRenderBuffersNULL(UnityDisplaySurfaceBase* surface);
-void DestroySystemRenderingSurfaceNULL(UnityDisplaySurfaceBase* surface);
 void DestroyUnityRenderBuffersNULL(UnityDisplaySurfaceBase* surface);
 void StartFrameRenderingNULL(UnityDisplaySurfaceBase* surface);
 void EndFrameRenderingNULL(UnityDisplaySurfaceBase* surface);
@@ -307,14 +309,18 @@ void UnityUnregisterMetalTextureForMemoryProfiler(MTLTextureRef tex);
 //   so we still need to make sure we have RenderBuffer connecting to a "swapchain" to do the magic when we want to render to it
 // and that's why we have such a big api surface instead of simple "here is your swapchain, please render to it"
 //   but this will hopefully change soon
-// NOTE: as you see depth "backbuffer" creation was moved to happen internally, this is on purpose, see above for a "swapchain" discussion
-// NOTE: hence such a "weird" api for depth backbuffer (note that we need to manage possible resolution change and AA)
+// things of note:
+//   * note that we always pass "current" pointer (rbBackbuffer param)
+//     this api is working similarly to realloc: if you pass null we allocate and create new render buffer, otherwise we update the existing one
+//   * due to this, UnitySwapchainDestroyBackbuffer is called only if we really do not need this type of surface anymore
 
-UnityRenderBufferHandle UnityCreateBackbufferFromSwapchain(UnityRenderBufferHandle renderBuffer, UnityViewSwapchain* swapchain);
-UnityRenderBufferHandle UnityCreateBackbufferFromTexture2D(UnityRenderBufferHandle renderBuffer, MTLTextureRef tex);
-UnityRenderBufferHandle UnityCreateAABackbufferResolveToSwapchain(UnityRenderBufferHandle renderBuffer, MTLTextureRef tex, UnityViewSwapchain* swapchain);
-UnityRenderBufferHandle UnityCreateAABackbufferFromTexture2D(UnityRenderBufferHandle renderBuffer, MTLTextureRef tex, MTLTextureRef texResolveTo);
-UnityRenderBufferHandle UnityCreateDepthForBackbuffer(UnityRenderBufferHandle renderBuffer, UnityRenderBufferHandle backbuffer);
+UnityRenderBufferHandle UnitySwapchainCreateBackbuffer(UnityViewSwapchain* swapchain, UnityRenderBufferHandle rbBackbuffer);
+UnityRenderBufferHandle UnitySwapchainCreateBackbufferForExtents(UnityViewSwapchain* swapchain, UnityRenderBufferHandle rbBackbuffer, unsigned width, unsigned height);
+UnityRenderBufferHandle UnitySwapchainCreateAABackbufferResolveToSwapchain(UnityViewSwapchain* swapchain, UnityRenderBufferHandle rbBackbuffer, unsigned sampleCount);
+UnityRenderBufferHandle UnitySwapchainCreateAABackbuffer(UnityViewSwapchain* swapchain, UnityRenderBufferHandle rbBackbuffer, unsigned sampleCount, UnityRenderBufferHandle rbResolveTo);
+UnityRenderBufferHandle UnitySwapchainCreateDepthForBackbuffer(UnityViewSwapchain* swapchain, UnityRenderBufferHandle rbColorBackbuffer, UnityRenderBufferHandle rbDepthBackbuffer);
+void                    UnitySwapchainDestroyBackbuffer(UnityViewSwapchain* swapchain, UnityRenderBufferHandle rbBackbuffer);
+void                    UnitySwapchainBlitBackbuffer(UnityViewSwapchain* swapchain, UnityRenderBufferHandle rbColorBackbuffer, MTLCommandBufferRef cb);
 
 // disable rendering to render buffers (all Cameras that were rendering to one of buffers would be reset to use backbuffer)
 void    UnityDisableRenderBuffers(UnityRenderBufferHandle color, UnityRenderBufferHandle depth);
@@ -363,17 +369,10 @@ inline void f()                                                         \
 GLES_METAL_COMMON_IMPL(InitRendering);
 
 GLES_METAL_COMMON_IMPL_SURF(CreateSystemRenderingSurface);
-GLES_METAL_COMMON_IMPL_SURF(DestroySystemRenderingSurface);
-GLES_METAL_COMMON_IMPL_SURF(CreateRenderingSurface);
-GLES_METAL_COMMON_IMPL_SURF(DestroyRenderingSurface);
-GLES_METAL_COMMON_IMPL_SURF(CreateSharedDepthbuffer);
-GLES_METAL_COMMON_IMPL_SURF(DestroySharedDepthbuffer);
 GLES_METAL_COMMON_IMPL_SURF(CreateUnityRenderBuffers);
 GLES_METAL_COMMON_IMPL_SURF(DestroyUnityRenderBuffers);
 GLES_METAL_COMMON_IMPL_SURF(StartFrameRendering);
 GLES_METAL_COMMON_IMPL_SURF(EndFrameRendering);
-GLES_METAL_COMMON_IMPL_SURF(PreparePresent);
-GLES_METAL_COMMON_IMPL_SURF(Present);
 
 #undef GLES_METAL_COMMON_IMPL_SURF
 #undef GLES_METAL_COMMON_IMPL

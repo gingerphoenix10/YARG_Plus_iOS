@@ -1,0 +1,27 @@
+{
+  "name": "Hard Rock",
+
+  "substitutions": {
+    " ": [ "", "-" ]
+  },
+
+  "subgenres": {
+    "Anthem Rock": {},
+
+    "Arena Rock": {},
+
+    "Doom Rock": {},
+
+    "Heavy Rock": {},
+
+    "Occult Rock": {},
+
+    "Pagan Rock": {},
+
+    "Shred Rock": {},
+
+    "Stadium Rock": {},
+
+    "Witch Rock": {}
+  }
+}

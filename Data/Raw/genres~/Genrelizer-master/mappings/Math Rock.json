@@ -1,0 +1,42 @@
+{
+  "name": "Math Rock",
+
+  "substitutions": {
+    " ": [ "", "-" ]
+  },
+
+  "subgenres": {
+    "Avant-Garde Math Rock": {
+      "substitutions": {
+        "-garde ": [ "garde ", " garde ", "" ],
+        "math ": [ "math", "math-" ]
+      }
+    },
+
+    "Math Metal": {
+      "substitutions": {
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Progressive Math Rock": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ],
+        "math ": [ "math", "math-" ]
+      }
+    },
+
+    "Mathcore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Progressive Mathcore": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ],
+        "core": [ " core", "-core" ]
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Inspirational",
+
+  "subgenres": {
+    "Antiphon": {},
+
+    "Christian": {},
+
+    "Christian Alternative Rock": {
+			"substitutions": {
+				"alternative ": [ "alt", "alt ", "alt-", "alt. ", "alt.-", "alt' ", "alt'-", "altern ", "altern. ", "altern' ", "alternate" ]
+			}
+		},
+
+    "Christian Hip-Hop": {
+      "substitutions": {
+        "hip-hop": [ "hip hop", "hiphop" ]
+      }
+    },
+
+    "Christian Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Christian Pop": {},
+
+    "Christian Power Metal": {
+      "substitutions": {
+        "power ": [ "power", "power-" ]
+      }
+    },
+
+    "Christian Rock": {},
+
+    "Christian Ska": {
+      "substitutions": {
+        "ska": [ "skia"] 
+      }
+    },
+
+    "Conductus": {
+      "substitutions": {
+        "us": [ "i" ]
+      }
+    },
+
+    "Contemporary Christian Music": {
+      "substitutions": {
+        " music": [ "" ]
+      }
+    },
+
+    "Gospel": {
+      "suffixes": [ " music"]
+    },
+
+    "Gospel Rock": {},
+
+    "Gregorian Chant": {
+      "suffixes": [ "ing" ]
+    },
+
+    "Hymn": {},
+
+    "Liturgical": {
+      "substitutions": {
+        "ical": [ "y" ]
+      }
+    },
+
+    "Organum": {},
+
+    "Plainchant": {
+      "substitutions": { 
+        "plain": [ "plain ", "plain-" ]
+      },
+      "suffixes": [ "ing" ]
+    },
+
+    "Plainsong": {
+      "substitutions": { 
+        "plain": [ "plain ", "plain-" ]
+      }
+    },
+
+    "Prayer": {},
+
+    "Religious": {},
+
+    "Sacred Jazz": {},
+
+    "Spiritual": {},
+
+    "Worship": {}
+  }
+}

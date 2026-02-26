@@ -1,0 +1,247 @@
+{
+  "name": "Punk",
+
+  "suffixes": [ " rock", "rock", "-rock" ],
+
+  "subgenres": {
+    "Acid Punk": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Alternative Punk": {
+      "substitutions": {
+        "alternative ": [ "alt", "alt ", "alt-", "alt. ", "alt.-", "alt' ", "alt'-", "altern ", "altern. ", "altern' ", "alternate" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Anarcho-Punk": {
+      "substitutions": {
+        "-": [ "", " " ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Balkan Punk": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Beatdown Hardcore": {
+      "substitutions": {
+        "beat": [ "beat ", "beat-" ],
+        "core": [ " core", "-core" ]
+      },
+      "suffixes": [ " punk", "punk rock", " punkrock", "punk-rock" ]
+    },
+
+    "Biker Punk": {
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Blackened Punk": {
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Celtic Punk": {
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Classic Punk": {
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Cowpunk": {
+      "substitutions": {
+        "cow": [ "cow ", "cow-" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Crust Punk": {
+      "substitutions": {
+        " punk": [ "punk", "-punk" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Crustcore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      },
+      "suffixes": [ " punk", "punk rock", " punkrock", "punk-rock" ]
+    },
+
+    "Dance-Punk": {
+      "substitutions": {
+        "-": [ "", " " ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Death Punk": {
+      "substitutions": {
+        "death ": [ "death", "death-" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Electropunk": {
+      "substitutions": {
+        "electro": [ "electro ", "electro-" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Folk Punk": {
+      "substitutions": {
+        " punk": [ "punk", "-punk" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Garage Punk": {
+      "substitutions": {
+        " punk": [ "punk", "-punk" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Hardcore Punk": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ],
+      "localizations": {
+        "fr-FR": "Punk Hardcore"
+      }
+    },
+
+    "Hardcore Slam": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Hardcore Techno-Punk": {
+      "substitutions": {
+        "core": [ " core", "-core" ],
+        "techno-": [ "techno", "techno " ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Horror Punk": {
+      "substitutions": {
+        " punk": [ "punk", "-punk" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Indie Punk": {
+      "substitutions": {
+        "ie": [ "y", "ependent" ],
+        " ": [ "-", "" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Melodic Hardcore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      },
+      "suffixes": [ " punk", "punk rock", " punkrock", "punk-rock" ]
+    },
+
+    "Metallic Hardcore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      },
+      "suffixes": [ " punk", "punk rock", " punkrock", "punk-rock" ]
+    },
+
+    "Oi!": {
+      "substitutions": {
+        "i": [ "y" ],
+        "!": [ "" ]
+      }
+    },
+
+    "Post-Punk": {
+      "substitutions": {
+        "-": [ "", " " ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Post-Punk Revival": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Progressive Punk": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Proto-Punk": {
+      "substitutions": {
+        "-": [ "", " " ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Psychobilly": {
+      "substitutions": {
+        "billy": [ " billy", "-billy" ]
+      }
+    },
+
+    "Punk Electronic": {},
+
+    "Punk Metal": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Riot Grrrl": {
+      "substitutions": {
+        "rrr": [ "rr", "r", "ir", "rrrr" ]
+      }
+    },
+
+    "Street Punk": {
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Synthpunk": {
+      "substitutions": {
+        "punk": [ " punk", "-punk" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Technical Punk": {
+      "substitutions": {
+        "technical ": [ "tech ", "tech", "tech-" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Thrash Punk": {
+      "substitutions": {
+        " punk": [ "punk", "-punk" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    }
+  }
+}

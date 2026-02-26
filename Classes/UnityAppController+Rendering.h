@@ -21,6 +21,9 @@
 - (void)repaintDisplayLink;
 - (void)destroyDisplayLink;
 
+- (void)pauseDisplayLink;
+- (void)unpauseDisplayLink;
+
 - (void)repaint;
 
 #if UNITY_USES_METAL_DISPLAY_LINK

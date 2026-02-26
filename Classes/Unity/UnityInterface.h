@@ -67,6 +67,8 @@ void    UnityPlayerLoopWithBackbuffer(UnityRenderBufferHandle color, UnityRender
 void    UnityRenderWithoutPlayerLoopWithBackbuffer(UnityRenderBufferHandle color, UnityRenderBufferHandle depth);
 // batchmode player loop: no rendering to view (useful for background processing)
 void    UnityBatchPlayerLoop(void);
+// checks if we need to quit or unload unity; needs to happen after we are fully done with the current frame
+void    UnityCheckUnloadAndQuit(void);
 // these are deprecated (we do not call them anymore from the trampoline, but we keep them around for the possible plugins usage)
 void    UnityPlayerLoop(void) __attribute__((deprecated("Use UnityPlayerLoopWithBackbuffer instead of UnityPlayerLoop")));
 void    UnityRenderWithoutPlayerLoop(void) __attribute__((deprecated("Use UnityRenderWithoutPlayerLoopWithBackbuffer instead of UnityRenderWithoutPlayerLoop")));
@@ -286,7 +288,7 @@ void            UnityGetNiceKeyname(int key, char* buffer, int maxLen);
 
 // UnityAppController+Rendering.mm
 void            UnityGfxInitedCallback(void);
-void            UnityPresentContextCallback(struct UnityFrameStats const* frameStats);
+void            UnityPresentContextCallback();
 void            UnityFramerateChangeCallback(int targetFPS);
 void            UnitySelectRenderingAPI(void);
 int             UnitySelectedRenderingAPI(void);

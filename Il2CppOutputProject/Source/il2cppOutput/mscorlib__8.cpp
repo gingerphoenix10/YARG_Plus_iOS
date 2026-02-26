@@ -3760,6 +3760,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationException__ctor_mFF00B1678B9B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CancellationTokenSource_get_IsCancellationRequested_m3865A2D9F65E82B73110DF951D58D8F9D5FBB92F (CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CancellationToken_get_IsCancellationRequested_m9744F7A1A82946FDD1DC68E905F1ED826471D350 (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CancellationToken_get_CanBeCanceled_mC3751330B171DB14B70B9BAAD90A7D098A2309EC (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8* CancellationTokenSource_get_WaitHandle_mAF479A1AF5A3426F80D4347DCCF9E0C64780F358 (CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8* CancellationToken_get_WaitHandle_mAD35F372EBF10996D9FE51C54527239ECCA84A64 (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CancellationToken__ctor_m455515653858F936ACECC0BE707DA53723FEA517_inline (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* __this, CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___0_source, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CancellationToken__ctor_m5DAD339D4A9DEF9962B7EF1E30564BADC78E9BD6 (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* __this, bool ___0_canceled, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR CancellationTokenRegistration_tC925A8BC86C629A2A3DA73765FA964A95FC83389 CancellationToken_Register_m621A0EDCF61B2FA555CC03D36C161A379BD923FE (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* __this, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___0_callback, RuntimeObject* ___1_state, bool ___2_useSynchronizationContext, bool ___3_useExecutionContext, const RuntimeMethod* method) ;
@@ -6849,6 +6851,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UIntPtr_op_Inequality_m9C09B4CB3986B59EC
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8 (uintptr_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		uintptr_t L_0 = ___0_value;
+		return ((int32_t)(uint32_t)L_0);
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t UIntPtr_op_Explicit_mF1E7911DD5AC13B5E59EE8C7903469D12A3861E8 (uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -6856,6 +6865,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t UIntPtr_op_Explicit_mF1E7911DD5AC13
 		uintptr_t L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		UIntPtr__ctor_m8AD80E1EF069A66D0E48BF7765C91088B5C09419((&L_1), L_0, NULL);
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t UIntPtr_op_Explicit_m2906773F01FD8053A3509CF3559F402A3D80224D (void* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___0_value;
+		uintptr_t L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		UIntPtr__ctor_m8FD36BD3C315E2608A9570159B5668D33CA9C896_inline((&L_1), L_0, NULL);
 		return L_1;
 	}
 }
@@ -17581,6 +17600,49 @@ IL2CPP_EXTERN_C  bool CancellationToken_get_CanBeCanceled_mC3751330B171DB14B70B9
 	_returnValue = CancellationToken_get_CanBeCanceled_mC3751330B171DB14B70B9BAAD90A7D098A2309EC(_thisAdjusted, method);
 	return _returnValue;
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8* CancellationToken_get_WaitHandle_mAD35F372EBF10996D9FE51C54527239ECCA84A64 (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* G_B2_0 = NULL;
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* G_B1_0 = NULL;
+	{
+		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_0 = __this->____source;
+		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000f;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B_il2cpp_TypeInfo_var);
+		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_2 = ((CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B_StaticFields*)il2cpp_codegen_static_fields_for(CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B_il2cpp_TypeInfo_var))->___s_neverCanceledSource;
+		G_B2_0 = L_2;
+	}
+
+IL_000f:
+	{
+		NullCheck(G_B2_0);
+		WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8* L_3;
+		L_3 = CancellationTokenSource_get_WaitHandle_mAF479A1AF5A3426F80D4347DCCF9E0C64780F358(G_B2_0, NULL);
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8* CancellationToken_get_WaitHandle_mAD35F372EBF10996D9FE51C54527239ECCA84A64_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED*>(__this + _offset);
+	WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8* _returnValue;
+	_returnValue = CancellationToken_get_WaitHandle_mAD35F372EBF10996D9FE51C54527239ECCA84A64(_thisAdjusted, method);
+	return _returnValue;
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CancellationToken__ctor_m455515653858F936ACECC0BE707DA53723FEA517 (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* __this, CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___0_source, const RuntimeMethod* method) 
 {
 	{
@@ -20512,6 +20574,75 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CancellationToken_t51142D9C6D7C02D314DA34A6A7
 		memset((&L_0), 0, sizeof(L_0));
 		CancellationToken__ctor_m455515653858F936ACECC0BE707DA53723FEA517_inline((&L_0), __this, NULL);
 		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8* CancellationTokenSource_get_WaitHandle_mAF479A1AF5A3426F80D4347DCCF9E0C64780F358 (CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158* V_0 = NULL;
+	{
+		CancellationTokenSource_ThrowIfDisposed_m90D989D3C1E430655F5D7E9E7C5D4E23075D3753(__this, NULL);
+		ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158* L_0 = __this->____kernelEvent;
+		il2cpp_codegen_memory_barrier();
+		if (!L_0)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158* L_1 = __this->____kernelEvent;
+		il2cpp_codegen_memory_barrier();
+		return L_1;
+	}
+
+IL_0019:
+	{
+		ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158* L_2 = (ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158*)il2cpp_codegen_object_new(ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158_il2cpp_TypeInfo_var);
+		ManualResetEvent__ctor_m361CFCF6AC28BFFF5C8790DC2B5951791A1C4CEE(L_2, (bool)0, NULL);
+		V_0 = L_2;
+		ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158** L_3 = (ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158**)(&__this->____kernelEvent);
+		il2cpp_codegen_memory_barrier();
+		ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158* L_4 = V_0;
+		ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158* L_5;
+		L_5 = InterlockedCompareExchangeImpl<ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158*>(L_3, L_4, (ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158*)NULL);
+		if (!L_5)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158* L_6 = V_0;
+		NullCheck(L_6);
+		WaitHandle_Dispose_m185505E6A3A6D31DEAA92725E04CAFAD3A1237C1(L_6, NULL);
+	}
+
+IL_0035:
+	{
+		bool L_7;
+		L_7 = CancellationTokenSource_get_IsCancellationRequested_m3865A2D9F65E82B73110DF951D58D8F9D5FBB92F(__this, NULL);
+		if (!L_7)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158* L_8 = __this->____kernelEvent;
+		il2cpp_codegen_memory_barrier();
+		NullCheck(L_8);
+		bool L_9;
+		L_9 = EventWaitHandle_Set_mDF98D67F214714A9590DF82A1C51D3D851281E4D(L_8, NULL);
+	}
+
+IL_004b:
+	{
+		ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158* L_10 = __this->____kernelEvent;
+		il2cpp_codegen_memory_barrier();
+		return L_10;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CancellationCallbackInfo_tC8BE558ED1E173434DD1919D574C9FAFE501E22D* CancellationTokenSource_get_ExecutingCallback_m39C24150664BA6180A8CFAC1E1E27C9839D32179 (CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* __this, const RuntimeMethod* method) 

@@ -11,6 +11,7 @@
     <type fullname="YARG.Gameplay.Visuals.HighwayCameraRendering" preserve="all" />
     <type fullname="YARG.Gameplay.Visuals.IndicatorStripes" preserve="all" />
     <type fullname="YARG.Gameplay.Visuals.KickFretFlash" preserve="all" />
+    <type fullname="YARG.Gameplay.Visuals.LaneElement" preserve="all" />
     <type fullname="YARG.Gameplay.Visuals.NoteGroup" preserve="all" />
     <type fullname="YARG.Gameplay.Visuals.StarpowerBar" preserve="all" />
     <type fullname="YARG.Gameplay.Visuals.StarPowerEffectElement" preserve="all" />
@@ -28,7 +29,6 @@
     <type fullname="YARG.Menu.ColoredButton" preserve="all" />
     <type fullname="YARG.Menu.DurationInputField" preserve="all" />
     <type fullname="YARG.Menu.IconButton" preserve="all" />
-    <type fullname="YARG.Menu.Marketplace.SetlistButton" preserve="all" />
     <type fullname="YARG.Menu.Navigation.NavigatableUnityButton" preserve="all" />
     <type fullname="YARG.Menu.Navigation.NavigationGroup" preserve="all" />
     <type fullname="YARG.Menu.Navigation.ScrollViewNavigationUpdater" preserve="all" />
@@ -54,6 +54,8 @@
     <type fullname="YARG.Menu.Settings.Visuals.SliderSettingVisual" preserve="all" />
     <type fullname="YARG.Menu.Settings.Visuals.ToggleSettingVisual" preserve="all" />
     <type fullname="YARG.Menu.ValueSlider" preserve="all" />
+    <type fullname="YARG.Settings.Preview.CharacterPreview" preserve="all" />
+    <type fullname="YARG.Settings.Preview.CharacterPreviewUI" preserve="all" />
     <type fullname="YARG.Settings.Preview.FakeHitWindowDisplay" preserve="all" />
     <type fullname="YARG.Settings.Preview.FakeNote" preserve="all" />
     <type fullname="YARG.Settings.Preview.FakeTrackPlayer" preserve="all" />
@@ -66,7 +68,6 @@
   </assembly>
   <assembly fullname="Coffee.SoftMaskForUGUI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Coffee.UISoftMask.SoftMask" preserve="all" />
-    <type fullname="Coffee.UISoftMask.SoftMaskable" preserve="all" />
     <type fullname="Coffee.UISoftMaskInternal.MinMax01" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
@@ -112,6 +113,9 @@
     <type fullname="UnityEngine.AnimatorOverrideController" preserve="all" />
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioListener" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
@@ -122,8 +126,8 @@
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
-    <type fullname="UnityEngine.RenderTexture" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
@@ -172,6 +176,7 @@
     <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
@@ -179,5 +184,8 @@
     <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphValueRecord" preserve="nothing" serialized="true" />
   </assembly>
 </linker>

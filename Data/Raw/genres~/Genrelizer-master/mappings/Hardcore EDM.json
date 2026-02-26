@@ -1,0 +1,242 @@
+{
+  "name": "Hardcore EDM",
+
+  "substitutions": {
+    "core": [ " core", "-core" ],
+    " edm": [ "edm", " electronic dance music" ]
+  },
+
+  "subgenres": {
+    "Breakbeat Hardcore": {
+      "substitutions": {
+        "break": [ "break ", "break-" ],
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Chaotic Extratone": {
+      "substitutions": {
+        "tone": [ " tone", "-tone" ]
+      }
+    },
+
+    "Chaotic Speedcore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Chaotic Splittercore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Chiptune Extratone": {
+      "substitutions": {
+        "chiptune": [ "chip tune", "chip-tune" ],
+        "tone": [ " tone", "-tone" ]
+      }
+    },
+
+    "Chiptune Speedcore": {
+      "substitutions": {
+        "chiptune": [ "chip tune", "chip-tune" ],
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Chiptune Splittercore": {
+      "substitutions": {
+        "chiptune": [ "chip tune", "chip-tune" ],
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Extratone": {
+      "substitutions": {
+        "tone": [ " tone", "-tone" ]
+      }
+    },
+
+    "Gabber": {
+      "substitutions": {
+        "er": [ "a" ]
+      }
+    },
+
+    "Happy Hardcore": {
+      "substitutions": {
+        " hardcore": [ " hard core", "hard-core", " core", "core", "-core" ]
+      }
+    },
+
+    "Hard Dance": {},
+
+    "Hardcore Chiptune": {
+      "substitutions": {
+        "core": [ " core", "-core" ],
+        "tune": [ " tune", "-tune" ]
+      }
+    },
+
+    "Hardcore Dance": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Hardcore Rave": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Hardcore Techno": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Hardstyle": {
+      "substitutions": {
+        "style": [ " style", "-style" ]
+      }
+    },
+
+    "Hypertone": {
+      "substitutions": {
+        "tone": [ " tone", "-tone" ]
+      }
+    },
+
+    "Jumpstyle": {
+      "substitutions": {
+        "style": [ " style", "-style" ]
+      }
+    },
+
+    "J-Core": {
+      "substitutions": {
+        "j-": [ "j", "j " ]
+      }
+    },
+
+    "Lento Violento": {
+      "substitutions": {
+        " violento": [ "" ]
+      }
+    },
+
+    "Mákina": {
+      "substitutions": {
+        "á": [ "a" ]
+      }
+    },
+
+    "Melodic Extratone": {
+      "substitutions": {
+        "melodic ": [ "melo", "melo-" ],
+        "tone": [ " tone", "-tone" ]
+      }
+    },
+
+    "Melodic Speedcore": {
+      "substitutions": {
+        "melodic ": [ "melo", "melo-" ],
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Melodic Splittercore": {
+      "substitutions": {
+        "melodic ": [ "melo", "melo-" ],
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Melodic UK Hardcore": {
+      "substitutions": {
+        "melodic ": [ "melo", "melo-" ],
+        "uk": [ "u.k." ],
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Nightcore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Speedcore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Splittercore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Symphonic Extratone": {
+      "substitutions": {
+        "tone": [ " tone", "-tone" ]
+      }
+    },
+
+    "Symphonic Speedcore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Symphonic Splittercore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Tokyo-Style Speedcore": {
+      "substitutions": {
+        "-style": [ "style", " style", "" ],
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Traditional Speedcore": {
+      "substitutions": {
+        "traditional ": [
+          "trad ",
+          "trad. ",
+          "trad' ",
+          "trad-",
+          "trad.-",
+          "trad'-"
+        ],
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Trancecore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "UK Hardcore": {
+      "substitutions": {
+        "uk": [ "u.k." ],
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Vortex Speedcore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    }
+  }
+}

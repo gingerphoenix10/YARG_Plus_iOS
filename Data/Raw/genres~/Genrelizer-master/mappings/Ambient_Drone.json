@@ -1,0 +1,74 @@
+{
+  "name": "Ambient/Drone",
+
+  "substitutions": {
+    "ambient/drone": [
+      "ambient drone",
+      "ambientdrone",
+      "drone ambient",
+      "drone/ambient",
+      "droneambient"
+
+    ]
+  },
+
+  "subgenres": {
+    "Ambient": {
+      "substitutions": {
+        "ambient": [ "amb", "amb'", "amb.", "ambience", "ambiance" ]
+      }
+    },
+
+    "Ambient Electronic": {
+      "substitutions": {
+        "ambient": [ "amb", "amb'", "amb." ]
+      }
+    },
+
+    "Ambient Industrial": {
+      "substitutions": {
+        "ambient": [ "amb", "amb'", "amb." ]
+      }
+    },
+
+    "Ambient Metal": {
+      "substitutions": {
+        "ambient": [ "amb", "amb'", "amb." ],
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Dark Ambient": {
+      "substitutions": {
+        "dark ": [ "dark", "dark-" ],
+        "ambient": [ "amb", "amb'", "amb.", "ambience", "ambiance" ]
+      }
+    },
+
+    "Drone": {},
+
+    "Drone Rock": {},
+
+    "Illbient": {},
+
+    "lowercase": {
+      "substitutions": {
+        "lower": [ "lower ", "lower-" ]
+      }
+    },
+
+    "Psybient": {},
+
+    "Soundscape": {},
+
+    "Space": {
+      "suffixes": [ " music", "music" ]
+    },
+
+    "Space Ambient": {
+      "substitutions": {
+        "ambient": [ "amb", "amb'", "amb.", "ambience", "ambiance" ]
+      }
+    }
+  }
+}

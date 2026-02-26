@@ -33,6 +33,9 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <sys/sysctl.h>
+#include <UndefinePlatforms.h>
+#include <os/log.h>
+#include <RedefinePlatforms.h>
 
 // we assume that app delegate is never changed and we can cache it, instead of re-query UIApplication every time
 UnityAppController* _UnityAppController = nil;
@@ -58,8 +61,6 @@ static UInt32 _iosMinorVersion = 0;
 // overriding externally managed player pause/resume handling by
 // caching the state
 bool    _wasPausedExternal      = false;
-// should we skip present on next draw: used in corner cases (like rotation) to fill both draw-buffers with some content
-bool    _skipPresent            = false;
 // was app "resigned active": some operations do not make sense while app is in background
 bool    _didResignActive        = false;
 
@@ -129,13 +130,7 @@ NSInteger _forceInterfaceOrientationMask = 0;
 #if UNITY_USES_METAL_DISPLAY_LINK
     if (@available(iOS 17.0, tvOS 17.0, *))
     {
-    #if PLATFORM_TVOS
-        // most tvos devices are quite slow, and they can't keep up for complex scenes
-        // alas that might result in GPU hangs/errors which are hard to debug
-        // so by default we disable CAMetalDisplayLink on tvos
-        // but you can enable it and check that it works (also, it might make sense to enable to higher-end tvos only)
-        return NO;
-    #elif PLATFORM_VISIONOS
+    #if PLATFORM_VISIONOS
         // not supported for now (but will be at some point)
         return NO;
     #else
@@ -157,7 +152,7 @@ NSInteger _forceInterfaceOrientationMask = 0;
 
 #if !PLATFORM_VISIONOS
     // we make sure that first level gets correct display list and orientation
-    [[DisplayManager Instance] updateDisplayListCacheInUnity];
+    [[DisplayManager Instance] prepareForFirstScene];
 #endif
 
 #if PLATFORM_VISIONOS && UNITY_HAS_VISIONOSSDK_2_0
@@ -201,12 +196,12 @@ NSInteger _forceInterfaceOrientationMask = 0;
 #endif
 }
 
-extern "C" void UnityDestroyDisplayLink()
+UNITY_EXPORT extern "C" void UnityDestroyDisplayLink()
 {
     [GetAppController() destroyDisplayLink];
 }
 
-extern "C" void UnityEngineDidQuit(unsigned level)
+UNITY_EXPORT extern "C" void UnityEngineDidQuit(unsigned level)
 {
     enum class UnityEngineQuitLevel : unsigned
     {
@@ -236,7 +231,7 @@ extern "C" void UnityEngineDidQuit(unsigned level)
 }
 
 extern void SensorsCleanup();
-extern "C" void UnityCleanupTrampoline()
+UNITY_EXPORT extern "C" void UnityCleanupTrampoline()
 {
     // Prevent multiple cleanups
     if (_UnityAppController == nil)
@@ -501,6 +496,9 @@ extern "C" void UnityCleanupTrampoline()
 {
     ::printf("-> applicationDidEnterBackground()\n");
 
+    [self pauseDisplayLink];
+    UnityCancelTouches();
+
 #if PLATFORM_VISIONOS
     if (UnityIsFocused())
         UnitySetPlayerFocus(0);
@@ -513,6 +511,8 @@ extern "C" void UnityCleanupTrampoline()
 - (void)applicationWillEnterForeground:(UIApplication*)application
 {
     ::printf("-> applicationWillEnterForeground()\n");
+
+    [self unpauseDisplayLink];
 
     // applicationWillEnterForeground: might sometimes arrive *before* actually initing unity (e.g. locking on startup)
     if (self.engineLoadState >= kUnityEngineLoadStateAppReady)
@@ -763,18 +763,21 @@ void AppController_SendUnityViewControllerNotification(NSString* name)
     [[NSNotificationCenter defaultCenter] postNotificationName: name object: UnityGetGLViewController()];
 }
 
-extern "C" UIWindow*            UnityGetMainWindow()        { return GetAppController().mainDisplay.window; }
-extern "C" UIViewController*    UnityGetGLViewController()  { return GetAppController().rootViewController; }
-extern "C" UnityView*           UnityGetUnityView()         { return GetAppController().unityView; }
-extern "C" UIView*              UnityGetGLView()            { return UnityGetUnityView(); }
+UNITY_EXPORT extern "C" UIWindow*            UnityGetMainWindow()        { return GetAppController().mainDisplay.window; }
+UNITY_EXPORT extern "C" UIViewController*    UnityGetGLViewController()  { return GetAppController().rootViewController; }
+UNITY_EXPORT extern "C" UnityView*           UnityGetUnityView()         { return GetAppController().unityView; }
+UNITY_EXPORT extern "C" UIView*              UnityGetGLView()            { return UnityGetUnityView(); }
 
 
-extern "C" ScreenOrientation    UnityCurrentOrientation()   { return GetAppController().unityView.contentOrientation; }
+UNITY_EXPORT extern "C" ScreenOrientation    UnityCurrentOrientation()   { return GetAppController().unityView.contentOrientation; }
 
 
 bool LogToNSLogHandler(LogType logType, const char* log, va_list list)
 {
-    NSLogv([NSString stringWithUTF8String: log], list);
+    NSString *formatString = [NSString stringWithUTF8String:log];
+    NSString *formatted = [[NSString alloc] initWithFormat:formatString arguments:list];
+
+    os_log_with_type(OS_LOG_DEFAULT, OS_LOG_TYPE_DEFAULT, "%{public}@", formatted);
     return true;
 }
 
@@ -859,7 +862,7 @@ extern "C" bool UnityiOS130orNewer() { return _ios130orNewer; }
 extern "C" bool UnityiOS140orNewer() { return _ios140orNewer; }
 extern "C" bool UnityiOS150orNewer() { return _ios150orNewer; }
 extern "C" bool UnityiOS160orNewer() { return _ios160orNewer; }
-extern "C" bool UnityiOSVersionIsAtLeast(uint32_t major, uint32_t minor)
+UNITY_EXPORT extern "C" bool UnityiOSVersionIsAtLeast(uint32_t major, uint32_t minor)
 {
     if (major < _iosMajorVersion)
         return true;

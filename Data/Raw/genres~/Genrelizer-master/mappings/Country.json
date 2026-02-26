@@ -1,0 +1,124 @@
+{
+  "name": "Country",
+
+  "subgenres": {
+    "Alternative Country": {
+      "substitutions": {
+        "alternative ": [ "alt", "alt ", "alt-", "alt. ", "alt.-", "alt' ", "alt'-", "altern ", "altern. ", "altern' ", "alternate" ]
+      }
+    },
+
+    "Bakersfield Sound": {
+      "prefixes": [ "the " ]
+    },
+
+    "Bluegrass": {
+      "substitutions": {
+        "blue": [ "blue ", "blue-" ]
+      }
+    },
+
+    "Classic Country": {},
+
+    "Contemporary Country": {},
+
+    "Country Jazz": {},
+
+    "Country Pop": {
+      "substitutions": {
+        "country ": [ "country-" ]
+      }
+    },
+
+    "Country Rock": {
+      "substitutions": {
+        "country ": [ "country-" ]
+      }
+    },
+
+    "Country Swing": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Cowboy": {
+      "suffixes": [ " music", " song" ]
+    },
+
+    "Electronic Country": {},
+
+    "Gothic Country": {},
+
+    "Hard Country": {},
+
+    "Hardcore Country": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Honky Tonk": {
+      "substitutions": {
+        "honky ": [ "honky", "honky-" ]
+      }
+    },
+
+    "Modern Country": {},
+
+    "Neoclassical Country": {
+      "substitutions": {
+        "neo": [ "neo ", "neo-" ]
+      }
+    },
+
+    "Neotraditional Country": {
+      "substitutions": {
+        "neo": [ "neo-", "neo ", "new " ]
+      }
+    },
+
+    "Newgrass": {
+      "substitutions": {
+        "new": [ "new ", "new-" ]
+      }
+    },
+
+    "Outlaw Country": {},
+
+    "Progressive Bluegrass": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ]
+      }
+    },
+
+    "Progressive Country": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ]
+      }
+    },
+
+    "Psychobluegrass": {
+      "substitutions": {
+        "psycho": [ "psycho ", "psycho-" ]
+      }
+    },
+
+    "Red Dirt": {},
+
+    "Southern Gothic": {},
+
+    "Truck-Driving Country": {
+      "substitutions": {
+        "truck-": [ "truck", "truck " ],
+        "driving": [ "drivin", "drivin'" ]
+      }
+    },
+
+    "Western": {},
+
+    "Western Country": {},
+
+    "Western Swing": {}
+  }
+}

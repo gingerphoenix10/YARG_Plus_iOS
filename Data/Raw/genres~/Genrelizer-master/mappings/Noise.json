@@ -1,0 +1,155 @@
+{
+  "name": "Noise",
+
+  "subgenres": {
+    "Avant-Garde Noise": {
+      "substitutions": {
+        "-garde ": [ "garde ", " garde ", "" ]
+      }
+    },
+
+    "Avant-Garde Noise Metal": {
+      "substitutions": {
+        "-garde ": [ "garde ", " garde ", "" ],
+        "noise ": [ "noise", "noise-" ]
+      }
+    },
+
+    "Avant-Garde Noise Rock": {
+      "substitutions": {
+        "-garde ": [ "garde ", " garde ", "" ],
+        "noise ": [ "noise", "noise-" ]
+      }
+    },
+
+    "Black Noise": {},
+
+    "Blackened Noise": {},
+
+    "Environmental Noise": {
+      "substitutions": {
+        " noise": [ " noises",  "" ]
+      }
+    },
+
+    "Experimental Noise": {},
+
+    "Field Recording": {
+      "suffixes": [ "s" ]
+    },
+
+    "Found Sound": {
+      "suffixes": [ "s" ]
+    },
+
+    "Harsh Noise": {},
+
+    "Harsh Noise Wall": {
+      "substitutions": {
+        "harsh noise wall": [ "harsh wall noise", "wall harsh noise", "hnw" ]
+      }
+    },
+
+    "Industrial Noise": {},
+
+    "Japanoise": {
+      "substitutions": {
+        "japanoise": [ "j-noise", "jnoise", "j noise" ]
+      }
+    },
+
+    "Lo-Fi": {
+      "substitutions": {
+        "lo": [ "low" ],
+        "-": [ "", " " ],
+        "fi": [ "fidelity" ]
+      }
+    },
+
+    "Nihilism": {
+      "substitutions": {
+        "m": [ "t", "t music" ]
+      }
+    },
+
+    "No-Fi": {
+      "substitutions": {
+        "-": [ "", " " ],
+        "fi": [ "fidelity" ]
+      }
+    },
+
+    "Noise Jazz": {
+      "substitutions": {
+        "noise ": [ "noise", "noise-" ]
+      }
+    },
+
+    "Noise Metal": {
+      "substitutions": {
+        "noise ": [ "noise", "noise-" ]
+      }
+    },
+
+    "Noise Pop": {
+      "substitutions": {
+        "noise ": [ "noise", "noise-" ]
+      }
+    },
+
+    "Noise Punk": {
+      "substitutions": {
+        "noise ": [ "noise", "noise-" ]
+      },
+      "suffixes": [ "rock", " rock", "-rock" ]
+    },
+
+    "Noise Rock": {
+      "substitutions": {
+        "noise ": [ "noise", "noise-" ]
+      }
+    },
+
+    "Noise Wall": {
+      "substitutions": {
+        "noise wall": [ "wall noise" ]
+      }
+    },
+
+    "Noisecore": {
+      "substitutions": {
+        "core": [ "-core", " core" ]
+      }
+    },
+
+    "Noisestep": {
+      "substitutions": {
+        "step": [ "-step", " step" ]
+      }
+    },
+
+    "Power Electronics": {
+      "substitutions": {
+        "power ": [ "power", "power-" ]
+      }
+    },
+
+    "Power Noise": {
+      "substitutions": {
+        "power ": [ "power", "power-" ]
+      }
+    },
+
+    "Rhythmic Noise": {},
+
+    "Sound Effects": {
+      "substitutions": {
+        "sound effects": [ "sound effect", "sound fx", "sfx" ]
+      }
+    },
+
+    "Static": {},
+
+    "White Noise": {}
+  }
+}

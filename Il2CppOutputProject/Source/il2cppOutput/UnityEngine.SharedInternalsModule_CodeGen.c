@@ -24,6 +24,7 @@ extern void NativeConditionalAttribute_set_Enabled_m379DA383CBBF2539C080D5DC0E8B
 extern void NativeConditionalAttribute__ctor_mD9C6F4E343C06314DF5DCFDDE9B5495E78F711ED (void);
 extern void NativeConditionalAttribute__ctor_m5EC9368A4D06044907451D8C77B356E9ADBD241E (void);
 extern void NativeHeaderAttribute_set_Header_mC431D0143381F2B35B08E211C2D5DD011372ADAB (void);
+extern void NativeHeaderAttribute__ctor_mA7E08C5B4BC93515D8A57C3E63EA030EC64EC127 (void);
 extern void NativeHeaderAttribute__ctor_mD0D73B93BC695BC42CBF7E7FC6FB044131C3D0BC (void);
 extern void NativeNameAttribute_set_Name_mA5639D9FDBEADE899CBE13AFA4FCFB61A95ADAE7 (void);
 extern void NativeNameAttribute__ctor_m9F46C053270D9DBCC9F9AB32C545A7696F0638D0 (void);
@@ -49,7 +50,6 @@ extern void NativeTypeAttribute__ctor_m42A2C59E33BA5B0DD88A44BA5C9A1C0FDDFBCF46 
 extern void NativeTypeAttribute__ctor_m3E053B25317A9630A5D4D9C8730A776A3C8F0487 (void);
 extern void NativeTypeAttribute__ctor_mAAAA100D0F13ECBDEB655342889B7D82CF920A75 (void);
 extern void NotNullAttribute__ctor_mFFF7228A8C668381869056F3C8FD1A9CDC25D8FD (void);
-extern void UnmarshalledAttribute__ctor_m77164A228BF4D50B6CF784E319456DD0A74D0E8A (void);
 extern void FreeFunctionAttribute__ctor_m0F9BA14FE9193D3CDE593EBF1EA06531F8400388 (void);
 extern void FreeFunctionAttribute__ctor_m379A417DDF33E9D2BB5227D05DD365584E15DDAC (void);
 extern void FreeFunctionAttribute__ctor_mAC3C22502820C23E516911E3B620387FB330D9E2 (void);
@@ -63,6 +63,7 @@ extern void NativeThrowsAttribute__ctor_m62F4CD2A09BDFD06FD43B74201D68CD2F79E109
 extern void IgnoreAttribute_set_DoesNotContributeToSize_m0313EA1B54BF5E9FD61267FD476A7C9FB1A5C439 (void);
 extern void IgnoreAttribute__ctor_mDA2998DACBA21CE6D66510F5AA6C4AB1FC33E323 (void);
 extern void PreventReadOnlyInstanceModificationAttribute__ctor_m62694007EB93F071791A5139A34F73695A14B9CC (void);
+extern void UnityMarshalAsAttribute__ctor_m065AE5286C25B1EF6F81AACE9C6A77376C0FB92F (void);
 extern void UsedByNativeCodeAttribute__ctor_m7C07CF71798D5A94EB849622EA3883E547927D88 (void);
 extern void UsedByNativeCodeAttribute__ctor_m3C75236A1A2C7E364179A7DEDE9E53E7C3CE334D (void);
 extern void UsedByNativeCodeAttribute_set_Name_mF39ED6FE6040AF11CDCAE417EE6FE7DD6BD67E99 (void);
@@ -72,7 +73,7 @@ extern void RequiredByNativeCodeAttribute__ctor_m6FB8966FBCB6CC8B3989B0846EE7ED1
 extern void RequiredByNativeCodeAttribute_set_Name_mF218FB9A613487B6377AF13FA3531E5D581F487B (void);
 extern void RequiredByNativeCodeAttribute_set_Optional_m009CBA1D24E7F6EDAE1411CB6A7A01CB2A13B541 (void);
 extern void RequiredByNativeCodeAttribute_set_GenerateProxy_m63E4D29F468D0F254136F1596AEA106BD9EDC89B (void);
-static Il2CppMethodPointer s_methodPointers[65] = 
+static Il2CppMethodPointer s_methodPointers[66] = 
 {
 	AssetFileNameExtensionAttribute__ctor_mBDD7C2006F136025094AABE2295D190F43F7F224,
 	ThreadAndSerializationSafeAttribute__ctor_m5023D29907E8D1092714DFFA137A8364454709C7,
@@ -91,6 +92,7 @@ static Il2CppMethodPointer s_methodPointers[65] =
 	NativeConditionalAttribute__ctor_mD9C6F4E343C06314DF5DCFDDE9B5495E78F711ED,
 	NativeConditionalAttribute__ctor_m5EC9368A4D06044907451D8C77B356E9ADBD241E,
 	NativeHeaderAttribute_set_Header_mC431D0143381F2B35B08E211C2D5DD011372ADAB,
+	NativeHeaderAttribute__ctor_mA7E08C5B4BC93515D8A57C3E63EA030EC64EC127,
 	NativeHeaderAttribute__ctor_mD0D73B93BC695BC42CBF7E7FC6FB044131C3D0BC,
 	NativeNameAttribute_set_Name_mA5639D9FDBEADE899CBE13AFA4FCFB61A95ADAE7,
 	NativeNameAttribute__ctor_m9F46C053270D9DBCC9F9AB32C545A7696F0638D0,
@@ -116,7 +118,6 @@ static Il2CppMethodPointer s_methodPointers[65] =
 	NativeTypeAttribute__ctor_m3E053B25317A9630A5D4D9C8730A776A3C8F0487,
 	NativeTypeAttribute__ctor_mAAAA100D0F13ECBDEB655342889B7D82CF920A75,
 	NotNullAttribute__ctor_mFFF7228A8C668381869056F3C8FD1A9CDC25D8FD,
-	UnmarshalledAttribute__ctor_m77164A228BF4D50B6CF784E319456DD0A74D0E8A,
 	FreeFunctionAttribute__ctor_m0F9BA14FE9193D3CDE593EBF1EA06531F8400388,
 	FreeFunctionAttribute__ctor_m379A417DDF33E9D2BB5227D05DD365584E15DDAC,
 	FreeFunctionAttribute__ctor_mAC3C22502820C23E516911E3B620387FB330D9E2,
@@ -130,6 +131,7 @@ static Il2CppMethodPointer s_methodPointers[65] =
 	IgnoreAttribute_set_DoesNotContributeToSize_m0313EA1B54BF5E9FD61267FD476A7C9FB1A5C439,
 	IgnoreAttribute__ctor_mDA2998DACBA21CE6D66510F5AA6C4AB1FC33E323,
 	PreventReadOnlyInstanceModificationAttribute__ctor_m62694007EB93F071791A5139A34F73695A14B9CC,
+	UnityMarshalAsAttribute__ctor_m065AE5286C25B1EF6F81AACE9C6A77376C0FB92F,
 	UsedByNativeCodeAttribute__ctor_m7C07CF71798D5A94EB849622EA3883E547927D88,
 	UsedByNativeCodeAttribute__ctor_m3C75236A1A2C7E364179A7DEDE9E53E7C3CE334D,
 	UsedByNativeCodeAttribute_set_Name_mF39ED6FE6040AF11CDCAE417EE6FE7DD6BD67E99,
@@ -140,79 +142,80 @@ static Il2CppMethodPointer s_methodPointers[65] =
 	RequiredByNativeCodeAttribute_set_Optional_m009CBA1D24E7F6EDAE1411CB6A7A01CB2A13B541,
 	RequiredByNativeCodeAttribute_set_GenerateProxy_m63E4D29F468D0F254136F1596AEA106BD9EDC89B,
 };
-static const int32_t s_InvokerIndices[65] = 
+static const int32_t s_InvokerIndices[66] = 
 {
-	9147,
-	23115,
-	23115,
-	23115,
-	23115,
-	17806,
-	17806,
-	17806,
-	9147,
-	23115,
-	17806,
-	17806,
-	17806,
-	17577,
-	17806,
-	9147,
-	17806,
-	17806,
-	17806,
-	17806,
-	17806,
-	17577,
-	17577,
-	17577,
-	17577,
-	23115,
-	17806,
-	9111,
-	4371,
-	17730,
-	23115,
-	17806,
-	4374,
-	23115,
-	17806,
-	17806,
-	17730,
-	23115,
-	17730,
-	17806,
-	8562,
-	23115,
-	23115,
-	23115,
-	17806,
-	9111,
-	23115,
-	17806,
-	17730,
-	17806,
-	9137,
-	17577,
-	23115,
-	17577,
-	23115,
-	23115,
-	23115,
-	17806,
-	17806,
-	23115,
-	17806,
-	17577,
-	17806,
-	17577,
-	17577,
+	10685,
+	27492,
+	27492,
+	27492,
+	27492,
+	21195,
+	21195,
+	21195,
+	10685,
+	27492,
+	21195,
+	21195,
+	21195,
+	20913,
+	21195,
+	10685,
+	21195,
+	27492,
+	21195,
+	21195,
+	21195,
+	21195,
+	20913,
+	20913,
+	20913,
+	20913,
+	27492,
+	21195,
+	10641,
+	4949,
+	21094,
+	27492,
+	21195,
+	4952,
+	27492,
+	21195,
+	21195,
+	21094,
+	27492,
+	21094,
+	21195,
+	9977,
+	27492,
+	27492,
+	21195,
+	10641,
+	27492,
+	21195,
+	21094,
+	21195,
+	10672,
+	20913,
+	27492,
+	20913,
+	27492,
+	27492,
+	21094,
+	27492,
+	21195,
+	21195,
+	27492,
+	21195,
+	20913,
+	21195,
+	20913,
+	20913,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_SharedInternalsModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_SharedInternalsModule_CodeGenModule = 
 {
 	"UnityEngine.SharedInternalsModule.dll",
-	65,
+	66,
 	s_methodPointers,
 	0,
 	NULL,

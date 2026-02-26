@@ -1,0 +1,127 @@
+{
+  "name": "Thrash/Speed Metal",
+
+  "substitutions": {
+    "thrash/speed metal": [
+      "thrashspeedmetal",
+      "speed/thrash metal",
+      "speedthrashmetal"
+    ]
+  },
+
+  "subgenres": {
+    "A Capella Thrash Metal": {
+      "substitutions": {
+        "a capella": [ "a cappella", "a-capella", "a-cappella", "acapella", "acappella" ]
+      }
+    },
+
+    "Blackened Speed Metal": {},
+
+    "Blackened Thrash Metal": {
+      "substitutions": {
+        "thrash metal": [ "thrash" ]
+      }
+    },
+
+    "Crossover Thrash": {
+      "suffixes": [ " metal" ]
+    },
+
+    "Crust Shred": {
+      "suffixes": [ " metal" ]
+    },
+
+    "Experimental Shred": {
+      "suffixes": [ " metal" ]
+    },
+
+    "Neoclassical Shred": {
+      "substitutions": {
+        "neo": [ "neo ", "neo-" ]
+      },
+      "suffixes": [ " metal" ]
+    },
+
+    "Neoclassical Thrash Metal": {
+      "substitutions": {
+        "neo": [ "neo ", "neo-" ],
+        " metal": [ "" ]
+      }
+    },
+
+    "Pop Shred": {
+      "substitutions": {
+        "pop ": [ "pop", "pop-" ]
+      },
+      "suffixes": [ " metal" ]
+    },
+
+    "Power Thrash Metal": {
+      "substitutions": {
+        "power ": [ "power", "power-" ],
+        " metal": [ "" ]
+      }
+    },
+
+    "Progressive Speed Metal": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ]
+      }
+    },
+
+    "Progressive Thrash Metal": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ]
+      }
+    },
+
+    "Shred": {
+      "suffixes": [ " metal" ]
+    },
+
+    "Slavic Shred": {
+      "suffixes": [ " metal" ]
+    },
+
+    "Speed Metal": {},
+
+    "Symphonic Speed Metal": {},
+
+    "Symphonic Thrash Metal": {},
+
+    "Technical Metal": {
+      "substitutions": {
+        "technical ": [ "tech ", "tech", "tech-" ],
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Technical Speed Metal": {
+      "substitutions": {
+        "technical ": [ "tech ", "tech", "tech-" ]
+      }
+    },
+
+    "Technical Thrash Metal": {
+      "substitutions": {
+        "technical ": [ "tech ", "tech", "tech-" ],
+        " metal": [ "" ]
+      }
+    },
+
+    "Thrash Metal": {
+      "substitutions": {
+        " metal": [ "" ]
+      }
+    },
+
+    "Thrashcore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Violin Shred": {}
+  }
+}

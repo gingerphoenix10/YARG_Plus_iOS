@@ -214,17 +214,6 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
 {
     _active = YES;
     UnityKeyboard_LayoutChanged(textField.textInputMode.primaryLanguage);
-
-    // We only need to do this in < iOS 14
-    // Used in keyboardDidShow as keyboardWillShow might not have the height ready yet as it's not on screen and
-    // we're only interested in the height when it's fully on screen.
-    if (@available(iOS 14, tvOS 14, *)) {}
-    else
-    {
-        CGRect srcRect  = [[notification.userInfo objectForKey: UIKeyboardFrameEndUserInfoKey] CGRectValue];
-        CGRect rect     = [UnityGetGLView() convertRect: srcRect fromView: nil];
-        _heightOfKeyboard = rect.size.height;
-    }
 }
 
 - (void)keyboardWillHide:(NSNotification*)notification
@@ -258,8 +247,6 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
 
 - (void)keyboardDidChangeFrame:(NSNotification*)notification
 {
-    _active = true;
-
     CGRect srcRect  = [[notification.userInfo objectForKey: UIKeyboardFrameEndUserInfoKey] CGRectValue];
     CGRect rect     = [UnityGetGLView() convertRect: srcRect fromView: nil];
 
@@ -286,12 +273,14 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
     if ([self hasExternalKeyboard])
     {
         [self systemHideKeyboard];
+        _active = NO;
         return;
     }
 
     if (!inputView.isFirstResponder)
     {
         _area = CGRectMake(0, 0, 0, 0);
+        _active = NO;  // in case of floating keyboard this looks to be the only place to detect it closed
         return;
     }
     UIView* unityView = UnityGetGLView();
@@ -326,9 +315,8 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
     }
     else
     {
-        editView.frame  = CGRectMake(xPos, yPos - kToolBarHeight- offsetY, width, kToolBarHeight);
-
-        textField.width = width - safeAreaInsetLeft - safeAreaInsetRight - self->singleLineSystemButtonsSpace;
+        editView.frame  = CGRectMake(xPos, yPos - kToolBarHeight - offsetY, width, kToolBarHeight);
+        textField.width = unityViewRect.size.width - safeAreaInsetLeft - safeAreaInsetRight - self->singleLineSystemButtonsSpace;
         [textField invalidateIntrinsicContentSize];
     }
 
@@ -337,6 +325,7 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
     _area = CGRectMake(xPos, yPos, width - safeAreaInsetLeft - safeAreaInsetRight, unityViewRect.size.height - yPos);
     if (!editView.hidden)
         _area = CGRectUnion(_area, editView.frame);
+    _active = YES;  // at this point input field is first responder, so keyboard is active
 }
 
 #endif
@@ -462,8 +451,7 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
         [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(keyboardDidHide:) name: UIKeyboardDidHideNotification object: nil];
         [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(keyboardDidChangeFrame:) name: UIKeyboardDidChangeFrameNotification object: nil];
         [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(textInputModeDidChange:) name: UITextInputCurrentInputModeDidChangeNotification object: nil];
-        if (@available(iOS 14, tvOS 14, *))
-            [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(keyboardDidConnect:) name: GCKeyboardDidConnectNotification object: nil];
+        [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(keyboardDidConnect:) name: GCKeyboardDidConnectNotification object: nil];
 #endif
 
         [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(textInputDone:) name: UITextFieldTextDidEndEditingNotification object: nil];
@@ -588,7 +576,7 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
 
     _status     = Visible;
     UnityKeyboard_StatusChanged(_status);
-    _active     = YES;
+    _active = !self.hasExternalKeyboard;
     _selectionRequest.location = NSNotFound;
 }
 
@@ -852,11 +840,7 @@ extern "C" void UnityKeyboard_LayoutChanged(NSString* layout);
 
 - (BOOL)hasExternalKeyboard
 {
-    // iOS 14 and above has a public API in the GameController framework. If this is missing then this will return false
-    if (@available(iOS 14, tvOS 14, *))
-        return [GCKeyboard coalescedKeyboard] != nil;
-    else // The minimum height a software keyboard will be on iOS is 160, A bluetooth keyboard just uses a toolbar which will be smaller than this.
-        return _heightOfKeyboard < 160.0f;
+    return [GCKeyboard coalescedKeyboard] != nil;
 }
 
 - (UITextField*)getTextField
@@ -961,7 +945,7 @@ static bool StringContainsEmoji(NSString *string);
 //
 //  Unity Interface:
 
-extern "C" void UnityKeyboard_Create(unsigned keyboardType, int autocorrection, int multiline, int secure, int alert, const char* text, const char* placeholder, int characterLimit)
+UNITY_EXPORT extern "C" void UnityKeyboard_Create(unsigned keyboardType, int autocorrection, int multiline, int secure, int alert, const char* text, const char* placeholder, int characterLimit)
 {
 #if PLATFORM_TVOS
     // Not supported. The API for showing keyboard for editing multi-line text is not available on tvOS
@@ -1022,7 +1006,7 @@ extern "C" void UnityKeyboard_Create(unsigned keyboardType, int autocorrection, 
     [[KeyboardDelegate Instance] setKeyboardParams: param];
 }
 
-extern "C" void UnityKeyboard_Show()
+UNITY_EXPORT extern "C" void UnityKeyboard_Show()
 {
     // do not send hide if didnt create keyboard
     // TODO: probably assert?
@@ -1032,7 +1016,7 @@ extern "C" void UnityKeyboard_Show()
     [[KeyboardDelegate Instance] show];
 }
 
-extern "C" void UnityKeyboard_Hide()
+UNITY_EXPORT extern "C" void UnityKeyboard_Hide()
 {
     // do not send hide if didnt create keyboard
     // TODO: probably assert?
@@ -1042,27 +1026,27 @@ extern "C" void UnityKeyboard_Hide()
     [[KeyboardDelegate Instance] textInputLostFocus];
 }
 
-extern "C" void UnityKeyboard_SetText(const char* text)
+UNITY_EXPORT extern "C" void UnityKeyboard_SetText(const char* text)
 {
     [KeyboardDelegate Instance].text = [NSString stringWithUTF8String: text];
 }
 
-extern "C" NSString* UnityKeyboard_GetText()
+UNITY_EXPORT extern "C" NSString* UnityKeyboard_GetText()
 {
     return [KeyboardDelegate Instance].text;
 }
 
-extern "C" int UnityKeyboard_IsActive()
+UNITY_EXPORT extern "C" int UnityKeyboard_IsActive()
 {
     return (_keyboard && _keyboard.active) ? 1 : 0;
 }
 
-extern "C" int UnityKeyboard_Status()
+UNITY_EXPORT extern "C" int UnityKeyboard_Status()
 {
     return _keyboard ? _keyboard.status : Canceled;
 }
 
-extern "C" void UnityKeyboard_SetInputHidden(int hidden)
+UNITY_EXPORT extern "C" void UnityKeyboard_SetInputHidden(int hidden)
 {
     _shouldHideInput        = hidden;
     _shouldHideInputChanged = true;
@@ -1072,12 +1056,12 @@ extern "C" void UnityKeyboard_SetInputHidden(int hidden)
         [_keyboard updateInputHidden];
 }
 
-extern "C" int UnityKeyboard_IsInputHidden()
+UNITY_EXPORT extern "C" int UnityKeyboard_IsInputHidden()
 {
     return _shouldHideInput ? 1 : 0;
 }
 
-extern "C" void UnityKeyboard_GetRect(float* x, float* y, float* w, float* h)
+UNITY_EXPORT extern "C" void UnityKeyboard_GetRect(float* x, float* y, float* w, float* h)
 {
     CGRect area = _keyboard ? _keyboard.area : CGRectMake(0, 0, 0, 0);
 
@@ -1092,17 +1076,17 @@ extern "C" void UnityKeyboard_GetRect(float* x, float* y, float* w, float* h)
     *h = area.size.height * multY;
 }
 
-extern "C" void UnityKeyboard_SetCharacterLimit(unsigned characterLimit)
+UNITY_EXPORT extern "C" void UnityKeyboard_SetCharacterLimit(unsigned characterLimit)
 {
     [KeyboardDelegate Instance].characterLimit = characterLimit;
 }
 
-extern "C" int UnityKeyboard_CanGetSelection()
+UNITY_EXPORT extern "C" int UnityKeyboard_CanGetSelection()
 {
     return (_keyboard) ? 1 : 0;
 }
 
-extern "C" void UnityKeyboard_GetSelection(int* location, int* length)
+UNITY_EXPORT extern "C" void UnityKeyboard_GetSelection(int* location, int* length)
 {
     if (_keyboard)
     {
@@ -1118,12 +1102,12 @@ extern "C" void UnityKeyboard_GetSelection(int* location, int* length)
     }
 }
 
-extern "C" int UnityKeyboard_CanSetSelection()
+UNITY_EXPORT extern "C" int UnityKeyboard_CanSetSelection()
 {
     return (_keyboard) ? 1 : 0;
 }
 
-extern "C" void UnityKeyboard_SetSelection(int location, int length)
+UNITY_EXPORT extern "C" void UnityKeyboard_SetSelection(int location, int length)
 {
     if (_keyboard)
     {

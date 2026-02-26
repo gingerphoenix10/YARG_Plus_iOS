@@ -1,0 +1,218 @@
+{
+  "name": "Other",
+
+  "substitutions": {
+    "other": [ "miscellaneous", "misc", "misc.", "unclassifiable" ]
+  },
+
+  "subgenres": {
+    "A Capella": {
+      "substitutions": {
+        " ": [ "", "-" ],
+        "capella": [ "cappella" ]
+      }
+    },
+
+    "Abstract": {},
+
+    "Acoustic": {},
+
+    "Acoustic Fingerstyle": {
+      "substitutions": {
+        "style": [ " style", "-style" ]
+      }
+    },
+
+    "Atonal": {},
+
+    "Avant-Garde": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Barbershop": {
+      "suffixes": [ " quartet" ]
+    },
+
+    "Beatboxing": {
+      "substitutions": {
+        "ing": [ "" ]
+      }
+    },
+
+    "Biomusic": {
+      "substitutions": {
+        "bio": [ "bio-", "bio "]
+      }
+    },
+
+    "Bird Song": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Black MIDI": {},
+
+    "Chant": {
+      "suffixes": [ "ing" ]
+    },
+
+    "Danger Music": {
+      "substitutions": {
+        " music": [ "" ]
+      }
+    },
+
+    "Dark Instrumental": {},
+
+    "Diss Track": {
+      "substitutions": {
+        " track": [ "" ]
+      }
+    },
+
+    "Easy Listening": {},
+
+    "Elevator Music": {
+      "substitutions": {
+        " music": [ "" ]
+      }
+    },
+
+    "Exercise": {
+      "suffixes": [ "s" ]
+    },
+
+    "Experimental": {
+      "substitutions": {
+        "al": [ "", "s", "ation" ]
+      }
+    },
+
+    "Fingerstyle": {
+      "suffixes": [ " guitar" ]
+    },
+
+    "Free Improvisation": {
+      "substitutions": {
+        "isation": [ "" ]
+      }
+    },
+
+    "Guitar Exercise": {
+      "suffixes": [ "s" ]
+    },
+
+    "Guitar Lesson": {
+      "suffixes": [ "s" ]
+    },
+
+    "Instrumental": {},
+
+    "Interlude": {},
+
+    "Interstitial": {},
+
+    "Lesson": {
+      "suffixes": [ "s" ]
+    },
+
+    "Live Looping": {
+      "substitutions": {
+        " ": [ "", "-" ],
+        "ing": [ "", "s" ]
+      }
+    },
+
+    "Minimalism": {
+      "substitutions": {
+        "ism": [ "ist", "" ]
+      }
+    },
+
+    "Musique Concrète": {
+      "substitutions": {
+        "è": [ "e" ]
+      }
+    },
+
+    "Muzak": {},
+
+    "New Age": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Outsider": {
+      "suffixes": [ " music" ]
+    },
+
+    "Percussion": {},
+
+    "Piano": {},
+
+    "Piano Exercise": {
+      "suffixes": [ "s" ]
+    },
+
+    "Piano Instrumental": {},
+
+    "Piano Lesson": {
+      "suffixes": [ "s" ]
+    },
+
+    "Poetry": {},
+
+    "Polka": {},
+
+    "Post-Minimalism": {
+      "substitutions": {
+        "-": [ "", " " ],
+        "ism": [ "ist", "" ]
+      }
+    },
+
+    "Power Polka": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Silence": {},
+
+    "Slam Poetry": {},
+
+    "Solo": {},
+
+    "Sound Art": {},
+
+    "Spoken Word": {},
+
+    "Sung Poetry": {},
+
+    "Traditional": {
+      "substitutions": {
+        "traditional": [ "trad", "trad." ]
+      }
+    },
+
+    "Tutorial": {
+      "suffixes": [ "s" ]
+    },
+
+    "Virtuoso": {},
+
+    "Waltz": {},
+
+    "Yodeling": {
+      "substitutions": {
+        "ing": [ "" ]
+      }
+    },
+
+    "Zydeco": {}
+  }
+}

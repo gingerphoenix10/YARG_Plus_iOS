@@ -1,0 +1,191 @@
+{
+  "name": "Heavy Metal",
+
+  "substitutions": {
+    "heavy ": [ "heavy", "" ]
+  },
+
+  "subgenres": {
+    "Acoustic Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Arabic Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Bass Metal": {},
+
+    "Biker Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Cello Metal": {},
+    
+    "Celtic Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Chinese Folk Metal": {},
+
+    "Classic Heavy Metal": {
+      "substitutions": {
+        "heavy metal": [ "metal" ]
+      }
+    },
+
+    "Commercial Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Cyber Metal": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Dark Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Dubstep Metal": {
+      "substitutions": {
+        "step": [ " step", "-step" ]
+      }
+    },
+
+    "Experimental Funk Metal": {
+      "substitutions": {
+        "funk ": [ "funk-", "funk" ]
+      }
+    },
+
+    "Experimental Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Folk Metal": {},
+
+    "Funk Metal": {
+      "substitutions": {
+        "funk ": [ "funk-", "funk" ]
+      }
+    },
+
+    "Gothic Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Horror Metal": {},
+
+    "Hypermetal": {
+      "substitutions": {
+        "hyper": [ "hyper ", "hyper-" ]
+      }
+    },
+
+    "Indian Folk Metal": {},
+
+    "Instrumental Horror Metal": {},
+
+    "Instrumental Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Jam Metal": {
+      "substitutions": {
+        " ": [ "-" ],
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Medieval Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Modern Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "NWOBHM": {
+      "substitutions": {
+        "nwobhm": [ "new wave of british heavy metal" ]
+      }
+    },
+
+    "Occult Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Pop Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Post-Metal": {
+      "substitutions": {
+        "-": [ "", " " ],
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Radio Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Sludge Metal": {
+      "substitutions": {
+        " metal": [ "" ]
+      }
+    },
+
+    "Stoner Metal": {},
+
+    "Swing Metal": {},
+
+    "Symphonic Gothic Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Synthetic Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Video Game Metal": {
+      "substitutions": {
+        "video game": [ "vg" ]
+      }
+    }
+  }
+}

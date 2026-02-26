@@ -1,0 +1,151 @@
+{
+  "name": "Dance",
+
+  "subgenres": {
+    "Alternative Dance": {
+      "substitutions": {
+        "alternative ": [ "alt", "alt ", "alt-", "alt. ", "alt.-", "alt' ", "alt'-", "altern ", "altern. ", "altern' ", "alternate" ]
+      }
+    },
+
+    "Balearic Beat": {
+      "substitutions": {
+        "balearic": [ "ibiza", "ibizan" ]
+      }
+    },
+
+    "Big Room": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Bubblegum Dance": {
+      "substitutions": {
+        "gum": [ " gum", "-gum" ]
+      }
+    },
+
+    "Chicago Juke": {},
+
+    "Club": {},
+
+    "Country EDM": {
+      "substitutions": {
+        "edm": [ "electronic dance music", "electronic dance" ]
+      }
+    },
+
+    "Dungeon Synth": {},
+
+    "EDM": {
+      "substitutions": {
+        "edm": [ "electronic dance music", "electronic dance" ]
+      }
+    },
+
+    "Electro Dance": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Electronic Body Music": {
+      "substitutions": {
+        "electronic body music": [ "ebm" ]
+      }
+    },
+
+    "Eurobeat": {
+      "substitutions": {
+        "euro": [ "euro ", "euro-" ]
+      }
+    },
+
+    "Eurodance": {
+      "substitutions": {
+        "euro": [ "euro ", "euro-" ]
+      }
+    },
+
+    "Eurodub": {
+      "substitutions": {
+        "euro": [ "euro ", "euro-" ]
+      }
+    },
+
+    "Folk EDM": {},
+
+    "Footwork": {},
+
+    "Future Bass": {},
+
+    "Grime": {},
+
+    "Hi-NRG": {
+      "substitutions": {
+        "hi": [ "high" ],
+        "-": [ " " ],
+        "nrg": [ "energy", "n.r.g", "n.r.g.", "n-r-g" ]
+      }
+    },
+
+    "Hyper Eurobeat": {
+      "substitutions": {
+        "hyper ": [ "hyper", "hyper-" ],
+        "euro": [ "euro ", "euro-" ]
+      }
+    },
+
+    "Indie Dance": {
+      "substitutions": {
+        "ie": [ "y", "ependent" ],
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Italodance": {
+      "substitutions": {
+        "italo": [ "italo ", "italo-" ]
+      }
+    },
+
+    "Juke": {},
+
+    "Monumental Dance": {},
+
+    "Moombahcore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Moombahsoul": {
+      "substitutions": {
+        "soul": [ " soul", "-soul" ]
+      }
+    },
+
+    "Moombahton": {},
+
+    "New Rave": {},
+
+    "Party-Juke": {
+      "substitutions": {
+        "-": [ "", " "]
+      }
+    },
+
+    "Proper Juke": {},
+
+    "Rave": {},
+
+    "Symphonic EDM": {
+      "substitutions": {
+        "edm": [ "electronic dance music", "electronic dance" ]
+      }
+    },
+
+    "Symphonic Rave": {}
+  }
+}

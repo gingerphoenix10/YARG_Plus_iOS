@@ -1,0 +1,102 @@
+{
+  "name": "Novelty",
+
+  "subgenres": {
+    "Circus": {
+      "suffixes": [ " music" ] 
+    },
+
+    "Country Novelty": {
+      "substitutions": {
+        "country novelty": [ "novelty country" ]
+      }
+    },
+
+    "Comedy": {},
+
+    "Comedy Hip-Hop": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Comedy Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Comedy Rap": {},
+
+    "Comedy Rock": {},
+
+    "Electronic Novelty": {},
+
+    "Humorcore": {
+      "substitutions": {
+        "humor": [ "humour" ],
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Meme": {
+      "suffixes": [ "s" ]
+    },
+
+    "Memecore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Novelty Chiptune": {
+      "substitutions": {
+        "novelty chiptune": [
+          "chiptune novelty",
+          "chip tune novelty",
+          "chip-tune novelty",
+          "novelty chip tune",
+          "novelty chip-tune"
+        ]
+      }
+    },
+
+    "Novelty Hip-Hop": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Novelty Metal": {
+      "substitutions": {
+        "metal": [ "heavy metal" ]
+      }
+    },
+
+    "Novelty Rap": {},
+
+    "Novelty Rock": {},
+
+    "Parody": {
+      "substitutions": {
+        "parody": [ "spoof" ]
+      }
+    },
+
+    "Parody Rock": {
+      "substitutions": {
+        "parody": [ "spoof" ]
+      }
+    },
+
+    "Shitpost": {},
+
+    "Skit": {},
+
+    "Stand-Up Comedy": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    }
+  }
+}

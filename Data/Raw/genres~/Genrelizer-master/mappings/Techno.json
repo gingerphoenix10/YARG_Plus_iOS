@@ -1,0 +1,37 @@
+{
+  "name": "Techno",
+
+  "subgenres": {
+    "Acid Techno": {},
+
+    "Ambient Techno": {
+      "substitutions": {
+        "ambient": [ "amb", "amb'", "amb." ]
+      }
+    },
+
+    "Bouncy Techno": {},
+
+    "Detroit Techno": {},
+
+    "Dub Techno": {},
+
+    "Hard Techno": {
+      "substitutions": {
+        " ": [ "" ]
+      }
+    },
+
+    "Melodic Techno": {
+      "substitutions": {
+        "melodic ": [ "melo", "melo-" ]
+      }
+    },
+
+    "Minimal Techno": {},
+
+    "Speed Techno": {},
+
+    "Wonky Techno": {}
+  }
+}

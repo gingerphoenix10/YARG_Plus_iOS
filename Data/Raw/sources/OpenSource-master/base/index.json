@@ -340,13 +340,13 @@
 		{
 			"ids": [ "tbrb", "beatles" ], 
 			"names": {
-				"en-US": "The Beatles Rock Band"
+				"en-US": "The Beatles: Rock Band"
 			},
 			"icon": "tbrb",
 			"type": "rb"
 		},
 		{
-			"ids": [ "tbrbdlc" ], 
+			"ids": [ "tbrbdlc", "beatles_dlc" ], 
 			"names": {
 				"en-US": "The Beatles: Rock Band DLC"
 			},

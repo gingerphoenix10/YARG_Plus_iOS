@@ -1,0 +1,88 @@
+{
+  "name": "Ska",
+
+  "substitutions": {
+    "ska": [
+      "skia"
+    ]
+  },
+
+  "subgenres": {
+    "2 Tone": {
+      "substitutions": {
+        "2": [ "two" ],
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Blackened Ska": {},
+
+    "First-Wave Ska": {
+      "substitutions": {
+        "first": [ "1st", "1ˢᵗ" ],
+        "-": [ " ", "" ]
+      }
+    },
+
+    "Jamaican Ska": {},
+
+    "Second-Wave Ska": {
+      "substitutions": {
+        "second": [ "2nd", "2ⁿᵈ" ],
+        "-": [ " ", "" ]
+      }
+    },
+
+    "Ska Jazz": {
+      "substitutions": {
+        "ska ": [ "ska", "ska-" ]
+      }
+    },
+
+    "Ska Metal": {
+      "substitutions": {
+        "ska ": [ "ska", "ska-" ]
+      }
+    },
+
+    "Ska Pop": {
+      "substitutions": {
+        "ska ": [ "ska", "ska-" ]
+      }
+    },
+
+    "Ska Punk": {
+      "substitutions": {
+        "ska ": [ "ska", "ska-" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Ska Punk Reggae": {
+      "substitutions": {
+        "ska ": [ "ska", "ska-" ]
+      }
+    },
+
+    "Skacore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Skastyle": {
+      "substitutions": {
+        "ska": [ "ska ", "ska-" ]
+      }
+    },
+
+    "Spouge": {},
+
+    "Third-Wave Ska": {
+      "substitutions": {
+        "third": [ "3rd", "3ʳᵈ" ],
+        "-": [ " ", "" ]
+      }
+    }
+  }
+}

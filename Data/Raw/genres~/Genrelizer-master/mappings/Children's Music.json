@@ -1,0 +1,29 @@
+{
+  "name": "Children's Music",
+
+  "substitutions": {
+    "children's": [ "childrens", "childrens'", "kids", "kid's", "kids'" ],
+    " music": [ "", "music" ]
+  },
+
+  "subgenres": {
+    "Lullaby": {
+      "substitutions": {
+        "lullaby": [ "cradle song" ]
+      }
+    },
+
+    "Nursery Rhyme": {
+      "substitutions": {
+        "nursery ": [ "nursery-" ]
+      }
+    },
+
+    "Singalong": {
+      "substitutions": {
+        "a": [ " ", "-a-" ]
+      },
+      "suffixes": [ " song" ]
+    }
+  }
+}

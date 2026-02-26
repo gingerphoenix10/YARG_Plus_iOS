@@ -1,0 +1,38 @@
+{
+  "name": "Rock & Roll",
+
+  "substitutions": {
+    " ": [ "", "-" ],
+    "&": [ "and", "n", "'n'", "n'", "'n" ]
+  },
+
+  "suffixes": [ " music" ],
+
+  "subgenres": {
+    "Beat": {
+      "suffixes": [ " music" ]
+    },
+    
+    "Boogie Woogie": {
+      "substitutions": {
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Hard Rock & Roll": {
+      "substitutions": {
+        "&": [ "and", "n", "'n'", "n'", "'n" ],
+        "rock ": [ "rock", "rock- "],
+        " roll": [ "roll", "-roll" ]
+      }
+    },
+
+    "Hillbilly Boogie": {},
+
+    "Merseybeat": {},
+
+    "Rockabilly": {},
+
+    "Skiffle": {}
+  }
+}

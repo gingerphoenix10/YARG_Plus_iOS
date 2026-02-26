@@ -1,0 +1,55 @@
+{
+  "name": "Metalcore",
+
+  "substitutions": {
+    "metal": [ "metal ", "metal-" ]
+  },
+
+  "subgenres": {
+    "Avant-Garde Metalcore": {
+			"substitutions": {
+				"-garde ": [ "garde ", " garde ", "" ],
+        "core": [ " core", "-core" ]
+			}
+		},
+
+    "Blackened Metalcore": {
+      "substitutions": {
+        "metal": [ "metal ", "metal-" ]
+      }
+    },
+
+    "Electronicore": {},
+
+	"Partycore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Melodic Metalcore": {
+      "substitutions": {
+        "metal": [ "metal ", "metal-" ]
+      }
+    },
+
+    "Metallicore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    },
+
+    "Progressive Metalcore": {
+      "substitutions": {
+        "progressive ": [ "prog ", "prog. ", "prog-" ],
+        "metal": [ "metal ", "metal-" ]
+      }
+    },
+
+    "Risecore": {
+      "substitutions": {
+        "core": [ " core", "-core" ]
+      }
+    }
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "name": "Jazz",
+
+  "subgenres": {
+    "Acid Jazz": {
+      "substitutions": {
+        " ": [ "-" ]
+      }
+    },
+
+    "Astral Jazz": {},
+
+    "Avant-Garde Jazz": {
+      "substitutions": {
+        "-garde ": [ "garde ", " garde ", "" ]
+      }
+    },
+
+    "Bebop": {
+      "substitutions": {
+        "bebop": [ "be-bop" ]
+      }
+    },
+
+    "Big Band Jazz": {
+      "substitutions": {
+        "big band": [ "big-band", "bigband" ],
+        " jazz": [ "" ]
+      }
+    },
+
+    "Bossa Nova": {},
+
+    "British Dance Band": {},
+
+    "Cape Jazz": {},
+
+    "Chamber Jazz": {},
+
+    "Chicago-Style Hot Jazz": {
+      "substitutions": {
+        "chicago-style": [ "chicago style", "chicago" ],
+        "hot": [ "dixieland ", "dixie land ", "dixie-land " ],
+        " jazz": [ "" ]
+      }
+    },
+
+    "Contemporary Jazz": {},
+
+    "Continental Jazz": {},
+
+    "Cool Jazz": {},
+
+    "Crossover Jazz": {},
+
+    "Dark Cabaret": {},
+
+    "Dark Jazz": {},
+
+    "Djazz": {},
+
+    "Doom Jazz": {},
+
+    "Dutch Old-Style Jazz": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "ECM Jazz": {
+      "substitutions": {
+        "ecm": [ "edition of contemporary music" ],
+        " jazz": [ " records jazz", "" ]
+      }
+    },
+
+    "Electro-Jazz": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Electroswing": {
+      "substitutions": {
+        "electro": [ "electro ", "electro-" ]
+      }
+    },
+
+    "Ethio-Jazz": {
+      "substitutions": {
+        "-": [ " " , "", "pean "]
+      }
+    },
+
+    "Ethno Jazz": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "European Free Jazz": {
+      "substitutions": {
+        "free": [ "freeform" ]
+      }
+    },
+
+    "Experimental Big Band": {
+      "substitutions": {
+        "big band": [ "big-band", "bigband" ]
+      },
+      "suffixes": [ " jazz" ]
+    },
+
+    "Experimental Jazz": {},
+
+    "Flamenco Jazz": {},
+
+    "Folk Jazz": {},
+
+    "Freeform Jazz": {
+      "substitutions": {
+        "freeform": [ "free form", "free-form", "free" ]
+      }
+    },
+
+    "Fusion Jazz": {},
+
+    "Hard Bop": {
+      "substitutions": {
+        " ": [ "-", "" ]
+      },
+      "suffixes": [ " jazz" ]
+    },
+
+    "Hot Jazz": {
+      "substitutions": {
+        "hot": [ "dixieland ", "dixie land ", "dixie-land " ]
+      }
+    },
+
+    "Indie Jazz": {
+      "substitutions": {
+        "ie": [ "y", "ependent" ],
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Indo Jazz": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Jazz Guitar": {},
+
+    "Jazz Manouche": {
+      "substitutions": {
+        "jazz manouche": [ "gypsy jazz" ]
+      }
+    },
+
+    "Jazz Metal": {
+      "substitutions": {
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Jazz Noir": {},
+
+    "Jazz Piano": {},
+
+    "Jazz Poetry": {
+      "substitutions": {
+        "try": [ "m", "ms" ]
+      }
+    },
+
+    "Jazz Pop": {
+      "substitutions": {
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Jazz Rock": {
+      "substitutions": {
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Jazztronica": {},
+
+    "Kansas City Jazz": {},
+
+    "Lounge": {
+      "suffixes": [ " jazz", " music" ]
+    },
+
+    "Lounge Revival": {
+      "substitutions": {
+        "lounge": [ "lounge jazz" ]
+      }
+    },
+
+    "M-Base": {
+      "substitutions": {
+        "-": [ "", " " ]
+      },
+      "suffixes": [ " jazz" ]
+    },
+
+    "Mainstream Jazz": {
+      "substitutions": {
+        "main": [ "main ", "main-" ]
+      }
+    },
+
+    "Modal Jazz": {},
+
+    "Modern Jazz": {},
+
+    "Neo-Bop": {
+      "substitutions": {
+        "-": [ "", " " ]
+      },
+      "suffixes": [ " jazz" ]
+    },
+
+    "Neo-Swing": {
+      "substitutions": {
+        "-": [ "", " " ]
+      },
+      "suffixes": [ " jazz" ]
+    },
+
+    "Nu-Jazz": {
+      "substitutions": {
+        "nu": [ "nü" ],
+        "-": [ "", " " ]
+      }
+    },
+
+    "Old-Style Jazz": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Orchestral Jazz": {
+      "substitutions": {
+        "orchestral ": [ "orch ", "orch. ", "orch' ", "orchestra ", "orch-", "orch.-", "orch'-", "orchestra-" ]
+      }
+    },
+
+    "Post-Bop": {
+      "substitutions": {
+        "-": [ "", " " ]
+      },
+      "suffixes": [ " jazz" ]
+    },
+
+    "Progressive Big Band": {
+      "substitutions": {
+        "big band": [ "big-band", "bigband" ],
+        "progressive": [ "prog", "prog." ]
+      },
+      "suffixes": [ " jazz" ]
+    },
+
+    "Punk Jazz": {},
+
+    "Ragtime": {
+      "suffixes": [ " jazz" ]
+    },
+
+    "Retro Swing": {
+      "substitutions": {
+        "retro ": [ "retro", "retro-" ]
+      },
+      "suffixes": [ " jazz" ]
+    },
+
+    "Smooth Jazz": {},
+
+    "Soul Jazz": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Spiritual Jazz": {},
+
+    "Straight-Ahead Jazz": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Stride": {
+      "suffixes": [ " jazz", " jazz piano" ]
+    },
+
+    "Swing Jazz": {
+      "substitutions": {
+        " jazz": [ "" ]
+      }
+    },
+
+    "Swing Revival": {
+      "substitutions": {
+        "swing": [ "swing jazz" ]
+      }
+    },
+
+    "Swingin' Lounge": {
+      "substitutions": {
+        "'": [ "", "g" ]
+      },
+      "suffixes": [ " jazz", " music" ]
+    },
+
+    "Synthetic Jazz": {},
+
+    "Third Stream": {
+      "substitutions": {
+        "third": [ "3rd" ],
+        " ": [ "", "-" ]
+      },
+      "suffixes": [ " jazz" ]
+    },
+
+    "Tin Pan Alley": {},
+
+    "Traditional Jazz": {
+      "substitutions": {
+        "traditional ": [
+          "trad ",
+          "trad. ",
+          "trad' ",
+          "trad-",
+          "trad.-",
+          "trad'-"
+        ]
+      }
+    },
+
+    "Vocal Jazz": {},
+
+    "West Coast Jazz": {
+      "substitutions": {
+        "west ": [ "west", "west-" ]
+      }
+    },
+
+    "West Coast Revival": {
+      "substitutions": {
+        "west ": [ "west", "west-" ]
+      },
+      "suffixes": [
+        " jazz",
+        " hot jazz",
+        " dixieland jazz",
+        " dixie land jazz",
+        " dixie-land jazz"
+      ]
+    },
+
+    "Yass": {}
+  }
+}

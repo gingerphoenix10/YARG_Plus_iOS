@@ -23,11 +23,12 @@ extern void NativeInputSystem_AllocateDeviceId_m0F5EA2F96B8C2DB31D86E14B7F3C3410
 extern void NativeInputSystem_QueueInputEvent_m9363FC2953D733EA8A3AE58470A90B4767ED0B7B (void);
 extern void NativeInputSystem_IOCTL_m11AC7B69197C6214E794B563D48FD60E848901E7 (void);
 extern void NativeInputSystem_SetPollingFrequency_mDEF2E1093D0776906BC95CC8E29A143C115910A0 (void);
+extern void NativeInputSystem_GetPollingFrequency_mFFB29B13E084272DF1BC203E5F2A73266270979F (void);
 extern void NativeInputSystem_Update_m898216ECCA26122D827C2FB45FC4A20296031036 (void);
 extern void NativeInputSystem_get_normalizeScrollWheelDelta_mF633DF00F7F5823179F3473BC5E07BE9BF75A04F (void);
 extern void NativeInputSystem_set_normalizeScrollWheelDelta_mA6CCECFB417A30D7AEB05FDB313FEA28963F012D (void);
 extern void NativeInputSystem_GetScrollWheelDeltaPerTick_mD4FBEBF03836656D5DE3D39A8CEB3CB395DB607B (void);
-static Il2CppMethodPointer s_methodPointers[20] = 
+static Il2CppMethodPointer s_methodPointers[21] = 
 {
 	NativeUpdateCallback__ctor_m04FDCD50564E7535FADAFF34BBA83500585A84F5,
 	NativeUpdateCallback_Invoke_mC4B7018AE8ED52FB9C6805F65C57A81812D21333,
@@ -45,39 +46,41 @@ static Il2CppMethodPointer s_methodPointers[20] =
 	NativeInputSystem_QueueInputEvent_m9363FC2953D733EA8A3AE58470A90B4767ED0B7B,
 	NativeInputSystem_IOCTL_m11AC7B69197C6214E794B563D48FD60E848901E7,
 	NativeInputSystem_SetPollingFrequency_mDEF2E1093D0776906BC95CC8E29A143C115910A0,
+	NativeInputSystem_GetPollingFrequency_mFFB29B13E084272DF1BC203E5F2A73266270979F,
 	NativeInputSystem_Update_m898216ECCA26122D827C2FB45FC4A20296031036,
 	NativeInputSystem_get_normalizeScrollWheelDelta_mF633DF00F7F5823179F3473BC5E07BE9BF75A04F,
 	NativeInputSystem_set_normalizeScrollWheelDelta_mA6CCECFB417A30D7AEB05FDB313FEA28963F012D,
 	NativeInputSystem_GetScrollWheelDeltaPerTick_mD4FBEBF03836656D5DE3D39A8CEB3CB395DB607B,
 };
-static const int32_t s_InvokerIndices[20] = 
+static const int32_t s_InvokerIndices[21] = 
 {
-	9139,
-	8364,
-	36633,
-	35280,
-	36734,
-	35276,
-	31686,
-	31688,
-	31680,
-	35263,
-	36590,
-	36590,
-	36614,
-	35278,
-	26785,
-	35292,
-	35276,
-	36575,
-	35263,
-	36681,
+	10675,
+	9724,
+	43500,
+	42032,
+	43624,
+	42028,
+	37723,
+	37725,
+	37717,
+	42015,
+	43452,
+	43452,
+	43480,
+	42030,
+	31684,
+	42047,
+	43563,
+	42028,
+	43435,
+	42015,
+	43563,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_InputModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_InputModule_CodeGenModule = 
 {
 	"UnityEngine.InputModule.dll",
-	20,
+	21,
 	s_methodPointers,
 	0,
 	NULL,

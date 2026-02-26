@@ -1,0 +1,247 @@
+{
+  "name": "Latin",
+
+  "subgenres": {
+    "Afro-Cuban Jazz": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Andalusian Rock": {
+      "substitutions": {
+        "andalusian": [ "andalusia" ]
+      }
+    },
+
+    "Argentine Rock": {
+      "substitutions": {
+        "argentine rock": [ "argentina rock", "argentinian rock", "argentinean rock", "rock nacional" ]
+      }
+    },
+
+    "Ballroom Rumba": {
+      "substitutions": {
+        "rumba": [ "rhumba" ]
+      }
+    },
+
+    "Ballroom Conga": {},
+
+    "Bambuco": {},
+
+    "Bambuco Fiestero": {},
+
+    "Bolero": {},
+
+    "Brazilian Rock": {
+      "substitutions": {
+        "brazilian rock": [ "brazil rock" ]
+      }
+    },
+
+    "Calypso": {},
+
+    "Canción": {
+      "substitutions": {
+        "ó": [ "o" ]
+      }
+    },
+
+    "Canción Andaluza": {
+      "substitutions": {
+        "canción andaluza": [ "cancion andaluza", "andalusian canción", "andalusian cancion" ]
+      }
+    },
+
+    "Canción Española": {
+      "substitutions": {
+        "canción española": [
+          "cancion espanola",
+          "canción espanola",
+          "cancion española",
+          "spanish cancion",
+          "spanish canción"
+        ]
+      }
+    },
+
+    "Canción Folklórica": {
+      "substitutions": {
+        "canción folklórica": [ "cancion folklorica", "canción folklorica", "cancion folklórica" ]
+      }
+    },
+
+    "Candombe": {},
+
+    "Carnavalito": {},
+
+    "Catalan Rumba": {},
+
+    "Chamamé": {
+      "substitutions": {
+        "é": [ "e" ]
+      }
+    },
+
+    "Chicano Rock": {},
+
+    "Chilean Rock": {
+      "substitutions": {
+        "chilean": [ "chile" ]
+      }
+    },
+
+    "Choro": {
+      "substitutions": {
+        "choro": [ "chorinho" ]
+      }
+    },
+
+    "Colombian Rock": {
+      "substitutions": {
+        "colombian": [ "colombia" ]
+      }
+    },
+
+    "Conga": {},
+
+    "Contradanza": {},
+
+    "Copla": {},
+
+    "Copla Andaluza": {
+      "substitutions": {
+        "copla andaluza": [ "andalusian copla" ]
+      }
+    },
+
+    "Cuplé": {
+      "substitutions": {
+        "é": [ "e" ]
+      }
+    },
+
+    "Danzón": {
+      "substitutions": {
+        "ó": [ "o" ]
+      },
+      "suffixes": [ "ete" ]
+    },
+
+    "Diablada": {
+      "substitutions": {
+        "diablada": [ "danza de los diablos" ]
+      }
+    },
+
+    "Ecuadorian Rock": {
+      "substitutions": {
+        "ecuadorian": [ "ecuador" ]
+      }
+    },
+
+    "Fandango": {},
+
+    "Flamenco": {},
+
+    "Huayno": {
+      "substitutions": {
+        "huayno": [ "waynu" ]
+      }
+    },
+
+    "Iê-Iê-Iê": {
+      "substitutions": {
+        "ê": [ "e" ],
+        "-": [ " " ]
+      }
+    },
+
+    "Latin Fusion": {},
+
+    "Latin Jazz": {},
+
+    "Latin Metal": {
+        "substitutions": {
+          "metal": [ "heavy metal" ]
+        }
+    },
+
+    "Latin Pop": {},
+
+    "Latin Rock": {},
+
+    "Latino": {},
+
+    "Limbo": {},
+
+    "Mariachi": {},
+
+    "Milonga": {},
+
+    "Morenada": {},
+
+    "Neotango": {
+      "substitutions": {
+        "neo": [ "neo ", "neo-" ]
+      }
+    },
+
+    "New Flamenco": {},
+
+    "Orchestral Flamenco": {
+      "substitutions": {
+        "orchestral": [ "orchestra", "orchestration", "orch", "orch." ]
+      }
+    },
+
+    "Reggaeton": {},
+
+    "Regional Mexican": {},
+
+    "Rhumba": {},
+
+    "Rock en Español": {
+      "substitutions": {
+        "ñ": [ "n", "n~" ]
+      }
+    },
+
+    "Rumba": {},
+
+    "Salsa": {},
+
+    "Samba": {},
+
+    "Samba Rock": {},
+
+    "Sanjuanero": {},
+
+    "Saya": {},
+
+    "Soca": {},
+
+    "Son Cubano": {},
+
+    "Son Mexicano": {},
+
+    "Son Montuno": {},
+
+    "Tango": {},
+
+    "Tejano": {},
+
+    "Tinku": {},
+
+    "Tonadilla": {},
+
+    "Tropicália": {
+      "substitutions": {
+        "á": [ "a" ]
+      }
+    },
+
+    "Xote": {}
+  }
+}

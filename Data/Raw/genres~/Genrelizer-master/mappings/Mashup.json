@@ -1,0 +1,79 @@
+{
+  "name": "Mashup",
+
+  "substitutions": {
+    "mashup": [ "mash up", "mash-up" ]
+  },
+
+  "subgenres": {
+    "Compilation": {},
+
+    "DJ": {
+      "substitutions": {
+        "dj": [ "deejay", "disc jockey", "disk jockey", "disc jockeying", "disk jockeying" ]
+      }
+    },
+
+    "Electronic Mashup": {
+      "substitutions": {
+        "mashup": [ "mash up", "mash-up" ]
+      }
+    },
+
+    "Endless Setlist": {},
+
+    "Guitar Turntablism": {},
+
+    "Medley": {},
+
+    "Megamix": {
+      "substitutions": {
+        "mega": [ "mega ", "mega-" ]
+      }
+    },
+
+    "Plunderphonics": {
+      "substitutions": {
+        "plunder": [ "plunder-", "plunder " ],
+        "phonics": [ "phonic" ]
+      }
+    },
+
+    "Sampledelia": {
+      "substitutions": {
+        "sample": [ "sample-", "sample " ]
+      }
+    },
+
+    "Sampling": {},
+
+    "Scratching": {},
+
+    "Solo Medley": {},
+
+    "Sound Collage": {},
+
+    "Soundclown": {
+      "substitutions": {
+        "clown": [ " clown", "-clown" ]
+      }
+    },
+
+    "Turntablism": {},
+
+    "Various": {
+      "substitutions": {
+        "various": [ "multiple", "many", "several", "numerous" ]
+      },
+      "suffixes": [ " genres", " styles" ]
+    },
+
+    "Xenochrony": {},
+
+    "YTPMV": {
+      "substitutions": {
+        "ytpmv": [ "ytp", "youtube poop", "youtube poop music video", "ytp music video" ]
+      }
+    }
+  }
+}

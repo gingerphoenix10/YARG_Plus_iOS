@@ -1,0 +1,60 @@
+{
+  "name": "Trap",
+
+  "subgenres": {
+    "Ambient Trap": {
+      "substitutions": {
+        "ambient": [ "amb", "amb'", "amb." ]
+      }
+    },
+
+    "Country Trap": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Experimental Trap": {},
+
+    "Gqom Trap": {},
+
+    "Hybrid Trap": {},
+
+    "Moombahtrap": {
+      "substitutions": {
+        "trap": [ " trap", "-trap" ]
+      }
+    },
+
+    "Neotrap": {
+      "substitutions": {
+        "neo": [ "neo ", "neo-" ]
+      }
+    },
+
+    "Plugg": {},
+
+    "Riddim Trap": {},
+
+    "Sexy Trap": {},
+
+    "Trap Metal": {
+      "substitutions": {
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Trap Pop": {
+      "substitutions": {
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Vaportrap": {
+      "substitutions": {
+        "vapor": [ "vapour" ],
+        "trap": [ " trap", "-trap" ]
+      }
+    }
+  }
+}

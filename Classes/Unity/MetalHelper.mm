@@ -45,22 +45,8 @@ static MTLPixelFormat GetColorFormatForSurface(const UnityDisplaySurfaceMTL* sur
     return colorFormat;
 }
 
-static uint32_t GetCVPixelFormatForSurface(const UnityDisplaySurfaceMTL* surface)
-{
-    // this makes sense only for ios (at least we dont support this on macos)
-    uint32_t colorFormat = kCVPixelFormatType_32BGRA;
-#if PLATFORM_IOS || PLATFORM_TVOS || PLATFORM_VISIONOS
-    if (surface->wideColor && UnityIsWideColorSupported())
-        colorFormat = kCVPixelFormatType_30RGB;
-#endif
-
-    return colorFormat;
-}
-
 extern "C" void CreateSystemRenderingSurfaceMTL(UnityDisplaySurfaceMTL* surface)
 {
-    DestroySystemRenderingSurfaceMTL(surface);
-
     MTLPixelFormat colorFormat = GetColorFormatForSurface(surface);
     surface->swapchain.layer.presentsWithTransaction = NO;
     surface->swapchain.layer.drawsAsynchronously = YES;
@@ -99,160 +85,84 @@ extern "C" void CreateSystemRenderingSurfaceMTL(UnityDisplaySurfaceMTL* surface)
     surface->colorFormat = (unsigned)colorFormat;
 }
 
-extern "C" void CreateRenderingSurfaceMTL(UnityDisplaySurfaceMTL* surface)
+extern "C" void CreateUnityRenderBuffersMTL(UnityDisplaySurfaceMTL* surface)
 {
-    DestroyRenderingSurfaceMTL(surface);
-
-    MTLPixelFormat colorFormat = GetColorFormatForSurface(surface);
-
     const int w = surface->targetW, h = surface->targetH;
+    const bool needInterimColor = w != surface->systemW || h != surface->systemH;
 
-    if (w != surface->systemW || h != surface->systemH || surface->useCVTextureCache)
+    if (needInterimColor)
     {
-        if (surface->useCVTextureCache)
-            surface->cvTextureCache = CreateCVTextureCache();
-
-        if (surface->cvTextureCache)
-        {
-            surface->cvTextureCacheTexture = CreateReadableRTFromCVTextureCache2(surface->cvTextureCache, surface->targetW, surface->targetH,
-                GetCVPixelFormatForSurface(surface), colorFormat, &surface->cvPixelBuffer);
-            surface->targetColorRT = GetMetalTextureFromCVTextureCache(surface->cvTextureCacheTexture);
-        }
-        else
-        {
-            MTLTextureDescriptor* txDesc = [MTLTextureDescriptor new];
-            txDesc.textureType = MTLTextureType2D;
-            txDesc.width = w;
-            txDesc.height = h;
-            txDesc.depth = 1;
-            txDesc.pixelFormat = colorFormat;
-            txDesc.arrayLength = 1;
-            txDesc.mipmapLevelCount = 1;
-            txDesc.usage = MTLTextureUsageRenderTarget | MTLTextureUsageShaderRead;
-            surface->targetColorRT = [surface->device newTextureWithDescriptor: txDesc];
-        }
-        surface->targetColorRT.label = @"targetColorRT";
-
-        UnityRegisterExternalRenderSurfaceTextureForMemoryProfiler(surface->targetColorRT);
+        surface->targetColorRB = UnitySwapchainCreateBackbufferForExtents(&surface->swapchain, surface->targetColorRB, w, h);
+    }
+    else
+    {
+        UnityDestroyExternalSurface(surface->targetColorRB);
+        surface->targetColorRB = 0;
     }
 
     if (surface->msaaSamples > 1)
     {
-        MTLTextureDescriptor* txDesc = [MTLTextureDescriptor new];
-        txDesc.textureType = MTLTextureType2DMultisample;
-        txDesc.width = w;
-        txDesc.height = h;
-        txDesc.depth = 1;
-        txDesc.pixelFormat = colorFormat;
-        txDesc.arrayLength = 1;
-        txDesc.mipmapLevelCount = 1;
-        txDesc.sampleCount = surface->msaaSamples;
-        txDesc.resourceOptions = MTLResourceStorageModePrivate;
-        txDesc.usage = MTLTextureUsageRenderTarget | MTLTextureUsageShaderRead;
-        if (![surface->device supportsTextureSampleCount: txDesc.sampleCount])
-            txDesc.sampleCount = 4;
-        surface->targetAAColorRT = [surface->device newTextureWithDescriptor: txDesc];
-        surface->targetAAColorRT.label = @"targetAAColorRT";
-
-        UnityRegisterExternalRenderSurfaceTextureForMemoryProfiler(surface->targetAAColorRT);
-    }
-}
-
-extern "C" void DestroyRenderingSurfaceMTL(UnityDisplaySurfaceMTL* surface)
-{
-    UnityUnregisterMetalTextureForMemoryProfiler(surface->targetColorRT);
-    surface->targetColorRT = nil;
-    UnityUnregisterMetalTextureForMemoryProfiler(surface->targetAAColorRT);
-    surface->targetAAColorRT = nil;
-
-    if (surface->cvTextureCacheTexture)
-        CFRelease(surface->cvTextureCacheTexture);
-    if (surface->cvPixelBuffer)
-        CFRelease(surface->cvPixelBuffer);
-    if (surface->cvTextureCache)
-        CFRelease(surface->cvTextureCache);
-    surface->cvTextureCache = 0;
-}
-
-extern "C" void CreateSharedDepthbufferMTL(UnityDisplaySurfaceMTL* surface)
-{
-    DestroySharedDepthbufferMTL(surface);
-}
-
-extern "C" void DestroySharedDepthbufferMTL(UnityDisplaySurfaceMTL* surface)
-{
-    UnityUnregisterMetalTextureForMemoryProfiler(surface->depthRB);
-    surface->depthRB = nil;
-    surface->stencilRB = nil;
-}
-
-extern "C" void CreateUnityRenderBuffersMTL(UnityDisplaySurfaceMTL* surface)
-{
-    if (surface->targetColorRT)
-    {
-        if (surface->targetAAColorRT)   // render to interim AA RT and resolve to interim RT
-            surface->unityColorBuffer   = UnityCreateAABackbufferFromTexture2D(surface->unityColorBuffer, surface->targetAAColorRT, surface->targetColorRT);
-        else                            // render to interim RT
-            surface->unityColorBuffer   = UnityCreateBackbufferFromTexture2D(surface->unityColorBuffer, surface->targetColorRT);
+        if (needInterimColor)
+            surface->targetAAColorRB = UnitySwapchainCreateAABackbuffer(&surface->swapchain, surface->targetAAColorRB, surface->msaaSamples, surface->targetColorRB);
+        else
+            surface->targetAAColorRB = UnitySwapchainCreateAABackbufferResolveToSwapchain(&surface->swapchain, surface->targetAAColorRB, surface->msaaSamples);
     }
     else
     {
-        if (surface->targetAAColorRT)   // render to AA RT and resolve to backbuffer
-            surface->unityColorBuffer   = UnityCreateAABackbufferResolveToSwapchain(surface->unityColorBuffer, surface->targetAAColorRT, &surface->swapchain);
-        else                            // render directly to backbuffer
-            surface->unityColorBuffer   = UnityCreateBackbufferFromSwapchain(surface->unityColorBuffer, &surface->swapchain);
+        UnityDestroyExternalSurface(surface->targetAAColorRB);
+        surface->targetAAColorRB = 0;
     }
 
-    surface->unityDepthBuffer  = UnityCreateDepthForBackbuffer(surface->unityDepthBuffer, surface->unityColorBuffer);
-    surface->systemColorBuffer = UnityCreateBackbufferFromSwapchain(surface->systemColorBuffer, &surface->swapchain);
-    surface->systemDepthBuffer = nullptr;
-}
+    surface->systemColorBuffer = UnitySwapchainCreateBackbuffer(&surface->swapchain, surface->systemColorBuffer);
 
-extern "C" void DestroySystemRenderingSurfaceMTL(UnityDisplaySurfaceMTL* surface)
-{
-    // before we needed to nil surface->systemColorRB (to release drawable we get from the view)
-    // but after we switched to proxy rt this is no longer needed
-    // even more it is harmful when running rendering on another thread (as is default now)
-    // as on render thread we do StartFrameRenderingMTL/AcquireDrawableMTL/EndFrameRenderingMTL
-    // and DestroySystemRenderingSurfaceMTL comes on main thread so we might end up with race condition for no reason
+    if (surface->targetAAColorRB)
+        surface->unityColorBuffer = surface->targetAAColorRB;
+    else if (surface->targetColorRB)
+        surface->unityColorBuffer = surface->targetColorRB;
+    else
+        surface->unityColorBuffer = surface->systemColorBuffer;
+
+    surface->unityDepthBuffer  = UnitySwapchainCreateDepthForBackbuffer(&surface->swapchain, surface->unityColorBuffer, surface->unityDepthBuffer);
 }
 
 extern "C" void DestroyUnityRenderBuffersMTL(UnityDisplaySurfaceMTL* surface)
 {
-    UnityDestroyExternalSurface(surface->unityColorBuffer);
-    UnityDestroyExternalSurface(surface->systemColorBuffer);
-    surface->unityColorBuffer = surface->systemColorBuffer = 0;
+    UnitySwapchainDestroyBackbuffer(&surface->swapchain, surface->systemColorBuffer);
+    UnitySwapchainDestroyBackbuffer(&surface->swapchain, surface->unityDepthBuffer);
+    UnitySwapchainDestroyBackbuffer(&surface->swapchain, surface->targetColorRB);
+    UnitySwapchainDestroyBackbuffer(&surface->swapchain, surface->targetAAColorRB);
+    surface->targetColorRB = surface->targetAAColorRB = surface->systemColorBuffer = surface->unityDepthBuffer = 0;
 
-    UnityDestroyExternalSurface(surface->unityDepthBuffer);
-    UnityDestroyExternalSurface(surface->systemDepthBuffer);
-    surface->unityDepthBuffer = surface->systemDepthBuffer = 0;
+    surface->unityColorBuffer = 0;
 }
 
-extern "C" void PreparePresentMTL(UnityDisplaySurfaceMTL* surface)
+extern "C" void PreparePresentMTL(UnityDisplaySurfaceMTL* surface, MTLCommandBufferRef cb)
 {
-    if (surface->targetColorRT)
-        UnityBlitToBackbuffer(surface->unityColorBuffer, surface->systemColorBuffer, surface->systemDepthBuffer);
+    if (surface->targetColorRB)
+        UnitySwapchainBlitBackbuffer(&surface->swapchain, surface->targetColorRB, cb);
     APP_CONTROLLER_RENDER_PLUGIN_METHOD(onFrameResolved);
 }
 
-extern "C" void PresentMTL(UnityDisplaySurfaceMTL* surface)
+extern "C" void PresentMTL(UnityDisplaySurfaceMTL* surface, MTLCommandBufferRef cb)
 {
-    // CODE ARCHEOLOGY: we used to present using [MTLCommandBuffer presentDrawable:afterMinimumDuration:]
-    //   however that was found to sometimes cause 0.5-1 seconds hangs when acquiring drawable after surface rebuild, or presenting hanging completely (UUM-9480)
-    //   after some further investigation we found that using the more complex present logic didn't actually yield much benefit
-    //   current implementation is made to align with our macOS present logic
     UnityViewSwapchain* swapchain = &surface->swapchain;
-    if (swapchain->drawable)
+    @autoreleasepool
     {
-        id<CAMetalDrawable> drawable = swapchain->drawable;
-        [UnityCurrentMTLCommandBuffer() addScheduledHandler:^(id<MTLCommandBuffer> commandBuffer) {
-            [drawable present];
-        }];
+        if (swapchain->drawable)
+            [cb presentDrawable:swapchain->drawable];
+
+        if (swapchain->drawableTexture)
+            UnityUnregisterMetalTextureForMemoryProfiler(swapchain->drawableTexture);
+
+        swapchain->nextDrawable = nil;
+        swapchain->drawable = nil;
+        swapchain->drawableTexture = nil;
     }
+
     surface->calledPresentDrawable = 1;
 }
 
-extern "C" MTLTextureRef AcquireSwapchainDrawable(UnityViewSwapchain* swapchain)
+UNITY_EXPORT extern "C" MTLTextureRef AcquireSwapchainDrawable(UnityViewSwapchain* swapchain)
 {
     // check if have acquired the backbuffer texture already
     if (swapchain->drawableTexture)
@@ -293,7 +203,7 @@ extern "C" MTLTextureRef AcquireSwapchainDrawable(UnityViewSwapchain* swapchain)
 
 }
 
-extern "C" MTLTextureRef AcquireDrawableMTL(UnityDisplaySurfaceMTL* surface)
+UNITY_EXPORT extern "C" MTLTextureRef AcquireDrawableMTL(UnityDisplaySurfaceMTL* surface)
 {
     if (!surface)
         return nil;
@@ -301,7 +211,7 @@ extern "C" MTLTextureRef AcquireDrawableMTL(UnityDisplaySurfaceMTL* surface)
     return AcquireSwapchainDrawable(&surface->swapchain);
 }
 
-extern "C" int UnityCommandQueueMaxCommandBufferCountMTL()
+UNITY_EXPORT extern "C" int UnityCommandQueueMaxCommandBufferCountMTL()
 {
     // customizable argument to pass towards [MTLDevice newCommandQueueWithMaxCommandBufferCount:],
     // the default value is 64 but with Parallel Render Encoder workloads, it might need to be increased
@@ -309,47 +219,10 @@ extern "C" int UnityCommandQueueMaxCommandBufferCountMTL()
     return 256;
 }
 
-extern "C" void StartFrameRenderingMTL(UnityDisplaySurfaceMTL* surface)
+UNITY_EXPORT extern "C" void StartFrameRenderingMTL(UnityDisplaySurfaceMTL* surface)
 {
-    surface->systemColorBuffer = UnityCreateBackbufferFromSwapchain(surface->systemColorBuffer, &surface->swapchain);
-    if (surface->targetColorRT == nil)
-    {
-        if (surface->targetAAColorRT)
-            surface->unityColorBuffer = UnityCreateAABackbufferResolveToSwapchain(surface->unityColorBuffer, surface->targetAAColorRT, &surface->swapchain);
-        else
-            surface->unityColorBuffer = UnityCreateBackbufferFromSwapchain(surface->unityColorBuffer, &surface->swapchain);
-    }
 }
 
-extern "C" void EndFrameRenderingMTL(UnityDisplaySurfaceMTL* surface)
+UNITY_EXPORT extern "C" void EndFrameRenderingMTL(UnityDisplaySurfaceMTL* surface)
 {
-    UnityViewSwapchain* swapchain = &surface->swapchain;
-
-    @autoreleasepool
-    {
-        if (swapchain->drawableTexture)
-            UnityUnregisterMetalTextureForMemoryProfiler(swapchain->drawableTexture);
-
-        swapchain->drawable = nil;
-        swapchain->drawableTexture = nil;
-
-    #if UNITY_DISPLAY_SURFACE_MTL_BACKWARD_COMPATIBILITY
-
-    #pragma clang diagnostic push
-    #pragma clang diagnostic ignored "-Wdeprecated-declarations"
-
-        surface->drawable       = nil;
-        surface->drawableTex    = nil;
-
-    #pragma clang diagnostic pop
-
-    #endif
-    }
-}
-
-extern "C" void PreparePresentNonMainScreenMTL(UnityDisplaySurfaceMTL* surface)
-{
-    UnityViewSwapchain* swapchain = &surface->swapchain;
-    if (swapchain->drawable)
-        [UnityCurrentMTLCommandBuffer() presentDrawable: swapchain->drawable];
 }

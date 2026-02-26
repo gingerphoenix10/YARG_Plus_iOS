@@ -1,0 +1,66 @@
+{
+  "name": "Pop-Rock",
+
+  "substitutions": {
+    "-": [ "", " " ]
+  },
+
+  "subgenres": {
+    "Britpop": {
+      "substitutions": {
+        "pop": [ " pop", "-pop" ]
+      }
+    },
+
+    "Contemporary Pop-Rock": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Jangle Pop": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Gulf & Western": {
+      "substitutions": {
+        "&": [ "and" ]
+      }
+    },
+
+    "Post-Britpop": {
+      "substitutions": {
+        "post-": [ "post", "post " ],
+        "brit": [ "brit-", "birt " ]
+      }
+    },
+
+    "Power Pop": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Soft Rock": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Teenager Rock": {
+      "substitutions": {
+        "ager": [ "" ],
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Trop Rock": {
+      "substitutions": {
+        "trop": [ "trop.", "trop'", "tropical" ],
+        " ": [ "-", "" ]
+      }
+    }
+  }
+}

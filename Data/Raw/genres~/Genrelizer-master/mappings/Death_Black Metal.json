@@ -1,0 +1,407 @@
+{
+	"name": "Death/Black Metal",
+
+	"substitutions": {
+		"death/black": [
+			"deathblack",
+			"blackdeath",
+			"black/death"
+
+		],
+		" metal": [ "", "metal" ]
+	},
+
+	"subgenres": {
+		"Ambient Black Metal": {
+			"substitutions": {
+				"ambient": [ "amb", "amb'", "amb." ]
+			}
+		},
+
+		"Atmospheric Black Metal": {},
+
+		"Avant-Garde Black Metal": {
+			"substitutions": {
+				"-garde ": [ "garde ", " garde ", "" ]
+			}
+		},
+
+		"Avant-Garde Death Metal": {
+			"substitutions": {
+				"-garde ": [ "garde ", " garde ", "" ],
+				" metal": [ "" ]
+			}
+		},
+
+		"Bestial Black Metal": {},
+
+		"Black Metal": {},
+
+		"Black Speed Metal": {},
+
+		"Black Thrash Metal": {},
+
+		"Black 'n' Roll": {
+			"substitutions": {
+				"'n'": [ "and", "n", "'n", "n'", "&" ],
+				" ": [ "", "-" ]
+			}
+		},
+
+		"Blackened Crust": {},
+
+		"Blackened Death Metal": {},
+
+		"Blackened Deathcore": {
+			"substitutions": {
+				"core": [ " core", "-core" ]
+			}
+		},
+
+		"Blackened Death-Doom": {
+			"substitutions": {
+				"death-doom": [ "death doom" ]
+			},
+			"suffixes": [ " metal" ]
+		},
+
+		"Blackened Folk Metal": {},
+
+		"Blackgaze": {
+			"substitutions": {
+				"black": [ "black ", "black-" ],
+				"gaze": [ "gazing" ]
+			}
+		},
+
+		"Brutal Death Metal": {
+			"substitutions": {
+				" death metal": [ " death", "" ]
+			}
+		},
+
+		"Brutal Deathcore": {
+			"substitutions": {
+				"core": [ " core", "-core" ]
+			}
+		},
+
+		"Brutal Slam": {
+			"substitutions": {
+				"brutal slam": [ "brutal slamming", "slamming brutal", "slam brutal" ]
+			},
+			"suffixes": [ " death", " death metal" ]
+		},
+
+		"Cavernous Death Metal": {},
+
+		"Chinese Technical Deathcore": {
+			"substitutions": {
+				"technical ": [ "tech ", "tech", "tech-" ],
+				"core": [ " core", "-core" ]
+			}
+		},
+
+		"Death-Doom": {
+			"substitutions": {
+				"-": [ "", " " ]
+			},
+			"suffixes": [ " metal" ]
+		},
+
+		"Death Metal": {},
+
+		"Death 'n' Roll": {
+			"substitutions": {
+				"'n'": [ "and", "n", "'n", "n'", "&" ],
+				" ": [ "", "-" ]
+			}
+		},
+
+		"Deathcore": {
+			"substitutions": {
+				"core": [ " core", "-core" ]
+			}
+		},
+
+		"Deathcrust": {
+			"substitutions": {
+				"crust": [ " crust", "-crust" ]
+			}
+		},
+
+		"Deathrash": {
+			"substitutions": {
+				"deathrash": [ "death thrash", "death-thrash" ]
+			},
+			"suffixes": [ " metal" ]
+		},
+
+		"DSBM": {
+			"substitutions": {
+				"dsbm": [ "depressive suicidal black metal", "depressive-suicidal black metal", "depressive/suicidal black metal" ]
+			}
+		},
+
+		"Experimental Black Metal": {},
+
+		"Experimental Death Metal": {},
+
+		"Extreme Metal": {},
+
+		"First-Wave Black Metal": {
+			"substitutions": {
+				"first": [ "1st", "1ˢᵗ" ],
+				"-": [ " ", "" ]
+			}
+		},
+
+		"Folk Black Metal": {},
+
+		"Gothic Black Metal": {},
+
+		"Gothic Death Metal": {
+			"substitutions": {
+				" death metal": [ " death" ]
+			}
+		},
+
+		"Melodic Black Metal": {
+			"substitutions": {
+				"melodic ": [ "melo", "melo ", "melo-" ]
+			}
+		},
+
+		"Melodic Black-Death": {
+			"substitutions": {
+				"melodic ": [ "melo", "melo ", "melo-" ],
+				"black-death": [ "blackdeath", "black death" ]
+			},
+			"suffixes": [ " metal" ]
+		},
+
+		"Melodic Blackened Death Metal": {
+			"substitutions": {
+				" metal": [ "" ]
+			}
+		},
+
+		"Melodic Blackened Folk Metal": {},
+
+		"Melodic Blackened Pagan Metal": {},
+
+		"Melodic Death Metal": {
+			"substitutions": {
+				"melodic ": [ "melo", "melo ", "melo-" ],
+				" metal": [ "" ]
+			}
+		},
+
+		"Melodic Deathcore": {
+			"substitutions": {
+				"melodic ": [ "melo", "melo ", "melo-" ],
+				"core": [ "-core", " core" ]
+			}
+		},
+
+		"Melodic Progressive Death Metal": {
+			"substitutions": {
+				"progressive": [ "prog", "prog.", "prog-", "prog.-" ]
+			}
+		},
+
+		"Modern Death Metal": {
+			"substitutions": {
+				" metal": [ "" ]
+			}
+		},
+
+		"Neoclassical Death Metal": {
+			"substitutions": {
+				"neo": [ "neo ", "neo-" ],
+				" metal": [ "" ]
+			}
+		},
+
+		"Oldschool Death Metal": {
+			"substitutions": {
+			  "old": [ "old ", "old-" ],
+			  " metal": [ "" ]
+			}
+		},
+
+		"Orchestral Death Metal": {
+			"substitutions": {
+				"orchestral": [ "orchestra", "orchestration", "orch", "orch." ],
+				" metal": [ "" ]
+			}
+		},
+
+		"Pagan Black Metal": {},
+
+		"Pagan Death Metal": {
+			"substitutions": {
+				" metal": [ "" ]
+			}
+		},
+
+		"Pagan Metal": {},
+
+		"Post-Black Metal": {
+			"substitutions": {
+				"post-": [ "post", "post " ]
+			}
+		},
+
+		"Progressive Black Metal": {
+			"substitutions": {
+				"progressive": [ "prog", "prog.", "prog-", "prog.-" ]
+			}
+		},
+
+		"Progressive Death Metal": {
+			"substitutions": {
+				"progressive": [ "prog", "prog.", "prog-", "prog.-" ],
+				" metal": [ "" ]
+			}
+		},
+
+		"Progressive Deathcore": {
+			"substitutions": {
+				"progressive": [ "prog", "prog.", "prog-", "prog.-" ],
+				"core": [ " core", "-core" ]
+			}
+		},
+
+		"Progressive Melodic Death Metal": {
+			"substitutions": {
+				"progressive": [ "prog", "prog.", "prog-", "prog.-" ],
+				"melodic ": [ "melo", "melo-" ],
+				" metal": [ "" ]
+			}
+		},
+
+		"Progressive Symphonic Death Metal": {
+			"substitutions": {
+				"progressive": [ "prog", "prog.", "prog-", "prog.-" ],
+				" metal": [ "" ]
+			}
+		},
+
+		"Psychedelic Black Metal": {
+			"substitutions": {
+				"psychedelic": [ "psy", "psy-", "psy ", "psych", "psych-", "psych ", "psyche", "psyche-", "psyche " ]
+			}
+		},
+
+		"Raw Black Metal": {},
+
+		"Raw Death Metal": {
+			"substitutions": {
+				"death metal": [ "death" ]
+			}
+		},
+
+    	"Satanic Black Metal": {},
+
+		"Slam": {
+			"substitutions": {
+				"slam": [
+					"slamming metal",
+					"slamming death metal",
+					"slam metal",
+					"slam death metal",
+					"slam-death metal"
+
+				]
+			}
+		},
+
+		"Stoner Death Metal": {
+			"substitutions": {
+				"death metal": [ "death" ]
+			}
+		},
+
+		"Symphonic Black Metal": {},
+
+		"Symphonic Death Metal": {
+			"substitutions": {
+				" metal": [ "" ]
+			}
+		},
+
+		"Symphonic Deathcore": {
+			"substitutions": {
+				"core": [ " core", "-core" ]
+			}
+		},
+
+		"Symphonic Progressive Death Metal": {
+			"substitutions": {
+				"progressive": [ "prog", "prog.", "prog-", "prog.-" ],
+				" metal": [ "" ]
+			}
+		},
+
+		"Symphonic Technical Death Metal": {
+			"substitutions": {
+				"technical": [ "tech", "tech-", "tech " ]
+			}
+		},
+
+		"Technical Brutal Death Metal": {
+			"substitutions": {
+				"technical ": [ "tech", "tech-", "tech " ],
+				" metal": [ "" ]
+			}
+		},
+
+		"Technical Death Metal": {
+			"substitutions": {
+				"technical ": [ "tech", "tech-", "tech " ],
+				" metal": [ "" ]
+			}
+		},
+
+		"Technical Deathcore": {
+			"substitutions": {
+				"technical ": [ "tech ", "tech", "tech-" ],
+				"core": [ " core", "-core" ]
+			}
+		},
+
+		"Technical Melodic Death Metal": {
+			"substitutions": {
+				"technical ": [ "tech ", "tech", "tech-" ],
+				"melodic ": [ "melo", "melo ", "melo-" ],
+				" metal": [ "" ]
+			}
+		},
+
+		"Technical Slam": {
+			"substitutions": {
+				"technical ": [ "tech", "tech ", "tech-" ],
+				"slam": [
+					"slamming metal",
+					"slamming death metal",
+					"slam metal",
+					"slam death metal",
+					"slam-death metal"
+				]
+			}
+		},
+
+		"Unblack Metal": {
+			"substitutions": {
+				"unblack": [ "un-black", "white " ]
+			}
+		},
+
+		"Viking Metal": {},
+
+		"War Black Metal": {},
+
+		"War Metal": {}
+	}
+}

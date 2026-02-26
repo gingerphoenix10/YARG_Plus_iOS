@@ -1,0 +1,194 @@
+{
+  "name": "Pop",
+
+  "suffixes": [
+    " music"
+  ],
+
+  "subgenres": {
+    "80's Pop": {
+      "substitutions": {
+        "80's": [ "80s", "1980s", "1980's", "eighties" ]
+      }
+    },
+
+    "90's Pop": {
+      "substitutions": {
+        "90's": [ "90s", "1990s", "1990's", "nineties" ]
+      }
+    },
+
+    "Adult Alternative": {
+      "substitutions": {
+        " ": [ "-" ],
+        "alternative": [ "alt", "alt.", "alt'", "altern", "altern.", "altern'", "alternate" ]
+      }
+    },
+
+    "Adult Contemporary": {
+      "substitutions": {
+        " ": [ "-" ]
+      }
+    },
+
+    "Ambient Pop": {
+      "substitutions": {
+        "ambient": [ "amb", "amb'", "amb." ]
+      }
+    },
+
+    "Art Pop": {
+      "substitutions": {
+        " pop": [ "-pop", "pop" ]
+      }
+    },
+
+    "Baroque Pop": {
+      "substitutions": {
+        " pop": [ "-pop", "pop" ]
+      }
+    },
+
+    "Bubblegum Bass": {
+      "substitutions": {
+        "gum": [ "-gum", " gum" ]
+      }
+    },
+
+    "Bubblegum Pop": {
+      "substitutions": {
+        "gum": [ "-gum", " gum" ],
+        " pop": [ "-pop", "pop" ]
+      }
+    },
+
+    "Chamber Pop": {},
+
+    "City Pop": {},
+
+    "Classic Pop": {
+      "suffixes": [
+        " music"
+      ]
+    },
+
+    "Classical Crossover": {},
+
+    "Contemporary Pop": {
+      "suffixes": [
+        " music"
+      ]
+    },
+
+    "Doo-Wop": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Dream Pop": {
+      "substitutions": {
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Europop": {
+      "substitutions": {
+        "euro": [ "euro ", "euro-" ]
+      }
+    },
+
+    "Experimental Pop": {},
+
+    "Hyperpop": {
+      "substitutions": {
+        "pop": [ "-pop", " pop" ]
+      }
+    },
+
+    "Indie Pop": {
+      "substitutions": {
+        "ie": [ "y", "ependent" ],
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Live Pop": {},
+
+    "Mainstream Pop": {},
+
+    "Mainstream Urban":  {
+      "suffixes": [ " music" ]
+    },
+
+    "Modern Pop": {
+      "suffixes": [
+        " music"
+      ]
+    },
+
+    "Music Hall": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "New Jack Swing": {},
+
+    "Operatic Pop": {},
+
+    "Orchestral Pop": {
+      "substitutions": {
+        "orchestral": [ "orchestra", "orchestration", "orch", "orch." ]
+      }
+    },
+
+    "Progressive Pop": {
+      "substitutions": {
+        "progressive": [ "prog", "prog.", "prog-", "prog.-" ]
+      }
+    },
+
+    "Radio Pop": {},
+
+    "Space Pop": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Sunshine Pop": {},
+
+    "Teen Pop": {
+      "substitutions": {
+        " ": [ "-", "" ]
+      }
+    },
+
+    "Traditional Pop": {
+      "substitutions": {
+        "traditional ": [ "trad ", "trad. ", "trad-" ]
+      },
+      "suffixes": [ " music" ]
+    },
+
+    "Urban Adult Alternative": {},
+
+    "Urban Adult Contemporary": {},
+
+    "Urban Contemporary": {
+      "suffixes": [ " music" ]
+    },
+
+    "Urban Pop": {},
+
+    "Violin Pop": {},
+
+    "Yé-Yé": {
+      "substitutions": {
+        "é": [ "e" ],
+        "-": [ "", " " ]
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Disco",
+
+  "subgenres": {
+    "Daytime Disco": {
+      "substitutions": {
+        "day": [ "day ", "day-" ]
+      }
+    },
+
+    "Disco Funk": {
+      "substitutions": {
+        "disco ": [ "disco", "disco-" ]
+      }
+    },
+
+    "Disco Polo": {},
+
+    "Euro Disco": {
+      "substitutions": {
+        "euro ": [ "euro", "euro-" ]
+      }
+    },
+
+    "Nu-Disco": {
+      "substitutions": {
+        "nu": [ "nü" ],
+        "-": [ "", " " ]
+      }
+    },
+
+    "Post-Disco": {
+      "substitutions": {
+        "-":  ["", " "]
+      }
+    }
+  }
+}

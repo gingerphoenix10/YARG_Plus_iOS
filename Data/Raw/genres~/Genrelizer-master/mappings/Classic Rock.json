@@ -1,0 +1,61 @@
+{
+  "name": "Classic Rock",
+
+  "substitutions": {
+    " ": [ "", "-" ]
+  },
+
+  "subgenres": {
+    "60's Rock": {
+      "substitutions": {
+        "60's": [ "60s", "1960s", "1960's", "sixties" ]
+      }
+    },
+
+    "70's Rock": {
+      "substitutions": {
+        "70's": [ "70s", "1970s", "1970's", "seventies" ]
+      }
+    },
+
+    "Album-Oriented Rock": {
+      "substitutions": {
+        "album-oriented rock": [ "album oriented rock", "aor", "a.o.r.", "a.o.r" ]
+      }
+    },
+
+    "Classic Rock Revival": {
+      "substitutions": {
+        " rock": [ "rock", "-rock"],
+        " revival": [ "-revival" ]
+      }
+    },
+
+    "Crocodile Rock": {},
+
+    "Dad Rock": {
+      "substitutions": {
+        "dad ": [ "dad", "dad-" ]
+      }
+    },
+
+    "Heartland Rock": {
+      "substitutions": {
+        "land": [ "-land", " land" ]
+      }
+    },
+
+    "Nederbeat": {
+      "substitutions": {
+        "neder": [ "neder ", "neder-" ],
+        "beat": [ "biet" ]
+      }
+    },
+
+    "Yacht Rock": {
+      "substitutions": {
+        "yacht ": [ "yacht", "yacht-" ]
+      }
+    }
+  }
+}

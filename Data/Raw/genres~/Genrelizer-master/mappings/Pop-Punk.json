@@ -1,0 +1,25 @@
+{
+  "name": "Pop-Punk",
+
+  "substitutions": {
+    "-": [ "", " " ]
+  },
+
+  "suffixes": [ " rock", "rock", "-rock" ],
+
+  "subgenres": {
+    "Neon Pop-Punk": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    },
+
+    "Skate Punk": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      },
+      "suffixes": [ " rock", "rock", "-rock" ]
+    }
+  }
+}

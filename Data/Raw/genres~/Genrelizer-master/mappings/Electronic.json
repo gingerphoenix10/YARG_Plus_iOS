@@ -1,0 +1,177 @@
+{
+  "name": "Electronic",
+
+  "substitutions": {
+    "electronic": [
+      "danceelectronic",
+
+      "dance/electronic/pop",
+      "danceelectronicpop",
+
+      "dance/pop/electronic",
+      "dancepopelectronic",
+
+      "electronic/dance/pop",
+      "electronicdancepop",
+
+      "electronic/pop/dance",
+      "electronicpopdance",
+      
+      "pop/dance/electronic",
+      "popdanceelectronic",
+      
+      "pop/electronic/dance",
+      "popelectronicdance"
+    ]
+  },
+
+  "subgenres": {
+    "2-Step Garage": {
+      "substitutions": {
+        "2": [ "two" ],
+        "-": [ "", " " ],
+        "step garage": [ "step" ]
+      }
+    },
+
+    "Bleep Bloop": {
+      "substitutions": {
+        " ": [ "", "-" ]
+      }
+    },
+
+    "Chillout": {
+      "substitutions": {
+        "chill": [ "chill ", "chill-" ]
+      }
+    },
+
+    "Chillwave": {
+      "substitutions": {
+        "chill": [ "chill ", "chill-" ]
+      }
+    },
+
+    "Darksynth": {
+      "substitutions": {
+        "dark": [ "dark ", "dark-" ]
+      }
+    },
+
+    "Doom Electronic": {},
+
+    "Downtempo": {
+      "substitutions": {
+        "downtempo": [ "down tempo", "down-tempo" ]
+      }
+    },
+
+    "Electro": {},
+
+    "Electroclassical": {
+      "substitutions": {
+        "electro": [ "electro-", "electro "]
+      }
+    },
+
+    "Electrogaze": {
+      "substitutions": {
+        "electro": [ "electro ", "electro-" ],
+        "gaze": [ "gazing" ]
+      }
+    },
+
+    "Electronic Waltz": {},
+
+    "Electronica": {},
+
+    "Electro-Funk": {
+      "substitutions": {
+        "-": [ "", " " ]
+      }
+    },
+
+    "Experimental Electronic": {},
+
+    "Experimental Electronica": {},
+
+    "French Electro": {},
+
+    "Garage": {},
+
+    "Hauntology": {},
+
+    "Ibizan Chillout": {
+      "substitutions": {
+        "ibizan": [ "ibiza", "balearic" ],
+        "chill": [ "chill ", "chill-" ]
+      }
+    },
+
+    "Indietronic": {},
+
+    "Indietronica": {},
+
+    "Jamtronica": {},
+
+    "MIDI": {},
+
+    "MIDI Art": {},
+
+    "Minimal Electro": {},
+
+    "Neoclassical Electronic": {
+      "substitutions": {
+        "neo": [ "neo ", "neo-" ]
+      }
+    },
+
+    "Oscilloscope Music": {
+      "substitutions": {
+        " music": [ "" ]
+      }
+    },
+
+    "Post-Synthwave": {
+      "substitutions": {
+        "-": [ "", " " ],
+        "synth": [ "synth ", "synth-" ]
+      }
+    },
+
+    "Shredwave": {
+      "substitutions": {
+        "shred": [ "shred ", "shred-" ]
+      }
+    },
+
+    "Skweee": {
+      "substitutions": {
+        "eee": [ "ee", "eeee" ]
+      }
+    },
+
+    "Speed Garage": {},
+
+    "Synthwave": {
+      "substitutions": {
+        "synth": [ "synth ", "synth-" ]
+      }
+    },
+
+    "UK Garage": {
+      "substitutions": {
+        "uk": [ "u.k." ]
+      }
+    },
+
+    "Vaporwave": {
+      "substitutions": {
+        "vapor": [ "vapour" ],
+        "wave": [ " wave", "-wave" ]
+      }
+    },
+
+    "Wonky": {}
+  }
+}
