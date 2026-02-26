@@ -101,11 +101,21 @@ IL2CPP_EXTERN_C String_t* _stringLiteralE42E8BB820D4F7550A0F04619F4E15FDC56943B9
 IL2CPP_EXTERN_C String_t* _stringLiteralEC39AAB8B28BCEDAFA6F3285CC603CE852769989;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_HasValue_mEBB6F9CB853B438D075BB555958691054B188001_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_mE771FFC5C0CA05BC9996418326C1D36E8A33DB2A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PathInternal_GetIsCaseSensitive_m363004B1DD4CF7B258B86905042136718E700011_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PathInternal__cctor_mDD05A6A40C677D767AAB3D274D7AED9A289CEDFD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PathInternal_get_StringComparison_m066869ED5FE8E53EC6EB7EA48C505D2ED0DB4136_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyCollection_1_GetEnumerator_mCC70E8DC19E3118E9FFF0B2AD6DABA4C3A1D8BDF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ZipArchiveEntry_get_FullName_mB226F80A14EA72D5C3D63C912AD483020CE81F2F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ZipArchiveEntry_get_LastWriteTime_m98EB193BEB589BE1739A89C6104830F11573AFE9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ZipFileExtensions_CreateEntryFromFile_m619C0ACEEDE17D2FCF20A6D6134B98CF1014091E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ZipFileExtensions_DoCreateEntryFromFile_m0B0768102927FBBB004A43ECE057BE6680B91F26_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ZipFileExtensions_ExtractToDirectory_m568DFABA09E1BD51C5E0DC7DF92946F343783819_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ZipFileExtensions_ExtractToFile_m2584E3670B741B08409D95BFB8ABC04AA92B49F2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ZipFile_ExtractToDirectory_m5EAA2ECD97689590FE4F9F05CE29E4EEAEA11961_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ZipFile_ExtractToDirectory_mA5FC6342522831E7E8EE390BA1F67BDB2C169639_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ZipFile_ExtractToDirectory_mE887191E6F77A6697CC64EC626F521F921E8B7CA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ZipFile_Open_m6273C047FE6C596112D88B4D7666268E897C7A0F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ZipFile_Open_m6F83ACFED32799E052503C5CEAE6DD0D145FCC8D_RuntimeMethod_var;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
@@ -664,9 +674,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PathInternal_get_StringComparison_m06
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PathInternal_get_StringComparison_m066869ED5FE8E53EC6EB7EA48C505D2ED0DB4136_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PathInternal_tA1D52C336D12A4ECB731F464CEFCE25D42EEFFD0_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PathInternal_get_StringComparison_m066869ED5FE8E53EC6EB7EA48C505D2ED0DB4136_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		il2cpp_codegen_runtime_class_init_inline(PathInternal_tA1D52C336D12A4ECB731F464CEFCE25D42EEFFD0_il2cpp_TypeInfo_var);
 		bool L_0 = ((PathInternal_tA1D52C336D12A4ECB731F464CEFCE25D42EEFFD0_StaticFields*)il2cpp_codegen_static_fields_for(PathInternal_tA1D52C336D12A4ECB731F464CEFCE25D42EEFFD0_il2cpp_TypeInfo_var))->___s_isCaseSensitive;
@@ -691,6 +704,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PathInternal_GetIsCaseSensitive_m363004B
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PathInternal_GetIsCaseSensitive_m363004B1DD4CF7B258B86905042136718E700011_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral525277D2F376C0B1449BE7FBA9294AC2AE03DFD7);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE42E8BB820D4F7550A0F04619F4E15FDC56943B9);
@@ -701,9 +715,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PathInternal_GetIsCaseSensitive_m363004B
 	memset((&V_1), 0, sizeof(V_1));
 	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* V_2 = NULL;
 	bool V_3 = false;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PathInternal_GetIsCaseSensitive_m363004B1DD4CF7B258B86905042136718E700011_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	try
 	{
+		STORE_TRY_ID(methodExecutionContext, 0);
 		{
 			il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 			String_t* L_0;
@@ -729,6 +746,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PathInternal_GetIsCaseSensitive_m363004B
 
 FINALLY_004c_1:
 				{
+					STORE_TRY_ID(methodExecutionContext, 0);
 					{
 						FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_7 = V_2;
 						if (!L_7)
@@ -750,6 +768,7 @@ IL_0055_1:
 			});
 			try
 			{
+				STORE_TRY_ID(methodExecutionContext, 1);
 				String_t* L_9 = V_0;
 				NullCheck(L_9);
 				String_t* L_10;
@@ -777,6 +796,7 @@ IL_0055_1:
 
 CATCH_0056:
 	{
+		STORE_TRY_ID(methodExecutionContext, -1);
 		Exception_t* L_12 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
 		V_3 = (bool)0;
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
@@ -794,9 +814,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PathInternal__cctor_mDD05A6A40C677D767AA
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PathInternal__cctor_mDD05A6A40C677D767AAB3D274D7AED9A289CEDFD_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PathInternal_tA1D52C336D12A4ECB731F464CEFCE25D42EEFFD0_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PathInternal__cctor_mDD05A6A40C677D767AAB3D274D7AED9A289CEDFD_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		bool L_0;
 		L_0 = PathInternal_GetIsCaseSensitive_m363004B1DD4CF7B258B86905042136718E700011(NULL);
@@ -814,6 +837,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PathInternal__cctor_mDD05A6A40C677D767AA
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA635D31C41* ZipFile_Open_m6273C047FE6C596112D88B4D7666268E897C7A0F (String_t* ___0_archiveFileName, int32_t ___1_mode, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZipFile_Open_m6273C047FE6C596112D88B4D7666268E897C7A0F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ZipFile_Open_m6273C047FE6C596112D88B4D7666268E897C7A0F_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___0_archiveFileName;
 		int32_t L_1 = ___1_mode;
@@ -829,6 +860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA63
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA635D31C41_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZipFile_Open_m6F83ACFED32799E052503C5CEAE6DD0D145FCC8D_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -836,6 +868,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA63
 	int32_t V_2 = 0;
 	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* V_3 = NULL;
 	ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA635D31C41* V_4 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ZipFile_Open_m6F83ACFED32799E052503C5CEAE6DD0D145FCC8D_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		int32_t L_0 = ___1_mode;
@@ -902,6 +936,7 @@ IL_0037:
 	}
 	try
 	{
+		STORE_TRY_ID(methodExecutionContext, 0);
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_7 = V_3;
 		int32_t L_8 = ___1_mode;
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_9 = ___2_entryNameEncoding;
@@ -922,6 +957,7 @@ IL_0037:
 
 CATCH_0054:
 	{
+		STORE_TRY_ID(methodExecutionContext, -1);
 		RuntimeObject* L_11 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_12 = V_3;
 		NullCheck(L_12);
@@ -937,6 +973,14 @@ IL_005d:
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZipFile_ExtractToDirectory_m5EAA2ECD97689590FE4F9F05CE29E4EEAEA11961 (String_t* ___0_sourceArchiveFileName, String_t* ___1_destinationDirectoryName, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZipFile_ExtractToDirectory_m5EAA2ECD97689590FE4F9F05CE29E4EEAEA11961_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ZipFile_ExtractToDirectory_m5EAA2ECD97689590FE4F9F05CE29E4EEAEA11961_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___0_sourceArchiveFileName;
 		String_t* L_1 = ___1_destinationDirectoryName;
@@ -946,6 +990,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZipFile_ExtractToDirectory_m5EAA2ECD9768
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZipFile_ExtractToDirectory_mE887191E6F77A6697CC64EC626F521F921E8B7CA (String_t* ___0_sourceArchiveFileName, String_t* ___1_destinationDirectoryName, Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___2_entryNameEncoding, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZipFile_ExtractToDirectory_mE887191E6F77A6697CC64EC626F521F921E8B7CA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ZipFile_ExtractToDirectory_mE887191E6F77A6697CC64EC626F521F921E8B7CA_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___0_sourceArchiveFileName;
 		String_t* L_1 = ___1_destinationDirectoryName;
@@ -960,9 +1012,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZipFile_ExtractToDirectory_mA5FC63425228
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZipFile_ExtractToDirectory_mA5FC6342522831E7E8EE390BA1F67BDB2C169639_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA635D31C41* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ZipFile_ExtractToDirectory_mA5FC6342522831E7E8EE390BA1F67BDB2C169639_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___0_sourceArchiveFileName;
 		if (L_0)
@@ -990,6 +1045,7 @@ IL_000e:
 
 FINALLY_0021:
 			{
+				STORE_TRY_ID(methodExecutionContext, -1);
 				{
 					ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA635D31C41* L_5 = V_0;
 					if (!L_5)
@@ -1011,6 +1067,7 @@ IL_002a:
 		});
 		try
 		{
+			STORE_TRY_ID(methodExecutionContext, 0);
 			ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA635D31C41* L_7 = V_0;
 			String_t* L_8 = ___1_destinationDirectoryName;
 			bool L_9 = ___3_overwrite;
@@ -1038,8 +1095,16 @@ IL_002b:
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4* ZipFileExtensions_CreateEntryFromFile_m619C0ACEEDE17D2FCF20A6D6134B98CF1014091E (ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA635D31C41* ___0_destination, String_t* ___1_sourceFileName, String_t* ___2_entryName, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZipFileExtensions_CreateEntryFromFile_m619C0ACEEDE17D2FCF20A6D6134B98CF1014091E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Nullable_1_tAC8899D7718BEF36A8590184EFBCA842A1BC9AB1 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ZipFileExtensions_CreateEntryFromFile_m619C0ACEEDE17D2FCF20A6D6134B98CF1014091E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA635D31C41* L_0 = ___0_destination;
 		String_t* L_1 = ___1_sourceFileName;
@@ -1062,12 +1127,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZipFileExtensions_ExtractToDirectory_m56
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PathInternal_tA1D52C336D12A4ECB731F464CEFCE25D42EEFFD0_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlyCollection_1_GetEnumerator_mCC70E8DC19E3118E9FFF0B2AD6DABA4C3A1D8BDF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZipFileExtensions_ExtractToDirectory_m568DFABA09E1BD51C5E0DC7DF92946F343783819_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	String_t* V_0 = NULL;
 	RuntimeObject* V_1 = NULL;
 	ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4* V_2 = NULL;
 	String_t* V_3 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ZipFileExtensions_ExtractToDirectory_m568DFABA09E1BD51C5E0DC7DF92946F343783819_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA635D31C41* L_0 = ___0_source;
 		if (L_0)
@@ -1143,6 +1211,7 @@ IL_0046:
 
 FINALLY_00cd:
 			{
+				STORE_TRY_ID(methodExecutionContext, -1);
 				{
 					RuntimeObject* L_16 = V_1;
 					if (!L_16)
@@ -1164,12 +1233,14 @@ IL_00d6:
 		});
 		try
 		{
+			STORE_TRY_ID(methodExecutionContext, 0);
 			{
 				goto IL_00c3_1;
 			}
 
 IL_0054_1:
 			{
+				CHECK_PAUSE_POINT;
 				RuntimeObject* L_18 = V_1;
 				NullCheck(L_18);
 				ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4* L_19;
@@ -1294,6 +1365,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_HasValue_mEBB6F9CB853B438D075BB555958691054B188001_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_Value_mE771FFC5C0CA05BC9996418326C1D36E8A33DB2A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZipFileExtensions_DoCreateEntryFromFile_m0B0768102927FBBB004A43ECE057BE6680B91F26_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* V_0 = NULL;
@@ -1302,6 +1374,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302
 	memset((&V_2), 0, sizeof(V_2));
 	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* V_3 = NULL;
 	ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4* V_4 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ZipFileExtensions_DoCreateEntryFromFile_m0B0768102927FBBB004A43ECE057BE6680B91F26_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4* G_B10_0 = NULL;
 	{
 		ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA635D31C41* L_0 = ___0_destination;
@@ -1357,6 +1431,7 @@ IL_002a:
 
 FINALLY_00ba:
 			{
+				STORE_TRY_ID(methodExecutionContext, -1);
 				{
 					Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_8 = V_0;
 					if (!L_8)
@@ -1378,6 +1453,7 @@ IL_00c3:
 		});
 		try
 		{
+			STORE_TRY_ID(methodExecutionContext, 0);
 			{
 				bool L_10;
 				L_10 = Nullable_1_get_HasValue_mEBB6F9CB853B438D075BB555958691054B188001_inline((&___3_compressionLevel), Nullable_1_get_HasValue_mEBB6F9CB853B438D075BB555958691054B188001_RuntimeMethod_var);
@@ -1460,6 +1536,7 @@ IL_008f_1:
 
 FINALLY_00ab_1:
 					{
+						STORE_TRY_ID(methodExecutionContext, 0);
 						{
 							Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_27 = V_3;
 							if (!L_27)
@@ -1481,6 +1558,7 @@ IL_00b4_1:
 				});
 				try
 				{
+					STORE_TRY_ID(methodExecutionContext, 1);
 					Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_29 = V_0;
 					Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_30 = V_3;
 					NullCheck(L_29);
@@ -1520,6 +1598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZipFileExtensions_ExtractToFile_m2584E36
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZipFileExtensions_ExtractToFile_m2584E3670B741B08409D95BFB8ABC04AA92B49F2_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -1527,6 +1606,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZipFileExtensions_ExtractToFile_m2584E36
 	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* V_2 = NULL;
 	DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 V_3;
 	memset((&V_3), 0, sizeof(V_3));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ZipFileExtensions_ExtractToFile_m2584E3670B741B08409D95BFB8ABC04AA92B49F2_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	{
 		ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4* L_0 = ___0_source;
@@ -1588,6 +1669,7 @@ IL_0023:
 
 FINALLY_004e:
 			{
+				STORE_TRY_ID(methodExecutionContext, -1);
 				{
 					Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_8 = V_1;
 					if (!L_8)
@@ -1609,6 +1691,7 @@ IL_0057:
 		});
 		try
 		{
+			STORE_TRY_ID(methodExecutionContext, 0);
 			{
 				ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4* L_10 = ___0_source;
 				NullCheck(L_10);
@@ -1622,6 +1705,7 @@ IL_0057:
 
 FINALLY_0044_1:
 					{
+						STORE_TRY_ID(methodExecutionContext, 0);
 						{
 							Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_12 = V_2;
 							if (!L_12)
@@ -1643,6 +1727,7 @@ IL_004d_1:
 				});
 				try
 				{
+					STORE_TRY_ID(methodExecutionContext, 1);
 					Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_14 = V_2;
 					Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_15 = V_1;
 					NullCheck(L_14);
@@ -1681,6 +1766,14 @@ IL_0058:
 #endif
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ZipArchiveEntry_get_FullName_mB226F80A14EA72D5C3D63C912AD483020CE81F2F_inline (ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZipArchiveEntry_get_FullName_mB226F80A14EA72D5C3D63C912AD483020CE81F2F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ZipArchiveEntry_get_FullName_mB226F80A14EA72D5C3D63C912AD483020CE81F2F_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = __this->____storedEntryName;
 		return L_0;
@@ -1688,6 +1781,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ZipArchiveEntry_get_Ful
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->____stringLength;
 		return L_0;
@@ -1695,6 +1796,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 ZipArchiveEntry_get_LastWriteTime_m98EB193BEB589BE1739A89C6104830F11573AFE9_inline (ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZipArchiveEntry_get_LastWriteTime_m98EB193BEB589BE1739A89C6104830F11573AFE9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ZipArchiveEntry_get_LastWriteTime_m98EB193BEB589BE1739A89C6104830F11573AFE9_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 L_0 = __this->____lastModified;
 		return L_0;
@@ -1702,6 +1811,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DateTimeOffset_t4EE701FE2F386D6F9
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mB1F55188CDD50D6D725D41F55D2F2540CD15FB20_gshared_inline (Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14* __this, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		bool L_0 = __this->___hasValue;
 		return L_0;

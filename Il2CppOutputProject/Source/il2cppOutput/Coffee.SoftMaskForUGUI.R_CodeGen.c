@@ -7,6 +7,7 @@
 
 
 
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationCoffee_SoftMaskForUGUI_R;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Coffee_SoftMaskForUGUI_R_CodeGenModule;
 const Il2CppCodeGenModule g_Coffee_SoftMaskForUGUI_R_CodeGenModule = 
 {
@@ -22,7 +23,7 @@ const Il2CppCodeGenModule g_Coffee_SoftMaskForUGUI_R_CodeGenModule =
 	NULL,
 	0,
 	NULL,
-	NULL,
+	&g_DebuggerMetadataRegistrationCoffee_SoftMaskForUGUI_R,
 	NULL,
 	NULL,
 	NULL,

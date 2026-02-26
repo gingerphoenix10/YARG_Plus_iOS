@@ -474,17 +474,41 @@ void RegisterAllStrippedInternalCalls()
 		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_BeginSample();
 		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_BeginSample();
 
+		//System.Void Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::BeginSampleWithMetadata(System.IntPtr,System.Int32,System.Void*)
+		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_BeginSampleWithMetadata();
+		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_BeginSampleWithMetadata();
+
 		//System.Void Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::EndSample(System.IntPtr)
 		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_EndSample();
 		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_EndSample();
+
+		//System.Void Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::FlushCounterValue(System.Void*)
+		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_FlushCounterValue();
+		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_FlushCounterValue();
 
 		//System.Void Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::GetCategoryDescription_Injected(System.UInt16,Unity.Profiling.LowLevel.Unsafe.ProfilerCategoryDescription&)
 		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_GetCategoryDescription_Injected();
 		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_GetCategoryDescription_Injected();
 
+		//System.Void Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::Internal_BeginWithObject_Injected(System.IntPtr,System.IntPtr)
+		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_Internal_BeginWithObject_Injected();
+		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_Internal_BeginWithObject_Injected();
+
+		//System.Void Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::SetMarkerMetadata_Injected(System.IntPtr,System.Int32,UnityEngine.Bindings.ManagedSpanWrapper&,System.Byte,System.Byte)
+		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_SetMarkerMetadata_Injected();
+		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_SetMarkerMetadata_Injected();
+
 		//System.Void Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::SetMarkerMetadata__Unmanaged(System.IntPtr,System.Int32,System.Byte*,System.Int32,System.Byte,System.Byte)
 		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_SetMarkerMetadata__Unmanaged();
 		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_SetMarkerMetadata__Unmanaged();
+
+		//System.Void Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::SingleSampleWithMetadata(System.IntPtr,System.Int32,System.Void*)
+		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_SingleSampleWithMetadata();
+		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_SingleSampleWithMetadata();
+
+		//System.Void* Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::CreateCounterValue_Injected(System.IntPtr&,UnityEngine.Bindings.ManagedSpanWrapper&,System.UInt16,Unity.Profiling.LowLevel.MarkerFlags,System.Byte,System.Byte,System.Int32,Unity.Profiling.ProfilerCounterOptions)
+		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_CreateCounterValue_Injected();
+		Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_CreateCounterValue_Injected();
 
 		//System.Void* Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::CreateCounterValue__Unmanaged(System.IntPtr&,System.Byte*,System.Int32,System.UInt16,Unity.Profiling.LowLevel.MarkerFlags,System.Byte,System.Byte,System.Int32,Unity.Profiling.ProfilerCounterOptions)
 		void Register_Unity_Profiling_LowLevel_Unsafe_ProfilerUnsafeUtility_CreateCounterValue__Unmanaged();
@@ -501,6 +525,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean Unity.Profiling.ProfilerRecorder::GetValid_Injected(Unity.Profiling.ProfilerRecorder&)
 		void Register_Unity_Profiling_ProfilerRecorder_GetValid_Injected();
 		Register_Unity_Profiling_ProfilerRecorder_GetValid_Injected();
+
+		//System.Int32 Unity.Profiling.ProfilerRecorder::CopyTo_Pointer_Injected(Unity.Profiling.ProfilerRecorder&,Unity.Profiling.ProfilerRecorderSample*,System.Int32,System.Boolean)
+		void Register_Unity_Profiling_ProfilerRecorder_CopyTo_Pointer_Injected();
+		Register_Unity_Profiling_ProfilerRecorder_CopyTo_Pointer_Injected();
 
 		//System.Int32 Unity.Profiling.ProfilerRecorder::GetCount_Injected(Unity.Profiling.ProfilerRecorder&,Unity.Profiling.ProfilerRecorder/CountOptions)
 		void Register_Unity_Profiling_ProfilerRecorder_GetCount_Injected();
@@ -3822,6 +3850,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_ComputeShader_HasKernel_Injected();
 		Register_UnityEngine_ComputeShader_HasKernel_Injected();
 
+		//System.Boolean UnityEngine.ComputeShader::IsSupported_Injected(System.IntPtr,System.Int32)
+		void Register_UnityEngine_ComputeShader_IsSupported_Injected();
+		Register_UnityEngine_ComputeShader_IsSupported_Injected();
+
 		//System.Int32 UnityEngine.ComputeShader::FindKernel_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&)
 		void Register_UnityEngine_ComputeShader_FindKernel_Injected();
 		Register_UnityEngine_ComputeShader_FindKernel_Injected();
@@ -4877,6 +4909,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void* UnityEngine.GraphicsBuffer::BeginBufferWrite_Injected(System.IntPtr,System.Int32,System.Int32)
 		void Register_UnityEngine_GraphicsBuffer_BeginBufferWrite_Injected();
 		Register_UnityEngine_GraphicsBuffer_BeginBufferWrite_Injected();
+
+		//UnityEngine.GraphicsBuffer/Target UnityEngine.GraphicsBuffer::get_target_Injected(System.IntPtr)
+		void Register_UnityEngine_GraphicsBuffer_get_target_Injected();
+		Register_UnityEngine_GraphicsBuffer_get_target_Injected();
 
 		//UnityEngine.GraphicsBuffer/UsageFlags UnityEngine.GraphicsBuffer::GetUsageFlags_Injected(System.IntPtr)
 		void Register_UnityEngine_GraphicsBuffer_GetUsageFlags_Injected();
@@ -9006,6 +9042,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Profiling_Profiler_EndSample();
 		Register_UnityEngine_Profiling_Profiler_EndSample();
 
+		//System.Void UnityEngine.Profiling.Profiler::Internal_EmitGlobalMetaData_Array(System.Void*,System.Int32,System.Int32,System.Array,System.Int32,System.Int32,System.Boolean)
+		void Register_UnityEngine_Profiling_Profiler_Internal_EmitGlobalMetaData_Array();
+		Register_UnityEngine_Profiling_Profiler_Internal_EmitGlobalMetaData_Array();
+
 	//End Registrations for type : UnityEngine.Profiling.Profiler
 
 	//Start Registrations for type : UnityEngine.PropertyNameUtils
@@ -9338,6 +9378,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Renderer_get_enabled_Injected();
 		Register_UnityEngine_Renderer_get_enabled_Injected();
 
+		//System.Boolean UnityEngine.Renderer::get_isPartOfStaticBatch_Injected(System.IntPtr)
+		void Register_UnityEngine_Renderer_get_isPartOfStaticBatch_Injected();
+		Register_UnityEngine_Renderer_get_isPartOfStaticBatch_Injected();
+
 		//System.Int32 UnityEngine.Renderer::GetMaterialCount_Injected(System.IntPtr)
 		void Register_UnityEngine_Renderer_GetMaterialCount_Injected();
 		Register_UnityEngine_Renderer_GetMaterialCount_Injected();
@@ -9582,6 +9626,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Rendering_CommandBuffer_BeginSample_Injected();
 		Register_UnityEngine_Rendering_CommandBuffer_BeginSample_Injected();
 
+		//System.Void UnityEngine.Rendering.CommandBuffer::BeginSample_ProfilerMarker_Injected(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_Rendering_CommandBuffer_BeginSample_ProfilerMarker_Injected();
+		Register_UnityEngine_Rendering_CommandBuffer_BeginSample_ProfilerMarker_Injected();
+
 		//System.Void UnityEngine.Rendering.CommandBuffer::Blit_Identifier_Injected(System.IntPtr,UnityEngine.Rendering.RenderTargetIdentifier&,UnityEngine.Rendering.RenderTargetIdentifier&,System.IntPtr,System.Int32,UnityEngine.Vector2&,UnityEngine.Vector2&,System.Int32,System.Int32)
 		void Register_UnityEngine_Rendering_CommandBuffer_Blit_Identifier_Injected();
 		Register_UnityEngine_Rendering_CommandBuffer_Blit_Identifier_Injected();
@@ -9681,6 +9729,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Rendering.CommandBuffer::EndSample_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&)
 		void Register_UnityEngine_Rendering_CommandBuffer_EndSample_Injected();
 		Register_UnityEngine_Rendering_CommandBuffer_EndSample_Injected();
+
+		//System.Void UnityEngine.Rendering.CommandBuffer::EndSample_ProfilerMarker_Injected(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_Rendering_CommandBuffer_EndSample_ProfilerMarker_Injected();
+		Register_UnityEngine_Rendering_CommandBuffer_EndSample_ProfilerMarker_Injected();
 
 		//System.Void UnityEngine.Rendering.CommandBuffer::IncrementUpdateCount_Injected(System.IntPtr,UnityEngine.Rendering.RenderTargetIdentifier&)
 		void Register_UnityEngine_Rendering_CommandBuffer_IncrementUpdateCount_Injected();
