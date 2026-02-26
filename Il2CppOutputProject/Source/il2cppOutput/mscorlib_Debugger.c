@@ -18,9 +18,8 @@ static const char* g_methodExecutionContextInfoStrings[1] = { NULL };
 static const char* g_methodExecutionContextInfoStrings[1] = { NULL };
 #endif
 #if IL2CPP_MONO_DEBUGGER
-static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoIndexes[13405] = 
+static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoIndexes[13404] = 
 {
-	{ 0, 0 },
 	{ 0, 0 },
 	{ 0, 0 },
 	{ 0, 0 },
@@ -13738,30 +13737,30 @@ static const Il2CppCatchPoint g_catchPoints[] = {
 { 26563, 47863, 70, 0, -1 },
 { 26567, 59527, 192, 0, -1 },
 { 26667, 52810, 31, 0, -1 },
+{ 26774, 55441, 9, 0, -1 },
 { 26775, 55441, 9, 0, -1 },
-{ 26776, 55441, 9, 0, -1 },
-{ 26777, 55441, 145, 0, -1 },
+{ 26776, 55441, 145, 0, -1 },
+{ 26778, 55441, 9, 0, -1 },
 { 26779, 55441, 9, 0, -1 },
-{ 26780, 55441, 9, 0, -1 },
-{ 26782, 52810, 8, 0, -1 },
-{ 26783, 52810, 11, 0, -1 },
+{ 26781, 52810, 8, 0, -1 },
+{ 26782, 52810, 11, 0, -1 },
+{ 26783, 52810, 9, 0, -1 },
 { 26784, 52810, 9, 0, -1 },
 { 26785, 52810, 9, 0, -1 },
-{ 26786, 52810, 9, 0, -1 },
-{ 26788, 55441, 9, 0, -1 },
-{ 26789, 55441, 16, 0, -1 },
-{ 26790, 55441, 91, 0, -1 },
+{ 26787, 55441, 9, 0, -1 },
+{ 26788, 55441, 16, 0, -1 },
+{ 26789, 55441, 91, 0, -1 },
+{ 26790, 55441, 14, 0, -1 },
 { 26791, 55441, 14, 0, -1 },
-{ 26792, 55441, 14, 0, -1 },
-{ 26794, 55441, 29, 0, -1 },
-{ 26794, 55441, 95, 2, 1 },
-{ 26794, 55441, 146, 3, 1 },
-{ 26795, 55441, 49, 1, 0 },
+{ 26793, 55441, 29, 0, -1 },
+{ 26793, 55441, 95, 2, 1 },
+{ 26793, 55441, 146, 3, 1 },
+{ 26794, 55441, 49, 1, 0 },
+{ 26795, 55441, 9, 0, -1 },
 { 26796, 55441, 9, 0, -1 },
-{ 26797, 55441, 9, 0, -1 },
-{ 26798, 55441, 11, 0, -1 },
-{ 26800, 55441, 40, 0, -1 },
-{ 26861, 59527, 181, 0, -1 },
+{ 26797, 55441, 11, 0, -1 },
+{ 26799, 55441, 40, 0, -1 },
+{ 26860, 59527, 181, 0, -1 },
 };
 #else
 static const Il2CppCatchPoint g_catchPoints[1] = { { 0, 0, 0, 0, } };
@@ -13782,9 +13781,8 @@ static const Il2CppMethodScope g_methodScopes[1] = { { 0, 0 } };
 static const Il2CppMethodScope g_methodScopes[1] = { { 0, 0 } };
 #endif
 #if IL2CPP_MONO_DEBUGGER
-static const Il2CppMethodHeaderInfo g_methodHeaderInfos[13405] = 
+static const Il2CppMethodHeaderInfo g_methodHeaderInfos[13404] = 
 {
-	{ 0, 0, 0 },
 	{ 0, 0, 0 },
 	{ 0, 0, 0 },
 	{ 0, 0, 0 },
