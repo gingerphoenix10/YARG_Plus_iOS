@@ -4937,6 +4937,13 @@ struct MicOutputFrame_tB6D95384AF445975E77B115E8E24EC5160F7945D_marshaled_com
 	float ___Pitch;
 	float ___Volume;
 };
+struct MidiEvent_t31392BAFA6C7D32162B55F6CE230B1CA3CCDB36B 
+{
+	double ___Time;
+	uint8_t ___Status;
+	uint8_t ___Data1;
+	uint8_t ___Data2;
+};
 struct MorphTargetBinding_tEAB3BFF97A7E9998416A71D37F5F0D96FEB555EE 
 {
 	String_t* ___RelativePath;
@@ -7823,6 +7830,11 @@ struct Slot_tA8FD81E75FEF392BD84B5EBFFD40F793478D12CA
 	MicOutputFrame_tB6D95384AF445975E77B115E8E24EC5160F7945D ___Item;
 	int32_t ___SequenceNumber;
 };
+struct Slot_tAA0DFD32DD477AB9903AB2AB5CA8452333ED0FB6 
+{
+	MidiEvent_t31392BAFA6C7D32162B55F6CE230B1CA3CCDB36B ___Item;
+	int32_t ___SequenceNumber;
+};
 struct Slot_t1EAAAB0EB7E675D9AB16858BC529CD92F162AF8F 
 {
 	int32_t ___hashCode;
@@ -7998,11 +8010,6 @@ struct ValueTuple_2_t3F70B669C6B2545BB07E570B29E4BEB29C9467F9
 {
 	FixedArrayStream_t7A1EDE67AEF064DE35362E8C52EC113D260712C3 ___Item1;
 	int32_t ___Item2;
-};
-struct ValueTuple_2_t43DCCAEA2FFCB3B03068CB425D0E743CC8AAEB1B 
-{
-	InputDeviceDescription_tE86DD77422AAF60ADDAC788B31E5A05E739B708F ___Item1;
-	RuntimeObject* ___Item2;
 };
 struct ValueTuple_2_t3A10D1FA39D7602676C9488883AE4D27691D8F6C 
 {
@@ -56498,6 +56505,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_Add_Tis
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_Add_TisSlot_tAA0DFD32DD477AB9903AB2AB5CA8452333ED0FB6_mBC36A93F4851C3501525EDE35F03B08BF0AC9907_gshared (RuntimeArray* __this, Slot_tAA0DFD32DD477AB9903AB2AB5CA8452333ED0FB6 ___0_item, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE609303EB41E0119BB804EB107C7CCDF29D97D5B)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_Add_TisSlot_t4BB8CC974E5E3453C5B4BD5E6DC16498D0EF7744_m2D59ED06EB1F40078CA0542167165E2226008CE9_gshared (RuntimeArray* __this, Slot_t4BB8CC974E5E3453C5B4BD5E6DC16498D0EF7744 ___0_item, const RuntimeMethod* method) 
 {
 	{
@@ -57811,14 +57826,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_Add_Tis
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_Add_TisValueTuple_2_t3F70B669C6B2545BB07E570B29E4BEB29C9467F9_m80E64AEFD458BE81CE76DAC589E13223B03591D9_gshared (RuntimeArray* __this, ValueTuple_2_t3F70B669C6B2545BB07E570B29E4BEB29C9467F9 ___0_item, const RuntimeMethod* method) 
-{
-	{
-		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
-		NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE609303EB41E0119BB804EB107C7CCDF29D97D5B)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_Add_TisValueTuple_2_t43DCCAEA2FFCB3B03068CB425D0E743CC8AAEB1B_mA0999F472BA7AA8824A2022D3BC2FF5221D63C40_gshared (RuntimeArray* __this, ValueTuple_2_t43DCCAEA2FFCB3B03068CB425D0E743CC8AAEB1B ___0_item, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));

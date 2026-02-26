@@ -19362,31 +19362,6 @@ struct DeviceConfigurationEvent_tC73A3703BADB78DDA67BE9C3DE2E4C93B34A19CB
 };
 #pragma pack(pop, tp)
 #pragma pack(push, tp, 1)
-struct DeviceRemoveEvent_t51C00E4C657C4942268EA407FBA049E82AFCE3A9 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-				#pragma pack(push, tp, 1)
-				struct
-				{
-					InputEvent_t10F727342D1A79DCFC06529C203BB61C194AEBC5 ___baseEvent;
-				};
-				#pragma pack(pop, tp)
-				struct
-				{
-					InputEvent_t10F727342D1A79DCFC06529C203BB61C194AEBC5 ___baseEvent_forAlignmentOnly;
-				};
-			};
-		};
-		uint8_t DeviceRemoveEvent_t51C00E4C657C4942268EA407FBA049E82AFCE3A9__padding[20];
-	};
-};
-#pragma pack(pop, tp)
-#pragma pack(push, tp, 1)
 struct DeviceResetEvent_t8F9430E7CE4EA685E6FD58888D32F61ABE6D34F4 
 {
 	union
@@ -35633,13 +35608,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* UnsafeUtility_AddressOf_TisDeviceConfig
 		return (void*)(L_0);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* UnsafeUtility_AddressOf_TisDeviceRemoveEvent_t51C00E4C657C4942268EA407FBA049E82AFCE3A9_mB6F47C4540DB9192E97A0463D8CC47DDB6EEAC12_gshared (DeviceRemoveEvent_t51C00E4C657C4942268EA407FBA049E82AFCE3A9* ___0_output, const RuntimeMethod* method) 
-{
-	{
-		DeviceRemoveEvent_t51C00E4C657C4942268EA407FBA049E82AFCE3A9* L_0 = ___0_output;
-		return (void*)(L_0);
-	}
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* UnsafeUtility_AddressOf_TisDeviceResetEvent_t8F9430E7CE4EA685E6FD58888D32F61ABE6D34F4_m19F55AAD69E8883D43EB264F8EA5E24BF45D3395_gshared (DeviceResetEvent_t8F9430E7CE4EA685E6FD58888D32F61ABE6D34F4* ___0_output, const RuntimeMethod* method) 
 {
 	{
@@ -36141,6 +36109,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* UnsafeUtility_AddressOf_TisTouchState_t
 {
 	{
 		TouchState_tB05024FB4BCE85BAB82D2224AD4BF1E8B4589A97* L_0 = ___0_output;
+		return (void*)(L_0);
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* UnsafeUtility_AddressOf_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m4AD8CD5849A012134D540A24A60CB7D4A00D405B_gshared (uint16_t* ___0_output, const RuntimeMethod* method) 
+{
+	{
+		uint16_t* L_0 = ___0_output;
 		return (void*)(L_0);
 	}
 }

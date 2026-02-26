@@ -47,6 +47,7 @@
 		3D0925765C1334DF082445DA /* UnityRendering.h in Headers */ = {isa = PBXBuildFile; fileRef = FB086F6145558D70FC612B3B /* UnityRendering.h */; };
 		415674EFD2EC187355BC05B1 /* LaunchScreen-iPhoneLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E24B93E9D27D99850693BAF /* LaunchScreen-iPhoneLandscape.png */; };
 		4206105962EED44BFA4F9BD3 /* OrientationSupport.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4BCDE89198A4FD69E85C6A52 /* OrientationSupport.mm */; };
+		422648B6EEB098E5220249EC /* libRtMidi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F696A6248547D4DCB9BEF62 /* libRtMidi.a */; };
 		443730AA2B4ED688E8818488 /* OrientationSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D0E35CAADD8155085A01C93 /* OrientationSupport.h */; };
 		465A60CC6D272037004F5B90 /* LifeCycleListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 56B2C85ECAA415E3EE6D28C2 /* LifeCycleListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		475B26F38A3A652C6174529D /* IUnityInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 679ACDCF6D14CA6FE6F81479 /* IUnityInterface.h */; };
@@ -84,6 +85,7 @@
 		74FD6CCF256F4E8A4D55FFB2 /* Il2CppOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C63B33A2B4E66BC2927EB1FF /* Il2CppOptions.cpp */; };
 		75D613554FE45929CB85740D /* Keyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C543234E59154390162261 /* Keyboard.h */; };
 		763ED5D885EABF761B2FE262 /* LaunchScreen-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6444ABDD2799CC877EBAF7E /* LaunchScreen-iPad.storyboard */; };
+		76BACE34890ECAD59BC71B1C /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C9378C5CBDB38247E07848 /* CoreMIDI.framework */; };
 		77C0894FC16BA5631139FC8F /* StoreReview.m in Sources */ = {isa = PBXBuildFile; fileRef = 344F2C6BDED1BC5D75C5916F /* StoreReview.m */; };
 		78B59F8C2DA390FBAEA51160 /* UnityFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D53B5BD2EFDCE044275DF0AF /* UnityFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C413A0C839F755233C5410B /* bass.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB031631130A962FA0328CAA /* bass.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -114,6 +116,7 @@
 		AC59092CA77C69D6ED97B183 /* AppDelegateListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 5201A0F3E84F5492ABC002BC /* AppDelegateListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC6B94F04710CA18194BE4B6 /* OnDemandResources.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCB9B0D9A6CEA2857C0AA9FA /* OnDemandResources.mm */; };
 		AF5B5F9861B63525EA0C92F2 /* stb_image.h in Headers */ = {isa = PBXBuildFile; fileRef = C31A90FFC7A17A550BF3D358 /* stb_image.h */; };
+		B0BE4CE4589441EEA3DAFFBF /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99AB17FC4EA852C1889F074B /* CoreAudio.framework */; };
 		B37DE0B08E88F1C42C102846 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B50E73877FB889638FD57FF /* main.mm */; };
 		B4803D92C92548EDBE937189 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A0CFE2BB95B47C721D5218 /* AVKit.framework */; };
 		B6AD591EF0B8DA7BD0B66D9F /* UnityAppController+Rendering.mm in Sources */ = {isa = PBXBuildFile; fileRef = BACB02562BB677C13883BFDE /* UnityAppController+Rendering.mm */; };
@@ -456,6 +459,7 @@
 		3C1EE1DF85C85B3F86071B76 /* Unity.XR.Interaction.Toolkit__1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.XR.Interaction.Toolkit__1.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.XR.Interaction.Toolkit__1.cpp; sourceTree = SOURCE_ROOT; };
 		3C3FA87D53EEBC03335BFC95 /* UniGLTF.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UniGLTF.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UniGLTF.cpp; sourceTree = SOURCE_ROOT; };
 		3C54469E02AE026A630B4244 /* Assembly-CSharp__25.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp__25.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp__25.cpp"; sourceTree = SOURCE_ROOT; };
+		3C5AD37820C7E1D709B434D3 /* RtMidi.Runtime_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = RtMidi.Runtime_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/RtMidi.Runtime_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		3C5D0B1C9CC768F78CC0B7DE /* Generics__164.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__164.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__164.cpp; sourceTree = SOURCE_ROOT; };
 		3C5EE01A0C0C1E672C210D23 /* Generics__159.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__159.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__159.cpp; sourceTree = SOURCE_ROOT; };
 		3C87C6331583863CBF6F57C3 /* Generics__115.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__115.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__115.cpp; sourceTree = SOURCE_ROOT; };
@@ -468,6 +472,7 @@
 		3EDC4AC8526F948C97493C0E /* Generics__168.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__168.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__168.cpp; sourceTree = SOURCE_ROOT; };
 		3EDC6359266B634D6DE3362D /* GenericMethods__80.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods__80.cpp; path = Il2CppOutputProject/Source/il2cppOutput/GenericMethods__80.cpp; sourceTree = SOURCE_ROOT; };
 		3F3C780A7530CE83C59BABDB /* Generics__295.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__295.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__295.cpp; sourceTree = SOURCE_ROOT; };
+		3F696A6248547D4DCB9BEF62 /* libRtMidi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRtMidi.a; path = Libraries/ARM64/Packages/jp.keijiro.rtmidi/Runtime/Plugins/iOS/libRtMidi.a; sourceTree = SOURCE_ROOT; };
 		3F72C07127ECAA43B049621A /* Unity.RenderPipelines.Universal.Runtime__1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.RenderPipelines.Universal.Runtime__1.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__1.cpp; sourceTree = SOURCE_ROOT; };
 		3F80588B164D49DF3B3B5F89 /* GenericMethods__23.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods__23.cpp; path = Il2CppOutputProject/Source/il2cppOutput/GenericMethods__23.cpp; sourceTree = SOURCE_ROOT; };
 		3F88A46AEA7BDBAE6C328A8B /* mscorlib__24.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib__24.cpp; path = Il2CppOutputProject/Source/il2cppOutput/mscorlib__24.cpp; sourceTree = SOURCE_ROOT; };
@@ -863,6 +868,7 @@
 		996AF65B21117545805EDE7A /* UnityEngine.UnityWebRequestModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.UnityWebRequestModule.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestModule.cpp; sourceTree = SOURCE_ROOT; };
 		996B8B35A5892AE2820D8033 /* Il2CppTypeDefinitions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Il2CppTypeDefinitions.c; path = Il2CppOutputProject/Source/il2cppOutput/Il2CppTypeDefinitions.c; sourceTree = SOURCE_ROOT; };
 		997B62E1A7B607563510032A /* Generics__178.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__178.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__178.cpp; sourceTree = SOURCE_ROOT; };
+		99AB17FC4EA852C1889F074B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		99EB5E7094E51E4EE236DC72 /* Generics__108.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__108.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__108.cpp; sourceTree = SOURCE_ROOT; };
 		9A1565C066D270804AD16062 /* Generics__332.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__332.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__332.cpp; sourceTree = SOURCE_ROOT; };
 		9A4AB585B67FED485B96F428 /* GenericMethods__7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods__7.cpp; path = Il2CppOutputProject/Source/il2cppOutput/GenericMethods__7.cpp; sourceTree = SOURCE_ROOT; };
@@ -1128,6 +1134,7 @@
 		DAB61E49F0B27D71CDA3B02F /* lib_burst_generated.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib_burst_generated.a; path = Libraries/lib_burst_generated.a; sourceTree = SOURCE_ROOT; };
 		DAC0E1B4214F62D436CF39B5 /* PlasticBand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PlasticBand.cpp; path = Il2CppOutputProject/Source/il2cppOutput/PlasticBand.cpp; sourceTree = SOURCE_ROOT; };
 		DB998B9FC449DC335718A76C /* UnityEngine.SubsystemsModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.SubsystemsModule_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		DB9A57F985EE3E760CAB1A0A /* RtMidi.Runtime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = RtMidi.Runtime.cpp; path = Il2CppOutputProject/Source/il2cppOutput/RtMidi.Runtime.cpp; sourceTree = SOURCE_ROOT; };
 		DBF5A1414DA20E96D008D306 /* Unity.Burst.Unsafe_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Unity.Burst.Unsafe_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/Unity.Burst.Unsafe_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		DC1C002DA32AACE7AD91663B /* GenericMethods__9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods__9.cpp; path = Il2CppOutputProject/Source/il2cppOutput/GenericMethods__9.cpp; sourceTree = SOURCE_ROOT; };
 		DC31F70C13F823F03FF05E3C /* Generics__196.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__196.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__196.cpp; sourceTree = SOURCE_ROOT; };
@@ -1186,6 +1193,7 @@
 		E997E8735A09F89C0365D60D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E9A7659A3EF108621EF5E740 /* mscorlib__23.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib__23.cpp; path = Il2CppOutputProject/Source/il2cppOutput/mscorlib__23.cpp; sourceTree = SOURCE_ROOT; };
 		E9C72CBC632293D0FE2E3D56 /* System.Drawing_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = System.Drawing_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/System.Drawing_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		E9C9378C5CBDB38247E07848 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		E9D324EE2C6711871A4F3906 /* GenericMethods__36.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods__36.cpp; path = Il2CppOutputProject/Source/il2cppOutput/GenericMethods__36.cpp; sourceTree = SOURCE_ROOT; };
 		E9E737023C985231D6E1BEF0 /* Generics__102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__102.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__102.cpp; sourceTree = SOURCE_ROOT; };
 		EA18E7A22E5B83269423AD0D /* Generics__334.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__334.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__334.cpp; sourceTree = SOURCE_ROOT; };
@@ -1318,6 +1326,7 @@
 				00000000008063A1000160D3 /* libiPhone-lib.a in Frameworks */,
 				7F4E05AB2717219200A2CBE4 /* libGameAssembly.a in Frameworks */,
 				9D0A618B21BFE7F30094DC33 /* libiconv.2.tbd in Frameworks */,
+				422648B6EEB098E5220249EC /* libRtMidi.a in Frameworks */,
 				0EC45CD7779198C204449055 /* bass.xcframework in Frameworks */,
 				6006B2F9FC86FAA48B7D791A /* bassmix.xcframework in Frameworks */,
 				5D2CE30DEAF26AAAAF2F2449 /* bass_fx.xcframework in Frameworks */,
@@ -1337,6 +1346,8 @@
 				81044980025CF0C90896BB52 /* Security.framework in Frameworks */,
 				59AFA8F6DB1E25099CCAFB89 /* SystemConfiguration.framework in Frameworks */,
 				D7C2D97F0F5BA8BF5205A09C /* UIKit.framework in Frameworks */,
+				B0BE4CE4589441EEA3DAFFBF /* CoreAudio.framework in Frameworks */,
+				76BACE34890ECAD59BC71B1C /* CoreMIDI.framework in Frameworks */,
 				574A8D1BFDF4103B13A6538A /* GameController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1344,6 +1355,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0397B4B27E09F0C1639D53E8 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				65AF0762850085ADEF2BC6B5 /* iOS */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
 		04B0C11757E9C7B105072285 /* Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -1402,6 +1421,22 @@
 			path = Plugins;
 			sourceTree = "<group>";
 		};
+		2516639D88B62A65571B137E /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				26058A1BDC250CBBD1389122 /* jp.keijiro.rtmidi */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		26058A1BDC250CBBD1389122 /* jp.keijiro.rtmidi */ = {
+			isa = PBXGroup;
+			children = (
+				618508F339FF20A6EC0A33AC /* Runtime */,
+			);
+			path = jp.keijiro.rtmidi;
+			sourceTree = "<group>";
+		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
@@ -1432,7 +1467,9 @@
 				60C87A34237BDAAD4758D5B4 /* AVFoundation.framework */,
 				81A0CFE2BB95B47C721D5218 /* AVKit.framework */,
 				079F8E40811508DAC6408630 /* AudioToolbox.framework */,
+				99AB17FC4EA852C1889F074B /* CoreAudio.framework */,
 				69C13D0547A187E626BE159C /* CoreGraphics.framework */,
+				E9C9378C5CBDB38247E07848 /* CoreMIDI.framework */,
 				BCCBE8BB53DF66DDE68F8E41 /* CoreMedia.framework */,
 				5201A6004A8A0023F5541676 /* CoreText.framework */,
 				5F06E837EECF2C94AEABF609 /* CoreVideo.framework */,
@@ -2018,6 +2055,8 @@
 				DAC0E1B4214F62D436CF39B5 /* PlasticBand.cpp */,
 				220BC90532F53732E56769B6 /* PlasticBand_CodeGen.c */,
 				600CEB71D430D1E06C7246F8 /* PlasticBand__1.cpp */,
+				DB9A57F985EE3E760CAB1A0A /* RtMidi.Runtime.cpp */,
+				3C5AD37820C7E1D709B434D3 /* RtMidi.Runtime_CodeGen.c */,
 				8A800ED0DA9237FA63E46A5D /* SharpCompress.cpp */,
 				9FA46E832492D09027A73FFB /* SharpCompress_CodeGen.c */,
 				B2C10EDA346F3E2ACC8849DB /* SharpCompress__1.cpp */,
@@ -2456,6 +2495,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		618508F339FF20A6EC0A33AC /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				0397B4B27E09F0C1639D53E8 /* Plugins */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		65AF0762850085ADEF2BC6B5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3F696A6248547D4DCB9BEF62 /* libRtMidi.a */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		710DE34B4617181426994F51 /* ARM64 */ = {
+			isa = PBXGroup;
+			children = (
+				2516639D88B62A65571B137E /* Packages */,
+			);
+			path = ARM64;
+			sourceTree = "<group>";
+		};
 		85BC250D274BFCFE9C8803E1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -2584,6 +2647,7 @@
 		D8A1C7220E80637F000160D3 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				710DE34B4617181426994F51 /* ARM64 */,
 				9AB168A2A8C861DCEA5F064C /* YARG.Core */,
 				0DB64C2E13F03F7FFEA29216 /* com.unity.inputsystem */,
 				C63B33A2B4E66BC2927EB1FF /* Il2CppOptions.cpp */,
@@ -3069,6 +3133,7 @@
 				INFOPLIST_FILE = "Unity-iPhone Tests/Unity-iPhone Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_GENERATE_MAP_FILE = YES;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Libraries/ARM64/Packages/jp.keijiro.rtmidi/Runtime/Plugins/iOS";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unity3d.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -3120,6 +3185,7 @@
 				INFOPLIST_FILE = "Unity-iPhone Tests/Unity-iPhone Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_GENERATE_MAP_FILE = YES;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Libraries/ARM64/Packages/jp.keijiro.rtmidi/Runtime/Plugins/iOS";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unity3d.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3244,6 +3310,7 @@
 				INFOPLIST_FILE = "Unity-iPhone Tests/Unity-iPhone Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_GENERATE_MAP_FILE = YES;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Libraries/ARM64/Packages/jp.keijiro.rtmidi/Runtime/Plugins/iOS";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unity3d.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -3367,6 +3434,7 @@
 				INFOPLIST_FILE = "Unity-iPhone Tests/Unity-iPhone Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_GENERATE_MAP_FILE = YES;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Libraries/ARM64/Packages/jp.keijiro.rtmidi/Runtime/Plugins/iOS";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unity3d.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -3568,6 +3636,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libraries",
+					"$(SRCROOT)/Libraries/ARM64/Packages/jp.keijiro.rtmidi/Runtime/Plugins/iOS",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CFLAGS = (
@@ -3643,6 +3712,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libraries",
+					"$(SRCROOT)/Libraries/ARM64/Packages/jp.keijiro.rtmidi/Runtime/Plugins/iOS",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
@@ -3720,6 +3790,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libraries",
+					"$(SRCROOT)/Libraries/ARM64/Packages/jp.keijiro.rtmidi/Runtime/Plugins/iOS",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
@@ -3798,6 +3869,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libraries",
+					"$(SRCROOT)/Libraries/ARM64/Packages/jp.keijiro.rtmidi/Runtime/Plugins/iOS",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
