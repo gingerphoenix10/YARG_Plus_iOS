@@ -69,9 +69,6 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC;
 struct DefaultUnityLogger_tA4583354564CC4E8DDF31EA7563EB7CBA49567B0;
 
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUniGLTF_Utils[];
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_Mathematics[];
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DefaultUnityLogger_tA4583354564CC4E8DDF31EA7563EB7CBA49567B0_il2cpp_TypeInfo_var;
@@ -94,98 +91,14 @@ IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t9EFD9D35EFD0D6
 IL2CPP_EXTERN_C String_t* _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0;
 IL2CPP_EXTERN_C String_t* _stringLiteral6FC8A3409851599FCC995B0B63300CE4AA4839CD;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentsInChildren_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_m75FFF26FD3F8B797CFE939FBA50E014C15E6BE28_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* DefaultUnityLogger_LogException_m354C15637F97220305F830214C60F2A68446F091_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* DefaultUnityLogger_LogFormat_m794A7F82C250CA914E0CA73138BAEE382FBE7288_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* DefaultUnityLogger__ctor_m72B5BDA7A51FD1972417603AE82D40BB9F746A94_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* EuclideanTransform__ctor_m8049E584377BFA07554ECC9D7A120EA11D500301_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* EuclideanTransform__ctor_mD6F3073A05B14950101C2CD2A0E26F441A6A4BCB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* EuclideanTransform__ctor_mE640A8C0B1EB80BD9465DECDD62C60DB9F5C95BB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* EuclideanTransform__ctor_mF901A0BCC772607922BC2F7F64174880E4AEC40A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ForceTransformUniqueName_Process_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_mAC4CFAF9EB9AE6BAC4221A530FCADDA1FFEAD411_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ForceTransformUniqueName_Process_m2D7CD6DED0789CE9016E0BCFF9891D9C22DEFD57_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ForceTransformUniqueName__ctor_m1737F6A2758A503C0C98127002BC51F9F37F10AC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MathHelper_Approximately_m559DF552ACA89C109B9F1D4E040A7D7989FFAFD0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MathHelper_Approximately_mD19B8AE1C4058EF2D5AF471FF7DD69292EEC709E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MathHelper_Approximately_mD5281399EBDF9593B7AE62270705CAC75C17D711_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MathHelper_FromToRotation_m41B4C74A3AD3FE49E7923E50995F6E676286567A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MathHelper_MultiplyPoint3x4_m31D89E5816137496FBE645534C5D6769CAB71052_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MathHelper_MultiplyPoint_m11DDACA2F43300EDE69ECFD0E9E1C2444F3CBEB4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MathHelper_MultiplyVector_m0F7977B599A86FC47F7E9F270E963515D69997FF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Matrix4x4_get_rotation_m7E2C29FCB2AAFAE4D7B4FBD3563E9EDB53F5A8BB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TransformState__ctor_m5D458FEC9DCEA294661526D60A7306B38019F1CB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TransformState__ctor_mC954B2DD4836A4A8CC76231CECB15D3E688FF104_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TransformState_get_LocalPosition_m8B675A5004BAEC0A8D9DB4581F6AD471AF0D0607_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TransformState_get_LocalRotation_m2C281428E29C474F6EFA2AE1504AE0243C4DEEC3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TransformState_get_LocalScale_m30AA0E0D2692D627E03299B5F831E61B475FA5B7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TransformState_get_Position_mFFC76169C760BD57CAA62BF702E54A462EBB68E5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TransformState_get_Rotation_m2D38C868A1B601D7D4B2B3B50609BA6ED8232FC8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CProcessU3Eb__5_0_m1197A3BE20F1657078F8728CB45FED2CD8926958_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CProcessU3Eb__5_1_m753B01CB4CCF0FA9F8D70129627601E298873A1D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CProcessU3Eb__5_2_mC0926D61C64AEFE46535A71E1DD8F11FC66BBCF8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__cctor_mA488D76503989368FE4E89408226C3313AC41FF7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__ctor_m444DF3B9AA40BE59F218B2AE2C3C89E9C976EC70_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniGLTFLogger_Error_mF776640773B51C86CAA61EA32861E9C8DE720D4C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniGLTFLogger_Exception_mAE54285AA2AF8A053119BD4E4ADC2493DE486FC7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniGLTFLogger_Log_m68C8C4FFAF69358DB9F710F6EFC4712026C7F780_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniGLTFLogger_SetLogger_m068B08E356353B964C53CC488FE5F85BF6D6650D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniGLTFLogger_Warning_m68DB9E95AB6CA0E0D417D73F96F258AD36E8C0FF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniGLTFLogger__cctor_mCC5E25EB861C9CBED2D00FC2383E3518BBFD48BD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m33D3B9176008049381FA49587E93223FADDC1DEC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mB9C8B8123FE864C9FAD784EC81AE62C734570264_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector4_op_Implicit_m0217ADDC8CADDB93ACBABB17A50207698DAB0071_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float3_op_Division_m59FB3E510B03034B8834D7D724561FB9EC4DBB81_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float3_op_Multiply_m38F52B61F8E5636955A1A6DF3A75BD0724148350_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float4_op_Multiply_m712573F441DA8AF0843DE2167927FB76E642B1EB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_acos_mD1CE88CB2686ED61B8228108D2C66AA29E56AAEF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_cos_m28B6228E047D552B1312CCFADB8AE95DDD94A6AF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_cross_m4CA2DAE150C6381B0D05E8AA9E48E88CF6157180_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_lengthsq_mC699F3F214F05B26BEBAF1B46E3AA3C00407A532_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_mul_m080515A2DCB7CCE0F4635A8E87B1635C02D72A4E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_normalize_mF02431EFC9E3212E0245EFF5C13BC9DC34512399_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_quaternion_m315B4CA2F8475CC33F3C73187F00AC8B64BBF939_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_rsqrt_mC67B3430EAADA7C5347E87B23859C569BC010E72_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_sin_m231F847C28B88B17BDAD7F49A7A38E46DF12D3FF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_sincos_mCA97E81FBD3BEEE76CD632E8407D21DBED186F18_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* quaternion_AxisAngle_mAFB418AC3B01E1E6360BD0603EB9DF36F4DDA986_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* quaternion__ctor_m2F6A34CCFD1150A326CB4CE108260A8BD8B1D75F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeType* DefaultUnityLogger_tA4583354564CC4E8DDF31EA7563EB7CBA49567B0_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* EuclideanTransform_t7F62AF7A2C497C1284CEB8824CE23BCBD574585A_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* ForceTransformUniqueName_tB1E4E36BFBDD9807332FFB696AF90818DFFEBC25_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* LogType_t9CC0F1B620DFBF3A01E8C2D2316A850D745EF331_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* MonoScriptData_t5641E89BCAE0D3389FFBE48ED23B8CF1836B69AD_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* float4_t89D9A294E7A79BD81BFBDD18654508532958555E_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -823,7 +736,6 @@ inline ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRu
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogException_mD4CF3A9C64D8D4BA0570D529E705D134A9A5E498 (Exception_t* ___0_exception, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_context, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349A79989BB79BB36102894 (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E (RuntimeObject* ___0_message, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_context, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogAssertion_m8F6E36D32C683565864F64C74C30F4749201434B (RuntimeObject* ___0_message, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_context, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB (RuntimeObject* ___0_message, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_context, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m06155ED25645EBBC06B4C8F05235EF41B1489C7E (RuntimeObject* ___0_message, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_context, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* __this, const RuntimeMethod* method) ;
@@ -936,64 +848,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t5641E89BCAE0D3389FFBE48ED23B8
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoScriptData_t5641E89BCAE0D3389FFBE48ED23B8CF1836B69AD_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t9EFD9D35EFD0D6510AB28CEE8C5E35CC9B6551A7____475DCC4E0B3CFC0FDFF1A7584632A4761E0A8340095ED05F439D36247351FEDB_FieldInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t9EFD9D35EFD0D6510AB28CEE8C5E35CC9B6551A7____9865B2F775EB2B185D23B5E5C4A9CF10413F1CAC960076E640FD3F9A48BD619D_FieldInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m33D3B9176008049381FA49587E93223FADDC1DEC_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	MonoScriptData_t5641E89BCAE0D3389FFBE48ED23B8CF1836B69AD V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	MonoScriptData_t5641E89BCAE0D3389FFBE48ED23B8CF1836B69AD V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m33D3B9176008049381FA49587E93223FADDC1DEC_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 0));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 1));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 3));
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t5641E89BCAE0D3389FFBE48ED23B8CF1836B69AD));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)643));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t9EFD9D35EFD0D6510AB28CEE8C5E35CC9B6551A7____9865B2F775EB2B185D23B5E5C4A9CF10413F1CAC960076E640FD3F9A48BD619D_FieldInfo_var) };
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 4));
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 4));
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)283));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t9EFD9D35EFD0D6510AB28CEE8C5E35CC9B6551A7____475DCC4E0B3CFC0FDFF1A7584632A4761E0A8340095ED05F439D36247351FEDB_FieldInfo_var) };
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 5));
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 5));
 		(&V_0)->___TypesData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
 		(&V_0)->___TotalFiles = 7;
 		(&V_0)->___TotalTypes = 8;
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_t5641E89BCAE0D3389FFBE48ED23B8CF1836B69AD L_6 = V_0;
-		V_1 = L_6;
-		goto IL_005d;
-	}
-
-IL_005d:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 6));
-		MonoScriptData_t5641E89BCAE0D3389FFBE48ED23B8CF1836B69AD L_7 = V_1;
-		return L_7;
+		return L_6;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mB9C8B8123FE864C9FAD784EC81AE62C734570264 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t381E984EB9C2F6F3A381C525D35AFAA952F17EB5* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mB9C8B8123FE864C9FAD784EC81AE62C734570264_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mB9C8B8123FE864C9FAD784EC81AE62C734570264_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -1083,56 +966,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniGLTFLogger_SetLogger_m068B08E356353B9
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DefaultUnityLogger_tA4583354564CC4E8DDF31EA7563EB7CBA49567B0_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniGLTFLogger_SetLogger_m068B08E356353B964C53CC488FE5F85BF6D6650D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_logger));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniGLTFLogger_SetLogger_m068B08E356353B964C53CC488FE5F85BF6D6650D_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 7));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 8));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 9));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 10));
 		RuntimeObject* L_0 = ___0_logger;
-		V_0 = (bool)((!(((RuntimeObject*)(RuntimeObject*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 11));
-		bool L_1 = V_0;
-		if (!L_1)
+		if (!L_0)
 		{
-			goto IL_0013;
+			goto IL_000a;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 12));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 13));
-		RuntimeObject* L_2 = ___0_logger;
+		RuntimeObject* L_1 = ___0_logger;
+		il2cpp_codegen_runtime_class_init_inline(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var);
+		((UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_StaticFields*)il2cpp_codegen_static_fields_for(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var))->___s_logger = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&((UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_StaticFields*)il2cpp_codegen_static_fields_for(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var))->___s_logger), (void*)L_1);
+		return;
+	}
+
+IL_000a:
+	{
+		DefaultUnityLogger_tA4583354564CC4E8DDF31EA7563EB7CBA49567B0* L_2 = (DefaultUnityLogger_tA4583354564CC4E8DDF31EA7563EB7CBA49567B0*)il2cpp_codegen_object_new(DefaultUnityLogger_tA4583354564CC4E8DDF31EA7563EB7CBA49567B0_il2cpp_TypeInfo_var);
+		DefaultUnityLogger__ctor_m72B5BDA7A51FD1972417603AE82D40BB9F746A94(L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var);
 		((UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_StaticFields*)il2cpp_codegen_static_fields_for(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var))->___s_logger = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&((UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_StaticFields*)il2cpp_codegen_static_fields_for(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var))->___s_logger), (void*)L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 14));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 15));
-		goto IL_001f;
-	}
-
-IL_0013:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 16));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 17));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 18));
-		DefaultUnityLogger_tA4583354564CC4E8DDF31EA7563EB7CBA49567B0* L_3 = (DefaultUnityLogger_tA4583354564CC4E8DDF31EA7563EB7CBA49567B0*)il2cpp_codegen_object_new(DefaultUnityLogger_tA4583354564CC4E8DDF31EA7563EB7CBA49567B0_il2cpp_TypeInfo_var);
-		DefaultUnityLogger__ctor_m72B5BDA7A51FD1972417603AE82D40BB9F746A94(L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 18));
-		il2cpp_codegen_runtime_class_init_inline(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var);
-		((UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_StaticFields*)il2cpp_codegen_static_fields_for(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var))->___s_logger = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&((UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_StaticFields*)il2cpp_codegen_static_fields_for(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var))->___s_logger), (void*)L_3);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 19));
-	}
-
-IL_001f:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 20));
 		return;
 	}
 }
@@ -1143,28 +1001,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniGLTFLogger_Log_m68C8C4FFAF69358DB9F71
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILogHandler_tC139ADEB099E63CFA289F310D4BE306E16B5EAE1_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniGLTFLogger_Log_m68C8C4FFAF69358DB9F710F6EFC4712026C7F780_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_msg), (&___1_context));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniGLTFLogger_Log_m68C8C4FFAF69358DB9F710F6EFC4712026C7F780_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 21));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 22));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 23));
 		il2cpp_codegen_runtime_class_init_inline(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var);
 		RuntimeObject* L_0 = ((UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_StaticFields*)il2cpp_codegen_static_fields_for(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var))->___s_logger;
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_1 = ___1_context;
 		String_t* L_2 = ___0_msg;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 24));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
 		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 24));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 25));
 		NullCheck(L_0);
 		InterfaceActionInvoker4< int32_t, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0, ILogHandler_tC139ADEB099E63CFA289F310D4BE306E16B5EAE1_il2cpp_TypeInfo_var, L_0, 3, L_1, L_2, L_3);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 25));
 		return;
 	}
 }
@@ -1175,28 +1023,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniGLTFLogger_Warning_m68DB9E95AB6CA0E0D
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILogHandler_tC139ADEB099E63CFA289F310D4BE306E16B5EAE1_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniGLTFLogger_Warning_m68DB9E95AB6CA0E0D417D73F96F258AD36E8C0FF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_msg), (&___1_context));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniGLTFLogger_Warning_m68DB9E95AB6CA0E0D417D73F96F258AD36E8C0FF_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 26));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 27));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 28));
 		il2cpp_codegen_runtime_class_init_inline(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var);
 		RuntimeObject* L_0 = ((UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_StaticFields*)il2cpp_codegen_static_fields_for(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var))->___s_logger;
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_1 = ___1_context;
 		String_t* L_2 = ___0_msg;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 29));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
 		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 29));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 30));
 		NullCheck(L_0);
 		InterfaceActionInvoker4< int32_t, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0, ILogHandler_tC139ADEB099E63CFA289F310D4BE306E16B5EAE1_il2cpp_TypeInfo_var, L_0, 2, L_1, L_2, L_3);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 30));
 		return;
 	}
 }
@@ -1207,28 +1045,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniGLTFLogger_Error_mF776640773B51C86CAA
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILogHandler_tC139ADEB099E63CFA289F310D4BE306E16B5EAE1_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniGLTFLogger_Error_mF776640773B51C86CAA61EA32861E9C8DE720D4C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_msg), (&___1_context));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniGLTFLogger_Error_mF776640773B51C86CAA61EA32861E9C8DE720D4C_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 31));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 32));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 33));
 		il2cpp_codegen_runtime_class_init_inline(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var);
 		RuntimeObject* L_0 = ((UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_StaticFields*)il2cpp_codegen_static_fields_for(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var))->___s_logger;
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_1 = ___1_context;
 		String_t* L_2 = ___0_msg;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 34));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
 		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 34));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 35));
 		NullCheck(L_0);
 		InterfaceActionInvoker4< int32_t, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0, ILogHandler_tC139ADEB099E63CFA289F310D4BE306E16B5EAE1_il2cpp_TypeInfo_var, L_0, 0, L_1, L_2, L_3);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 35));
 		return;
 	}
 }
@@ -1238,24 +1066,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniGLTFLogger_Exception_mAE54285AA2AF8A0
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILogHandler_tC139ADEB099E63CFA289F310D4BE306E16B5EAE1_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniGLTFLogger_Exception_mAE54285AA2AF8A053119BD4E4ADC2493DE486FC7_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_exception), (&___1_context));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniGLTFLogger_Exception_mAE54285AA2AF8A053119BD4E4ADC2493DE486FC7_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 36));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 37));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 38));
 		il2cpp_codegen_runtime_class_init_inline(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var);
 		RuntimeObject* L_0 = ((UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_StaticFields*)il2cpp_codegen_static_fields_for(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var))->___s_logger;
 		Exception_t* L_1 = ___0_exception;
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_2 = ___1_context;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 39));
 		NullCheck(L_0);
 		InterfaceActionInvoker2< Exception_t*, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* >::Invoke(1, ILogHandler_tC139ADEB099E63CFA289F310D4BE306E16B5EAE1_il2cpp_TypeInfo_var, L_0, L_1, L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 39));
 		return;
 	}
 }
@@ -1265,19 +1085,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniGLTFLogger__cctor_mCC5E25EB861C9CBED2
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DefaultUnityLogger_tA4583354564CC4E8DDF31EA7563EB7CBA49567B0_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniGLTFLogger__cctor_mCC5E25EB861C9CBED2D00FC2383E3518BBFD48BD_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniGLTFLogger__cctor_mCC5E25EB861C9CBED2D00FC2383E3518BBFD48BD_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 40));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 41));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 42));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 43));
 		DefaultUnityLogger_tA4583354564CC4E8DDF31EA7563EB7CBA49567B0* L_0 = (DefaultUnityLogger_tA4583354564CC4E8DDF31EA7563EB7CBA49567B0*)il2cpp_codegen_object_new(DefaultUnityLogger_tA4583354564CC4E8DDF31EA7563EB7CBA49567B0_il2cpp_TypeInfo_var);
 		DefaultUnityLogger__ctor_m72B5BDA7A51FD1972417603AE82D40BB9F746A94(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 43));
 		((UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_StaticFields*)il2cpp_codegen_static_fields_for(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var))->___s_logger = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_StaticFields*)il2cpp_codegen_static_fields_for(UniGLTFLogger_t33FF49F15CBB0CC885E859ABF4CE766B30401EF8_il2cpp_TypeInfo_var))->___s_logger), (void*)L_0);
 		return;
@@ -1297,25 +1110,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultUnityLogger_LogException_m354C156
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DefaultUnityLogger_LogException_m354C15637F97220305F830214C60F2A68446F091_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DefaultUnityLogger_tA4583354564CC4E8DDF31EA7563EB7CBA49567B0_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_exception), (&___1_context));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DefaultUnityLogger_LogException_m354C15637F97220305F830214C60F2A68446F091_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 44));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 45));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 46));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 47));
 		Exception_t* L_0 = ___0_exception;
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_1 = ___1_context;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 48));
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogException_mD4CF3A9C64D8D4BA0570D529E705D134A9A5E498(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 48));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 49));
 		return;
 	}
 }
@@ -1325,172 +1126,100 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultUnityLogger_LogFormat_m794A7F82C2
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DefaultUnityLogger_LogFormat_m794A7F82C250CA914E0CA73138BAEE382FBE7288_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DefaultUnityLogger_tA4583354564CC4E8DDF31EA7563EB7CBA49567B0_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LogType_t9CC0F1B620DFBF3A01E8C2D2316A850D745EF331_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_logType), (&___1_context), (&___2_format), (&___3_args));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DefaultUnityLogger_LogFormat_m794A7F82C250CA914E0CA73138BAEE382FBE7288_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 50));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 51));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 52));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 53));
 		int32_t L_0 = ___0_logType;
-		V_1 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 54));
-		int32_t L_1 = V_1;
-		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 55));
-		int32_t L_2 = V_0;
-		switch (L_2)
+		switch (L_0)
 		{
 			case 0:
 			{
-				goto IL_0021;
+				goto IL_001c;
 			}
 			case 1:
 			{
-				goto IL_0032;
+				goto IL_005e;
 			}
 			case 2:
 			{
-				goto IL_0043;
+				goto IL_002b;
 			}
 			case 3:
 			{
-				goto IL_0054;
+				goto IL_003a;
 			}
 			case 4:
 			{
-				goto IL_0065;
+				goto IL_0049;
 			}
 		}
 	}
 	{
-		goto IL_0076;
+		goto IL_0058;
 	}
 
-IL_0021:
+IL_001c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 56));
-		String_t* L_3 = ___2_format;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = ___3_args;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 57));
-		String_t* L_5;
-		L_5 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(L_3, L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 57));
-		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_6 = ___1_context;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 58));
+		String_t* L_1 = ___2_format;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = ___3_args;
+		String_t* L_3;
+		L_3 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(L_1, L_2, NULL);
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_4 = ___1_context;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(L_5, L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 58));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 59));
-		goto IL_007c;
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(L_3, L_4, NULL);
+		return;
 	}
 
-IL_0032:
+IL_002b:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 60));
-		String_t* L_7 = ___2_format;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = ___3_args;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 61));
-		String_t* L_9;
-		L_9 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(L_7, L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 61));
-		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_10 = ___1_context;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 62));
+		String_t* L_5 = ___2_format;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = ___3_args;
+		String_t* L_7;
+		L_7 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(L_5, L_6, NULL);
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_8 = ___1_context;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogAssertion_m8F6E36D32C683565864F64C74C30F4749201434B(L_9, L_10, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 62));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 63));
-		goto IL_007c;
+		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_7, L_8, NULL);
+		return;
 	}
 
-IL_0043:
+IL_003a:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 64));
-		String_t* L_11 = ___2_format;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = ___3_args;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 65));
-		String_t* L_13;
-		L_13 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(L_11, L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 65));
-		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_14 = ___1_context;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 66));
+		String_t* L_9 = ___2_format;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_10 = ___3_args;
+		String_t* L_11;
+		L_11 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(L_9, L_10, NULL);
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_12 = ___1_context;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_13, L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 66));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 67));
-		goto IL_007c;
+		Debug_Log_m06155ED25645EBBC06B4C8F05235EF41B1489C7E(L_11, L_12, NULL);
+		return;
 	}
 
-IL_0054:
+IL_0049:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 68));
-		String_t* L_15 = ___2_format;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16 = ___3_args;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 69));
-		String_t* L_17;
-		L_17 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(L_15, L_16, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 69));
-		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_18 = ___1_context;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 70));
+		String_t* L_13 = ___2_format;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14 = ___3_args;
+		String_t* L_15;
+		L_15 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(L_13, L_14, NULL);
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_16 = ___1_context;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m06155ED25645EBBC06B4C8F05235EF41B1489C7E(L_17, L_18, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 70));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 71));
-		goto IL_007c;
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(L_15, L_16, NULL);
+		return;
 	}
 
-IL_0065:
+IL_0058:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 72));
-		String_t* L_19 = ___2_format;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_20 = ___3_args;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 73));
-		String_t* L_21;
-		L_21 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(L_19, L_20, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 73));
-		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_22 = ___1_context;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 74));
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(L_21, L_22, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 74));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 75));
-		goto IL_007c;
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_17 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_17, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_17, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DefaultUnityLogger_LogFormat_m794A7F82C250CA914E0CA73138BAEE382FBE7288_RuntimeMethod_var)));
 	}
 
-IL_0076:
+IL_005e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 76));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 77));
-		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_23 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
-		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_23, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 77));
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_23, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DefaultUnityLogger_LogFormat_m794A7F82C250CA914E0CA73138BAEE382FBE7288_RuntimeMethod_var)));
-	}
-
-IL_007c:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 78));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultUnityLogger__ctor_m72B5BDA7A51FD1972417603AE82D40BB9F746A94 (DefaultUnityLogger_tA4583354564CC4E8DDF31EA7563EB7CBA49567B0* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DefaultUnityLogger__ctor_m72B5BDA7A51FD1972417603AE82D40BB9F746A94_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DefaultUnityLogger__ctor_m72B5BDA7A51FD1972417603AE82D40BB9F746A94_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -1506,154 +1235,60 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultUnityLogger__ctor_m72B5BDA7A51FD1
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E MathHelper_MultiplyPoint3x4_m31D89E5816137496FBE645534C5D6769CAB71052 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___0_matrix, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MathHelper_MultiplyPoint3x4_m31D89E5816137496FBE645534C5D6769CAB71052_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4_t89D9A294E7A79BD81BFBDD18654508532958555E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_matrix), (&___1_point));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MathHelper_MultiplyPoint3x4_m31D89E5816137496FBE645534C5D6769CAB71052_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 79));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 80));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 81));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 82));
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___0_matrix;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___1_point;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 83));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345_inline((&L_2), L_1, (1.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 83));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 84));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = math_mul_m080515A2DCB7CCE0F4635A8E87B1635C02D72A4E_inline(L_0, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 84));
 		V_0 = L_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 85));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4;
 		L_4 = float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06_inline((&V_0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 85));
-		V_1 = L_4;
-		goto IL_001d;
-	}
-
-IL_001d:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 86));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_5 = V_1;
-		return L_5;
+		return L_4;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E MathHelper_MultiplyPoint_m11DDACA2F43300EDE69ECFD0E9E1C2444F3CBEB4 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___0_matrix, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_point, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MathHelper_MultiplyPoint_m11DDACA2F43300EDE69ECFD0E9E1C2444F3CBEB4_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4_t89D9A294E7A79BD81BFBDD18654508532958555E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_matrix), (&___1_point));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MathHelper_MultiplyPoint_m11DDACA2F43300EDE69ECFD0E9E1C2444F3CBEB4_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 87));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 88));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 89));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 90));
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___0_matrix;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___1_point;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 91));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345_inline((&L_2), L_1, (1.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 91));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 92));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = math_mul_m080515A2DCB7CCE0F4635A8E87B1635C02D72A4E_inline(L_0, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 92));
 		V_0 = L_3;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 93));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 94));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4;
 		L_4 = float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06_inline((&V_0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 94));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5 = V_0;
 		float L_6 = L_5.___w;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 95));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7;
 		L_7 = float3_op_Division_m59FB3E510B03034B8834D7D724561FB9EC4DBB81_inline(L_4, L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 95));
-		V_1 = L_7;
-		goto IL_0028;
-	}
-
-IL_0028:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 96));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_8 = V_1;
-		return L_8;
+		return L_7;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E MathHelper_MultiplyVector_m0F7977B599A86FC47F7E9F270E963515D69997FF (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___0_matrix, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_vector, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MathHelper_MultiplyVector_m0F7977B599A86FC47F7E9F270E963515D69997FF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4_t89D9A294E7A79BD81BFBDD18654508532958555E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_matrix), (&___1_vector));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MathHelper_MultiplyVector_m0F7977B599A86FC47F7E9F270E963515D69997FF_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 97));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 98));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 99));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 100));
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___0_matrix;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___1_vector;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 101));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345_inline((&L_2), L_1, (0.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 101));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 102));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = math_mul_m080515A2DCB7CCE0F4635A8E87B1635C02D72A4E_inline(L_0, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 102));
 		V_0 = L_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 103));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4;
 		L_4 = float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06_inline((&V_0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 103));
-		V_1 = L_4;
-		goto IL_001d;
-	}
-
-IL_001d:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 104));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_5 = V_1;
-		return L_5;
+		return L_4;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 MathHelper_FromToRotation_m41B4C74A3AD3FE49E7923E50995F6E676286567A (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___0_fromVector, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___1_toVector, const RuntimeMethod* method) 
@@ -1661,9 +1296,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MathHelper_FromToRotation_m41B4C74A3AD3FE49E7923E50995F6E676286567A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -1672,310 +1304,163 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	float V_2 = 0.0f;
-	bool V_3 = false;
-	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 V_4;
-	memset((&V_4), 0, sizeof(V_4));
-	float V_5 = 0.0f;
-	float V_6 = 0.0f;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_7;
-	memset((&V_7), 0, sizeof(V_7));
-	bool V_8 = false;
-	float V_9 = 0.0f;
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_10;
-	memset((&V_10), 0, sizeof(V_10));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_fromVector), (&___1_toVector));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_7), (&V_9), (&V_10));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MathHelper_FromToRotation_m41B4C74A3AD3FE49E7923E50995F6E676286567A_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 105));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 106));
-	int32_t G_B3_0 = 0;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 107));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 108));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_0 = ___0_fromVector;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_0);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 109));
 		float L_2;
 		L_2 = math_lengthsq_mC699F3F214F05B26BEBAF1B46E3AA3C00407A532_inline(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 109));
 		if ((((float)L_2) == ((float)(0.0f))))
 		{
-			goto IL_0027;
+			goto IL_0024;
 		}
 	}
 	{
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_3 = ___1_toVector;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_3);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 110));
 		float L_5;
 		L_5 = math_lengthsq_mC699F3F214F05B26BEBAF1B46E3AA3C00407A532_inline(L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 110));
-		G_B3_0 = ((((float)L_5) == ((float)(0.0f)))? 1 : 0);
-		goto IL_0028;
-	}
-
-IL_0027:
-	{
-		G_B3_0 = 1;
-	}
-
-IL_0028:
-	{
-		V_3 = (bool)G_B3_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 111));
-		bool L_6 = V_3;
-		if (!L_6)
+		if ((!(((float)L_5) == ((float)(0.0f)))))
 		{
-			goto IL_0039;
+			goto IL_002a;
+		}
+	}
+
+IL_0024:
+	{
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_6 = ((quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_StaticFields*)il2cpp_codegen_static_fields_for(quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_il2cpp_TypeInfo_var))->___identity;
+		return L_6;
+	}
+
+IL_002a:
+	{
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_7 = ___0_fromVector;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_8 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_7);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9;
+		L_9 = math_normalize_mF02431EFC9E3212E0245EFF5C13BC9DC34512399_inline(L_8, NULL);
+		V_0 = L_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_10 = ___1_toVector;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_11 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_10);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_12;
+		L_12 = math_normalize_mF02431EFC9E3212E0245EFF5C13BC9DC34512399_inline(L_11, NULL);
+		V_1 = L_12;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_13 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_14 = V_1;
+		float L_15;
+		L_15 = math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD_inline(L_13, L_14, NULL);
+		V_2 = L_15;
+		float L_16 = V_2;
+		if ((((float)L_16) >= ((float)(1.0f))))
+		{
+			goto IL_005c;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 112));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 113));
-		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_7 = ((quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_StaticFields*)il2cpp_codegen_static_fields_for(quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_il2cpp_TypeInfo_var))->___identity;
-		V_4 = L_7;
-		goto IL_0108;
-	}
-
-IL_0039:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 114));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_8 = ___0_fromVector;
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_8);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 115));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10;
-		L_10 = math_normalize_mF02431EFC9E3212E0245EFF5C13BC9DC34512399_inline(L_9, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 115));
-		V_0 = L_10;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 116));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_11 = ___1_toVector;
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_12 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_11);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 117));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_13;
-		L_13 = math_normalize_mF02431EFC9E3212E0245EFF5C13BC9DC34512399_inline(L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 117));
-		V_1 = L_13;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 118));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_14 = V_0;
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_15 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 119));
-		float L_16;
-		L_16 = math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD_inline(L_14, L_15, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 119));
-		V_2 = L_16;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 120));
 		float L_17 = V_2;
-		V_6 = L_17;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 121));
-		float L_18 = V_6;
-		V_5 = L_18;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 122));
-		float L_19 = V_5;
-		if ((((float)L_19) >= ((float)(1.0f))))
+		if ((((float)L_17) <= ((float)(-1.0f))))
 		{
-			goto IL_0074;
+			goto IL_0062;
 		}
 	}
 	{
-		float L_20 = V_5;
-		if ((((float)L_20) <= ((float)(-1.0f))))
+		goto IL_00b6;
+	}
+
+IL_005c:
+	{
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_18 = ((quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_StaticFields*)il2cpp_codegen_static_fields_for(quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_il2cpp_TypeInfo_var))->___identity;
+		return L_18;
+	}
+
+IL_0062:
+	{
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_19 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_20;
+		memset((&L_20), 0, sizeof(L_20));
+		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_20), (1.0f), (0.0f), (0.0f), NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_21;
+		L_21 = math_cross_m4CA2DAE150C6381B0D05E8AA9E48E88CF6157180_inline(L_19, L_20, NULL);
+		V_3 = L_21;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = V_3;
+		float L_23;
+		L_23 = math_lengthsq_mC699F3F214F05B26BEBAF1B46E3AA3C00407A532_inline(L_22, NULL);
+		if ((!(((float)L_23) < ((float)(9.99999975E-05f)))))
 		{
-			goto IL_0080;
+			goto IL_00a5;
 		}
 	}
 	{
-		goto IL_00e4;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		memset((&L_25), 0, sizeof(L_25));
+		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_25), (0.0f), (1.0f), (0.0f), NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_26;
+		L_26 = math_cross_m4CA2DAE150C6381B0D05E8AA9E48E88CF6157180_inline(L_24, L_25, NULL);
+		V_3 = L_26;
 	}
 
-IL_0074:
+IL_00a5:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 123));
-		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_21 = ((quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_StaticFields*)il2cpp_codegen_static_fields_for(quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_il2cpp_TypeInfo_var))->___identity;
-		V_4 = L_21;
-		goto IL_0108;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = V_3;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_28;
+		L_28 = math_normalize_mF02431EFC9E3212E0245EFF5C13BC9DC34512399_inline(L_27, NULL);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_29;
+		L_29 = quaternion_AxisAngle_mAFB418AC3B01E1E6360BD0603EB9DF36F4DDA986_inline(L_28, (3.14159274f), NULL);
+		return L_29;
 	}
 
-IL_0080:
+IL_00b6:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 124));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 125));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 126));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_23;
-		memset((&L_23), 0, sizeof(L_23));
-		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_23), (1.0f), (0.0f), (0.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 126));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 127));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
-		L_24 = math_cross_m4CA2DAE150C6381B0D05E8AA9E48E88CF6157180_inline(L_22, L_23, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 127));
-		V_7 = L_24;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 128));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25 = V_7;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 129));
-		float L_26;
-		L_26 = math_lengthsq_mC699F3F214F05B26BEBAF1B46E3AA3C00407A532_inline(L_25, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 129));
-		V_8 = (bool)((((float)L_26) < ((float)(9.99999975E-05f)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 130));
-		bool L_27 = V_8;
-		if (!L_27)
-		{
-			goto IL_00cf;
-		}
-	}
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 131));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 132));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_28 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 133));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
-		memset((&L_29), 0, sizeof(L_29));
-		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_29), (0.0f), (1.0f), (0.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 133));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 134));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
-		L_30 = math_cross_m4CA2DAE150C6381B0D05E8AA9E48E88CF6157180_inline(L_28, L_29, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 134));
-		V_7 = L_30;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 135));
-	}
-
-IL_00cf:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 136));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_31 = V_7;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 137));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_32;
-		L_32 = math_normalize_mF02431EFC9E3212E0245EFF5C13BC9DC34512399_inline(L_31, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 137));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 138));
-		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_33;
-		L_33 = quaternion_AxisAngle_mAFB418AC3B01E1E6360BD0603EB9DF36F4DDA986_inline(L_32, (3.14159274f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 138));
-		V_4 = L_33;
-		goto IL_0108;
-	}
-
-IL_00e4:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 139));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 140));
-		float L_34 = V_2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 141));
-		float L_35;
-		L_35 = math_acos_mD1CE88CB2686ED61B8228108D2C66AA29E56AAEF_inline(L_34, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 141));
-		V_9 = L_35;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 142));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_36 = V_0;
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 143));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_38;
-		L_38 = math_cross_m4CA2DAE150C6381B0D05E8AA9E48E88CF6157180_inline(L_36, L_37, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 143));
-		V_10 = L_38;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 144));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39 = V_10;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 145));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
-		L_40 = math_normalize_mF02431EFC9E3212E0245EFF5C13BC9DC34512399_inline(L_39, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 145));
-		float L_41 = V_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 146));
-		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_42;
-		L_42 = quaternion_AxisAngle_mAFB418AC3B01E1E6360BD0603EB9DF36F4DDA986_inline(L_40, L_41, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 146));
-		V_4 = L_42;
-		goto IL_0108;
-	}
-
-IL_0108:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 147));
-		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_43 = V_4;
-		return L_43;
+		float L_30 = V_2;
+		float L_31;
+		L_31 = math_acos_mD1CE88CB2686ED61B8228108D2C66AA29E56AAEF_inline(L_30, NULL);
+		V_4 = L_31;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_32 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_33 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34;
+		L_34 = math_cross_m4CA2DAE150C6381B0D05E8AA9E48E88CF6157180_inline(L_32, L_33, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_35;
+		L_35 = math_normalize_mF02431EFC9E3212E0245EFF5C13BC9DC34512399_inline(L_34, NULL);
+		float L_36 = V_4;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_37;
+		L_37 = quaternion_AxisAngle_mAFB418AC3B01E1E6360BD0603EB9DF36F4DDA986_inline(L_35, L_36, NULL);
+		return L_37;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MathHelper_Approximately_mD19B8AE1C4058EF2D5AF471FF7DD69292EEC709E (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MathHelper_Approximately_mD19B8AE1C4058EF2D5AF471FF7DD69292EEC709E_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MathHelper_Approximately_mD19B8AE1C4058EF2D5AF471FF7DD69292EEC709E_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 148));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 149));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 150));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 151));
 		float L_0 = ___1_b;
 		float L_1 = ___0_a;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 152));
 		float L_2;
 		L_2 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(((float)il2cpp_codegen_subtract(L_0, L_1)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 152));
 		float L_3 = ___0_a;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 153));
 		float L_4;
 		L_4 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 153));
 		float L_5 = ___1_b;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 154));
 		float L_6;
 		L_6 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 154));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 155));
 		float L_7;
 		L_7 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_4, L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 155));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 156));
 		float L_8;
 		L_8 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(((float)il2cpp_codegen_multiply((9.99999997E-07f), L_7)), (9.53674316E-07f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 156));
-		V_0 = (bool)((((float)L_2) < ((float)L_8))? 1 : 0);
-		goto IL_002f;
-	}
-
-IL_002f:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 157));
-		bool L_9 = V_0;
-		return L_9;
+		return (bool)((((float)L_2) < ((float)L_8))? 1 : 0);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MathHelper_Approximately_m559DF552ACA89C109B9F1D4E040A7D7989FFAFD0 (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_a, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_b, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MathHelper_Approximately_m559DF552ACA89C109B9F1D4E040A7D7989FFAFD0_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MathHelper_Approximately_m559DF552ACA89C109B9F1D4E040A7D7989FFAFD0_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 158));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 159));
-	int32_t G_B4_0 = 0;
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 160));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 161));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_a;
 		float L_1 = L_0.___x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___1_b;
 		float L_3 = L_2.___x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 162));
 		bool L_4;
 		L_4 = MathHelper_Approximately_mD19B8AE1C4058EF2D5AF471FF7DD69292EEC709E(L_1, L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 162));
 		if (!L_4)
 		{
-			goto IL_003a;
+			goto IL_0038;
 		}
 	}
 	{
@@ -1983,13 +1468,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MathHelper_Approximately_m559DF552ACA89C
 		float L_6 = L_5.___y;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7 = ___1_b;
 		float L_8 = L_7.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 163));
 		bool L_9;
 		L_9 = MathHelper_Approximately_mD19B8AE1C4058EF2D5AF471FF7DD69292EEC709E(L_6, L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 163));
 		if (!L_9)
 		{
-			goto IL_003a;
+			goto IL_0038;
 		}
 	}
 	{
@@ -1997,62 +1480,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MathHelper_Approximately_m559DF552ACA89C
 		float L_11 = L_10.___z;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_12 = ___1_b;
 		float L_13 = L_12.___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 164));
 		bool L_14;
 		L_14 = MathHelper_Approximately_mD19B8AE1C4058EF2D5AF471FF7DD69292EEC709E(L_11, L_13, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 164));
-		G_B4_0 = ((int32_t)(L_14));
-		goto IL_003b;
+		return L_14;
 	}
 
-IL_003a:
+IL_0038:
 	{
-		G_B4_0 = 0;
-	}
-
-IL_003b:
-	{
-		V_0 = (bool)G_B4_0;
-		goto IL_003e;
-	}
-
-IL_003e:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 165));
-		bool L_15 = V_0;
-		return L_15;
+		return (bool)0;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MathHelper_Approximately_mD5281399EBDF9593B7AE62270705CAC75C17D711 (quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___0_a, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_b, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MathHelper_Approximately_mD5281399EBDF9593B7AE62270705CAC75C17D711_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MathHelper_Approximately_mD5281399EBDF9593B7AE62270705CAC75C17D711_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 166));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 167));
-	int32_t G_B5_0 = 0;
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 168));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 169));
 		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_0 = ___0_a;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___value;
 		float L_2 = L_1.___x;
 		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_3 = ___1_b;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = L_3.___value;
 		float L_5 = L_4.___x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 170));
 		bool L_6;
 		L_6 = MathHelper_Approximately_mD19B8AE1C4058EF2D5AF471FF7DD69292EEC709E(L_2, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 170));
 		if (!L_6)
 		{
-			goto IL_0075;
+			goto IL_0073;
 		}
 	}
 	{
@@ -2062,13 +1513,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MathHelper_Approximately_mD5281399EBDF95
 		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_10 = ___1_b;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_11 = L_10.___value;
 		float L_12 = L_11.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 171));
 		bool L_13;
 		L_13 = MathHelper_Approximately_mD19B8AE1C4058EF2D5AF471FF7DD69292EEC709E(L_9, L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 171));
 		if (!L_13)
 		{
-			goto IL_0075;
+			goto IL_0073;
 		}
 	}
 	{
@@ -2078,13 +1527,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MathHelper_Approximately_mD5281399EBDF95
 		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_17 = ___1_b;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_18 = L_17.___value;
 		float L_19 = L_18.___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 172));
 		bool L_20;
 		L_20 = MathHelper_Approximately_mD19B8AE1C4058EF2D5AF471FF7DD69292EEC709E(L_16, L_19, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 172));
 		if (!L_20)
 		{
-			goto IL_0075;
+			goto IL_0073;
 		}
 	}
 	{
@@ -2094,30 +1541,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MathHelper_Approximately_mD5281399EBDF95
 		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_24 = ___1_b;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_25 = L_24.___value;
 		float L_26 = L_25.___w;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 173));
 		bool L_27;
 		L_27 = MathHelper_Approximately_mD19B8AE1C4058EF2D5AF471FF7DD69292EEC709E(L_23, L_26, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 173));
-		G_B5_0 = ((int32_t)(L_27));
-		goto IL_0076;
+		return L_27;
 	}
 
-IL_0075:
+IL_0073:
 	{
-		G_B5_0 = 0;
-	}
-
-IL_0076:
-	{
-		V_0 = (bool)G_B5_0;
-		goto IL_0079;
-	}
-
-IL_0079:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 174));
-		bool L_28 = V_0;
-		return L_28;
+		return (bool)0;
 	}
 }
 #ifdef __clang__
@@ -2138,27 +1569,11 @@ IL_0079:
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EuclideanTransform__ctor_mE640A8C0B1EB80BD9465DECDD62C60DB9F5C95BB (EuclideanTransform_t7F62AF7A2C497C1284CEB8824CE23BCBD574585A* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_translation, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EuclideanTransform__ctor_mE640A8C0B1EB80BD9465DECDD62C60DB9F5C95BB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EuclideanTransform_t7F62AF7A2C497C1284CEB8824CE23BCBD574585A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_rotation), (&___1_translation));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, EuclideanTransform__ctor_mE640A8C0B1EB80BD9465DECDD62C60DB9F5C95BB_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 250));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 251));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 252));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 253));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_rotation;
 		__this->___Rotation = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 254));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_translation;
 		__this->___Translation = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 255));
 		return;
 	}
 }
@@ -2171,30 +1586,12 @@ IL2CPP_EXTERN_C  void EuclideanTransform__ctor_mE640A8C0B1EB80BD9465DECDD62C60DB
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EuclideanTransform__ctor_mF901A0BCC772607922BC2F7F64174880E4AEC40A (EuclideanTransform_t7F62AF7A2C497C1284CEB8824CE23BCBD574585A* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_rotation, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EuclideanTransform__ctor_mF901A0BCC772607922BC2F7F64174880E4AEC40A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EuclideanTransform_t7F62AF7A2C497C1284CEB8824CE23BCBD574585A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_rotation));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, EuclideanTransform__ctor_mF901A0BCC772607922BC2F7F64174880E4AEC40A_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 256));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 257));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 258));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 259));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_rotation;
 		__this->___Rotation = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 260));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 261));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 261));
 		__this->___Translation = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 262));
 		return;
 	}
 }
@@ -2207,30 +1604,12 @@ IL2CPP_EXTERN_C  void EuclideanTransform__ctor_mF901A0BCC772607922BC2F7F64174880
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EuclideanTransform__ctor_mD6F3073A05B14950101C2CD2A0E26F441A6A4BCB (EuclideanTransform_t7F62AF7A2C497C1284CEB8824CE23BCBD574585A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_translation, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EuclideanTransform__ctor_mD6F3073A05B14950101C2CD2A0E26F441A6A4BCB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EuclideanTransform_t7F62AF7A2C497C1284CEB8824CE23BCBD574585A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_translation));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, EuclideanTransform__ctor_mD6F3073A05B14950101C2CD2A0E26F441A6A4BCB_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 263));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 264));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 265));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 266));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 267));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0;
 		L_0 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 267));
 		__this->___Rotation = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 268));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_translation;
 		__this->___Translation = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 269));
 		return;
 	}
 }
@@ -2243,37 +1622,15 @@ IL2CPP_EXTERN_C  void EuclideanTransform__ctor_mD6F3073A05B14950101C2CD2A0E26F44
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EuclideanTransform__ctor_m8049E584377BFA07554ECC9D7A120EA11D500301 (EuclideanTransform_t7F62AF7A2C497C1284CEB8824CE23BCBD574585A* __this, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_matrix, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EuclideanTransform__ctor_m8049E584377BFA07554ECC9D7A120EA11D500301_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EuclideanTransform_t7F62AF7A2C497C1284CEB8824CE23BCBD574585A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_matrix));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, EuclideanTransform__ctor_m8049E584377BFA07554ECC9D7A120EA11D500301_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 270));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 271));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 272));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 273));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 274));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0;
 		L_0 = Matrix4x4_get_rotation_m7E2C29FCB2AAFAE4D7B4FBD3563E9EDB53F5A8BB_inline((&___0_matrix), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 274));
 		__this->___Rotation = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 275));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 276));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1;
 		L_1 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118_inline((&___0_matrix), 3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 276));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 277));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector4_op_Implicit_m0217ADDC8CADDB93ACBABB17A50207698DAB0071_inline(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 277));
 		__this->___Translation = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 278));
 		return;
 	}
 }
@@ -2299,23 +1656,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForceTransformUniqueName_Process_m2D7CD6
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentsInChildren_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_m75FFF26FD3F8B797CFE939FBA50E014C15E6BE28_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTransformUniqueName_Process_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_mAC4CFAF9EB9AE6BAC4221A530FCADDA1FFEAD411_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTransformUniqueName_Process_m2D7CD6DED0789CE9016E0BCFF9891D9C22DEFD57_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetLeafNameFunc_1_t508A77E71BA7B8D6F6148283AE85799BDB71D067_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetNameFunc_1_t086FA282A3B6B09049A81F368221F7B51E860813_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SetNameFunc_1_t4A057BBB1DFA92155688EA5054813B6ABAE28A31_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CProcessU3Eb__5_0_m1197A3BE20F1657078F8728CB45FED2CD8926958_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CProcessU3Eb__5_1_m753B01CB4CCF0FA9F8D70129627601E298873A1D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CProcessU3Eb__5_2_mC0926D61C64AEFE46535A71E1DD8F11FC66BBCF8_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_root));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ForceTransformUniqueName_Process_m2D7CD6DED0789CE9016E0BCFF9891D9C22DEFD57_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 279));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 280));
 	GetNameFunc_1_t086FA282A3B6B09049A81F368221F7B51E860813* G_B2_0 = NULL;
 	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* G_B2_1 = NULL;
 	GetNameFunc_1_t086FA282A3B6B09049A81F368221F7B51E860813* G_B1_0 = NULL;
@@ -2335,114 +1684,98 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForceTransformUniqueName_Process_m2D7CD6
 	GetNameFunc_1_t086FA282A3B6B09049A81F368221F7B51E860813* G_B5_2 = NULL;
 	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* G_B5_3 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 281));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 282));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_root;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 283));
 		NullCheck(L_0);
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_1;
 		L_1 = Component_GetComponentsInChildren_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_m75FFF26FD3F8B797CFE939FBA50E014C15E6BE28(L_0, Component_GetComponentsInChildren_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_m75FFF26FD3F8B797CFE939FBA50E014C15E6BE28_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 283));
-		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 284));
-		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var);
-		GetNameFunc_1_t086FA282A3B6B09049A81F368221F7B51E860813* L_3 = ((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_0;
-		GetNameFunc_1_t086FA282A3B6B09049A81F368221F7B51E860813* L_4 = L_3;
-		if (L_4)
+		GetNameFunc_1_t086FA282A3B6B09049A81F368221F7B51E860813* L_2 = ((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_0;
+		GetNameFunc_1_t086FA282A3B6B09049A81F368221F7B51E860813* L_3 = L_2;
+		if (L_3)
 		{
-			G_B2_0 = L_4;
-			G_B2_1 = L_2;
-			goto IL_0028;
+			G_B2_0 = L_3;
+			G_B2_1 = L_1;
+			goto IL_0025;
 		}
-		G_B1_0 = L_4;
-		G_B1_1 = L_2;
+		G_B1_0 = L_3;
+		G_B1_1 = L_1;
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var);
-		U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC* L_5 = ((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 285));
-		GetNameFunc_1_t086FA282A3B6B09049A81F368221F7B51E860813* L_6 = (GetNameFunc_1_t086FA282A3B6B09049A81F368221F7B51E860813*)il2cpp_codegen_object_new(GetNameFunc_1_t086FA282A3B6B09049A81F368221F7B51E860813_il2cpp_TypeInfo_var);
-		GetNameFunc_1__ctor_mEEA3917F594864EF2341D89D2F086512AFDAAD9D(L_6, L_5, (intptr_t)((void*)U3CU3Ec_U3CProcessU3Eb__5_0_m1197A3BE20F1657078F8728CB45FED2CD8926958_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 285));
-		GetNameFunc_1_t086FA282A3B6B09049A81F368221F7B51E860813* L_7 = L_6;
-		((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_0 = L_7;
-		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_0), (void*)L_7);
-		G_B2_0 = L_7;
+		U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC* L_4 = ((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9;
+		GetNameFunc_1_t086FA282A3B6B09049A81F368221F7B51E860813* L_5 = (GetNameFunc_1_t086FA282A3B6B09049A81F368221F7B51E860813*)il2cpp_codegen_object_new(GetNameFunc_1_t086FA282A3B6B09049A81F368221F7B51E860813_il2cpp_TypeInfo_var);
+		GetNameFunc_1__ctor_mEEA3917F594864EF2341D89D2F086512AFDAAD9D(L_5, L_4, (intptr_t)((void*)U3CU3Ec_U3CProcessU3Eb__5_0_m1197A3BE20F1657078F8728CB45FED2CD8926958_RuntimeMethod_var), NULL);
+		GetNameFunc_1_t086FA282A3B6B09049A81F368221F7B51E860813* L_6 = L_5;
+		((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_0 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_0), (void*)L_6);
+		G_B2_0 = L_6;
 		G_B2_1 = G_B1_1;
 	}
 
-IL_0028:
+IL_0025:
 	{
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var);
-		SetNameFunc_1_t4A057BBB1DFA92155688EA5054813B6ABAE28A31* L_8 = ((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_1;
-		SetNameFunc_1_t4A057BBB1DFA92155688EA5054813B6ABAE28A31* L_9 = L_8;
-		if (L_9)
+		SetNameFunc_1_t4A057BBB1DFA92155688EA5054813B6ABAE28A31* L_7 = ((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_1;
+		SetNameFunc_1_t4A057BBB1DFA92155688EA5054813B6ABAE28A31* L_8 = L_7;
+		if (L_8)
 		{
-			G_B4_0 = L_9;
+			G_B4_0 = L_8;
 			G_B4_1 = G_B2_0;
 			G_B4_2 = G_B2_1;
-			goto IL_0047;
+			goto IL_0044;
 		}
-		G_B3_0 = L_9;
+		G_B3_0 = L_8;
 		G_B3_1 = G_B2_0;
 		G_B3_2 = G_B2_1;
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var);
-		U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC* L_10 = ((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 286));
-		SetNameFunc_1_t4A057BBB1DFA92155688EA5054813B6ABAE28A31* L_11 = (SetNameFunc_1_t4A057BBB1DFA92155688EA5054813B6ABAE28A31*)il2cpp_codegen_object_new(SetNameFunc_1_t4A057BBB1DFA92155688EA5054813B6ABAE28A31_il2cpp_TypeInfo_var);
-		SetNameFunc_1__ctor_mFDE6569E0697F9A40AA2568B309CD5D312DEAD28(L_11, L_10, (intptr_t)((void*)U3CU3Ec_U3CProcessU3Eb__5_1_m753B01CB4CCF0FA9F8D70129627601E298873A1D_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 286));
-		SetNameFunc_1_t4A057BBB1DFA92155688EA5054813B6ABAE28A31* L_12 = L_11;
-		((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_1 = L_12;
-		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_1), (void*)L_12);
-		G_B4_0 = L_12;
+		U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC* L_9 = ((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9;
+		SetNameFunc_1_t4A057BBB1DFA92155688EA5054813B6ABAE28A31* L_10 = (SetNameFunc_1_t4A057BBB1DFA92155688EA5054813B6ABAE28A31*)il2cpp_codegen_object_new(SetNameFunc_1_t4A057BBB1DFA92155688EA5054813B6ABAE28A31_il2cpp_TypeInfo_var);
+		SetNameFunc_1__ctor_mFDE6569E0697F9A40AA2568B309CD5D312DEAD28(L_10, L_9, (intptr_t)((void*)U3CU3Ec_U3CProcessU3Eb__5_1_m753B01CB4CCF0FA9F8D70129627601E298873A1D_RuntimeMethod_var), NULL);
+		SetNameFunc_1_t4A057BBB1DFA92155688EA5054813B6ABAE28A31* L_11 = L_10;
+		((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_1 = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_1), (void*)L_11);
+		G_B4_0 = L_11;
 		G_B4_1 = G_B3_1;
 		G_B4_2 = G_B3_2;
 	}
 
-IL_0047:
+IL_0044:
 	{
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var);
-		GetLeafNameFunc_1_t508A77E71BA7B8D6F6148283AE85799BDB71D067* L_13 = ((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_2;
-		GetLeafNameFunc_1_t508A77E71BA7B8D6F6148283AE85799BDB71D067* L_14 = L_13;
-		if (L_14)
+		GetLeafNameFunc_1_t508A77E71BA7B8D6F6148283AE85799BDB71D067* L_12 = ((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_2;
+		GetLeafNameFunc_1_t508A77E71BA7B8D6F6148283AE85799BDB71D067* L_13 = L_12;
+		if (L_13)
 		{
-			G_B6_0 = L_14;
+			G_B6_0 = L_13;
 			G_B6_1 = G_B4_0;
 			G_B6_2 = G_B4_1;
 			G_B6_3 = G_B4_2;
-			goto IL_0066;
+			goto IL_0063;
 		}
-		G_B5_0 = L_14;
+		G_B5_0 = L_13;
 		G_B5_1 = G_B4_0;
 		G_B5_2 = G_B4_1;
 		G_B5_3 = G_B4_2;
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var);
-		U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC* L_15 = ((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 287));
-		GetLeafNameFunc_1_t508A77E71BA7B8D6F6148283AE85799BDB71D067* L_16 = (GetLeafNameFunc_1_t508A77E71BA7B8D6F6148283AE85799BDB71D067*)il2cpp_codegen_object_new(GetLeafNameFunc_1_t508A77E71BA7B8D6F6148283AE85799BDB71D067_il2cpp_TypeInfo_var);
-		GetLeafNameFunc_1__ctor_m86E15303C305E8DEB19BD50E4533777F9632F7EE(L_16, L_15, (intptr_t)((void*)U3CU3Ec_U3CProcessU3Eb__5_2_mC0926D61C64AEFE46535A71E1DD8F11FC66BBCF8_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 287));
-		GetLeafNameFunc_1_t508A77E71BA7B8D6F6148283AE85799BDB71D067* L_17 = L_16;
-		((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_2 = L_17;
-		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_2), (void*)L_17);
-		G_B6_0 = L_17;
+		U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC* L_14 = ((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9;
+		GetLeafNameFunc_1_t508A77E71BA7B8D6F6148283AE85799BDB71D067* L_15 = (GetLeafNameFunc_1_t508A77E71BA7B8D6F6148283AE85799BDB71D067*)il2cpp_codegen_object_new(GetLeafNameFunc_1_t508A77E71BA7B8D6F6148283AE85799BDB71D067_il2cpp_TypeInfo_var);
+		GetLeafNameFunc_1__ctor_m86E15303C305E8DEB19BD50E4533777F9632F7EE(L_15, L_14, (intptr_t)((void*)U3CU3Ec_U3CProcessU3Eb__5_2_mC0926D61C64AEFE46535A71E1DD8F11FC66BBCF8_RuntimeMethod_var), NULL);
+		GetLeafNameFunc_1_t508A77E71BA7B8D6F6148283AE85799BDB71D067* L_16 = L_15;
+		((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_2 = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var))->___U3CU3E9__5_2), (void*)L_16);
+		G_B6_0 = L_16;
 		G_B6_1 = G_B5_1;
 		G_B6_2 = G_B5_2;
 		G_B6_3 = G_B5_3;
 	}
 
-IL_0066:
+IL_0063:
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 288));
 		ForceTransformUniqueName_Process_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_mAC4CFAF9EB9AE6BAC4221A530FCADDA1FFEAD411((RuntimeObject*)G_B6_3, G_B6_2, G_B6_1, G_B6_0, ForceTransformUniqueName_Process_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_mAC4CFAF9EB9AE6BAC4221A530FCADDA1FFEAD411_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 288));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 289));
 		return;
 	}
 }
@@ -2451,29 +1784,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForceTransformUniqueName__ctor_m1737F6A2
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTransformUniqueName__ctor_m1737F6A2758A503C0C98127002BC51F9F37F10AC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ForceTransformUniqueName_tB1E4E36BFBDD9807332FFB696AF90818DFFEBC25_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ForceTransformUniqueName__ctor_m1737F6A2758A503C0C98127002BC51F9F37F10AC_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 371));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 372));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 373));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 374));
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*)il2cpp_codegen_object_new(HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03(L_0, HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 374));
 		__this->___m_uniqueNameSet = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_uniqueNameSet), (void*)L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 375));
 		__this->___m_counter = 1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 376));
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 376));
 		return;
 	}
 }
@@ -2490,12 +1811,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mA488D76503989368FE4E8940
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__cctor_mA488D76503989368FE4E89408226C3313AC41FF7_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec__cctor_mA488D76503989368FE4E89408226C3313AC41FF7_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC* L_0 = (U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC*)il2cpp_codegen_object_new(U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_il2cpp_TypeInfo_var);
 		U3CU3Ec__ctor_m444DF3B9AA40BE59F218B2AE2C3C89E9C976EC70(L_0, NULL);
@@ -2506,14 +1824,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mA488D76503989368FE4E8940
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m444DF3B9AA40BE59F218B2AE2C3C89E9C976EC70 (U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__ctor_m444DF3B9AA40BE59F218B2AE2C3C89E9C976EC70_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec__ctor_m444DF3B9AA40BE59F218B2AE2C3C89E9C976EC70_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -2521,51 +1831,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m444DF3B9AA40BE59F218B2AE2
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CProcessU3Eb__5_0_m1197A3BE20F1657078F8728CB45FED2CD8926958 (U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_t, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CProcessU3Eb__5_0_m1197A3BE20F1657078F8728CB45FED2CD8926958_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_t));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec_U3CProcessU3Eb__5_0_m1197A3BE20F1657078F8728CB45FED2CD8926958_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 377));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 378));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 379));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_t;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 380));
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 380));
 		return L_1;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CProcessU3Eb__5_1_m753B01CB4CCF0FA9F8D70129627601E298873A1D (U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_t, String_t* ___1_name, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CProcessU3Eb__5_1_m753B01CB4CCF0FA9F8D70129627601E298873A1D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_t), (&___1_name));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec_U3CProcessU3Eb__5_1_m753B01CB4CCF0FA9F8D70129627601E298873A1D_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 381));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 382));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 383));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_t;
 		String_t* L_1 = ___1_name;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 384));
 		NullCheck(L_0);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 384));
 		return;
 	}
 }
@@ -2575,30 +1855,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CProcessU3Eb__5_2_mC0926D
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CProcessU3Eb__5_2_mC0926D61C64AEFE46535A71E1DD8F11FC66BBCF8_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC221E2EFF7B4B045782D828EC26CAAEEFA4743BC_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_t));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec_U3CProcessU3Eb__5_2_mC0926D61C64AEFE46535A71E1DD8F11FC66BBCF8_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 385));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 386));
-	String_t* G_B4_0 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 387));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_t;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 388));
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 388));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 389));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 389));
 		if (!L_2)
 		{
 			goto IL_0016;
@@ -2606,52 +1873,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CProcessU3Eb__5_2_mC0926D
 	}
 	{
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = ___0_t;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 390));
 		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = Transform_get_childCount_mE9C29C702AB662CC540CA053EDE48BDAFA35B4B0(L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 390));
 		if (!L_4)
 		{
-			goto IL_0019;
+			goto IL_0018;
 		}
 	}
 
 IL_0016:
 	{
-		G_B4_0 = ((String_t*)(NULL));
-		goto IL_0034;
+		return (String_t*)NULL;
 	}
 
-IL_0019:
+IL_0018:
 	{
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = ___0_t;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 391));
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 391));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 392));
 		NullCheck(L_6);
 		String_t* L_7;
 		L_7 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 392));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = ___0_t;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 393));
 		NullCheck(L_8);
 		String_t* L_9;
 		L_9 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 393));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 394));
 		String_t* L_10;
 		L_10 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_7, _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0, L_9, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 394));
-		G_B4_0 = L_10;
-	}
-
-IL_0034:
-	{
-		return G_B4_0;
+		return L_10;
 	}
 }
 #ifdef __clang__
@@ -2664,19 +1915,7 @@ IL_0034:
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 TransformState_get_Position_mFFC76169C760BD57CAA62BF702E54A462EBB68E5 (TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_get_Position_mFFC76169C760BD57CAA62BF702E54A462EBB68E5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TransformState_get_Position_mFFC76169C760BD57CAA62BF702E54A462EBB68E5_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 395));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 396));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 397));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___U3CPositionU3Ek__BackingField;
 		return L_0;
 	}
@@ -2692,19 +1931,7 @@ IL2CPP_EXTERN_C  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 TransformStat
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 TransformState_get_LocalPosition_m8B675A5004BAEC0A8D9DB4581F6AD471AF0D0607 (TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_get_LocalPosition_m8B675A5004BAEC0A8D9DB4581F6AD471AF0D0607_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TransformState_get_LocalPosition_m8B675A5004BAEC0A8D9DB4581F6AD471AF0D0607_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 398));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 399));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 400));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___U3CLocalPositionU3Ek__BackingField;
 		return L_0;
 	}
@@ -2720,19 +1947,7 @@ IL2CPP_EXTERN_C  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 TransformStat
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 TransformState_get_Rotation_m2D38C868A1B601D7D4B2B3B50609BA6ED8232FC8 (TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_get_Rotation_m2D38C868A1B601D7D4B2B3B50609BA6ED8232FC8_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TransformState_get_Rotation_m2D38C868A1B601D7D4B2B3B50609BA6ED8232FC8_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 401));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 402));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 403));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = __this->___U3CRotationU3Ek__BackingField;
 		return L_0;
 	}
@@ -2748,19 +1963,7 @@ IL2CPP_EXTERN_C  Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 TransformS
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 TransformState_get_LocalRotation_m2C281428E29C474F6EFA2AE1504AE0243C4DEEC3 (TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_get_LocalRotation_m2C281428E29C474F6EFA2AE1504AE0243C4DEEC3_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TransformState_get_LocalRotation_m2C281428E29C474F6EFA2AE1504AE0243C4DEEC3_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 404));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 405));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 406));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = __this->___U3CLocalRotationU3Ek__BackingField;
 		return L_0;
 	}
@@ -2776,19 +1979,7 @@ IL2CPP_EXTERN_C  Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 TransformS
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 TransformState_get_LocalScale_m30AA0E0D2692D627E03299B5F831E61B475FA5B7 (TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_get_LocalScale_m30AA0E0D2692D627E03299B5F831E61B475FA5B7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TransformState_get_LocalScale_m30AA0E0D2692D627E03299B5F831E61B475FA5B7_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 407));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 408));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 409));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___U3CLocalScaleU3Ek__BackingField;
 		return L_0;
 	}
@@ -2804,36 +1995,17 @@ IL2CPP_EXTERN_C  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 TransformStat
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformState__ctor_m5D458FEC9DCEA294661526D60A7306B38019F1CB (TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_localPosition, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___3_localRotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___4_localScale, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState__ctor_m5D458FEC9DCEA294661526D60A7306B38019F1CB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_position), (&___1_localPosition), (&___2_rotation), (&___3_localRotation), (&___4_localScale));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TransformState__ctor_m5D458FEC9DCEA294661526D60A7306B38019F1CB_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 410));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 411));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 412));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 413));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_position;
 		__this->___U3CPositionU3Ek__BackingField = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 414));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_localPosition;
 		__this->___U3CLocalPositionU3Ek__BackingField = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 415));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___2_rotation;
 		__this->___U3CRotationU3Ek__BackingField = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 416));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = ___3_localRotation;
 		__this->___U3CLocalRotationU3Ek__BackingField = L_3;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 417));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___4_localScale;
 		__this->___U3CLocalScaleU3Ek__BackingField = L_4;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 418));
 		return;
 	}
 }
@@ -2850,119 +2022,64 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformState__ctor_mC954B2DD4836A4A8CC
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState__ctor_mC954B2DD4836A4A8CC76231CECB15D3E688FF104_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_tf));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TransformState__ctor_mC954B2DD4836A4A8CC76231CECB15D3E688FF104_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 419));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 420));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 421));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 422));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_tf;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 423));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 423));
-		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 424));
-		bool L_2 = V_0;
-		if (!L_2)
+		if (!L_1)
 		{
-			goto IL_0047;
+			goto IL_0041;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 425));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 426));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 427));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		__this->___U3CPositionU3Ek__BackingField = L_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 427));
-		__this->___U3CPositionU3Ek__BackingField = L_3;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 428));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 429));
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
-		L_4 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 429));
-		__this->___U3CLocalPositionU3Ek__BackingField = L_4;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 430));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 431));
+		__this->___U3CLocalPositionU3Ek__BackingField = L_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4;
+		L_4 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		__this->___U3CRotationU3Ek__BackingField = L_4;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
 		L_5 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 431));
-		__this->___U3CRotationU3Ek__BackingField = L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 432));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 433));
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6;
-		L_6 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 433));
-		__this->___U3CLocalRotationU3Ek__BackingField = L_6;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 434));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 435));
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
-		L_7 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 435));
-		__this->___U3CLocalScaleU3Ek__BackingField = L_7;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 436));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 437));
-		goto IL_0085;
+		__this->___U3CLocalRotationU3Ek__BackingField = L_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		__this->___U3CLocalScaleU3Ek__BackingField = L_6;
+		return;
 	}
 
-IL_0047:
+IL_0041:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 438));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 439));
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = ___0_tf;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 440));
-		NullCheck(L_8);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
-		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 440));
-		__this->___U3CPositionU3Ek__BackingField = L_9;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 441));
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = ___0_tf;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 442));
-		NullCheck(L_10);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
-		L_11 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_10, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 442));
-		__this->___U3CLocalPositionU3Ek__BackingField = L_11;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 443));
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = ___0_tf;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 444));
-		NullCheck(L_12);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13;
-		L_13 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 444));
-		__this->___U3CRotationU3Ek__BackingField = L_13;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 445));
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = ___0_tf;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 446));
-		NullCheck(L_14);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15;
-		L_15 = Transform_get_localRotation_mD53D37611A5DAE93EC6C7BBCAC337408C5CACA77(L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 446));
-		__this->___U3CLocalRotationU3Ek__BackingField = L_15;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 447));
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16 = ___0_tf;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 448));
-		NullCheck(L_16);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
-		L_17 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_16, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 448));
-		__this->___U3CLocalScaleU3Ek__BackingField = L_17;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 449));
-	}
-
-IL_0085:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 450));
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = ___0_tf;
+		NullCheck(L_7);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_7, NULL);
+		__this->___U3CPositionU3Ek__BackingField = L_8;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = ___0_tf;
+		NullCheck(L_9);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_9, NULL);
+		__this->___U3CLocalPositionU3Ek__BackingField = L_10;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = ___0_tf;
+		NullCheck(L_11);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12;
+		L_12 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_11, NULL);
+		__this->___U3CRotationU3Ek__BackingField = L_12;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = ___0_tf;
+		NullCheck(L_13);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14;
+		L_14 = Transform_get_localRotation_mD53D37611A5DAE93EC6C7BBCAC337408C5CACA77(L_13, NULL);
+		__this->___U3CLocalRotationU3Ek__BackingField = L_14;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15 = ___0_tf;
+		NullCheck(L_15);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		L_16 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_15, NULL);
+		__this->___U3CLocalScaleU3Ek__BackingField = L_16;
 		return;
 	}
 }
@@ -3002,168 +2119,72 @@ IL2CPP_EXTERN_C  void TransformState__ctor_mC954B2DD4836A4A8CC76231CECB15D3E688F
 #endif
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_xyz, float ___1_w, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4_t89D9A294E7A79BD81BFBDD18654508532958555E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_xyz), (&___1_w));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 38830));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 38831));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 38832));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 38833));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_xyz;
 		float L_1 = L_0.___x;
 		__this->___x = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 38834));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___0_xyz;
 		float L_3 = L_2.___y;
 		__this->___y = L_3;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 38835));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___0_xyz;
 		float L_5 = L_4.___z;
 		__this->___z = L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 38836));
 		float L_6 = ___1_w;
 		__this->___w = L_6;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 38837));
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E math_mul_m080515A2DCB7CCE0F4635A8E87B1635C02D72A4E_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___0_a, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_b, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4_t89D9A294E7A79BD81BFBDD18654508532958555E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_mul_m080515A2DCB7CCE0F4635A8E87B1635C02D72A4E_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_mul_m080515A2DCB7CCE0F4635A8E87B1635C02D72A4E_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13514));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13515));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13516));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13517));
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___0_a;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___1_b;
 		float L_3 = L_2.___x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13518));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
 		L_4 = float4_op_Multiply_m712573F441DA8AF0843DE2167927FB76E642B1EB_inline(L_1, L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13518));
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_5 = ___0_a;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = L_5.___c1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7 = ___1_b;
 		float L_8 = L_7.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13519));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_9;
 		L_9 = float4_op_Multiply_m712573F441DA8AF0843DE2167927FB76E642B1EB_inline(L_6, L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13519));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13520));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10;
 		L_10 = float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44_inline(L_4, L_9, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13520));
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_11 = ___0_a;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_12 = L_11.___c2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_13 = ___1_b;
 		float L_14 = L_13.___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13521));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_15;
 		L_15 = float4_op_Multiply_m712573F441DA8AF0843DE2167927FB76E642B1EB_inline(L_12, L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13521));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13522));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_16;
 		L_16 = float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44_inline(L_10, L_15, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13522));
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_17 = ___0_a;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_18 = L_17.___c3;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_19 = ___1_b;
 		float L_20 = L_19.___w;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13523));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_21;
 		L_21 = float4_op_Multiply_m712573F441DA8AF0843DE2167927FB76E642B1EB_inline(L_18, L_20, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13523));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13524));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_22;
 		L_22 = float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44_inline(L_16, L_21, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13524));
-		V_0 = L_22;
-		goto IL_0057;
-	}
-
-IL_0057:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 13525));
-		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_23 = V_0;
-		return L_23;
+		return L_22;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4_t89D9A294E7A79BD81BFBDD18654508532958555E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 40994));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 40995));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 40996));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 40997));
 		float L_0 = __this->___x;
 		float L_1 = __this->___y;
 		float L_2 = __this->___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 40998));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_3), L_0, L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 40998));
-		V_0 = L_3;
-		goto IL_001b;
-	}
-
-IL_001b:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 40999));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = V_0;
-		return L_4;
+		return L_3;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Division_m59FB3E510B03034B8834D7D724561FB9EC4DBB81_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float ___1_rhs, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_op_Division_m59FB3E510B03034B8834D7D724561FB9EC4DBB81_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float3_op_Division_m59FB3E510B03034B8834D7D724561FB9EC4DBB81_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35784));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35785));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35786));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35787));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float L_2 = ___1_rhs;
@@ -3173,115 +2194,40 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6 = ___0_lhs;
 		float L_7 = L_6.___z;
 		float L_8 = ___1_rhs;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35788));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_9), ((float)(L_1/L_2)), ((float)(L_4/L_5)), ((float)(L_7/L_8)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35788));
-		V_0 = L_9;
-		goto IL_0021;
-	}
-
-IL_0021:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35789));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = V_0;
-		return L_10;
+		return L_9;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_lengthsq_mC699F3F214F05B26BEBAF1B46E3AA3C00407A532_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_lengthsq_mC699F3F214F05B26BEBAF1B46E3AA3C00407A532_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_lengthsq_mC699F3F214F05B26BEBAF1B46E3AA3C00407A532_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9581));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9582));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9583));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9584));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9585));
 		float L_2;
 		L_2 = math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD_inline(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9585));
-		V_0 = L_2;
-		goto IL_000b;
-	}
-
-IL_000b:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9586));
-		float L_3 = V_0;
-		return L_3;
+		return L_2;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_normalize_mF02431EFC9E3212E0245EFF5C13BC9DC34512399_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_normalize_mF02431EFC9E3212E0245EFF5C13BC9DC34512399_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_normalize_mF02431EFC9E3212E0245EFF5C13BC9DC34512399_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9416));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9417));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9418));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9419));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9420));
 		float L_2;
 		L_2 = math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD_inline(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9420));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9421));
 		float L_3;
 		L_3 = math_rsqrt_mC67B3430EAADA7C5347E87B23859C569BC010E72_inline(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9421));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9422));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_5;
 		L_5 = float3_op_Multiply_m38F52B61F8E5636955A1A6DF3A75BD0724148350_inline(L_3, L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9422));
-		V_0 = L_5;
-		goto IL_0016;
-	}
-
-IL_0016:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9423));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6 = V_0;
-		return L_6;
+		return L_5;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7568));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7569));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7570));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7571));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
 		float L_1 = L_0.___x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___1_y;
@@ -3294,154 +2240,61 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_dot_mE193D8880350D74CC
 		float L_9 = L_8.___z;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = ___1_y;
 		float L_11 = L_10.___z;
-		V_0 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))));
-		goto IL_002d;
-	}
-
-IL_002d:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7572));
-		float L_12 = V_0;
-		return L_12;
+		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))));
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35547));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35548));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35549));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35550));
 		float L_0 = ___0_x;
 		__this->___x = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35551));
 		float L_1 = ___1_y;
 		__this->___y = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35552));
 		float L_2 = ___2_z;
 		__this->___z = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35553));
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_cross_m4CA2DAE150C6381B0D05E8AA9E48E88CF6157180_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_cross_m4CA2DAE150C6381B0D05E8AA9E48E88CF6157180_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_cross_m4CA2DAE150C6381B0D05E8AA9E48E88CF6157180_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9722));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9723));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9724));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9725));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9726));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1;
 		L_1 = float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_inline((&___1_y), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9726));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9727));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2;
 		L_2 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9727));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9728));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3;
 		L_3 = float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_inline((&___0_x), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9728));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___1_y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9729));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_5;
 		L_5 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_3, L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9729));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9730));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6;
 		L_6 = float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_inline(L_2, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9730));
 		V_0 = L_6;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9731));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7;
 		L_7 = float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_inline((&V_0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9731));
-		V_1 = L_7;
-		goto IL_002b;
-	}
-
-IL_002b:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9732));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_8 = V_1;
-		return L_8;
+		return L_7;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 quaternion_AxisAngle_mAFB418AC3B01E1E6360BD0603EB9DF36F4DDA986_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_axis, float ___1_angle, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&quaternion_AxisAngle_mAFB418AC3B01E1E6360BD0603EB9DF36F4DDA986_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
-	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_axis), (&___1_angle));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, quaternion_AxisAngle_mAFB418AC3B01E1E6360BD0603EB9DF36F4DDA986_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58990));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58991));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58992));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58993));
 		float L_0 = ___1_angle;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58994));
 		math_sincos_mCA97E81FBD3BEEE76CD632E8407D21DBED186F18_inline(((float)il2cpp_codegen_multiply((0.5f), L_0)), (&V_0), (&V_1), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58994));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58995));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___0_axis;
 		float L_2 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58996));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3;
 		L_3 = float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81_inline(L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58996));
 		float L_4 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58997));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_3, L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58997));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58998));
 		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_6;
 		L_6 = math_quaternion_m315B4CA2F8475CC33F3C73187F00AC8B64BBF939_inline(L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58998));
-		V_2 = L_6;
-		goto IL_0027;
-	}
-
-IL_0027:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58999));
-		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_7 = V_2;
-		return L_7;
+		return L_6;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_acos_mD1CE88CB2686ED61B8228108D2C66AA29E56AAEF_inline (float ___0_x, const RuntimeMethod* method) 
@@ -3450,95 +2303,36 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_acos_mD1CE88CB2686ED61
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_acos_mD1CE88CB2686ED61B8228108D2C66AA29E56AAEF_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_acos_mD1CE88CB2686ED61B8228108D2C66AA29E56AAEF_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7994));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7995));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7996));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7997));
 		float L_0 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7998));
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
 		L_1 = acos(((double)((float)L_0)));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7998));
-		V_0 = ((float)L_1);
-		goto IL_000d;
-	}
-
-IL_000d:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7999));
-		float L_2 = V_0;
-		return L_2;
+		return ((float)L_1);
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline (float ___0_x, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7444));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7445));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7446));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7447));
 		float L_0 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7448));
 		uint32_t L_1;
 		L_1 = math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_inline(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7448));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7449));
 		float L_2;
 		L_2 = math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_inline(((int32_t)((int32_t)L_1&((int32_t)2147483647LL))), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7449));
-		V_0 = L_2;
-		goto IL_0015;
-	}
-
-IL_0015:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7450));
-		float L_3 = V_0;
-		return L_3;
+		return L_2;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline (float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6825));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6826));
-	float G_B4_0 = 0.0f;
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6827));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6828));
 		float L_0 = ___1_y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6829));
 		bool L_1;
 		L_1 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6829));
 		if (L_1)
 		{
-			goto IL_0010;
+			goto IL_000e;
 		}
 	}
 	{
@@ -3546,32 +2340,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_max_m4B454A91AE8827997
 		float L_3 = ___1_y;
 		if ((((float)L_2) > ((float)L_3)))
 		{
-			goto IL_0010;
+			goto IL_000e;
 		}
 	}
 	{
 		float L_4 = ___1_y;
-		G_B4_0 = L_4;
-		goto IL_0011;
+		return L_4;
 	}
 
-IL_0010:
+IL_000e:
 	{
 		float L_5 = ___0_x;
-		G_B4_0 = L_5;
-	}
-
-IL_0011:
-	{
-		V_0 = G_B4_0;
-		goto IL_0014;
-	}
-
-IL_0014:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6830));
-		float L_6 = V_0;
-		return L_6;
+		return L_5;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
@@ -3579,15 +2359,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 17386));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 17387));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 17388));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
 		return L_0;
 	}
@@ -3597,71 +2372,35 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 17530));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 17531));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 17532));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Matrix4x4_get_rotation_m7E2C29FCB2AAFAE4D7B4FBD3563E9EDB53F5A8BB_inline (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Matrix4x4_get_rotation_m7E2C29FCB2AAFAE4D7B4FBD3563E9EDB53F5A8BB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Matrix4x4_get_rotation_m7E2C29FCB2AAFAE4D7B4FBD3563E9EDB53F5A8BB_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16581));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16582));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16583));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16584));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0;
 		L_0 = Matrix4x4_GetRotation_mA3388AAB0DC4960D4E93D945398430A5C62D4D6F(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16584));
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118_inline (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_3;
 	memset((&V_3), 0, sizeof(V_3));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_index));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16794));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16795));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16796));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16797));
 		int32_t L_0 = ___0_index;
 		V_1 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16798));
 		int32_t L_1 = V_1;
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16799));
 		int32_t L_2 = V_0;
 		switch (L_2)
 		{
@@ -3689,7 +2428,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60
 
 IL_0020:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16800));
 		il2cpp_codegen_initobj((&V_2), sizeof(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3));
 		float L_3 = __this->___m00;
 		(&V_2)->___x = L_3;
@@ -3706,7 +2444,6 @@ IL_0020:
 
 IL_0063:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16801));
 		il2cpp_codegen_initobj((&V_2), sizeof(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3));
 		float L_8 = __this->___m01;
 		(&V_2)->___x = L_8;
@@ -3723,7 +2460,6 @@ IL_0063:
 
 IL_00a6:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16802));
 		il2cpp_codegen_initobj((&V_2), sizeof(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3));
 		float L_13 = __this->___m02;
 		(&V_2)->___x = L_13;
@@ -3740,7 +2476,6 @@ IL_00a6:
 
 IL_00e6:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16803));
 		il2cpp_codegen_initobj((&V_2), sizeof(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3));
 		float L_18 = __this->___m03;
 		(&V_2)->___x = L_18;
@@ -3757,38 +2492,22 @@ IL_00e6:
 
 IL_0126:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16804));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16805));
 		IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82* L_23 = (IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82_il2cpp_TypeInfo_var)));
 		IndexOutOfRangeException__ctor_mFD06819F05B815BE2D6E826D4E04F4C449D0A425(L_23, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6FC8A3409851599FCC995B0B63300CE4AA4839CD)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16805));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_23, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118_RuntimeMethod_var)));
 	}
 
 IL_0131:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16806));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_24 = V_3;
 		return L_24;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector4_op_Implicit_m0217ADDC8CADDB93ACBABB17A50207698DAB0071_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_v, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_op_Implicit_m0217ADDC8CADDB93ACBABB17A50207698DAB0071_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_v));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector4_op_Implicit_m0217ADDC8CADDB93ACBABB17A50207698DAB0071_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 18811));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 18812));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 18813));
 		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0 = ___0_v;
 		float L_1 = L_0.___x;
@@ -3805,95 +2524,35 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 TransformState_get_Position_mFFC76169C760BD57CAA62BF702E54A462EBB68E5_inline (TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_get_Position_mFFC76169C760BD57CAA62BF702E54A462EBB68E5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TransformState_get_Position_mFFC76169C760BD57CAA62BF702E54A462EBB68E5_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 395));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 396));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 397));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___U3CPositionU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 TransformState_get_LocalPosition_m8B675A5004BAEC0A8D9DB4581F6AD471AF0D0607_inline (TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_get_LocalPosition_m8B675A5004BAEC0A8D9DB4581F6AD471AF0D0607_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TransformState_get_LocalPosition_m8B675A5004BAEC0A8D9DB4581F6AD471AF0D0607_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 398));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 399));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 400));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___U3CLocalPositionU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 TransformState_get_Rotation_m2D38C868A1B601D7D4B2B3B50609BA6ED8232FC8_inline (TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_get_Rotation_m2D38C868A1B601D7D4B2B3B50609BA6ED8232FC8_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TransformState_get_Rotation_m2D38C868A1B601D7D4B2B3B50609BA6ED8232FC8_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 401));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 402));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 403));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = __this->___U3CRotationU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 TransformState_get_LocalRotation_m2C281428E29C474F6EFA2AE1504AE0243C4DEEC3_inline (TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_get_LocalRotation_m2C281428E29C474F6EFA2AE1504AE0243C4DEEC3_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TransformState_get_LocalRotation_m2C281428E29C474F6EFA2AE1504AE0243C4DEEC3_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 404));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 405));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 406));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = __this->___U3CLocalRotationU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 TransformState_get_LocalScale_m30AA0E0D2692D627E03299B5F831E61B475FA5B7_inline (TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_get_LocalScale_m30AA0E0D2692D627E03299B5F831E61B475FA5B7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformState_t131843897DD12529CEEED6F8308BCA1BFC1F88AA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TransformState_get_LocalScale_m30AA0E0D2692D627E03299B5F831E61B475FA5B7_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 407));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 408));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_Utils + 409));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___U3CLocalScaleU3Ek__BackingField;
 		return L_0;
 	}
@@ -3903,15 +2562,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 17389));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 17390));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 17391));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___oneVector;
 		return L_0;
 	}
@@ -3919,8 +2573,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR __Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* Array_Empty_TisIl2CppFullySharedGenericAny_m244E2A51B33F845A2093F0862FBCE502E4FDD868_gshared_inline (const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 2));
 		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* L_0 = ((EmptyArray_1_tF69A5F6BAD1150A16C4C98B346D6122FE3751C80_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 2)))->___Value;
@@ -3929,22 +2581,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR __Il2CppFullySharedGenericTypeU5B
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Multiply_m712573F441DA8AF0843DE2167927FB76E642B1EB_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float ___1_rhs, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4_op_Multiply_m712573F441DA8AF0843DE2167927FB76E642B1EB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4_t89D9A294E7A79BD81BFBDD18654508532958555E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float4_op_Multiply_m712573F441DA8AF0843DE2167927FB76E642B1EB_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 39014));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 39015));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 39016));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 39017));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float L_2 = ___1_rhs;
@@ -3957,40 +2594,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_9 = ___0_lhs;
 		float L_10 = L_9.___w;
 		float L_11 = ___1_rhs;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 39018));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_12), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), ((float)il2cpp_codegen_multiply(L_10, L_11)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 39018));
-		V_0 = L_12;
-		goto IL_0029;
-	}
-
-IL_0029:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 39019));
-		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_13 = V_0;
-		return L_13;
+		return L_12;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_rhs, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4_t89D9A294E7A79BD81BFBDD18654508532958555E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 39026));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 39027));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 39028));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 39029));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___1_rhs;
@@ -4007,72 +2619,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 		float L_13 = L_12.___w;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14 = ___1_rhs;
 		float L_15 = L_14.___w;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 39030));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_16;
 		memset((&L_16), 0, sizeof(L_16));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_16), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), ((float)il2cpp_codegen_add(L_13, L_15)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 39030));
-		V_0 = L_16;
-		goto IL_003d;
-	}
-
-IL_003d:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 39031));
-		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_17 = V_0;
-		return L_17;
+		return L_16;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_rsqrt_mC67B3430EAADA7C5347E87B23859C569BC010E72_inline (float ___0_x, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_rsqrt_mC67B3430EAADA7C5347E87B23859C569BC010E72_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_rsqrt_mC67B3430EAADA7C5347E87B23859C569BC010E72_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9354));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9355));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9356));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9357));
 		float L_0 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9358));
 		float L_1;
 		L_1 = math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_inline(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9358));
-		V_0 = ((float)((1.0f)/L_1));
-		goto IL_0010;
-	}
-
-IL_0010:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9359));
-		float L_2 = V_0;
-		return L_2;
+		return ((float)((1.0f)/L_1));
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Multiply_m38F52B61F8E5636955A1A6DF3A75BD0724148350_inline (float ___0_lhs, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_rhs, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_op_Multiply_m38F52B61F8E5636955A1A6DF3A75BD0724148350_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float3_op_Multiply_m38F52B61F8E5636955A1A6DF3A75BD0724148350_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35736));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35737));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35738));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35739));
 		float L_0 = ___0_lhs;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___1_rhs;
 		float L_2 = L_1.___x;
@@ -4082,77 +2646,27 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 		float L_6 = ___0_lhs;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7 = ___1_rhs;
 		float L_8 = L_7.___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35740));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_9), ((float)il2cpp_codegen_multiply(L_0, L_2)), ((float)il2cpp_codegen_multiply(L_3, L_5)), ((float)il2cpp_codegen_multiply(L_6, L_8)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35740));
-		V_0 = L_9;
-		goto IL_0021;
-	}
-
-IL_0021:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35741));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = V_0;
-		return L_10;
+		return L_9;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 36543));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 36544));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 36545));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 36546));
 		float L_0 = __this->___y;
 		float L_1 = __this->___z;
 		float L_2 = __this->___x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 36547));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_3), L_0, L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 36547));
-		V_0 = L_3;
-		goto IL_001b;
-	}
-
-IL_001b:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 36548));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = V_0;
-		return L_4;
+		return L_3;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_rhs, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35724));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35725));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35726));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35727));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___1_rhs;
@@ -4165,40 +2679,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 		float L_9 = L_8.___z;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = ___1_rhs;
 		float L_11 = L_10.___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35728));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_12), ((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)), ((float)il2cpp_codegen_multiply(L_9, L_11)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35728));
-		V_0 = L_12;
-		goto IL_0030;
-	}
-
-IL_0030:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35729));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_13 = V_0;
-		return L_13;
+		return L_12;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_rhs, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35760));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35761));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35762));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35763));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___1_rhs;
@@ -4211,74 +2700,31 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 		float L_9 = L_8.___z;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = ___1_rhs;
 		float L_11 = L_10.___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35764));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_12), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35764));
-		V_0 = L_12;
-		goto IL_0030;
-	}
-
-IL_0030:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35765));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_13 = V_0;
-		return L_13;
+		return L_12;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void math_sincos_mCA97E81FBD3BEEE76CD632E8407D21DBED186F18_inline (float ___0_x, float* ___1_s, float* ___2_c, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_sincos_mCA97E81FBD3BEEE76CD632E8407D21DBED186F18_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_s), (&___2_c));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_sincos_mCA97E81FBD3BEEE76CD632E8407D21DBED186F18_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 10514));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 10515));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 10516));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 10517));
 		float* L_0 = ___1_s;
 		float L_1 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 10518));
 		float L_2;
 		L_2 = math_sin_m231F847C28B88B17BDAD7F49A7A38E46DF12D3FF_inline(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 10518));
 		*((float*)L_0) = (float)L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 10519));
 		float* L_3 = ___2_c;
 		float L_4 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 10520));
 		float L_5;
 		L_5 = math_cos_m28B6228E047D552B1312CCFADB8AE95DDD94A6AF_inline(L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 10520));
 		*((float*)L_3) = (float)L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 10521));
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float ___1_rhs, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35730));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35731));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35732));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35733));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float L_2 = ___1_rhs;
@@ -4288,161 +2734,49 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6 = ___0_lhs;
 		float L_7 = L_6.___z;
 		float L_8 = ___1_rhs;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35734));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35734));
-		V_0 = L_9;
-		goto IL_0021;
-	}
-
-IL_0021:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35735));
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = V_0;
-		return L_10;
+		return L_9;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_xyz, float ___1_w, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4_t89D9A294E7A79BD81BFBDD18654508532958555E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_xyz), (&___1_w));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 3855));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 3856));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 3857));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 3858));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_xyz;
 		float L_1 = ___1_w;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 3859));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345_inline((&L_2), L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 3859));
-		V_0 = L_2;
-		goto IL_000b;
-	}
-
-IL_000b:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 3860));
-		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3 = V_0;
-		return L_3;
+		return L_2;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 math_quaternion_m315B4CA2F8475CC33F3C73187F00AC8B64BBF939_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_quaternion_m315B4CA2F8475CC33F3C73187F00AC8B64BBF939_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_quaternion_m315B4CA2F8475CC33F3C73187F00AC8B64BBF939_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 15806));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 15807));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 15808));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 15809));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_value;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 15810));
 		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		quaternion__ctor_m2F6A34CCFD1150A326CB4CE108260A8BD8B1D75F_inline((&L_1), L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 15810));
-		V_0 = L_1;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 15811));
-		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_2 = V_0;
-		return L_2;
+		return L_1;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_inline (float ___0_x, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	uint32_t V_0 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6252));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6253));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6254));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6255));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6256));
 		int32_t L_0 = *((uint32_t*)((uintptr_t)(&___0_x)));
-		V_0 = L_0;
-		goto IL_0009;
-	}
-
-IL_0009:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6257));
-		uint32_t L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_inline (uint32_t ___0_x, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6322));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6323));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6324));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6325));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6326));
 		float L_0 = *((float*)((uintptr_t)(&___0_x)));
-		V_0 = L_0;
-		goto IL_0009;
-	}
-
-IL_0009:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6327));
-		float L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline (float ___0_f, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		float L_0 = ___0_f;
 		int32_t L_1;
@@ -4452,33 +2786,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F76
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4_t89D9A294E7A79BD81BFBDD18654508532958555E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z), (&___3_w));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 38782));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 38783));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 38784));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 38785));
 		float L_0 = ___0_x;
 		__this->___x = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 38786));
 		float L_1 = ___1_y;
 		__this->___y = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 38787));
 		float L_2 = ___2_z;
 		__this->___z = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 38788));
 		float L_3 = ___3_w;
 		__this->___w = L_3;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 38789));
 		return;
 	}
 }
@@ -4488,32 +2804,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9288));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9289));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9290));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9291));
 		float L_0 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9292));
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
 		L_1 = sqrt(((double)((float)L_0)));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9292));
-		V_0 = ((float)L_1);
-		goto IL_000d;
-	}
-
-IL_000d:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9293));
-		float L_2 = V_0;
-		return L_2;
+		return ((float)L_1);
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sin_m231F847C28B88B17BDAD7F49A7A38E46DF12D3FF_inline (float ___0_x, const RuntimeMethod* method) 
@@ -4522,32 +2820,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sin_m231F847C28B88B17B
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_sin_m231F847C28B88B17BDAD7F49A7A38E46DF12D3FF_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_sin_m231F847C28B88B17BDAD7F49A7A38E46DF12D3FF_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 8060));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 8061));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 8062));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 8063));
 		float L_0 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 8064));
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
 		L_1 = sin(((double)((float)L_0)));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 8064));
-		V_0 = ((float)L_1);
-		goto IL_000d;
-	}
-
-IL_000d:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 8065));
-		float L_2 = V_0;
-		return L_2;
+		return ((float)L_1);
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_cos_m28B6228E047D552B1312CCFADB8AE95DDD94A6AF_inline (float ___0_x, const RuntimeMethod* method) 
@@ -4556,67 +2836,26 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_cos_m28B6228E047D552B1
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_cos_m28B6228E047D552B1312CCFADB8AE95DDD94A6AF_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_cos_m28B6228E047D552B1312CCFADB8AE95DDD94A6AF_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7862));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7863));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7864));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7865));
 		float L_0 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7866));
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
 		L_1 = cos(((double)L_0));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7866));
-		V_0 = ((float)L_1);
-		goto IL_000c;
-	}
-
-IL_000c:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7867));
-		float L_2 = V_0;
-		return L_2;
+		return ((float)L_1);
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void quaternion__ctor_m2F6A34CCFD1150A326CB4CE108260A8BD8B1D75F_inline (quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&quaternion__ctor_m2F6A34CCFD1150A326CB4CE108260A8BD8B1D75F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, quaternion__ctor_m2F6A34CCFD1150A326CB4CE108260A8BD8B1D75F_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58871));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58872));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58873));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58874));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_value;
 		__this->___value = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 58875));
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_inline (float ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = *((int32_t*)((uintptr_t)(&___0_value)));
 		return L_0;

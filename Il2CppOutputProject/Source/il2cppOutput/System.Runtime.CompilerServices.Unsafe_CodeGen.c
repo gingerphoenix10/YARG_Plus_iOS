@@ -25,12 +25,12 @@ static const int32_t s_InvokerIndices[8] =
 {
 	-1,
 	-1,
-	10754,
-	10754,
+	10707,
+	10707,
 	-1,
 	-1,
 	-1,
-	6924,
+	6893,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[5] = 
 {
@@ -57,7 +57,6 @@ static const Il2CppRGCTXDefinition s_rgctxValues[7] =
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU26_tAC25A5484D793A03D21177EADDD2CA8B3DF104F2 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t9128C56B93A0B3D20E4B0519028DDB3D94DCD377 },
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationSystem_Runtime_CompilerServices_Unsafe;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Runtime_CompilerServices_Unsafe_CodeGenModule;
 const Il2CppCodeGenModule g_System_Runtime_CompilerServices_Unsafe_CodeGenModule = 
 {
@@ -73,7 +72,7 @@ const Il2CppCodeGenModule g_System_Runtime_CompilerServices_Unsafe_CodeGenModule
 	s_rgctxIndices,
 	7,
 	s_rgctxValues,
-	&g_DebuggerMetadataRegistrationSystem_Runtime_CompilerServices_Unsafe,
+	NULL,
 	NULL,
 	NULL,
 	NULL,

@@ -14,7 +14,6 @@ struct UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A;
 struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tDFFBACCAFAD0CFBF9F0D6AEA58612D277D1022D0;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUniGLTF_UniUnlit[];
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tCE0D65BE069ACEC8A8AE73D785CC00AC34437FD2____2348775B3477E901C3048FBB05B6BE09B37DEA14A9CDD5AEE4EAD99EFC984617_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tCE0D65BE069ACEC8A8AE73D785CC00AC34437FD2____ACC3ADE2CBCD1362E311E24752DD4326E5512298ADE1C781192FEEF15DB100E7_FieldInfo_var;
@@ -34,44 +33,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralC8E54DC0584021FDD77DA842B94FD97F28B5A628
 IL2CPP_EXTERN_C String_t* _stringLiteralCBCD3D866AF896F9B010A0FEE7F961DBC91A08C5;
 IL2CPP_EXTERN_C String_t* _stringLiteralCCE1912E091B2153DFAE28F4F55D34CD3C4EF3D4;
 IL2CPP_EXTERN_C String_t* _stringLiteralF318A9CBF6133558944579D6309707D3FF4760E1;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_Validate_mE61FFBFE27B4FA34F06DB7ED4D6EDDC22FB52DE1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext__ctor_mAA3986376CD8F7531261FDA9A38D5273FDCF2311_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_get_CullMode_m1DB1AB869827454FA20274D3C8DF909D66D292A7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_get_Cutoff_m8EA0C2EA113607795580666EF20019EEA3C989B6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_get_MainColorSrgb_mD09271AE0366A7B2C655DA5D9F6C9BD58B369080_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_get_MainTextureOffset_m15FFB3B8693C9E16EA7CA4CDA4DC2BBEEB948AC5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_get_MainTextureScale_m86F496ADAEC46A7F7B0DA898A3ED226C538156A7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_get_MainTexture_m0F8BCA9B2D122397EF80D6CB7B1EA815B9052A22_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_get_RenderMode_m3949145A58D1250364BB7B46BEDF5424D9F7E4BA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_get_UnsafeEditMode_mF81BE5C457A0DAC8EF544B122D455F1F101B81E3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_get_VColBlendMode_mC0DEF3C669F3E9B067AE05E85F79EA4E6F8C7DBD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_set_CullMode_mBFDFB8A6E0A011516061BC7E3B55923A91AB41F9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_set_Cutoff_m95B1A15478E4176001C9030149CD30082CF65C3E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_set_MainColorSrgb_m2FAD7F08BC3ED94F426F7F370FE2F2445E39A70D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_set_MainTextureOffset_m064219441A5EB473D8F591535FFB5DCBEF772CF2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_set_MainTextureScale_mA056AB86C4B4B2B5188AB15EC5467F533643E0A2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_set_MainTexture_m578AA4D4F5271F7BAA3B9DA2CD6B79C1799810E5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_set_RenderMode_m7A01E4FA780368D1376D1DD661D73ADFB11BBBB6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_set_UnsafeEditMode_mC08591572397DC168406B7996C20F18F12753D09_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitContext_set_VColBlendMode_mBEBF34F27BDDC6296B61FAABCBDCA80F385336E7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitUtil_GetCullMode_m25BF5A56B38CFA302E7D6DD4570CB48DF159A25A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitUtil_GetRenderMode_mF321D681B68A0E7DE81361696F70A59BBFCD45CD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitUtil_GetVColBlendMode_mDB2F214F61750297947CCE09BC965C42C1BF3254_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitUtil_SetCullMode_m5D5FCEA2E05F13F5DABDF6489A64196A4498BC05_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitUtil_SetRenderMode_m375011CB74E667270353A7F19D7D9AE867596964_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitUtil_SetVColBlendMode_mDACB9CF58F3DCB0F32B1A918F84C2D6C9BD36B86_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitUtil_SetupBlendMode_mBF72B03313FBDB8ACE6AAC146F759E05082DDDEE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitUtil_SetupVertexColorBlendOp_mCA132F90D88D081BA6554F6089B69D9B80E030B7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UniUnlitUtil_ValidateProperties_m633464DD277630761DA63E17E8350F2065CD3D9D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m048536B9E18EFD840A4AD95EE4D85B849B3B67BD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m9A216B8E53C749CADFBADF411AD1F22BB6ED7C42_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeType* MonoScriptData_tF23E05CEE97EFCFCF76A63533D6E29AB6BF40444_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* UniUnlitCullMode_t4443A569CCA75288156730AE78D23ECE5F61AED0_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* UniUnlitRenderMode_t5FF30A5481A88EF5A38A4409612FB8F57AAC9A66_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* UniUnlitVertexColorBlendOp_t546E25CA4F563A391521B5443B4C9F05551D8DE8_0_0_0_var;
 
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 
@@ -374,64 +335,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tF23E05CEE97EFCFCF76A63533D6E2
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoScriptData_tF23E05CEE97EFCFCF76A63533D6E29AB6BF40444_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tCE0D65BE069ACEC8A8AE73D785CC00AC34437FD2____2348775B3477E901C3048FBB05B6BE09B37DEA14A9CDD5AEE4EAD99EFC984617_FieldInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tCE0D65BE069ACEC8A8AE73D785CC00AC34437FD2____ACC3ADE2CBCD1362E311E24752DD4326E5512298ADE1C781192FEEF15DB100E7_FieldInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m048536B9E18EFD840A4AD95EE4D85B849B3B67BD_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	MonoScriptData_tF23E05CEE97EFCFCF76A63533D6E29AB6BF40444 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	MonoScriptData_tF23E05CEE97EFCFCF76A63533D6E29AB6BF40444 V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m048536B9E18EFD840A4AD95EE4D85B849B3B67BD_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 0));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 1));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 3));
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_tF23E05CEE97EFCFCF76A63533D6E29AB6BF40444));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)181));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tCE0D65BE069ACEC8A8AE73D785CC00AC34437FD2____ACC3ADE2CBCD1362E311E24752DD4326E5512298ADE1C781192FEEF15DB100E7_FieldInfo_var) };
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 4));
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 4));
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)71));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tCE0D65BE069ACEC8A8AE73D785CC00AC34437FD2____2348775B3477E901C3048FBB05B6BE09B37DEA14A9CDD5AEE4EAD99EFC984617_FieldInfo_var) };
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 5));
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 5));
 		(&V_0)->___TypesData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
 		(&V_0)->___TotalFiles = 2;
 		(&V_0)->___TotalTypes = 2;
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_tF23E05CEE97EFCFCF76A63533D6E29AB6BF40444 L_6 = V_0;
-		V_1 = L_6;
-		goto IL_005a;
-	}
-
-IL_005a:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 6));
-		MonoScriptData_tF23E05CEE97EFCFCF76A63533D6E29AB6BF40444 L_7 = V_1;
-		return L_7;
+		return L_6;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m9A216B8E53C749CADFBADF411AD1F22BB6ED7C42 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tDFFBACCAFAD0CFBF9F0D6AEA58612D277D1022D0* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m9A216B8E53C749CADFBADF411AD1F22BB6ED7C42_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m9A216B8E53C749CADFBADF411AD1F22BB6ED7C42_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -517,58 +449,21 @@ IL2CPP_EXTERN_C void MonoScriptData_tF23E05CEE97EFCFCF76A63533D6E29AB6BF40444_ma
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 7));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 8));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 9));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___U3CMaterialU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UniUnlitContext_get_UnsafeEditMode_mF81BE5C457A0DAC8EF544B122D455F1F101B81E3 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_get_UnsafeEditMode_mF81BE5C457A0DAC8EF544B122D455F1F101B81E3_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_get_UnsafeEditMode_mF81BE5C457A0DAC8EF544B122D455F1F101B81E3_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 10));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 11));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 12));
 		bool L_0 = __this->___U3CUnsafeEditModeU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_UnsafeEditMode_mC08591572397DC168406B7996C20F18F12753D09 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, bool ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_set_UnsafeEditMode_mC08591572397DC168406B7996C20F18F12753D09_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_set_UnsafeEditMode_mC08591572397DC168406B7996C20F18F12753D09_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 13));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 14));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 15));
 		bool L_0 = ___0_value;
 		__this->___U3CUnsafeEditModeU3Ek__BackingField = L_0;
 		return;
@@ -576,277 +471,116 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_UnsafeEditMode_mC085
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext__ctor_mAA3986376CD8F7531261FDA9A38D5273FDCF2311 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext__ctor_mAA3986376CD8F7531261FDA9A38D5273FDCF2311_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext__ctor_mAA3986376CD8F7531261FDA9A38D5273FDCF2311_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 16));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 17));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 18));
-		__this->___U3CUnsafeEditModeU3Ek__BackingField = (bool)0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 19));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 20));
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 20));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 21));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 22));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
 		__this->___U3CMaterialU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CMaterialU3Ek__BackingField), (void*)L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 23));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitContext_get_RenderMode_m3949145A58D1250364BB7B46BEDF5424D9F7E4BA (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_get_RenderMode_m3949145A58D1250364BB7B46BEDF5424D9F7E4BA_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_get_RenderMode_m3949145A58D1250364BB7B46BEDF5424D9F7E4BA_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 24));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 25));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 26));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 27));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 27));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 28));
 		int32_t L_1;
 		L_1 = UniUnlitUtil_GetRenderMode_mF321D681B68A0E7DE81361696F70A59BBFCD45CD(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 28));
 		return L_1;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_RenderMode_m7A01E4FA780368D1376D1DD661D73ADFB11BBBB6 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_set_RenderMode_m7A01E4FA780368D1376D1DD661D73ADFB11BBBB6_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_set_RenderMode_m7A01E4FA780368D1376D1DD661D73ADFB11BBBB6_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 29));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 30));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 31));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 32));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 33));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 33));
 		int32_t L_1 = ___0_value;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 34));
 		UniUnlitUtil_SetRenderMode_m375011CB74E667270353A7F19D7D9AE867596964(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 34));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 35));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 36));
 		bool L_2;
 		L_2 = UniUnlitContext_get_UnsafeEditMode_mF81BE5C457A0DAC8EF544B122D455F1F101B81E3_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 36));
-		V_0 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 37));
-		bool L_3 = V_0;
-		if (!L_3)
+		if (L_2)
 		{
-			goto IL_0028;
+			goto IL_0020;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 38));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 39));
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4;
-		L_4 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 39));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 40));
-		UniUnlitUtil_ValidateProperties_m633464DD277630761DA63E17E8350F2065CD3D9D(L_4, (bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 40));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3;
+		L_3 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
+		UniUnlitUtil_ValidateProperties_m633464DD277630761DA63E17E8350F2065CD3D9D(L_3, (bool)1, NULL);
 	}
 
-IL_0028:
+IL_0020:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 41));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitContext_get_CullMode_m1DB1AB869827454FA20274D3C8DF909D66D292A7 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_get_CullMode_m1DB1AB869827454FA20274D3C8DF909D66D292A7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_get_CullMode_m1DB1AB869827454FA20274D3C8DF909D66D292A7_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 42));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 43));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 44));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 45));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 45));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 46));
 		int32_t L_1;
 		L_1 = UniUnlitUtil_GetCullMode_m25BF5A56B38CFA302E7D6DD4570CB48DF159A25A(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 46));
 		return L_1;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_CullMode_mBFDFB8A6E0A011516061BC7E3B55923A91AB41F9 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_set_CullMode_mBFDFB8A6E0A011516061BC7E3B55923A91AB41F9_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_set_CullMode_mBFDFB8A6E0A011516061BC7E3B55923A91AB41F9_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 47));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 48));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 49));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 50));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 51));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 51));
 		int32_t L_1 = ___0_value;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 52));
 		UniUnlitUtil_SetCullMode_m5D5FCEA2E05F13F5DABDF6489A64196A4498BC05(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 52));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 53));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 54));
 		bool L_2;
 		L_2 = UniUnlitContext_get_UnsafeEditMode_mF81BE5C457A0DAC8EF544B122D455F1F101B81E3_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 54));
-		V_0 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 55));
-		bool L_3 = V_0;
-		if (!L_3)
+		if (L_2)
 		{
-			goto IL_0028;
+			goto IL_0020;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 56));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 57));
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4;
-		L_4 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 57));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 58));
-		UniUnlitUtil_ValidateProperties_m633464DD277630761DA63E17E8350F2065CD3D9D(L_4, (bool)0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 58));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3;
+		L_3 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
+		UniUnlitUtil_ValidateProperties_m633464DD277630761DA63E17E8350F2065CD3D9D(L_3, (bool)0, NULL);
 	}
 
-IL_0028:
+IL_0020:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 59));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitContext_get_VColBlendMode_mC0DEF3C669F3E9B067AE05E85F79EA4E6F8C7DBD (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_get_VColBlendMode_mC0DEF3C669F3E9B067AE05E85F79EA4E6F8C7DBD_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_get_VColBlendMode_mC0DEF3C669F3E9B067AE05E85F79EA4E6F8C7DBD_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 60));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 61));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 62));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 63));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 63));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 64));
 		int32_t L_1;
 		L_1 = UniUnlitUtil_GetVColBlendMode_mDB2F214F61750297947CCE09BC965C42C1BF3254(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 64));
 		return L_1;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_VColBlendMode_mBEBF34F27BDDC6296B61FAABCBDCA80F385336E7 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_set_VColBlendMode_mBEBF34F27BDDC6296B61FAABCBDCA80F385336E7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_set_VColBlendMode_mBEBF34F27BDDC6296B61FAABCBDCA80F385336E7_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 65));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 66));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 67));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 68));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 69));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 69));
 		int32_t L_1 = ___0_value;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 70));
 		UniUnlitUtil_SetVColBlendMode_mDACB9CF58F3DCB0F32B1A918F84C2D6C9BD36B86(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 70));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 71));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 72));
 		bool L_2;
 		L_2 = UniUnlitContext_get_UnsafeEditMode_mF81BE5C457A0DAC8EF544B122D455F1F101B81E3_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 72));
-		V_0 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 73));
-		bool L_3 = V_0;
-		if (!L_3)
+		if (L_2)
 		{
-			goto IL_0028;
+			goto IL_0020;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 74));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 75));
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4;
-		L_4 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 75));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 76));
-		UniUnlitUtil_ValidateProperties_m633464DD277630761DA63E17E8350F2065CD3D9D(L_4, (bool)0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 76));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3;
+		L_3 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
+		UniUnlitUtil_ValidateProperties_m633464DD277630761DA63E17E8350F2065CD3D9D(L_3, (bool)0, NULL);
 	}
 
-IL_0028:
+IL_0020:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 77));
 		return;
 	}
 }
@@ -855,26 +589,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_get_MainColorSrgb_mD09271AE0366A7B2C655DA5D9F6C9BD58B369080_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral47A3FAF17D89549FD0F0ECA7370B81F7C80DFCDE);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_get_MainColorSrgb_mD09271AE0366A7B2C655DA5D9F6C9BD58B369080_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 78));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 79));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 80));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 81));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 81));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 82));
 		NullCheck(L_0);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
 		L_1 = Material_GetColor_mAC702C70081A597DD2AA2F4627B1A1C65DDF6609(L_0, _stringLiteral47A3FAF17D89549FD0F0ECA7370B81F7C80DFCDE, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 82));
 		return L_1;
 	}
 }
@@ -883,27 +606,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_MainColorSrgb_m2FAD7
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_set_MainColorSrgb_m2FAD7F08BC3ED94F426F7F370FE2F2445E39A70D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral47A3FAF17D89549FD0F0ECA7370B81F7C80DFCDE);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_set_MainColorSrgb_m2FAD7F08BC3ED94F426F7F370FE2F2445E39A70D_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 83));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 84));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 85));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 86));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 86));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_value;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 87));
 		NullCheck(L_0);
 		Material_SetColor_mFAB32FAA44461E46FD707B34184EC080CBB3539F(L_0, _stringLiteral47A3FAF17D89549FD0F0ECA7370B81F7C80DFCDE, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 87));
 		return;
 	}
 }
@@ -912,26 +623,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_get_MainTexture_m0F8BCA9B2D122397EF80D6CB7B1EA815B9052A22_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_get_MainTexture_m0F8BCA9B2D122397EF80D6CB7B1EA815B9052A22_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 88));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 89));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 90));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 91));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 91));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 92));
 		NullCheck(L_0);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_1;
 		L_1 = Material_GetTexture_mBA07A377A7DDD29CD53E6F687DE6D49A42C0C719(L_0, _stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 92));
 		return L_1;
 	}
 }
@@ -940,27 +640,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_MainTexture_m578AA4D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_set_MainTexture_m578AA4D4F5271F7BAA3B9DA2CD6B79C1799810E5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_set_MainTexture_m578AA4D4F5271F7BAA3B9DA2CD6B79C1799810E5_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 93));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 94));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 95));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 96));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 96));
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_1 = ___0_value;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 97));
 		NullCheck(L_0);
 		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_0, _stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 97));
 		return;
 	}
 }
@@ -969,26 +657,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_get_MainTextureOffset_m15FFB3B8693C9E16EA7CA4CDA4DC2BBEEB948AC5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_get_MainTextureOffset_m15FFB3B8693C9E16EA7CA4CDA4DC2BBEEB948AC5_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 98));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 99));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 100));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 101));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 101));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 102));
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = Material_GetTextureOffset_m4F9E2C96960DFE3C76B9D878F8E654D78185F9CA(L_0, _stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 102));
 		return L_1;
 	}
 }
@@ -997,27 +674,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_MainTextureOffset_m0
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_set_MainTextureOffset_m064219441A5EB473D8F591535FFB5DCBEF772CF2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_set_MainTextureOffset_m064219441A5EB473D8F591535FFB5DCBEF772CF2_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 103));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 104));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 105));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 106));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 106));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_value;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 107));
 		NullCheck(L_0);
 		Material_SetTextureOffset_m40F3FCE32535625DDF26C0C073D37968117FBFE1(L_0, _stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 107));
 		return;
 	}
 }
@@ -1026,26 +691,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_get_MainTextureScale_m86F496ADAEC46A7F7B0DA898A3ED226C538156A7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_get_MainTextureScale_m86F496ADAEC46A7F7B0DA898A3ED226C538156A7_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 108));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 109));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 110));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 111));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 111));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 112));
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = Material_GetTextureScale_mF3406F1439C275C25FEE0C4E19108B29AA77E693(L_0, _stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 112));
 		return L_1;
 	}
 }
@@ -1054,27 +708,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_MainTextureScale_mA0
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_set_MainTextureScale_mA056AB86C4B4B2B5188AB15EC5467F533643E0A2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_set_MainTextureScale_mA056AB86C4B4B2B5188AB15EC5467F533643E0A2_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 113));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 114));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 115));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 116));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 116));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_value;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 117));
 		NullCheck(L_0);
 		Material_SetTextureScale_m8DBD33DD5E1F19C75C9C022974B27C719E9C5F8D(L_0, _stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 117));
 		return;
 	}
 }
@@ -1083,26 +725,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float UniUnlitContext_get_Cutoff_m8EA0C2EA113
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_get_Cutoff_m8EA0C2EA113607795580666EF20019EEA3C989B6_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral326129114EB43E5A03AD980A3709D55FE7934916);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_get_Cutoff_m8EA0C2EA113607795580666EF20019EEA3C989B6_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 118));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 119));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 120));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 121));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 121));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 122));
 		NullCheck(L_0);
 		float L_1;
 		L_1 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_0, _stringLiteral326129114EB43E5A03AD980A3709D55FE7934916, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 122));
 		return L_1;
 	}
 }
@@ -1111,54 +742,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_Cutoff_m95B1A15478E4
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_set_Cutoff_m95B1A15478E4176001C9030149CD30082CF65C3E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral326129114EB43E5A03AD980A3709D55FE7934916);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_set_Cutoff_m95B1A15478E4176001C9030149CD30082CF65C3E_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 123));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 124));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 125));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 126));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 126));
 		float L_1 = ___0_value;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 127));
 		NullCheck(L_0);
 		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_0, _stringLiteral326129114EB43E5A03AD980A3709D55FE7934916, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 127));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_Validate_mE61FFBFE27B4FA34F06DB7ED4D6EDDC22FB52DE1 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_Validate_mE61FFBFE27B4FA34F06DB7ED4D6EDDC22FB52DE1_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_Validate_mE61FFBFE27B4FA34F06DB7ED4D6EDDC22FB52DE1_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 128));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 129));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 130));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 131));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 132));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 132));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 133));
 		UniUnlitUtil_ValidateProperties_m633464DD277630761DA63E17E8350F2065CD3D9D(L_0, (bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 133));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 134));
 		return;
 	}
 }
@@ -1199,24 +800,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_SetRenderMode_m375011CB74E6
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitUtil_SetRenderMode_m375011CB74E667270353A7F19D7D9AE867596964_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA69C83831B4753F9D2B4F65C16372EA1A6F0482F);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_mode));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitUtil_SetRenderMode_m375011CB74E667270353A7F19D7D9AE867596964_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 135));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 136));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 137));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 138));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
 		int32_t L_1 = ___1_mode;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 139));
 		NullCheck(L_0);
 		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_0, _stringLiteralA69C83831B4753F9D2B4F65C16372EA1A6F0482F, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 139));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 140));
 		return;
 	}
 }
@@ -1225,24 +816,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_SetCullMode_m5D5FCEA2E05F13
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitUtil_SetCullMode_m5D5FCEA2E05F13F5DABDF6489A64196A4498BC05_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral59B259A263D1796F7617C20534034F94A19001FE);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_mode));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitUtil_SetCullMode_m5D5FCEA2E05F13F5DABDF6489A64196A4498BC05_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 141));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 142));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 143));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 144));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
 		int32_t L_1 = ___1_mode;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 145));
 		NullCheck(L_0);
 		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_0, _stringLiteral59B259A263D1796F7617C20534034F94A19001FE, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 145));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 146));
 		return;
 	}
 }
@@ -1251,24 +832,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_SetVColBlendMode_mDACB9CF58
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitUtil_SetVColBlendMode_mDACB9CF58F3DCB0F32B1A918F84C2D6C9BD36B86_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC8E54DC0584021FDD77DA842B94FD97F28B5A628);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_mode));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitUtil_SetVColBlendMode_mDACB9CF58F3DCB0F32B1A918F84C2D6C9BD36B86_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 147));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 148));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 149));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 150));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
 		int32_t L_1 = ___1_mode;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 151));
 		NullCheck(L_0);
 		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_0, _stringLiteralC8E54DC0584021FDD77DA842B94FD97F28B5A628, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 151));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 152));
 		return;
 	}
 }
@@ -1277,34 +848,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitUtil_GetRenderMode_mF321D681B
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitRenderMode_t5FF30A5481A88EF5A38A4409612FB8F57AAC9A66_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitUtil_GetRenderMode_mF321D681B68A0E7DE81361696F70A59BBFCD45CD_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA69C83831B4753F9D2B4F65C16372EA1A6F0482F);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitUtil_GetRenderMode_mF321D681B68A0E7DE81361696F70A59BBFCD45CD_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 153));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 154));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 155));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 156));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 157));
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_0, _stringLiteralA69C83831B4753F9D2B4F65C16372EA1A6F0482F, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 157));
-		V_0 = L_1;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 158));
-		int32_t L_2 = V_0;
-		return L_2;
+		return (int32_t)(L_1);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitUtil_GetCullMode_m25BF5A56B38CFA302E7D6DD4570CB48DF159A25A (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, const RuntimeMethod* method) 
@@ -1312,34 +864,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitUtil_GetCullMode_m25BF5A56B38
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitCullMode_t4443A569CCA75288156730AE78D23ECE5F61AED0_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitUtil_GetCullMode_m25BF5A56B38CFA302E7D6DD4570CB48DF159A25A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral59B259A263D1796F7617C20534034F94A19001FE);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitUtil_GetCullMode_m25BF5A56B38CFA302E7D6DD4570CB48DF159A25A_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 159));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 160));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 161));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 162));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 163));
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_0, _stringLiteral59B259A263D1796F7617C20534034F94A19001FE, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 163));
-		V_0 = L_1;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 164));
-		int32_t L_2 = V_0;
-		return L_2;
+		return (int32_t)(L_1);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitUtil_GetVColBlendMode_mDB2F214F61750297947CCE09BC965C42C1BF3254 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, const RuntimeMethod* method) 
@@ -1347,34 +880,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitUtil_GetVColBlendMode_mDB2F21
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitUtil_GetVColBlendMode_mDB2F214F61750297947CCE09BC965C42C1BF3254_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitVertexColorBlendOp_t546E25CA4F563A391521B5443B4C9F05551D8DE8_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC8E54DC0584021FDD77DA842B94FD97F28B5A628);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitUtil_GetVColBlendMode_mDB2F214F61750297947CCE09BC965C42C1BF3254_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 165));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 166));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 167));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 168));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 169));
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_0, _stringLiteralC8E54DC0584021FDD77DA842B94FD97F28B5A628, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 169));
-		V_0 = L_1;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 170));
-		int32_t L_2 = V_0;
-		return L_2;
+		return (int32_t)(L_1);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_ValidateProperties_m633464DD277630761DA63E17E8350F2065CD3D9D (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, bool ___1_isRenderModeChangedByUser, const RuntimeMethod* method) 
@@ -1382,41 +896,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_ValidateProperties_m633464D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitUtil_ValidateProperties_m633464DD277630761DA63E17E8350F2065CD3D9D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA69C83831B4753F9D2B4F65C16372EA1A6F0482F);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC8E54DC0584021FDD77DA842B94FD97F28B5A628);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_isRenderModeChangedByUser));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitUtil_ValidateProperties_m633464DD277630761DA63E17E8350F2065CD3D9D_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 171));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 172));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 173));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 174));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 175));
 		NullCheck(L_1);
 		float L_2;
 		L_2 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_1, _stringLiteralA69C83831B4753F9D2B4F65C16372EA1A6F0482F, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 175));
 		bool L_3 = ___1_isRenderModeChangedByUser;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 176));
 		UniUnlitUtil_SetupBlendMode_mBF72B03313FBDB8ACE6AAC146F759E05082DDDEE(L_0, il2cpp_codegen_cast_double_to_int<int32_t>(L_2), L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 176));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 177));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 178));
 		NullCheck(L_5);
 		float L_6;
 		L_6 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_5, _stringLiteralC8E54DC0584021FDD77DA842B94FD97F28B5A628, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 178));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 179));
 		UniUnlitUtil_SetupVertexColorBlendOp_mCA132F90D88D081BA6554F6089B69D9B80E030B7(L_4, il2cpp_codegen_cast_double_to_int<int32_t>(L_6), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 179));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 180));
 		return;
 	}
 }
@@ -1425,8 +922,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_SetupBlendMode_mBF72B03313F
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitRenderMode_t5FF30A5481A88EF5A38A4409612FB8F57AAC9A66_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitUtil_SetupBlendMode_mBF72B03313FBDB8ACE6AAC146F759E05082DDDEE_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3223D004C9379F2B3083B62944F7924A92190F90);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3708CDBCC9F390AB99D52FE7DEE4724401B69B9F);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral52CBE4A5A42509939BB9DB58A4B9A2C9BBA81C1C);
@@ -1438,231 +933,122 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_SetupBlendMode_mBF72B03313F
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF318A9CBF6133558944579D6309707D3FF4760E1);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	bool V_2 = false;
-	bool V_3 = false;
-	bool V_4 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_renderMode), (&___2_isRenderModeChangedByUser));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitUtil_SetupBlendMode_mBF72B03313FBDB8ACE6AAC146F759E05082DDDEE_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 181));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 182));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 183));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 184));
 		int32_t L_0 = ___1_renderMode;
-		V_1 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 185));
-		int32_t L_1 = V_1;
-		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 186));
-		int32_t L_2 = V_0;
-		switch (L_2)
+		switch (L_0)
 		{
 			case 0:
 			{
-				goto IL_001c;
+				goto IL_0013;
 			}
 			case 1:
 			{
-				goto IL_0080;
+				goto IL_006d;
 			}
 			case 2:
 			{
-				goto IL_00e5;
+				goto IL_00c8;
 			}
 		}
 	}
 	{
-		goto IL_014d;
+		return;
 	}
 
-IL_001c:
+IL_0013:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 187));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1 = ___0_material;
+		NullCheck(L_1);
+		Material_SetOverrideTag_mD68833CD28EBAF71CB6AF127B38075629B74FE08(L_1, _stringLiteralCCE1912E091B2153DFAE28F4F55D34CD3C4EF3D4, _stringLiteral3223D004C9379F2B3083B62944F7924A92190F90, NULL);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = ___0_material;
+		NullCheck(L_2);
+		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_2, _stringLiteral3708CDBCC9F390AB99D52FE7DEE4724401B69B9F, 1, NULL);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 188));
 		NullCheck(L_3);
-		Material_SetOverrideTag_mD68833CD28EBAF71CB6AF127B38075629B74FE08(L_3, _stringLiteralCCE1912E091B2153DFAE28F4F55D34CD3C4EF3D4, _stringLiteral3223D004C9379F2B3083B62944F7924A92190F90, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 188));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 189));
+		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_3, _stringLiteral73B13DE9817379145386BC6ECC87E983FC8ED41A, 0, NULL);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 190));
 		NullCheck(L_4);
-		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_4, _stringLiteral3708CDBCC9F390AB99D52FE7DEE4724401B69B9F, 1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 190));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 191));
+		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_4, _stringLiteralB25CF1C6B74339FBFCE846454A70688CE58C094C, 1, NULL);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 192));
-		NullCheck(L_5);
-		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_5, _stringLiteral73B13DE9817379145386BC6ECC87E983FC8ED41A, 0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 192));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 193));
+		UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E(L_5, _stringLiteralCBCD3D866AF896F9B010A0FEE7F961DBC91A08C5, (bool)0, NULL);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 194));
-		NullCheck(L_6);
-		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_6, _stringLiteralB25CF1C6B74339FBFCE846454A70688CE58C094C, 1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 194));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 195));
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 196));
-		UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E(L_7, _stringLiteralCBCD3D866AF896F9B010A0FEE7F961DBC91A08C5, (bool)0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 196));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 197));
+		UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E(L_6, _stringLiteral52CBE4A5A42509939BB9DB58A4B9A2C9BBA81C1C, (bool)0, NULL);
+		bool L_7 = ___2_isRenderModeChangedByUser;
+		if (!L_7)
+		{
+			goto IL_0123;
+		}
+	}
+	{
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 198));
-		UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E(L_8, _stringLiteral52CBE4A5A42509939BB9DB58A4B9A2C9BBA81C1C, (bool)0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 198));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 199));
-		bool L_9 = ___2_isRenderModeChangedByUser;
-		V_2 = L_9;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 200));
-		bool L_10 = V_2;
-		if (!L_10)
-		{
-			goto IL_007b;
-		}
+		NullCheck(L_8);
+		Material_set_renderQueue_mFBB72A781DCCF0D4B85670B597788EC2D02D1C14(L_8, (-1), NULL);
+		return;
 	}
+
+IL_006d:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 201));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = ___0_material;
+		NullCheck(L_9);
+		Material_SetOverrideTag_mD68833CD28EBAF71CB6AF127B38075629B74FE08(L_9, _stringLiteralCCE1912E091B2153DFAE28F4F55D34CD3C4EF3D4, _stringLiteralAC5B3304C047D60B4E3EC2809E3CE3FA62191A79, NULL);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_10 = ___0_material;
+		NullCheck(L_10);
+		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_10, _stringLiteral3708CDBCC9F390AB99D52FE7DEE4724401B69B9F, 1, NULL);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_11 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 202));
 		NullCheck(L_11);
-		Material_set_renderQueue_mFBB72A781DCCF0D4B85670B597788EC2D02D1C14(L_11, (-1), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 202));
-	}
-
-IL_007b:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 203));
-		goto IL_014d;
-	}
-
-IL_0080:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 204));
+		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_11, _stringLiteral73B13DE9817379145386BC6ECC87E983FC8ED41A, 0, NULL);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_12 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 205));
 		NullCheck(L_12);
-		Material_SetOverrideTag_mD68833CD28EBAF71CB6AF127B38075629B74FE08(L_12, _stringLiteralCCE1912E091B2153DFAE28F4F55D34CD3C4EF3D4, _stringLiteralAC5B3304C047D60B4E3EC2809E3CE3FA62191A79, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 205));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 206));
+		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_12, _stringLiteralB25CF1C6B74339FBFCE846454A70688CE58C094C, 1, NULL);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_13 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 207));
-		NullCheck(L_13);
-		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_13, _stringLiteral3708CDBCC9F390AB99D52FE7DEE4724401B69B9F, 1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 207));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 208));
+		UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E(L_13, _stringLiteralCBCD3D866AF896F9B010A0FEE7F961DBC91A08C5, (bool)1, NULL);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 209));
-		NullCheck(L_14);
-		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_14, _stringLiteral73B13DE9817379145386BC6ECC87E983FC8ED41A, 0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 209));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 210));
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_15 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 211));
-		NullCheck(L_15);
-		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_15, _stringLiteralB25CF1C6B74339FBFCE846454A70688CE58C094C, 1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 211));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 212));
+		UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E(L_14, _stringLiteral52CBE4A5A42509939BB9DB58A4B9A2C9BBA81C1C, (bool)0, NULL);
+		bool L_15 = ___2_isRenderModeChangedByUser;
+		if (!L_15)
+		{
+			goto IL_0123;
+		}
+	}
+	{
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_16 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 213));
-		UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E(L_16, _stringLiteralCBCD3D866AF896F9B010A0FEE7F961DBC91A08C5, (bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 213));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 214));
+		NullCheck(L_16);
+		Material_set_renderQueue_mFBB72A781DCCF0D4B85670B597788EC2D02D1C14(L_16, ((int32_t)2450), NULL);
+		return;
+	}
+
+IL_00c8:
+	{
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_17 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 215));
-		UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E(L_17, _stringLiteral52CBE4A5A42509939BB9DB58A4B9A2C9BBA81C1C, (bool)0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 215));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 216));
-		bool L_18 = ___2_isRenderModeChangedByUser;
-		V_3 = L_18;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 217));
-		bool L_19 = V_3;
-		if (!L_19)
-		{
-			goto IL_00e3;
-		}
-	}
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 218));
+		NullCheck(L_17);
+		Material_SetOverrideTag_mD68833CD28EBAF71CB6AF127B38075629B74FE08(L_17, _stringLiteralCCE1912E091B2153DFAE28F4F55D34CD3C4EF3D4, _stringLiteralF318A9CBF6133558944579D6309707D3FF4760E1, NULL);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_18 = ___0_material;
+		NullCheck(L_18);
+		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_18, _stringLiteral3708CDBCC9F390AB99D52FE7DEE4724401B69B9F, 5, NULL);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_19 = ___0_material;
+		NullCheck(L_19);
+		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_19, _stringLiteral73B13DE9817379145386BC6ECC87E983FC8ED41A, ((int32_t)10), NULL);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_20 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 219));
 		NullCheck(L_20);
-		Material_set_renderQueue_mFBB72A781DCCF0D4B85670B597788EC2D02D1C14(L_20, ((int32_t)2450), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 219));
-	}
-
-IL_00e3:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 220));
-		goto IL_014d;
-	}
-
-IL_00e5:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 221));
+		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_20, _stringLiteralB25CF1C6B74339FBFCE846454A70688CE58C094C, 0, NULL);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_21 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 222));
-		NullCheck(L_21);
-		Material_SetOverrideTag_mD68833CD28EBAF71CB6AF127B38075629B74FE08(L_21, _stringLiteralCCE1912E091B2153DFAE28F4F55D34CD3C4EF3D4, _stringLiteralF318A9CBF6133558944579D6309707D3FF4760E1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 222));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 223));
+		UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E(L_21, _stringLiteralCBCD3D866AF896F9B010A0FEE7F961DBC91A08C5, (bool)0, NULL);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_22 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 224));
-		NullCheck(L_22);
-		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_22, _stringLiteral3708CDBCC9F390AB99D52FE7DEE4724401B69B9F, 5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 224));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 225));
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_23 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 226));
-		NullCheck(L_23);
-		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_23, _stringLiteral73B13DE9817379145386BC6ECC87E983FC8ED41A, ((int32_t)10), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 226));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 227));
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_24 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 228));
-		NullCheck(L_24);
-		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_24, _stringLiteralB25CF1C6B74339FBFCE846454A70688CE58C094C, 0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 228));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 229));
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_25 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 230));
-		UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E(L_25, _stringLiteralCBCD3D866AF896F9B010A0FEE7F961DBC91A08C5, (bool)0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 230));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 231));
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_26 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 232));
-		UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E(L_26, _stringLiteral52CBE4A5A42509939BB9DB58A4B9A2C9BBA81C1C, (bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 232));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 233));
-		bool L_27 = ___2_isRenderModeChangedByUser;
-		V_4 = L_27;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 234));
-		bool L_28 = V_4;
-		if (!L_28)
+		UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E(L_22, _stringLiteral52CBE4A5A42509939BB9DB58A4B9A2C9BBA81C1C, (bool)1, NULL);
+		bool L_23 = ___2_isRenderModeChangedByUser;
+		if (!L_23)
 		{
-			goto IL_014b;
+			goto IL_0123;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 235));
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_29 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 236));
-		NullCheck(L_29);
-		Material_set_renderQueue_mFBB72A781DCCF0D4B85670B597788EC2D02D1C14(L_29, ((int32_t)3000), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 236));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_24 = ___0_material;
+		NullCheck(L_24);
+		Material_set_renderQueue_mFBB72A781DCCF0D4B85670B597788EC2D02D1C14(L_24, ((int32_t)3000), NULL);
 	}
 
-IL_014b:
+IL_0123:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 237));
-		goto IL_014d;
-	}
-
-IL_014d:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 238));
 		return;
 	}
 }
@@ -1671,127 +1057,64 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_SetupVertexColorBlendOp_mCA
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitUtil_SetupVertexColorBlendOp_mCA132F90D88D081BA6554F6089B69D9B80E030B7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitVertexColorBlendOp_t546E25CA4F563A391521B5443B4C9F05551D8DE8_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral225A37DFF8BC62C67372C9BB874220E7FD56C613);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_vColBlendOp));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitUtil_SetupVertexColorBlendOp_mCA132F90D88D081BA6554F6089B69D9B80E030B7_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 239));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 240));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 241));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 242));
 		int32_t L_0 = ___1_vColBlendOp;
-		V_1 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 243));
-		int32_t L_1 = V_1;
-		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 244));
-		int32_t L_2 = V_0;
-		if (!L_2)
+		if (!L_0)
 		{
-			goto IL_0010;
+			goto IL_0008;
 		}
 	}
 	{
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		int32_t L_3 = V_0;
-		if ((((int32_t)L_3) == ((int32_t)1)))
+		int32_t L_1 = ___1_vColBlendOp;
+		if ((((int32_t)L_1) == ((int32_t)1)))
 		{
-			goto IL_001f;
+			goto IL_0015;
 		}
 	}
 	{
-		goto IL_002e;
+		return;
 	}
 
-IL_0010:
+IL_0008:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 245));
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 246));
-		UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E(L_4, _stringLiteral225A37DFF8BC62C67372C9BB874220E7FD56C613, (bool)0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 246));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 247));
-		goto IL_002e;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = ___0_material;
+		UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E(L_2, _stringLiteral225A37DFF8BC62C67372C9BB874220E7FD56C613, (bool)0, NULL);
+		return;
 	}
 
-IL_001f:
+IL_0015:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 248));
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = ___0_material;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 249));
-		UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E(L_5, _stringLiteral225A37DFF8BC62C67372C9BB874220E7FD56C613, (bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 249));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 250));
-		goto IL_002e;
-	}
-
-IL_002e:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 251));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
+		UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E(L_3, _stringLiteral225A37DFF8BC62C67372C9BB874220E7FD56C613, (bool)1, NULL);
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_mat, String_t* ___1_keyword, bool ___2_required, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_mat), (&___1_keyword), (&___2_required));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 252));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 253));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 254));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 255));
 		bool L_0 = ___2_required;
-		V_0 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 256));
-		bool L_1 = V_0;
-		if (!L_1)
+		if (!L_0)
 		{
-			goto IL_0010;
+			goto IL_000b;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 257));
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = ___0_mat;
-		String_t* L_3 = ___1_keyword;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 258));
-		NullCheck(L_2);
-		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_2, L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 258));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 259));
-		goto IL_0018;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1 = ___0_mat;
+		String_t* L_2 = ___1_keyword;
+		NullCheck(L_1);
+		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_1, L_2, NULL);
+		return;
 	}
 
-IL_0010:
+IL_000b:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 260));
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_mat;
-		String_t* L_5 = ___1_keyword;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 261));
-		NullCheck(L_4);
-		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_4, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 261));
-	}
-
-IL_0018:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 262));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_mat;
+		String_t* L_4 = ___1_keyword;
+		NullCheck(L_3);
+		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_3, L_4, NULL);
 		return;
 	}
 }
@@ -1824,38 +1147,14 @@ IL_0018:
 #endif
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 7));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 8));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 9));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___U3CMaterialU3Ek__BackingField;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool UniUnlitContext_get_UnsafeEditMode_mF81BE5C457A0DAC8EF544B122D455F1F101B81E3_inline (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_get_UnsafeEditMode_mF81BE5C457A0DAC8EF544B122D455F1F101B81E3_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UniUnlitContext_get_UnsafeEditMode_mF81BE5C457A0DAC8EF544B122D455F1F101B81E3_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 10));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 11));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniGLTF_UniUnlit + 12));
 		bool L_0 = __this->___U3CUnsafeEditModeU3Ek__BackingField;
 		return L_0;
 	}

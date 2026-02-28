@@ -8,9 +8,6 @@
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA;
 struct NonVersionableAttribute_tA3DDBC1E36556A09C3CEBAF8234FC6609A496D6D;
 
-IL2CPP_EXTERN_C const RuntimeMethod* NonVersionableAttribute__ctor_m0ADAC9DE3EE89069011DA00E4AF296F598A6B91E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Unsafe_CopyBlock_m8A0B5B43DE34182F40AECC9DA9F5D6B0B47F70CC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Unsafe_CopyBlock_mEF42D5969E8E67B33612DE1A7DF7C5B99B0BE5FB_RuntimeMethod_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -82,14 +79,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlock_m8A0B5B43DE34182F40AECC9DA9F5D6B0B47F70CC (void* ___0_destination, void* ___1_source, uint32_t ___2_byteCount, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Unsafe_CopyBlock_m8A0B5B43DE34182F40AECC9DA9F5D6B0B47F70CC_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Unsafe_CopyBlock_m8A0B5B43DE34182F40AECC9DA9F5D6B0B47F70CC_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		void* L_0 = ___0_destination;
 		void* L_1 = ___1_source;
@@ -100,14 +89,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlock_m8A0B5B43DE34182F40AECC
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlock_mEF42D5969E8E67B33612DE1A7DF7C5B99B0BE5FB (uint8_t* ___0_destination, uint8_t* ___1_source, uint32_t ___2_byteCount, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Unsafe_CopyBlock_mEF42D5969E8E67B33612DE1A7DF7C5B99B0BE5FB_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Unsafe_CopyBlock_mEF42D5969E8E67B33612DE1A7DF7C5B99B0BE5FB_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint8_t* L_0 = ___0_destination;
 		uint8_t* L_1 = ___1_source;
@@ -126,14 +107,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlock_mEF42D5969E8E67B33612DE
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NonVersionableAttribute__ctor_m0ADAC9DE3EE89069011DA00E4AF296F598A6B91E (NonVersionableAttribute_tA3DDBC1E36556A09C3CEBAF8234FC6609A496D6D* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NonVersionableAttribute__ctor_m0ADAC9DE3EE89069011DA00E4AF296F598A6B91E_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NonVersionableAttribute__ctor_m0ADAC9DE3EE89069011DA00E4AF296F598A6B91E_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
 		return;

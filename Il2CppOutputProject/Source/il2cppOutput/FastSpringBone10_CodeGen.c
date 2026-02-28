@@ -38,21 +38,20 @@ static Il2CppMethodPointer s_methodPointers[13] =
 };
 static const int32_t s_InvokerIndices[13] = 
 {
-	15639,
-	6924,
-	6766,
-	5975,
-	15487,
-	15588,
-	6924,
-	6924,
-	6924,
-	6034,
-	3393,
-	6924,
-	6924,
+	15568,
+	6893,
+	6735,
+	5953,
+	15417,
+	15518,
+	6893,
+	6893,
+	6893,
+	6011,
+	3380,
+	6893,
+	6893,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationFastSpringBone10;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_FastSpringBone10_CodeGenModule;
 const Il2CppCodeGenModule g_FastSpringBone10_CodeGenModule = 
 {
@@ -68,7 +67,7 @@ const Il2CppCodeGenModule g_FastSpringBone10_CodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationFastSpringBone10,
+	NULL,
 	NULL,
 	NULL,
 	NULL,
