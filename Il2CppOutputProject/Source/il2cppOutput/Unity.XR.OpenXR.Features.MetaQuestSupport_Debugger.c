@@ -33,21 +33,21 @@ static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoI
 IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_XR_OpenXR_Features_MetaQuestSupport[];
 Il2CppSequencePoint g_sequencePointsUnity_XR_OpenXR_Features_MetaQuestSupport[15] = 
 {
-	{ 159692, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
-	{ 159692, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
-	{ 159692, 1, 42, 42, 9, 10, 0, kSequencePointKind_Normal, 0, 2 },
-	{ 159692, 1, 43, 49, 13, 15, 1, kSequencePointKind_Normal, 0, 3 },
-	{ 159692, 1, 43, 49, 13, 15, 24, kSequencePointKind_StepOut, 0, 4 },
-	{ 159692, 1, 43, 49, 13, 15, 52, kSequencePointKind_StepOut, 0, 5 },
-	{ 159692, 1, 50, 50, 9, 10, 90, kSequencePointKind_Normal, 0, 6 },
-	{ 159694, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 7 },
-	{ 159694, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 8 },
-	{ 159694, 2, 58, 58, 9, 10, 0, kSequencePointKind_Normal, 0, 9 },
-	{ 159694, 2, 64, 64, 9, 10, 1, kSequencePointKind_Normal, 0, 10 },
-	{ 159695, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 11 },
-	{ 159695, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 12 },
-	{ 159695, 2, 67, 67, 9, 10, 0, kSequencePointKind_Normal, 0, 13 },
-	{ 159695, 2, 81, 81, 9, 10, 1, kSequencePointKind_Normal, 0, 14 },
+	{ 159691, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
+	{ 159691, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
+	{ 159691, 1, 42, 42, 9, 10, 0, kSequencePointKind_Normal, 0, 2 },
+	{ 159691, 1, 43, 49, 13, 15, 1, kSequencePointKind_Normal, 0, 3 },
+	{ 159691, 1, 43, 49, 13, 15, 24, kSequencePointKind_StepOut, 0, 4 },
+	{ 159691, 1, 43, 49, 13, 15, 52, kSequencePointKind_StepOut, 0, 5 },
+	{ 159691, 1, 50, 50, 9, 10, 90, kSequencePointKind_Normal, 0, 6 },
+	{ 159693, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 7 },
+	{ 159693, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 8 },
+	{ 159693, 2, 58, 58, 9, 10, 0, kSequencePointKind_Normal, 0, 9 },
+	{ 159693, 2, 64, 64, 9, 10, 1, kSequencePointKind_Normal, 0, 10 },
+	{ 159694, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 11 },
+	{ 159694, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 12 },
+	{ 159694, 2, 67, 67, 9, 10, 0, kSequencePointKind_Normal, 0, 13 },
+	{ 159694, 2, 81, 81, 9, 10, 1, kSequencePointKind_Normal, 0, 14 },
 };
 #else
 extern Il2CppSequencePoint g_sequencePointsUnity_XR_OpenXR_Features_MetaQuestSupport[];

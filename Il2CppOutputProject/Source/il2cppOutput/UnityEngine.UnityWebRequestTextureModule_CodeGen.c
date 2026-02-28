@@ -51,22 +51,22 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] =
 };
 static const int32_t s_InvokerIndices[16] = 
 {
-	47330,
-	22287,
-	11516,
-	39286,
-	22343,
-	22287,
-	27168,
-	29599,
-	29304,
-	29304,
-	44722,
-	39284,
-	44401,
-	44402,
-	44722,
-	39454,
+	15444,
+	5852,
+	4167,
+	11906,
+	5880,
+	5852,
+	6390,
+	6924,
+	6766,
+	6766,
+	13951,
+	11904,
+	13843,
+	13844,
+	13951,
+	12009,
 };
 extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_UnityWebRequestTextureModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestTextureModule_CodeGenModule;

@@ -722,6 +722,10 @@ struct FunctionPointer_1_tE1DC1EC606FB2242FB50357BBA39BB4AEDECFCB2
 {
 	intptr_t ____ptr;
 };
+struct FunctionPointer_1_t45E67205E6D22523A4FEF46DC7A859C5C14566BA 
+{
+	intptr_t ____ptr;
+};
 struct FunctionPointer_1_tEDBAC922A85F86EAF4D4B79B63EF8A49286765F2 
 {
 	intptr_t ____ptr;
@@ -1693,7 +1697,7 @@ struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771  : public Runtim
 
 
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FunctionPointer_1_tE1DC1EC606FB2242FB50357BBA39BB4AEDECFCB2 BurstCompiler_CompileFunctionPointer_TisRuntimeObject_m9AB9AE50036FBC10C6765A0FAC83200CAEC21384_gshared (RuntimeObject* ___0_delegateMethod, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t FunctionPointer_1_get_Value_m71D7FF781C694A7C4EE28362DFC78D8DDFE9A105_gshared_inline (FunctionPointer_1_tE1DC1EC606FB2242FB50357BBA39BB4AEDECFCB2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t FunctionPointer_1_get_Value_mA1F1CB8C8E8B4B8030D49BFBEF55560DEB03FDD5_gshared_inline (FunctionPointer_1_t45E67205E6D22523A4FEF46DC7A859C5C14566BA* __this, const RuntimeMethod* method) ;
 
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StrBoolArray_SetBit_m212C6D1A8A4C422AF979D6B3BC7CD5B9BD0F3F01 (StrBoolArray_tCA66E1F688A4BC6FA749195F867F59E523508DD6* __this, int32_t ___0_aindex, int32_t ___1_bindex, bool ___2_val, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StrBoolArray_GetBit_mCA50A9F3A3FA5C552305C9B762264A6058F33E78 (StrBoolArray_tCA66E1F688A4BC6FA749195F867F59E523508DD6* __this, int32_t ___0_aindex, int32_t ___1_bindex, const RuntimeMethod* method) ;
@@ -1705,7 +1709,7 @@ inline FunctionPointer_1_t49056048A60E8CB6114940F52DFEAB59553AA0AE BurstCompiler
 }
 inline intptr_t FunctionPointer_1_get_Value_m4B10BD717867326AC18B21C679DF40BF7515D4F0_inline (FunctionPointer_1_t49056048A60E8CB6114940F52DFEAB59553AA0AE* __this, const RuntimeMethod* method)
 {
-	return ((  intptr_t (*) (FunctionPointer_1_t49056048A60E8CB6114940F52DFEAB59553AA0AE*, const RuntimeMethod*))FunctionPointer_1_get_Value_m71D7FF781C694A7C4EE28362DFC78D8DDFE9A105_gshared_inline)(__this, method);
+	return ((  intptr_t (*) (FunctionPointer_1_t49056048A60E8CB6114940F52DFEAB59553AA0AE*, const RuntimeMethod*))FunctionPointer_1_get_Value_mA1F1CB8C8E8B4B8030D49BFBEF55560DEB03FDD5_gshared_inline)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DoSetCSRTrampoline_00000129U24BurstDirectCall_GetFunctionPointerDiscard_m1CA723D7A0AF9643877A26B704F1FC62C416CF9D (intptr_t* ___0_p, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BurstCompiler_get_IsEnabled_m55FDBCB2279A83AC8926260034F870E3A11116C7 (const RuntimeMethod* method) ;
@@ -1718,7 +1722,7 @@ inline FunctionPointer_1_tEDBAC922A85F86EAF4D4B79B63EF8A49286765F2 BurstCompiler
 }
 inline intptr_t FunctionPointer_1_get_Value_m516750EE940625B0437F4BE58692CD27404F1258_inline (FunctionPointer_1_tEDBAC922A85F86EAF4D4B79B63EF8A49286765F2* __this, const RuntimeMethod* method)
 {
-	return ((  intptr_t (*) (FunctionPointer_1_tEDBAC922A85F86EAF4D4B79B63EF8A49286765F2*, const RuntimeMethod*))FunctionPointer_1_get_Value_m71D7FF781C694A7C4EE28362DFC78D8DDFE9A105_gshared_inline)(__this, method);
+	return ((  intptr_t (*) (FunctionPointer_1_tEDBAC922A85F86EAF4D4B79B63EF8A49286765F2*, const RuntimeMethod*))FunctionPointer_1_get_Value_mA1F1CB8C8E8B4B8030D49BFBEF55560DEB03FDD5_gshared_inline)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DoGetCSRTrampoline_0000012AU24BurstDirectCall_GetFunctionPointerDiscard_m26984A00D91D0C99D3509DEA73EB163EC2F4CC8A (intptr_t* ___0_p, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DoGetCSRTrampoline_0000012AU24BurstDirectCall_GetFunctionPointer_m362582712481AA5F41819616FF1C8B3004FF511F (const RuntimeMethod* method) ;
@@ -4417,7 +4421,7 @@ IL_0016:
 		return L_3;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t FunctionPointer_1_get_Value_m71D7FF781C694A7C4EE28362DFC78D8DDFE9A105_gshared_inline (FunctionPointer_1_tE1DC1EC606FB2242FB50357BBA39BB4AEDECFCB2* __this, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t FunctionPointer_1_get_Value_mA1F1CB8C8E8B4B8030D49BFBEF55560DEB03FDD5_gshared_inline (FunctionPointer_1_t45E67205E6D22523A4FEF46DC7A859C5C14566BA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)

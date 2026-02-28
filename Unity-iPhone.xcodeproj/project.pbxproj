@@ -20,6 +20,7 @@
 		0ACC55335A90F74CE8AA86BF /* IUnityMemoryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 89176DBD5A32B089962139F9 /* IUnityMemoryManager.h */; };
 		0DDA5E5806ABF18CBC3A77FD /* AVCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = DFEBD93BE926F63F590DEA8D /* AVCapture.h */; };
 		0EC45CD7779198C204449055 /* bass.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB031631130A962FA0328CAA /* bass.xcframework */; };
+		0EFC7FCA517E9080CBD7E028 /* bassmidi.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE74BFF30172CEAED6BB22E /* bassmidi.xcframework */; };
 		0F658075C6CFAE57AB43314A /* AppDelegateListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = A6A621C31C626C4EE6EE15B0 /* AppDelegateListener.mm */; };
 		12B7ABD9AF672E45A754B962 /* CVTextureCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = BCB779148B23335D42C41D6C /* CVTextureCache.mm */; };
 		12EAAAD3A3BD66C659509354 /* iPhone_Sensors.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4236EC67EED4A1C54CC291EC /* iPhone_Sensors.mm */; };
@@ -89,6 +90,7 @@
 		77C0894FC16BA5631139FC8F /* StoreReview.m in Sources */ = {isa = PBXBuildFile; fileRef = 344F2C6BDED1BC5D75C5916F /* StoreReview.m */; };
 		78B59F8C2DA390FBAEA51160 /* UnityFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D53B5BD2EFDCE044275DF0AF /* UnityFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C413A0C839F755233C5410B /* bass.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB031631130A962FA0328CAA /* bass.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7D6A9ECB1D9351763B203E4B /* bassenc.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF45094CB04E54933D6929F4 /* bassenc.xcframework */; };
 		7F4E05AB2717219200A2CBE4 /* libGameAssembly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4E05A02717216D00A2CBE4 /* libGameAssembly.a */; };
 		81044980025CF0C90896BB52 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5358B0594857BFF1F3D62D92 /* Security.framework */; };
 		826E40C67FAA509B29A0EFA3 /* IUnityGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 30347B5D7991A325732A4F10 /* IUnityGraphics.h */; };
@@ -1130,6 +1132,7 @@
 		BCB779148B23335D42C41D6C /* CVTextureCache.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CVTextureCache.mm; path = Classes/Unity/CVTextureCache.mm; sourceTree = SOURCE_ROOT; };
 		BCCBE8BB53DF66DDE68F8E41 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		BCD81C2007B221D87BCD4BD1 /* GenericMethods__22.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods__22.cpp; path = Il2CppOutputProject/Source/il2cppOutput/GenericMethods__22.cpp; sourceTree = SOURCE_ROOT; };
+		BCE74BFF30172CEAED6BB22E /* bassmidi.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = bassmidi.xcframework; path = Frameworks/Plugins/BassNative/iOS/bassmidi.xcframework; sourceTree = SOURCE_ROOT; };
 		BD54E96698396A5E752F9571 /* Generics__20.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__20.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__20.cpp; sourceTree = SOURCE_ROOT; };
 		BD803104C2AE3F66699C2C08 /* UnityEngine.JSONSerializeModule_Debugger.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.JSONSerializeModule_Debugger.c; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.JSONSerializeModule_Debugger.c; sourceTree = SOURCE_ROOT; };
 		BDA5FF819B6116320C4CFF78 /* Generics__310.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__310.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__310.cpp; sourceTree = SOURCE_ROOT; };
@@ -1140,6 +1143,7 @@
 		BEBCDD225481838A4BCD845B /* Generics__308.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__308.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__308.cpp; sourceTree = SOURCE_ROOT; };
 		BF026C43C97DF354A316F9F4 /* Generics__12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__12.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__12.cpp; sourceTree = SOURCE_ROOT; };
 		BF4401D3FB42F59AE17987BC /* Generics__302.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__302.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__302.cpp; sourceTree = SOURCE_ROOT; };
+		BF45094CB04E54933D6929F4 /* bassenc.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = bassenc.xcframework; path = Frameworks/Plugins/BassNative/iOS/bassenc.xcframework; sourceTree = SOURCE_ROOT; };
 		BF6605DA32BEEDCF9665879B /* Generics__260.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__260.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__260.cpp; sourceTree = SOURCE_ROOT; };
 		BF662D6C576398F66BA53858 /* Unity.RenderPipelines.Universal.Runtime__2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.RenderPipelines.Universal.Runtime__2.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__2.cpp; sourceTree = SOURCE_ROOT; };
 		BFE0D439028C50172FDE9B2B /* Generics__91.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__91.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__91.cpp; sourceTree = SOURCE_ROOT; };
@@ -1517,6 +1521,8 @@
 				B0BE4CE4589441EEA3DAFFBF /* CoreAudio.framework in Frameworks */,
 				76BACE34890ECAD59BC71B1C /* CoreMIDI.framework in Frameworks */,
 				574A8D1BFDF4103B13A6538A /* GameController.framework in Frameworks */,
+				7D6A9ECB1D9351763B203E4B /* bassenc.xcframework in Frameworks */,
+				0EFC7FCA517E9080CBD7E028 /* bassmidi.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2966,6 +2972,8 @@
 			children = (
 				EB031631130A962FA0328CAA /* bass.xcframework */,
 				A321FF54408E6EACEDB396BE /* bass_fx.xcframework */,
+				BF45094CB04E54933D6929F4 /* bassenc.xcframework */,
+				BCE74BFF30172CEAED6BB22E /* bassmidi.xcframework */,
 				7F1B19103E1604C105CE0B67 /* bassmix.xcframework */,
 				1C9BE523FD6B9ACA6A892733 /* bassopus.xcframework */,
 			);

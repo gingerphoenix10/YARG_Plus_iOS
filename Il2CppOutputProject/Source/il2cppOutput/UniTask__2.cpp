@@ -61,26 +61,28 @@ struct InterfaceFuncInvoker0
 
 struct Action_1_tAFBD759E01ADE1CCF9C2015D5EFB3E69A9F26F04;
 struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
+struct Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99;
 struct AsyncTriggerBase_1_tAB4961EB517FCC27F74206522F7A2DF19C50D522;
-struct AsyncTriggerBase_1_tEA5C3508B75BCF8935299ABCD9696A8F43CDA646;
+struct AsyncTriggerBase_1_t9B29CFA18DC0CA6ED9CCBA1DA8A2FA7075E54108;
 struct AsyncTriggerHandler_1_t8D125526897C93A30E3D422DFCB04AD799526A26;
-struct AsyncTriggerHandler_1_t6F18406C080CFC2ED6956E3D9BFB60D5BE90D6EF;
+struct AsyncTriggerHandler_1_tF4A8625FD7812014E21726E157400097A9CBCE66;
 struct Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3;
-struct Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA;
 struct Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28;
 struct Dictionary_2_tCAAF57FF731CF7E9CEC738A6E8400D208C1066EE;
+struct Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E;
 struct Dictionary_2_t5B5B38BB06341F50E1C75FB53208A2A66CAE57F7;
 struct Func_2_t03668587D04B8ECC3E6CE9EF3B2852118286E630;
-struct Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00;
-struct Func_2_tACBF5A1656250800CE861707354491F0611F6624;
 struct Func_2_tDE706B5F87BEAD2AAD875E35CECC6843A16ED557;
 struct Func_2_t9D09D397B043BC5218B2565C13BA5AA81CABC121;
+struct Func_2_t19E50C11C3E1F20B5A8FDB85D7DD353B6DFF868B;
+struct Func_2_t7F5F5324CE2DDB7001B68FFE29A5D9F907139FB0;
 struct IEnumerable_1_tB708E9C2FA823B01C747E05E9A94F71093AAE6F1;
 struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
 struct IEnumerable_1_t8E50A30565DC033F3BDF1627DA5A9C930C1E0DB9;
 struct IEnumerable_1_t57CAE65F1214338326A3B40DDD114334971D8D50;
 struct IEnumerable_1_t349E66EC5F09B881A8E52EE40A1AB9EC60E08E44;
 struct IEnumerable_1_t6686595E4CB7AC210F0EF075F7B1DD4A21D3902B;
+struct IEnumerable_1_t29E7244AE33B71FA0981E50D5BC73B7938F35C66;
 struct IEnumerator_1_t3C4DB5FCBF9469BCC74A7C3C345271124D3290A2;
 struct IEqualityComparer_1_t06C346ACFCD6FA7B6357E6392FA8842A209C66E7;
 struct IEqualityComparer_1_t2EDEDBAF19E8BF7F3EA065CC1D0D3578B4A90052;
@@ -100,7 +102,7 @@ struct ITriggerHandler_1_t0BE3ABB80837C34FB4CFEB921F0796F714A5A0C6;
 struct IUniTaskSource_1_tD57E859C46377D23E15810F6DB8D17A1808F8467;
 struct KeyCollection_t555B8656568D51D28955442D71A19D8860BFF88C;
 struct MinimumQueue_1_t0B49405706EDD4F170DACFE12095B760EA3B59BA;
-struct MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433;
+struct MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91;
 struct SparselyPopulatedArrayFragment_1_tB32DA8C2B7461E80CE4C271B76C103629BDFA035;
 struct ValueCollection_t6E6C24D8CE99E9A850AB95B69939CBBA2CB9E7D9;
 struct WeakReference_1_tDC6E83496181D1BAFA3B89CBC00BCD0B64450257;
@@ -115,13 +117,13 @@ struct IPlayerLoopItemU5BU5D_t2F09237C670184864F93BD2F284F8434FC44D439;
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
 struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
 struct MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265;
-struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C;
 struct PlayerLoopRunnerU5BU5D_tC0711ACBBF51875F0B52E7244F09AA7BED931116;
 struct StackFrameU5BU5D_tF4310E8FAB8C2853A3F0843921BF9FBEC18ABBF7;
 struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
 struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+struct __Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC;
 struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263;
 struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129;
@@ -599,10 +601,10 @@ struct ActionU5BU5D_tF6161335A0A12A221AB081D78725C8AB6FE506D2;
 struct FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8;
 struct IPlayerLoopItemU5BU5D_t2F09237C670184864F93BD2F284F8434FC44D439;
 struct MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265;
-struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C;
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
 struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+struct __Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC;
 
 IL2CPP_EXTERN_C_BEGIN
 IL2CPP_EXTERN_C_END
@@ -632,9 +634,9 @@ struct MinimumQueue_1_t0B49405706EDD4F170DACFE12095B760EA3B59BA  : public Runtim
 	int32_t ___tail;
 	int32_t ___size;
 };
-struct MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433  : public RuntimeObject
+struct MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91  : public RuntimeObject
 {
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___array;
+	__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* ___array;
 	int32_t ___head;
 	int32_t ___tail;
 	int32_t ___size;
@@ -1581,7 +1583,7 @@ struct FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2
 struct Action_1_tAFBD759E01ADE1CCF9C2015D5EFB3E69A9F26F04  : public MulticastDelegate_t
 {
 };
-struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87  : public MulticastDelegate_t
+struct Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99  : public MulticastDelegate_t
 {
 };
 struct Func_2_t03668587D04B8ECC3E6CE9EF3B2852118286E630  : public MulticastDelegate_t
@@ -2161,80 +2163,59 @@ struct FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8  : public Runti
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
 	}
 };
-struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+struct __Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC  : public RuntimeArray
 {
-	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+	ALIGN_FIELD (8) uint8_t m_Items[1];
 
-	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
+		return m_Items + il2cpp_array_calc_byte_offset(this, index);
 	}
-	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
 	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+		return m_Items + il2cpp_array_calc_byte_offset(this, index);
 	}
 };
 
 
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTriggerBase_1_RaiseEvent_m433705143E8C084CDD1C06ABEFE55C01B5C9A1AB_gshared (AsyncTriggerBase_1_tEA5C3508B75BCF8935299ABCD9696A8F43CDA646* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTriggerHandler_1__ctor_m9DB72BCD4DD3172C12B408BBFF7DAE0DFA670BE6_gshared (AsyncTriggerHandler_1_t6F18406C080CFC2ED6956E3D9BFB60D5BE90D6EF* __this, AsyncTriggerBase_1_tEA5C3508B75BCF8935299ABCD9696A8F43CDA646* ___0_trigger, bool ___1_callOnce, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTriggerHandler_1__ctor_m6547E90EFD4AA38E15F50FC0AC4666347AE92CB8_gshared (AsyncTriggerHandler_1_t6F18406C080CFC2ED6956E3D9BFB60D5BE90D6EF* __this, AsyncTriggerBase_1_tEA5C3508B75BCF8935299ABCD9696A8F43CDA646* ___0_trigger, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___1_cancellationToken, bool ___2_callOnce, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTriggerBase_1__ctor_m8076D56B144532A52DA679D3E28677A7120071FE_gshared (AsyncTriggerBase_1_tEA5C3508B75BCF8935299ABCD9696A8F43CDA646* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared (Func_2_tACBF5A1656250800CE861707354491F0611F6624* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m67C538A5EBF57C4844107A8EF25DB2CAAFBAF8FB_gshared (RuntimeObject* ___0_source, Func_2_tACBF5A1656250800CE861707354491F0611F6624* ___1_selector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTriggerBase_1_RaiseEvent_mD031EEACBC863DBD350325FD2D054216E882093D_gshared (AsyncTriggerBase_1_t9B29CFA18DC0CA6ED9CCBA1DA8A2FA7075E54108* __this, Il2CppFullySharedGenericAny ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTriggerHandler_1__ctor_mB39C9AEC06897F649B2A93A5B7289F607CC5E017_gshared (AsyncTriggerHandler_1_tF4A8625FD7812014E21726E157400097A9CBCE66* __this, AsyncTriggerBase_1_t9B29CFA18DC0CA6ED9CCBA1DA8A2FA7075E54108* ___0_trigger, bool ___1_callOnce, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTriggerHandler_1__ctor_mFA0724849FDF9D2761EC1641415E6B8F046924A9_gshared (AsyncTriggerHandler_1_tF4A8625FD7812014E21726E157400097A9CBCE66* __this, AsyncTriggerBase_1_t9B29CFA18DC0CA6ED9CCBA1DA8A2FA7075E54108* ___0_trigger, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___1_cancellationToken, bool ___2_callOnce, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTriggerBase_1__ctor_mA0D84839826EAC1ACB4567E73D026F2C3A6280E7_gshared (AsyncTriggerBase_1_t9B29CFA18DC0CA6ED9CCBA1DA8A2FA7075E54108* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m7F5DD19B4170C027D5367001F7BC95A0658A2169_gshared (Func_2_t7F5F5324CE2DDB7001B68FFE29A5D9F907139FB0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_m5BBCA2BC02448D0B77D2201BB08B13BAB3BABA53_gshared (RuntimeObject* ___0_source, Func_2_t7F5F5324CE2DDB7001B68FFE29A5D9F907139FB0* ___1_selector, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CustomAttributeExtensions_GetCustomAttributes_TisRuntimeObject_mBF71968FD8245DB3BE66890858B1877DCF8875CF_gshared (MemberInfo_t* ___0_element, bool ___1_inherit, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject** ___1_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MinimumQueue_1__ctor_m3FE56061AC45D113CDE903116C427CECBB629DDC_gshared (MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433* __this, int32_t ___0_capacity, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MinimumQueue_1_Enqueue_m6856CBE1A72F2CA43A9FB9EEEC5701AFC26E07FB_gshared_inline (MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisRuntimeObject_mE8D92C287251BAF8256D85E5829F749359EC334E_gshared (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918** ___0_array, int32_t ___1_newSize, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* MinimumQueue_1_Dequeue_mF30823D3F40ADB73F256F2FAF08CEDF1186CD8EA_gshared_inline (MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433* __this, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MinimumQueue_1_get_Count_m0FE156817F95E94C1D1397B467D9D4172C338CC2_gshared_inline (MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m13C0A7F33154D861E2A041B52E88461832DA1697_gshared (Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_First_TisRuntimeObject_mC6FA107934316BE28EA02DDB9EADA7AE8DD1916B_gshared (RuntimeObject* ___0_source, Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00* ___1_predicate, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MinimumQueue_1_Grow_mCBF813740002210F98BD4C90CB9E01B5AE8D5867_gshared (MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433* __this, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MinimumQueue_1_MoveNext_mF3FCE477C84F19428D06DEDD9EFD3EDC44405996_gshared_inline (MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433* __this, int32_t* ___0_index, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MinimumQueue_1_ThrowForEmptyQueue_mC523FDCB8A4CA6759D0B1F13244455B78D222185_gshared (MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_m7519D765EAF1E8A7D3137C2F1B7B3A01D15A1692_gshared (Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E* __this, Il2CppFullySharedGenericAny ___0_key, Il2CppFullySharedGenericAny* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m7745B6ED71E47C95E1BFCE647C4F026A404C668F_gshared (Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m54D479280472DEA042DB3933AF547E666B017333_gshared (Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E* __this, Il2CppFullySharedGenericAny ___0_key, Il2CppFullySharedGenericAny ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MinimumQueue_1__ctor_m2BB6AE00D7FFF954453CBB55D4CF5AF6078FB981_gshared (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91* __this, int32_t ___0_capacity, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m685A441EC9FAC9D554B26FA83A08F4BEF96DFF0E_gshared (Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MinimumQueue_1_Enqueue_mE6256545B6BCE5496B48DEBC8150653257929812_gshared_inline (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91* __this, Il2CppFullySharedGenericAny ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisIl2CppFullySharedGenericAny_m263FC41C8DB989397C43C86556D63CEBE13F4712_gshared (__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC** ___0_array, int32_t ___1_newSize, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_m5A038831CEB84A7E374FE59D43444412629F833F_gshared_inline (Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99* __this, Il2CppFullySharedGenericAny ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MinimumQueue_1_Dequeue_m6D4ACD05758A4617FB66C225BC6CA9AFFF5EC667_gshared_inline (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91* __this, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MinimumQueue_1_get_Count_m0850DE18FF7991A5DB52D4F78F4E689140D96C04_gshared_inline (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerable_First_TisIl2CppFullySharedGenericAny_m08978D082DCBF739A9269BC79C5EA59C44E39877_gshared (RuntimeObject* ___0_source, Func_2_t19E50C11C3E1F20B5A8FDB85D7DD353B6DFF868B* ___1_predicate, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MinimumQueue_1_Grow_m115B06E9202091173FD3CA8B83D02D51D1ED8FD9_gshared (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MinimumQueue_1_MoveNext_m967E0EBF63642687E5ADF4C171B28ECDB0675813_gshared_inline (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91* __this, int32_t* ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MinimumQueue_1_ThrowForEmptyQueue_m1DBA081DBBFCECC8F319A2B80F7ECC68A16910C4_gshared (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91* __this, const RuntimeMethod* method) ;
 
 inline void AsyncTriggerBase_1_RaiseEvent_m5A831FA178754190A50B4DE76CD307FF48AFC3F9 (AsyncTriggerBase_1_tAB4961EB517FCC27F74206522F7A2DF19C50D522* __this, BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___0_value, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncTriggerBase_1_tAB4961EB517FCC27F74206522F7A2DF19C50D522*, BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F*, const RuntimeMethod*))AsyncTriggerBase_1_RaiseEvent_m433705143E8C084CDD1C06ABEFE55C01B5C9A1AB_gshared)(__this, ___0_value, method);
+	((  void (*) (AsyncTriggerBase_1_t9B29CFA18DC0CA6ED9CCBA1DA8A2FA7075E54108*, Il2CppFullySharedGenericAny, const RuntimeMethod*))AsyncTriggerBase_1_RaiseEvent_mD031EEACBC863DBD350325FD2D054216E882093D_gshared)((AsyncTriggerBase_1_t9B29CFA18DC0CA6ED9CCBA1DA8A2FA7075E54108*)__this, (Il2CppFullySharedGenericAny)___0_value, method);
 }
 inline void AsyncTriggerHandler_1__ctor_mF5E130506B2E2807495349ABE939BCA61D7EB547 (AsyncTriggerHandler_1_t8D125526897C93A30E3D422DFCB04AD799526A26* __this, AsyncTriggerBase_1_tAB4961EB517FCC27F74206522F7A2DF19C50D522* ___0_trigger, bool ___1_callOnce, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncTriggerHandler_1_t8D125526897C93A30E3D422DFCB04AD799526A26*, AsyncTriggerBase_1_tAB4961EB517FCC27F74206522F7A2DF19C50D522*, bool, const RuntimeMethod*))AsyncTriggerHandler_1__ctor_m9DB72BCD4DD3172C12B408BBFF7DAE0DFA670BE6_gshared)(__this, ___0_trigger, ___1_callOnce, method);
+	((  void (*) (AsyncTriggerHandler_1_t8D125526897C93A30E3D422DFCB04AD799526A26*, AsyncTriggerBase_1_tAB4961EB517FCC27F74206522F7A2DF19C50D522*, bool, const RuntimeMethod*))AsyncTriggerHandler_1__ctor_mB39C9AEC06897F649B2A93A5B7289F607CC5E017_gshared)(__this, ___0_trigger, ___1_callOnce, method);
 }
 inline void AsyncTriggerHandler_1__ctor_m35194CFD04FF036522FFDA78C11F091629459EA7 (AsyncTriggerHandler_1_t8D125526897C93A30E3D422DFCB04AD799526A26* __this, AsyncTriggerBase_1_tAB4961EB517FCC27F74206522F7A2DF19C50D522* ___0_trigger, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___1_cancellationToken, bool ___2_callOnce, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncTriggerHandler_1_t8D125526897C93A30E3D422DFCB04AD799526A26*, AsyncTriggerBase_1_tAB4961EB517FCC27F74206522F7A2DF19C50D522*, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED, bool, const RuntimeMethod*))AsyncTriggerHandler_1__ctor_m6547E90EFD4AA38E15F50FC0AC4666347AE92CB8_gshared)(__this, ___0_trigger, ___1_cancellationToken, ___2_callOnce, method);
+	((  void (*) (AsyncTriggerHandler_1_t8D125526897C93A30E3D422DFCB04AD799526A26*, AsyncTriggerBase_1_tAB4961EB517FCC27F74206522F7A2DF19C50D522*, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED, bool, const RuntimeMethod*))AsyncTriggerHandler_1__ctor_mFA0724849FDF9D2761EC1641415E6B8F046924A9_gshared)(__this, ___0_trigger, ___1_cancellationToken, ___2_callOnce, method);
 }
 inline void AsyncTriggerBase_1__ctor_m4DE2F519B96D06393C352105154C66FF2B43AC74 (AsyncTriggerBase_1_tAB4961EB517FCC27F74206522F7A2DF19C50D522* __this, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncTriggerBase_1_tAB4961EB517FCC27F74206522F7A2DF19C50D522*, const RuntimeMethod*))AsyncTriggerBase_1__ctor_m8076D56B144532A52DA679D3E28677A7120071FE_gshared)(__this, method);
+	((  void (*) (AsyncTriggerBase_1_tAB4961EB517FCC27F74206522F7A2DF19C50D522*, const RuntimeMethod*))AsyncTriggerBase_1__ctor_mA0D84839826EAC1ACB4567E73D026F2C3A6280E7_gshared)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpinLock__ctor_mF7669674C8FDD2A84B44BE845F2016B13F20E83B (SpinLock_t0826FB2BDD25012485F35D6D33A1FE1E1752E816* __this, bool ___0_enableThreadOwnerTracking, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
@@ -2269,11 +2250,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DiagnosticsExtensions_BeautifyType_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MethodBase_get_IsConstructor_m98801B34512C9B8DEC1589F1C8C9B3DFC8807575 (MethodBase_t* __this, const RuntimeMethod* method) ;
 inline void Func_2__ctor_m74CAFE11ED298ED11A9D4358B488136B227FBA7F (Func_2_tDE706B5F87BEAD2AAD875E35CECC6843A16ED557* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Func_2_tDE706B5F87BEAD2AAD875E35CECC6843A16ED557*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared)(__this, ___0_object, ___1_method, method);
+	((  void (*) (Func_2_tDE706B5F87BEAD2AAD875E35CECC6843A16ED557*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F5DD19B4170C027D5367001F7BC95A0658A2169_gshared)(__this, ___0_object, ___1_method, method);
 }
 inline RuntimeObject* Enumerable_Select_TisParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_TisString_t_m48C3E8FFD4201E1460A68CE9802C876F47F718BA (RuntimeObject* ___0_source, Func_2_tDE706B5F87BEAD2AAD875E35CECC6843A16ED557* ___1_selector, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tDE706B5F87BEAD2AAD875E35CECC6843A16ED557*, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m67C538A5EBF57C4844107A8EF25DB2CAAFBAF8FB_gshared)(___0_source, ___1_selector, method);
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tDE706B5F87BEAD2AAD875E35CECC6843A16ED557*, const RuntimeMethod*))Enumerable_Select_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_m5BBCA2BC02448D0B77D2201BB08B13BAB3BABA53_gshared)(___0_source, ___1_selector, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Join_m8159F953B3D62AA54A0853A6E9573CDC0F63E158 (String_t* ___0_separator, RuntimeObject* ___1_values, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m71228B30F05724CD2CD96D9611DCD61BFB96A6E1 (StringBuilder_t* __this, Il2CppChar ___0_value, const RuntimeMethod* method) ;
@@ -2291,18 +2272,18 @@ inline RuntimeObject* CustomAttributeExtensions_GetCustomAttributes_TisStateMach
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Type_t* StateMachineAttribute_get_StateMachineType_m16997265B53C5BDFF41C8C8557226F631104B49C_inline (StateMachineAttribute_t9D7900B1B0E39C142A948AFD6025BBE3CE09AA76* __this, const RuntimeMethod* method) ;
 inline bool Dictionary_2_TryGetValue_mABC63A9E661076B85F0C38BD3A8A40AAEA175816 (Dictionary_2_tCAAF57FF731CF7E9CEC738A6E8400D208C1066EE* __this, Type_t* ___0_key, String_t** ___1_value, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Dictionary_2_tCAAF57FF731CF7E9CEC738A6E8400D208C1066EE*, Type_t*, String_t**, const RuntimeMethod*))Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849_gshared)(__this, ___0_key, ___1_value, method);
+	return ((  bool (*) (Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E*, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny*, const RuntimeMethod*))Dictionary_2_TryGetValue_m7519D765EAF1E8A7D3137C2F1B7B3A01D15A1692_gshared)((Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E*)__this, (Il2CppFullySharedGenericAny)___0_key, (Il2CppFullySharedGenericAny*)___1_value, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_get_IsArray_mB9B8CA713B2AA9D6AFECC24E05AF78D22532B673 (Type_t* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_StartsWith_mF75DBA1EB709811E711B44E26FF919C88A8E65C0 (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 inline void Func_2__ctor_m059A8C7FD3318EFF79FD145F9FDA4C44E4192897 (Func_2_t9D09D397B043BC5218B2565C13BA5AA81CABC121* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Func_2_t9D09D397B043BC5218B2565C13BA5AA81CABC121*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared)(__this, ___0_object, ___1_method, method);
+	((  void (*) (Func_2_t9D09D397B043BC5218B2565C13BA5AA81CABC121*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F5DD19B4170C027D5367001F7BC95A0658A2169_gshared)(__this, ___0_object, ___1_method, method);
 }
 inline RuntimeObject* Enumerable_Select_TisType_t_TisString_t_m502CBD7F0EB7537D4C51DA8071B417FC79622BBD (RuntimeObject* ___0_source, Func_2_t9D09D397B043BC5218B2565C13BA5AA81CABC121* ___1_selector, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t9D09D397B043BC5218B2565C13BA5AA81CABC121*, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m67C538A5EBF57C4844107A8EF25DB2CAAFBAF8FB_gshared)(___0_source, ___1_selector, method);
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t9D09D397B043BC5218B2565C13BA5AA81CABC121*, const RuntimeMethod*))Enumerable_Select_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_m5BBCA2BC02448D0B77D2201BB08B13BAB3BABA53_gshared)(___0_source, ___1_selector, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166 (String_t* __this, String_t* ___0_oldValue, String_t* ___1_newValue, const RuntimeMethod* method) ;
@@ -2317,11 +2298,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m647EBF831F54B6DF7D5A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Regex__ctor_mE3996C71B04A4A6845745D01C93B1D27423D0621 (Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* __this, String_t* ___0_pattern, int32_t ___1_options, const RuntimeMethod* method) ;
 inline void Dictionary_2__ctor_mFAF23CD29002CAB23492293F8C8B56962DE7A0B6 (Dictionary_2_tCAAF57FF731CF7E9CEC738A6E8400D208C1066EE* __this, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_tCAAF57FF731CF7E9CEC738A6E8400D208C1066EE*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
+	((  void (*) (Dictionary_2_tCAAF57FF731CF7E9CEC738A6E8400D208C1066EE*, const RuntimeMethod*))Dictionary_2__ctor_m7745B6ED71E47C95E1BFCE647C4F026A404C668F_gshared)(__this, method);
 }
 inline void Dictionary_2_Add_m7371147962E855B8E8BE002A226B0EE34E37B0CC (Dictionary_2_tCAAF57FF731CF7E9CEC738A6E8400D208C1066EE* __this, Type_t* ___0_key, String_t* ___1_value, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_tCAAF57FF731CF7E9CEC738A6E8400D208C1066EE*, Type_t*, String_t*, const RuntimeMethod*))Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared)(__this, ___0_key, ___1_value, method);
+	((  void (*) (Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E*, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, const RuntimeMethod*))Dictionary_2_Add_m54D479280472DEA042DB3933AF547E666B017333_gshared)((Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E*)__this, (Il2CppFullySharedGenericAny)___0_key, (Il2CppFullySharedGenericAny)___1_value, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mC92C852032D4C1D3994F4B9EC6863C2060B15439 (U3CU3Ec_tC51F8685DA7641151AF3680CE76802FE758E1D2D* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* __this, String_t* ___0_paramName, const RuntimeMethod* method) ;
@@ -2331,21 +2312,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m026938A67AF9D36
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OperationCanceledException__ctor_m2F34C3B8AEE2AA6C7EB2BB77AE5E0289101293E4 (OperationCanceledException_tC97D0B4532C15E6F0E9F9375091C9ECCA438D662* __this, const RuntimeMethod* method) ;
 inline void MinimumQueue_1__ctor_m02020B42F235388C76C31BA1B23B81BB3CE5E2B9 (MinimumQueue_1_t0B49405706EDD4F170DACFE12095B760EA3B59BA* __this, int32_t ___0_capacity, const RuntimeMethod* method)
 {
-	((  void (*) (MinimumQueue_1_t0B49405706EDD4F170DACFE12095B760EA3B59BA*, int32_t, const RuntimeMethod*))MinimumQueue_1__ctor_m3FE56061AC45D113CDE903116C427CECBB629DDC_gshared)(__this, ___0_capacity, method);
+	((  void (*) (MinimumQueue_1_t0B49405706EDD4F170DACFE12095B760EA3B59BA*, int32_t, const RuntimeMethod*))MinimumQueue_1__ctor_m2BB6AE00D7FFF954453CBB55D4CF5AF6078FB981_gshared)(__this, ___0_capacity, method);
 }
 inline void Action_1__ctor_m55F05090D04B2CE985AB61F6DB2C073AECD12A2E (Action_1_tAFBD759E01ADE1CCF9C2015D5EFB3E69A9F26F04* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_1_tAFBD759E01ADE1CCF9C2015D5EFB3E69A9F26F04*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___0_object, ___1_method, method);
+	((  void (*) (Action_1_tAFBD759E01ADE1CCF9C2015D5EFB3E69A9F26F04*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m685A441EC9FAC9D554B26FA83A08F4BEF96DFF0E_gshared)(__this, ___0_object, ___1_method, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149 (RuntimeObject* ___0_obj, bool* ___1_lockTaken, const RuntimeMethod* method) ;
 inline void MinimumQueue_1_Enqueue_mDD00C61C305E174BBC4C85B9B1E75ADCCBE1DCE1_inline (MinimumQueue_1_t0B49405706EDD4F170DACFE12095B760EA3B59BA* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
 {
-	((  void (*) (MinimumQueue_1_t0B49405706EDD4F170DACFE12095B760EA3B59BA*, RuntimeObject*, const RuntimeMethod*))MinimumQueue_1_Enqueue_m6856CBE1A72F2CA43A9FB9EEEC5701AFC26E07FB_gshared_inline)(__this, ___0_item, method);
+	((  void (*) (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91*, Il2CppFullySharedGenericAny, const RuntimeMethod*))MinimumQueue_1_Enqueue_mE6256545B6BCE5496B48DEBC8150653257929812_gshared_inline)((MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91*)__this, (Il2CppFullySharedGenericAny)___0_item, method);
 }
 inline void Array_Resize_TisIPlayerLoopItem_tB73003A682F5D754D64D74135621FC47F638F66F_m1805F039F4C4DB9768C9DD7843892FCE8D85D141 (IPlayerLoopItemU5BU5D_t2F09237C670184864F93BD2F284F8434FC44D439** ___0_array, int32_t ___1_newSize, const RuntimeMethod* method)
 {
-	((  void (*) (IPlayerLoopItemU5BU5D_t2F09237C670184864F93BD2F284F8434FC44D439**, int32_t, const RuntimeMethod*))Array_Resize_TisRuntimeObject_mE8D92C287251BAF8256D85E5829F749359EC334E_gshared)(___0_array, ___1_newSize, method);
+	((  void (*) (IPlayerLoopItemU5BU5D_t2F09237C670184864F93BD2F284F8434FC44D439**, int32_t, const RuntimeMethod*))Array_Resize_TisIl2CppFullySharedGenericAny_m263FC41C8DB989397C43C86556D63CEBE13F4712_gshared)(___0_array, ___1_newSize, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerLoopRunner_Initialization_m261886B5EE4FE447AC0D9970A2611CB15F30A3C0 (PlayerLoopRunner_tF4B3BE255CBA154FF72771BB9D2B7B28520A6192* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerLoopRunner_LastInitialization_mD60239EE16381604AF1F898F321BD9B5DBFF5BF7 (PlayerLoopRunner_tF4B3BE255CBA154FF72771BB9D2B7B28520A6192* __this, const RuntimeMethod* method) ;
@@ -2366,15 +2347,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerLoopRunner_LastTimeUpdate_m34D7531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerLoopRunner_RunCore_m053B5E8652893AA94B9CD56C64484CA49D01153A (PlayerLoopRunner_tF4B3BE255CBA154FF72771BB9D2B7B28520A6192* __this, const RuntimeMethod* method) ;
 inline void Action_1_Invoke_m43B5C4C0F292CE3E07CB03B46D8F960ACF7D6A58_inline (Action_1_tAFBD759E01ADE1CCF9C2015D5EFB3E69A9F26F04* __this, Exception_t* ___0_obj, const RuntimeMethod* method)
 {
-	((  void (*) (Action_1_tAFBD759E01ADE1CCF9C2015D5EFB3E69A9F26F04*, Exception_t*, const RuntimeMethod*))Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline)(__this, ___0_obj, method);
+	((  void (*) (Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99*, Il2CppFullySharedGenericAny, const RuntimeMethod*))Action_1_Invoke_m5A038831CEB84A7E374FE59D43444412629F833F_gshared_inline)((Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99*)__this, (Il2CppFullySharedGenericAny)___0_obj, method);
 }
 inline RuntimeObject* MinimumQueue_1_Dequeue_mD4B53FBA2B6B15FBF3FBC9769AF16D7385429BAC_inline (MinimumQueue_1_t0B49405706EDD4F170DACFE12095B760EA3B59BA* __this, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (MinimumQueue_1_t0B49405706EDD4F170DACFE12095B760EA3B59BA*, const RuntimeMethod*))MinimumQueue_1_Dequeue_mF30823D3F40ADB73F256F2FAF08CEDF1186CD8EA_gshared_inline)(__this, method);
+	RuntimeObject* il2cppRetVal;
+	((  void (*) (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91*, Il2CppFullySharedGenericAny*, const RuntimeMethod*))MinimumQueue_1_Dequeue_m6D4ACD05758A4617FB66C225BC6CA9AFFF5EC667_gshared_inline)((MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91*)__this, (Il2CppFullySharedGenericAny*)&il2cppRetVal, method);
+	return il2cppRetVal;
 }
 inline int32_t MinimumQueue_1_get_Count_m73E2FA8D3ED67682665ECD18BA620E926D9BFBD9_inline (MinimumQueue_1_t0B49405706EDD4F170DACFE12095B760EA3B59BA* __this, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (MinimumQueue_1_t0B49405706EDD4F170DACFE12095B760EA3B59BA*, const RuntimeMethod*))MinimumQueue_1_get_Count_m0FE156817F95E94C1D1397B467D9D4172C338CC2_gshared_inline)(__this, method);
+	return ((  int32_t (*) (MinimumQueue_1_t0B49405706EDD4F170DACFE12095B760EA3B59BA*, const RuntimeMethod*))MinimumQueue_1_get_Count_m0850DE18FF7991A5DB52D4F78F4E689140D96C04_gshared_inline)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mEC8E674F3A7E554B6C09782BE4023E8DDA0F7E9E (U3CU3Ec_tA835C4736E47C6A98E724564CE54F45637C36273* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_get_IsPrimitive_m46ACAAB8F754D37713E3E45437705F4F58FAFA18 (Type_t* __this, const RuntimeMethod* method) ;
@@ -2444,25 +2427,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AsyncUniTaskVoidMethodBuilder_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3 (RuntimeObject* __this, const RuntimeMethod* method) ;
 inline void Func_2__ctor_m720E8683356B22FA89D3983D974FC700BDE279A3 (Func_2_t03668587D04B8ECC3E6CE9EF3B2852118286E630* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Func_2_t03668587D04B8ECC3E6CE9EF3B2852118286E630*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m13C0A7F33154D861E2A041B52E88461832DA1697_gshared)(__this, ___0_object, ___1_method, method);
+	((  void (*) (Func_2_t03668587D04B8ECC3E6CE9EF3B2852118286E630*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F5DD19B4170C027D5367001F7BC95A0658A2169_gshared)(__this, ___0_object, ___1_method, method);
 }
 inline FieldInfo_t* Enumerable_First_TisFieldInfo_t_mE24DD65A8140BCA764ABB198A1FDDDF35E85B52F (RuntimeObject* ___0_source, Func_2_t03668587D04B8ECC3E6CE9EF3B2852118286E630* ___1_predicate, const RuntimeMethod* method)
 {
-	return ((  FieldInfo_t* (*) (RuntimeObject*, Func_2_t03668587D04B8ECC3E6CE9EF3B2852118286E630*, const RuntimeMethod*))Enumerable_First_TisRuntimeObject_mC6FA107934316BE28EA02DDB9EADA7AE8DD1916B_gshared)(___0_source, ___1_predicate, method);
+	FieldInfo_t* il2cppRetVal;
+	((  void (*) (RuntimeObject*, Func_2_t19E50C11C3E1F20B5A8FDB85D7DD353B6DFF868B*, Il2CppFullySharedGenericAny*, const RuntimeMethod*))Enumerable_First_TisIl2CppFullySharedGenericAny_m08978D082DCBF739A9269BC79C5EA59C44E39877_gshared)((RuntimeObject*)___0_source, (Func_2_t19E50C11C3E1F20B5A8FDB85D7DD353B6DFF868B*)___1_predicate, (Il2CppFullySharedGenericAny*)&il2cppRetVal, method);
+	return il2cppRetVal;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mDFC27D5AF59E9AD444D8C391B87AF320AD73A004 (U3CU3Ec_tDD9CC396183702571C4C341E88371927D9623BA8* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_EndsWith_mCD3754F5401E19CE7821CD398986E4EAA6AD87DC (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
-inline void MinimumQueue_1_Grow_mCBF813740002210F98BD4C90CB9E01B5AE8D5867 (MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433* __this, const RuntimeMethod* method)
+inline void MinimumQueue_1_Grow_m115B06E9202091173FD3CA8B83D02D51D1ED8FD9 (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91* __this, const RuntimeMethod* method)
 {
-	((  void (*) (MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433*, const RuntimeMethod*))MinimumQueue_1_Grow_mCBF813740002210F98BD4C90CB9E01B5AE8D5867_gshared)(__this, method);
+	((  void (*) (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91*, const RuntimeMethod*))MinimumQueue_1_Grow_m115B06E9202091173FD3CA8B83D02D51D1ED8FD9_gshared)(__this, method);
 }
-inline void MinimumQueue_1_MoveNext_mF3FCE477C84F19428D06DEDD9EFD3EDC44405996_inline (MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433* __this, int32_t* ___0_index, const RuntimeMethod* method)
+inline void MinimumQueue_1_MoveNext_m967E0EBF63642687E5ADF4C171B28ECDB0675813_inline (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91* __this, int32_t* ___0_index, const RuntimeMethod* method)
 {
-	((  void (*) (MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433*, int32_t*, const RuntimeMethod*))MinimumQueue_1_MoveNext_mF3FCE477C84F19428D06DEDD9EFD3EDC44405996_gshared_inline)(__this, ___0_index, method);
+	((  void (*) (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91*, int32_t*, const RuntimeMethod*))MinimumQueue_1_MoveNext_m967E0EBF63642687E5ADF4C171B28ECDB0675813_gshared_inline)(__this, ___0_index, method);
 }
-inline void MinimumQueue_1_ThrowForEmptyQueue_mC523FDCB8A4CA6759D0B1F13244455B78D222185 (MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433* __this, const RuntimeMethod* method)
+inline void MinimumQueue_1_ThrowForEmptyQueue_m1DBA081DBBFCECC8F319A2B80F7ECC68A16910C4 (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91* __this, const RuntimeMethod* method)
 {
-	((  void (*) (MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433*, const RuntimeMethod*))MinimumQueue_1_ThrowForEmptyQueue_mC523FDCB8A4CA6759D0B1F13244455B78D222185_gshared)(__this, method);
+	((  void (*) (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91*, const RuntimeMethod*))MinimumQueue_1_ThrowForEmptyQueue_m1DBA081DBBFCECC8F319A2B80F7ECC68A16910C4_gshared)(__this, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -14193,7 +14178,7 @@ IL_002a:
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MinimumQueue_1_Enqueue_m6856CBE1A72F2CA43A9FB9EEEC5701AFC26E07FB_gshared_inline (MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MinimumQueue_1_Enqueue_mE6256545B6BCE5496B48DEBC8150653257929812_gshared_inline (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91* __this, Il2CppFullySharedGenericAny ___0_item, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14201,9 +14186,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MinimumQueue_1_Enqueue_m6856
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MinimumQueue_1_t54E6D436FB27BDC9ADB172FDF9AC0C2A4D5FCB67_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	const uint32_t SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 4));
+	const Il2CppFullySharedGenericAny L_5 = alloca(SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
 	bool V_0 = false;
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_item));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 4)) ? ___0_item : &___0_item));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
 	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34320));
 	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniTask + 34321));
@@ -14211,7 +14198,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MinimumQueue_1_Enqueue_m6856
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34322));
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34323));
 		int32_t L_0 = __this->___size;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->___array;
+		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* L_1 = __this->___array;
 		NullCheck(L_1);
 		V_0 = (bool)((((int32_t)L_0) == ((int32_t)((int32_t)(((RuntimeArray*)L_1)->max_length))))? 1 : 0);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34324));
@@ -14225,7 +14212,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MinimumQueue_1_Enqueue_m6856
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34325));
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34326));
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34327));
-		MinimumQueue_1_Grow_mCBF813740002210F98BD4C90CB9E01B5AE8D5867(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
+		MinimumQueue_1_Grow_m115B06E9202091173FD3CA8B83D02D51D1ED8FD9(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34327));
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34328));
 	}
@@ -14233,15 +14220,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MinimumQueue_1_Enqueue_m6856
 IL_001e:
 	{
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34329));
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = __this->___array;
+		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* L_3 = __this->___array;
 		int32_t L_4 = __this->___tail;
-		RuntimeObject* L_5 = ___0_item;
+		il2cpp_codegen_memcpy(L_5, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 4)) ? ___0_item : &___0_item), SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
 		NullCheck(L_3);
-		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(L_4), (RuntimeObject*)L_5);
+		il2cpp_codegen_memcpy((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)), L_5, SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
+		Il2CppCodeGenWriteBarrierForClass(il2cpp_rgctx_data(method->klass->rgctx_data, 4), (void**)(L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)), (void*)L_5);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34330));
 		int32_t* L_6 = (int32_t*)(&__this->___tail);
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34331));
-		MinimumQueue_1_MoveNext_mF3FCE477C84F19428D06DEDD9EFD3EDC44405996_inline(__this, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
+		MinimumQueue_1_MoveNext_m967E0EBF63642687E5ADF4C171B28ECDB0675813_inline(__this, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34331));
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34332));
 		int32_t L_7 = __this->___size;
@@ -14250,12 +14238,12 @@ IL_001e:
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_m5A038831CEB84A7E374FE59D43444412629F833F_gshared_inline (Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99* __this, Il2CppFullySharedGenericAny ___0_obj, const RuntimeMethod* method) 
 {
-	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
+	typedef void (*FunctionPointerType) (RuntimeObject*, Il2CppFullySharedGenericAny, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* MinimumQueue_1_Dequeue_mF30823D3F40ADB73F256F2FAF08CEDF1186CD8EA_gshared_inline (MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433* __this, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MinimumQueue_1_Dequeue_m6D4ACD05758A4617FB66C225BC6CA9AFFF5EC667_gshared_inline (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91* __this, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14263,14 +14251,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* MinimumQueue_1_Deq
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MinimumQueue_1_t54E6D436FB27BDC9ADB172FDF9AC0C2A4D5FCB67_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	const uint32_t SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 4));
+	const Il2CppFullySharedGenericAny L_7 = alloca(SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
+	const Il2CppFullySharedGenericAny L_14 = L_7;
+	const Il2CppFullySharedGenericAny L_10 = alloca(SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
+	const Il2CppFullySharedGenericAny L_13 = alloca(SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
 	int32_t V_0 = 0;
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_1 = NULL;
-	RuntimeObject* V_2 = NULL;
+	__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* V_1 = NULL;
+	Il2CppFullySharedGenericAny V_2 = alloca(SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
+	memset(V_2, 0, SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
 	bool V_3 = false;
-	RuntimeObject* V_4 = NULL;
-	RuntimeObject* V_5 = NULL;
+	Il2CppFullySharedGenericAny V_4 = alloca(SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
+	memset(V_4, 0, SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
+	Il2CppFullySharedGenericAny V_5 = alloca(SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
+	memset(V_5, 0, SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), V_2);
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, methodExecutionContextLocals);
 	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34334));
 	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUniTask + 34335));
@@ -14289,7 +14285,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* MinimumQueue_1_Deq
 	{
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34339));
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34340));
-		MinimumQueue_1_ThrowForEmptyQueue_mC523FDCB8A4CA6759D0B1F13244455B78D222185(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		MinimumQueue_1_ThrowForEmptyQueue_m1DBA081DBBFCECC8F319A2B80F7ECC68A16910C4(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34340));
 	}
 
@@ -14299,44 +14295,46 @@ IL_0015:
 		int32_t L_2 = __this->___head;
 		V_0 = L_2;
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34342));
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = __this->___array;
+		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* L_3 = __this->___array;
 		V_1 = L_3;
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34343));
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_1;
+		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* L_4 = V_1;
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
 		int32_t L_6 = L_5;
-		RuntimeObject* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
-		V_2 = L_7;
+		il2cpp_codegen_memcpy(L_7, (L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)), SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
+		il2cpp_codegen_memcpy(V_2, L_7, SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34344));
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = V_1;
+		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* L_8 = V_1;
 		int32_t L_9 = V_0;
-		il2cpp_codegen_initobj((&V_4), sizeof(RuntimeObject*));
-		RuntimeObject* L_10 = V_4;
+		il2cpp_codegen_initobj((Il2CppFullySharedGenericAny*)V_4, SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
+		il2cpp_codegen_memcpy(L_10, V_4, SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
 		NullCheck(L_8);
-		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(L_9), (RuntimeObject*)L_10);
+		il2cpp_codegen_memcpy((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_9)), L_10, SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
+		Il2CppCodeGenWriteBarrierForClass(il2cpp_rgctx_data(method->klass->rgctx_data, 4), (void**)(L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_9)), (void*)L_10);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34345));
 		int32_t* L_11 = (int32_t*)(&__this->___head);
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34346));
-		MinimumQueue_1_MoveNext_mF3FCE477C84F19428D06DEDD9EFD3EDC44405996_inline(__this, L_11, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
+		MinimumQueue_1_MoveNext_m967E0EBF63642687E5ADF4C171B28ECDB0675813_inline(__this, L_11, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34346));
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34347));
 		int32_t L_12 = __this->___size;
 		__this->___size = ((int32_t)il2cpp_codegen_subtract(L_12, 1));
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34348));
-		RuntimeObject* L_13 = V_2;
-		V_5 = L_13;
+		il2cpp_codegen_memcpy(L_13, V_2, SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
+		il2cpp_codegen_memcpy(V_5, L_13, SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
 		goto IL_005c;
 	}
 
 IL_005c:
 	{
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34349));
-		RuntimeObject* L_14 = V_5;
-		return L_14;
+		il2cpp_codegen_memcpy(L_14, V_5, SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
+		il2cpp_codegen_memcpy(il2cppRetVal, L_14, SizeOf_T_t04131A8E473FE0839BDD6400A2659A9A9C8A7072);
+		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MinimumQueue_1_get_Count_m0FE156817F95E94C1D1397B467D9D4172C338CC2_gshared_inline (MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433* __this, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MinimumQueue_1_get_Count_m0850DE18FF7991A5DB52D4F78F4E689140D96C04_gshared_inline (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14364,7 +14362,7 @@ IL_000a:
 		return L_1;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MinimumQueue_1_MoveNext_mF3FCE477C84F19428D06DEDD9EFD3EDC44405996_gshared_inline (MinimumQueue_1_t4DF0A80DC7F7469522DA1117D9EAE27792F0D433* __this, int32_t* ___0_index, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MinimumQueue_1_MoveNext_m967E0EBF63642687E5ADF4C171B28ECDB0675813_gshared_inline (MinimumQueue_1_tB0F7EF77F6276FAB7F5CD889B1E6497C88616E91* __this, int32_t* ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14388,7 +14386,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MinimumQueue_1_MoveNext_mF3F
 		V_0 = ((int32_t)il2cpp_codegen_add(L_1, 1));
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34391));
 		int32_t L_2 = V_0;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = __this->___array;
+		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* L_3 = __this->___array;
 		NullCheck(L_3);
 		V_1 = (bool)((((int32_t)L_2) == ((int32_t)((int32_t)(((RuntimeArray*)L_3)->max_length))))? 1 : 0);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUniTask + 34392));
